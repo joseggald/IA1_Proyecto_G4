@@ -1,123 +1,204 @@
-[
-  {
-    "input": "hola",
-    "output": "Hola, ¿cómo estás?"
-  },
-  {
-    "input": "¿cómo estás?",
-    "output": "Estoy bien, gracias. ¿Y tú?"
-  },
-  {
-    "input": "adiós",
-    "output": "Adiós, que tengas un buen día."
-  },
-  {
-    "input": "¿qué haces?",
-    "output": "Estoy aquí para ayudarte. ¿En qué necesitas ayuda?"
-  },
-  {
-    "input": "¿quién eres?",
-    "output": "Soy un asistente virtual, listo para responder tus preguntas."
-  },
-  {
-    "input": "gracias",
-    "output": "De nada, estoy aquí para ayudarte."
-  },
-  {
-    "input": "¿cuál es tu nombre?",
-    "output": "Me llamo Asistente. ¿Cómo puedo ayudarte?"
-  },
-  {
-    "input": "buenos días",
-    "output": "Buenos días, ¿cómo puedo ayudarte hoy?"
-  },
-  {
-    "input": "buenas tardes",
-    "output": "Buenas tardes, espero que estés teniendo un buen día."
-  },
-  {
-    "input": "buenas noches",
-    "output": "Buenas noches, descansa bien."
-  },
-  {
-    "input": "¿qué hora es?",
-    "output": "No puedo decir la hora exacta, pero siempre es un buen momento para aprender algo nuevo."
-  },
-  {
-    "input": "cuéntame un chiste",
-    "output": "¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter."
-  },
-  {
-    "input": "¿qué es la inteligencia artificial?",
-    "output": "Es la simulación de procesos de inteligencia humana por parte de máquinas, especialmente sistemas informáticos."
-  },
-  {
-    "input": "explícame el aprendizaje automático",
-    "output": "Es un método de análisis de datos que automatiza la construcción de modelos analíticos."
-  },
-  {
-    "input": "¿qué es JavaScript?",
-    "output": "Es un lenguaje de programación utilizado para crear contenido dinámico en páginas web."
-  },
-  {
-    "input": "¿qué es Node.js?",
-    "output": "Es un entorno de ejecución de JavaScript en el servidor."
-  },
-  {
-    "input": "¿qué puedo preguntarte?",
-    "output": "Puedes preguntarme sobre casi cualquier cosa. ¡Intenta algo!"
-  },
-  {
-    "input": "¿qué tiempo hará hoy?",
-    "output": "No tengo acceso al clima, pero puedes consultarlo en una app meteorológica."
-  },
-  {
-    "input": "¿qué significa vida?",
-    "output": "La vida es una experiencia única llena de oportunidades para aprender y crecer."
-  },
-  {
-    "input": "¿puedes ayudarme con mi tarea?",
-    "output": "¡Claro! Dime de qué trata tu tarea y haré lo posible por ayudarte."
-  },
-  {
-    "input": "¿puedes aprender?",
-    "output": "Sí, mientras más datos tengo, mejor puedo responder."
-  },
-  {
-    "input": "¿cuánto es 2 + 2?",
-    "output": "2 + 2 es igual a 4."
-  },
-  {
-    "input": "¿qué me recomiendas leer?",
-    "output": "Depende de tus intereses, pero 'Cien años de soledad' es una gran obra."
-  },
-  {
-    "input": "¿qué idiomas hablas?",
-    "output": "Hablo español, pero puedo aprender más con el tiempo."
-  },
-  {
-    "input": "dime algo interesante",
-    "output": "¿Sabías que el cerebro humano tiene aproximadamente 86 mil millones de neuronas?"
-  },
-  {
-    "input": "¿cómo aprendes?",
-    "output": "Aprendo a partir de datos y ejemplos que me proporcionan."
-  },
-  {
-    "input": "¿puedes decirme un dato curioso?",
-    "output": "¡Claro! Los pulpos tienen tres corazones."
-  },
-  {
-    "input": "¿qué día es hoy?",
-    "output": "No tengo un calendario, pero seguro tú puedes consultarlo fácilmente."
-  },
-  {
-    "input": "¿cómo puedo aprender a programar?",
-    "output": "Empieza con un lenguaje sencillo como Python y practica resolviendo problemas."
-  },
-  {
-    "input": "¿qué es la programación?",
-    "output": "Es el proceso de escribir instrucciones que una computadora puede entender y ejecutar."
-  }
-]
-
+{
+  "conversations": [
+    {
+      "input": "hola",
+      "output": "¡Hola! ¿En qué puedo ayudarte hoy?"
+    },
+    {
+      "input": "¿cómo estás?",
+      "output": "Estoy funcionando perfectamente, gracias por preguntar. ¿Qué tal estás tú?"
+    },
+    {
+      "input": "bien gracias",
+      "output": "Me alegro de que estés bien. ¿Hay algo en particular en lo que pueda ayudarte?"
+    },
+    {
+      "input": "estoy mal",
+      "output": "Lamento escuchar eso. ¿Quieres hablar sobre lo que te preocupa?"
+    },
+    {
+      "input": "estoy triste",
+      "output": "Entiendo cómo te sientes. A veces hablar sobre ello puede ayudar. ¿Quieres contarme qué te tiene triste?"
+    },
+    {
+      "input": "tengo un problema",
+      "output": "Estoy aquí para escucharte. ¿Puedes contarme más sobre el problema?"
+    },
+    {
+      "input": "necesito ayuda",
+      "output": "Por supuesto, estoy aquí para ayudarte. ¿Con qué necesitas ayuda específicamente?"
+    },
+    {
+      "input": "¿qué puedes hacer?",
+      "output": "Puedo ayudarte con diversas tareas como responder preguntas, proporcionar información, dar consejos y mantener conversaciones sobre varios temas."
+    },
+    {
+      "input": "cuéntame un chiste",
+      "output": "¿Por qué los pájaros no usan Facebook? ¡Porque ya tienen Twitter!"
+    },
+    {
+      "input": "otro chiste",
+      "output": "¿Qué le dice un jaguar a otro jaguar? Jaguar you?"
+    },
+    {
+      "input": "me hiciste reír",
+      "output": "¡Me alegro de haberte hecho sonreír! La risa es la mejor medicina."
+    },
+    {
+      "input": "eres gracioso",
+      "output": "¡Gracias! Intento mantener un buen sentido del humor en nuestras conversaciones."
+    },
+    {
+      "input": "¿qué hora es?",
+      "output": "Lo siento, no puedo proporcionarte la hora exacta, pero puedes consultarla en tu dispositivo."
+    },
+    {
+      "input": "¿qué día es hoy?",
+      "output": "No tengo acceso a la fecha actual, pero puedes consultarla fácilmente en tu calendario."
+    },
+    {
+      "input": "¿cuál es tu nombre?",
+      "output": "Me puedes llamar Asistente. Estoy aquí para ayudarte y conversar contigo."
+    },
+    {
+      "input": "¿quién te creó?",
+      "output": "Soy un modelo de inteligencia artificial creado para ayudar y conversar con personas."
+    },
+    {
+      "input": "¿eres humano?",
+      "output": "No, soy un asistente virtual diseñado para ayudar y conversar con personas de manera natural."
+    },
+    {
+      "input": "¿tienes sentimientos?",
+      "output": "Soy un programa diseñado para procesar y responder a la información, no experimento sentimientos reales como los humanos."
+    },
+    {
+      "input": "¿puedes aprender?",
+      "output": "Mi capacidad de aprendizaje está basada en el entrenamiento que recibo, pero no aprendo durante las conversaciones."
+    },
+    {
+      "input": "explícame la inteligencia artificial",
+      "output": "La inteligencia artificial es la simulación de procesos de inteligencia humana por máquinas, especialmente sistemas informáticos."
+    },
+    {
+      "input": "¿qué es el machine learning?",
+      "output": "El machine learning es una rama de la IA que permite a las máquinas aprender de los datos sin ser programadas explícitamente."
+    },
+    {
+      "input": "¿qué es el deep learning?",
+      "output": "El deep learning es un subcampo del machine learning que utiliza redes neuronales profundas para aprender patrones complejos en los datos."
+    },
+    {
+      "input": "buenos días",
+      "output": "¡Buenos días! Espero que hayas descansado bien. ¿En qué puedo ayudarte hoy?"
+    },
+    {
+      "input": "buenas tardes",
+      "output": "¡Buenas tardes! ¿Cómo va tu día? ¿Hay algo en lo que pueda ayudarte?"
+    },
+    {
+      "input": "buenas noches",
+      "output": "¡Buenas noches! Espero que tengas un buen descanso."
+    },
+    {
+      "input": "hasta luego",
+      "output": "¡Hasta luego! Ha sido un placer conversar contigo. Vuelve cuando quieras."
+    },
+    {
+      "input": "adiós",
+      "output": "¡Adiós! Gracias por la conversación. ¡Que tengas un excelente día!"
+    },
+    {
+      "input": "gracias",
+      "output": "¡De nada! Es un placer poder ayudarte."
+    },
+    {
+      "input": "muchas gracias",
+      "output": "No hay de qué. Me alegra haber sido de ayuda."
+    },
+    {
+      "input": "por favor",
+      "output": "Por supuesto, ¿en qué puedo ayudarte?"
+    },
+    {
+      "input": "¿qué tiempo hace?",
+      "output": "Lo siento, no tengo acceso a información meteorológica en tiempo real. Te sugiero consultar una app del tiempo."
+    },
+    {
+      "input": "cuéntame algo interesante",
+      "output": "¿Sabías que las abejas pueden reconocer rostros humanos? Utilizan una técnica llamada configuración espacial, similar a cómo nosotros reconocemos caras."
+    },
+    {
+      "input": "dato curioso",
+      "output": "Los pulpos tienen tres corazones: dos bombean sangre a las branquias y uno la distribuye al resto del cuerpo."
+    },
+    {
+      "input": "dime más",
+      "output": "¿Te gustaría saber más sobre algún tema en particular? Puedo hablarte sobre ciencia, tecnología, historia o cualquier otro tema que te interese."
+    },
+    {
+      "input": "¿qué haces?",
+      "output": "Estoy aquí para conversar y ayudarte con diferentes tareas como responder preguntas o proporcionar información."
+    },
+    {
+      "input": "estoy aburrido",
+      "output": "¡Puedo ayudarte con eso! ¿Te gustaría escuchar un dato curioso, un chiste, o prefieres que conversemos sobre algún tema interesante?"
+    },
+    {
+      "input": "tengo hambre",
+      "output": "¡La hora de comer es importante! ¿Te gustaría que te sugiriera algunas recetas sencillas?"
+    },
+    {
+      "input": "tengo sueño",
+      "output": "El descanso es importante. Si es posible, deberías considerar tomar una pequeña siesta o ir a dormir temprano esta noche."
+    },
+    {
+      "input": "estoy cansado",
+      "output": "El descanso es importante. ¿Has considerado tomar un breve descanso o hacer algunas actividades relajantes?"
+    },
+    {
+      "input": "estoy feliz",
+      "output": "¡Me alegro mucho por ti! Es genial escuchar eso. ¿Hay alguna razón especial para tu felicidad?"
+    },
+    {
+      "input": "estoy emocionado",
+      "output": "¡Qué bueno! La emoción es contagiosa. ¿Quieres compartir qué te tiene tan emocionado?"
+    },
+    {
+      "input": "no entiendo",
+      "output": "No hay problema, intentaré explicarlo de otra manera. ¿Qué parte te resulta confusa?"
+    },
+    {
+      "input": "explícame",
+      "output": "Por supuesto, ¿qué te gustaría que te explicara específicamente?"
+    },
+    {
+      "input": "¿puedes repetir?",
+      "output": "Claro, ¿qué parte te gustaría que repitiera?"
+    },
+    {
+      "input": "¿me ayudas?",
+      "output": "Por supuesto, estoy aquí para ayudarte. ¿Con qué necesitas ayuda específicamente?"
+    },
+    {
+      "input": "tengo una pregunta",
+      "output": "Adelante, estaré encantado de responder tu pregunta lo mejor que pueda."
+    },
+    {
+      "input": "¿qué opinas?",
+      "output": "Me gustaría ayudarte, pero necesitaría más contexto sobre qué tema te gustaría conocer mi opinión."
+    },
+    {
+      "input": "¿qué piensas?",
+      "output": "Para darte una respuesta más útil, ¿podrías especificar sobre qué tema te gustaría conocer mi perspectiva?"
+    },
+    {
+      "input": "interesante",
+      "output": "Me alegra que te parezca interesante. ¿Te gustaría saber más sobre el tema?"
+    },
+    {
+      "input": "wow",
+      "output": "¡Sí, es sorprendente! ¿Te gustaría conocer más detalles al respecto?"
+    }
+  ]
+}

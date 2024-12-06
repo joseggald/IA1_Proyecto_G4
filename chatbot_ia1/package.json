@@ -1,15 +1,14 @@
 {
   "name": "chatbot_ia1",
   "version": "1.0.0",
-  "description": "",
+  "type": "module",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@tensorflow/tfjs": "^4.22.0",
+    "@tensorflow/tfjs": "^4.4.0",
     "natural": "^8.0.1"
+  },
+  "scripts": {
+    "start": "node train.js",
+    "train": "node train.js"
   }
 }

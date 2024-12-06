@@ -1,0 +1,252 @@
+{
+  "vocabulario": [
+    "<PAD>",
+    "<UNK>",
+    "<START>",
+    "<END>",
+    "<MASK>"
+  ],
+  "palabra_indice": {
+    "<PAD>": 0,
+    "<UNK>": 1,
+    "<START>": 2,
+    "<END>": 3,
+    "<MASK>": 4
+  },
+  "indice_palabra": {
+    "0": "<PAD>",
+    "1": "<UNK>",
+    "2": "<START>",
+    "3": "<END>",
+    "4": "<MASK>"
+  },
+  "config": {
+    "embeddingDim": 128,
+    "hiddenUnits": 256,
+    "encoderLayers": 2,
+    "dropoutRate": 0.3,
+    "learningRate": 0.001,
+    "minConfidence": 0.6,
+    "batchSize": 32,
+    "maxSeqLength": 30,
+    "vocabularySize": 10000,
+    "contextWindow": 3
+  },
+  "modelVersion": "2.0",
+  "timestamp": "2024-12-06T14:36:41.698Z",
+  "vocabularySize": 5,
+  "modelArchitecture": {
+    "layers": [
+      {
+        "inputDim": 5,
+        "outputDim": 128,
+        "embeddingsInitializer": {
+          "className": "RandomUniform",
+          "config": {
+            "minval": -0.05,
+            "maxval": 0.05
+          }
+        },
+        "embeddingsRegularizer": null,
+        "activityRegularizer": null,
+        "embeddingsConstraint": null,
+        "maskZero": true,
+        "inputLength": 30,
+        "name": "embedding_Embedding1",
+        "trainable": true,
+        "batchInputShape": [
+          null,
+          30
+        ]
+      },
+      {
+        "mergeMode": "concat",
+        "layer": {
+          "className": "LSTM",
+          "config": {
+            "name": "lstm_LSTM1",
+            "trainable": true,
+            "units": 256,
+            "activation": "tanh",
+            "recurrentActivation": "hardSigmoid",
+            "useBias": true,
+            "kernelInitializer": {
+              "className": "VarianceScaling",
+              "config": {
+                "scale": 1,
+                "mode": "fanAvg",
+                "distribution": "normal",
+                "seed": null
+              }
+            },
+            "recurrentInitializer": {
+              "className": "Orthogonal",
+              "config": {
+                "gain": 1
+              }
+            },
+            "biasInitializer": {
+              "className": "Zeros",
+              "config": {}
+            },
+            "kernelRegularizer": null,
+            "recurrentRegularizer": null,
+            "biasRegularizer": null,
+            "activityRegularizer": null,
+            "kernelConstraint": null,
+            "recurrentConstraint": null,
+            "biasConstraint": null,
+            "dropout": 0,
+            "recurrentDropout": 0.1,
+            "returnSequences": true,
+            "returnState": false,
+            "goBackwards": false,
+            "stateful": false,
+            "unroll": false
+          }
+        },
+        "name": "bidirectional_Bidirectional1",
+        "trainable": true
+      },
+      {
+        "rate": 0.3,
+        "name": "dropout_Dropout1",
+        "trainable": true
+      },
+      {
+        "mergeMode": "concat",
+        "layer": {
+          "className": "LSTM",
+          "config": {
+            "name": "lstm_LSTM2",
+            "trainable": true,
+            "units": 256,
+            "activation": "tanh",
+            "recurrentActivation": "hardSigmoid",
+            "useBias": true,
+            "kernelInitializer": {
+              "className": "VarianceScaling",
+              "config": {
+                "scale": 1,
+                "mode": "fanAvg",
+                "distribution": "normal",
+                "seed": null
+              }
+            },
+            "recurrentInitializer": {
+              "className": "Orthogonal",
+              "config": {
+                "gain": 1
+              }
+            },
+            "biasInitializer": {
+              "className": "Zeros",
+              "config": {}
+            },
+            "kernelRegularizer": null,
+            "recurrentRegularizer": null,
+            "biasRegularizer": null,
+            "activityRegularizer": null,
+            "kernelConstraint": null,
+            "recurrentConstraint": null,
+            "biasConstraint": null,
+            "dropout": 0,
+            "recurrentDropout": 0.1,
+            "returnSequences": false,
+            "returnState": false,
+            "goBackwards": false,
+            "stateful": false,
+            "unroll": false
+          }
+        },
+        "name": "bidirectional_Bidirectional2",
+        "trainable": true
+      },
+      {
+        "rate": 0.3,
+        "name": "dropout_Dropout2",
+        "trainable": true
+      },
+      {
+        "units": 256,
+        "activation": "tanh",
+        "useBias": true,
+        "kernelInitializer": {
+          "className": "VarianceScaling",
+          "config": {
+            "scale": 1,
+            "mode": "fanAvg",
+            "distribution": "normal",
+            "seed": null
+          }
+        },
+        "biasInitializer": {
+          "className": "Zeros",
+          "config": {}
+        },
+        "kernelRegularizer": null,
+        "biasRegularizer": null,
+        "activityRegularizer": null,
+        "kernelConstraint": null,
+        "biasConstraint": null,
+        "name": "dense_Dense1",
+        "trainable": true
+      },
+      {
+        "units": 128,
+        "activation": "relu",
+        "useBias": true,
+        "kernelInitializer": {
+          "className": "VarianceScaling",
+          "config": {
+            "scale": 1,
+            "mode": "fanAvg",
+            "distribution": "normal",
+            "seed": null
+          }
+        },
+        "biasInitializer": {
+          "className": "Zeros",
+          "config": {}
+        },
+        "kernelRegularizer": null,
+        "biasRegularizer": null,
+        "activityRegularizer": null,
+        "kernelConstraint": null,
+        "biasConstraint": null,
+        "name": "dense_Dense2",
+        "trainable": true
+      },
+      {
+        "rate": 0.3,
+        "name": "dropout_Dropout3",
+        "trainable": true
+      },
+      {
+        "units": 5,
+        "activation": "softmax",
+        "useBias": true,
+        "kernelInitializer": {
+          "className": "VarianceScaling",
+          "config": {
+            "scale": 1,
+            "mode": "fanAvg",
+            "distribution": "normal",
+            "seed": null
+          }
+        },
+        "biasInitializer": {
+          "className": "Zeros",
+          "config": {}
+        },
+        "kernelRegularizer": null,
+        "biasRegularizer": null,
+        "activityRegularizer": null,
+        "kernelConstraint": null,
+        "biasConstraint": null,
+        "name": "dense_Dense3",
+        "trainable": true
+      }
+    ]
+  }
+}
