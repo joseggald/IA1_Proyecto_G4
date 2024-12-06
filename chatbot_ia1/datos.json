@@ -1,0 +1,123 @@
+[
+  {
+    "input": "hola",
+    "output": "Hola, ¿cómo estás?"
+  },
+  {
+    "input": "¿cómo estás?",
+    "output": "Estoy bien, gracias. ¿Y tú?"
+  },
+  {
+    "input": "adiós",
+    "output": "Adiós, que tengas un buen día."
+  },
+  {
+    "input": "¿qué haces?",
+    "output": "Estoy aquí para ayudarte. ¿En qué necesitas ayuda?"
+  },
+  {
+    "input": "¿quién eres?",
+    "output": "Soy un asistente virtual, listo para responder tus preguntas."
+  },
+  {
+    "input": "gracias",
+    "output": "De nada, estoy aquí para ayudarte."
+  },
+  {
+    "input": "¿cuál es tu nombre?",
+    "output": "Me llamo Asistente. ¿Cómo puedo ayudarte?"
+  },
+  {
+    "input": "buenos días",
+    "output": "Buenos días, ¿cómo puedo ayudarte hoy?"
+  },
+  {
+    "input": "buenas tardes",
+    "output": "Buenas tardes, espero que estés teniendo un buen día."
+  },
+  {
+    "input": "buenas noches",
+    "output": "Buenas noches, descansa bien."
+  },
+  {
+    "input": "¿qué hora es?",
+    "output": "No puedo decir la hora exacta, pero siempre es un buen momento para aprender algo nuevo."
+  },
+  {
+    "input": "cuéntame un chiste",
+    "output": "¿Por qué los pájaros no usan Facebook? Porque ya tienen Twitter."
+  },
+  {
+    "input": "¿qué es la inteligencia artificial?",
+    "output": "Es la simulación de procesos de inteligencia humana por parte de máquinas, especialmente sistemas informáticos."
+  },
+  {
+    "input": "explícame el aprendizaje automático",
+    "output": "Es un método de análisis de datos que automatiza la construcción de modelos analíticos."
+  },
+  {
+    "input": "¿qué es JavaScript?",
+    "output": "Es un lenguaje de programación utilizado para crear contenido dinámico en páginas web."
+  },
+  {
+    "input": "¿qué es Node.js?",
+    "output": "Es un entorno de ejecución de JavaScript en el servidor."
+  },
+  {
+    "input": "¿qué puedo preguntarte?",
+    "output": "Puedes preguntarme sobre casi cualquier cosa. ¡Intenta algo!"
+  },
+  {
+    "input": "¿qué tiempo hará hoy?",
+    "output": "No tengo acceso al clima, pero puedes consultarlo en una app meteorológica."
+  },
+  {
+    "input": "¿qué significa vida?",
+    "output": "La vida es una experiencia única llena de oportunidades para aprender y crecer."
+  },
+  {
+    "input": "¿puedes ayudarme con mi tarea?",
+    "output": "¡Claro! Dime de qué trata tu tarea y haré lo posible por ayudarte."
+  },
+  {
+    "input": "¿puedes aprender?",
+    "output": "Sí, mientras más datos tengo, mejor puedo responder."
+  },
+  {
+    "input": "¿cuánto es 2 + 2?",
+    "output": "2 + 2 es igual a 4."
+  },
+  {
+    "input": "¿qué me recomiendas leer?",
+    "output": "Depende de tus intereses, pero 'Cien años de soledad' es una gran obra."
+  },
+  {
+    "input": "¿qué idiomas hablas?",
+    "output": "Hablo español, pero puedo aprender más con el tiempo."
+  },
+  {
+    "input": "dime algo interesante",
+    "output": "¿Sabías que el cerebro humano tiene aproximadamente 86 mil millones de neuronas?"
+  },
+  {
+    "input": "¿cómo aprendes?",
+    "output": "Aprendo a partir de datos y ejemplos que me proporcionan."
+  },
+  {
+    "input": "¿puedes decirme un dato curioso?",
+    "output": "¡Claro! Los pulpos tienen tres corazones."
+  },
+  {
+    "input": "¿qué día es hoy?",
+    "output": "No tengo un calendario, pero seguro tú puedes consultarlo fácilmente."
+  },
+  {
+    "input": "¿cómo puedo aprender a programar?",
+    "output": "Empieza con un lenguaje sencillo como Python y practica resolviendo problemas."
+  },
+  {
+    "input": "¿qué es la programación?",
+    "output": "Es el proceso de escribir instrucciones que una computadora puede entender y ejecutar."
+  }
+]
+
