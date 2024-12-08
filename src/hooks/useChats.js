@@ -1,86 +1,131 @@
-// src/hooks/useChats.js
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
+import ModelService from '../services/modelService';
 
-export const useChats = () => {
-  const [chats, setChats] = useState(() => {
-    const savedChats = localStorage.getItem('chats');
-    return savedChats ? JSON.parse(savedChats) : [
-      { 
-        id: 1, 
-        title: 'Chat Principal',
-        messages: [{ 
-          id: 1, 
-          text: "¡Hola! Soy tu asistente virtual. ¿En qué puedo ayudarte?", 
-          sender: 'bot',
-          timestamp: new Date().toISOString()
-        }]
-      }
-    ];
+export const useChat = () => {
+  const [messages, setMessages] = useState(() => {
+    const savedMessages = localStorage.getItem('chat-messages');
+    return savedMessages ? JSON.parse(savedMessages) : [{
+      id: Date.now().toString(),
+      text: "¡Hola! Soy tu asistente virtual. ¿En qué puedo ayudarte?",
+      sender: 'bot',
+      timestamp: Date.now()
+    }];
   });
 
-  const [activeChat, setActiveChat] = useState(() => {
-    return parseInt(localStorage.getItem('activeChat')) || 1;
-  });
+  const [inputValue, setInputValue] = useState('');
+  const [isModelReady, setIsModelReady] = useState(false);
+  const [isProcessing, setIsProcessing] = useState(false);
+  const messagesEndRef = useRef(null);
 
+  // Persistir mensajes en localStorage
   useEffect(() => {
-    localStorage.setItem('chats', JSON.stringify(chats));
-    localStorage.setItem('activeChat', activeChat.toString());
-  }, [chats, activeChat]);
+    localStorage.setItem('chat-messages', JSON.stringify(messages));
+  }, [messages]);
 
-  const currentChat = chats.find(chat => chat.id === activeChat);
+  // Inicializar el modelo
+  useEffect(() => {
+    const initModel = async () => {
+      try {
+        await ModelService.init();
+        const tokenizerOk = await ModelService.verifyTokenizer();
+        const responsesOk = await ModelService.verifyResponses();
+        
+        console.log('Model initialization status:', {
+          tokenizerStatus: tokenizerOk,
+          responsesStatus: responsesOk,
+          modelLoaded: ModelService.model !== null
+        });
 
-  const addChat = () => {
-    const newChatId = Math.max(...chats.map(chat => chat.id)) + 1;
-    const newChat = {
-      id: newChatId,
-      title: `Chat ${newChatId}`,
-      messages: [{
-        id: 1,
-        text: "¡Hola! ¿En qué puedo ayudarte?",
-        sender: 'bot',
-        timestamp: new Date().toISOString()
-      }]
-    };
-    setChats([...chats, newChat]);
-    setActiveChat(newChatId);
-    return newChatId;
-  };
-
-  const deleteChat = (chatId) => {
-    if (chats.length <= 1) return false;
-    const updatedChats = chats.filter(chat => chat.id !== chatId);
-    setChats(updatedChats);
-    if (activeChat === chatId) {
-      setActiveChat(updatedChats[0].id);
-    }
-    return true;
-  };
-
-  const addMessage = (chatId, message) => {
-    setChats(currentChats => 
-      currentChats.map(chat => {
-        if (chat.id === chatId) {
-          return {
-            ...chat,
-            messages: [...chat.messages, {
-              ...message,
-              id: chat.messages.length + 1,
-              timestamp: new Date().toISOString()
-            }]
-          };
+        if (!tokenizerOk || !responsesOk) {
+          throw new Error('Verificación del modelo falló');
         }
-        return chat;
-      })
-    );
-  };
+
+        setIsModelReady(true);
+      } catch (error) {
+        console.error('Error detallado inicializando el modelo:', error);
+        addMessage({
+          text: "Lo siento, hubo un problema al cargar el sistema. Por favor, intenta recargar la página.",
+          sender: 'bot'
+        });
+      }
+    };
+    initModel();
+  }, []);
+
+  // Auto scroll al último mensaje
+  useEffect(() => {
+    messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  }, [messages]);
+
+  const addMessage = useCallback((newMessage) => {
+    const messageWithMetadata = {
+      id: Date.now().toString(),
+      timestamp: Date.now(),
+      ...newMessage
+    };
+    setMessages(prev => [...prev, messageWithMetadata]);
+  }, []);
+
+  const handleInputChange = useCallback((e) => {
+    setInputValue(e.target.value);
+  }, []);
+
+  const handleSubmit = useCallback(async (e) => {
+    e.preventDefault();
+    
+    const userMessage = inputValue.trim();
+    if (!userMessage || isProcessing) return;
+
+    setIsProcessing(true);
+    setInputValue('');
+
+    // Añadir mensaje del usuario
+    addMessage({
+      text: userMessage,
+      sender: 'user'
+    });
+
+    try {
+      console.log('Starting message processing for:', userMessage);
+      const response = await ModelService.processMessage(userMessage);
+      
+      console.log('Final response:', response);
+      
+      // Añadir respuesta del bot
+      addMessage({
+        text: response.text || "Lo siento, no pude procesar tu mensaje.",
+        sender: 'bot',
+        analysis: response.contextAnalysis
+      });
+    } catch (error) {
+      console.error('Error completo en handleSubmit:', error);
+      addMessage({
+        text: "Lo siento, ocurrió un error al procesar tu mensaje. Por favor, intenta de nuevo.",
+        sender: 'bot',
+        error: error.message
+      });
+    } finally {
+      setIsProcessing(false);
+    }
+  }, [inputValue, isProcessing, addMessage]);
+
+  const clearChat = useCallback(() => {
+    setMessages([{
+      id: Date.now().toString(),
+      text: "¡Hola! Soy tu asistente virtual. ¿En qué puedo ayudarte?",
+      sender: 'bot',
+      timestamp: Date.now()
+    }]);
+  }, []);
 
   return {
-    chats,
-    activeChat,
-    currentChat,
-    setActiveChat,
-    addChat,
-    deleteChat,
-    addMessage
+    messages,
+    inputValue,
+    isModelReady,
+    isProcessing,
+    messagesEndRef,
+    handleInputChange,
+    handleSubmit,
+    clearChat
   };
 };
