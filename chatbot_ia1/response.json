@@ -1,0 +1,89 @@
+{
+  "0": [
+    "¡Hola! ¿En qué puedo ayudarte?",
+    "¡Buen día! Espero que estés bien.",
+    "¡Hola, qué gusto verte! ¿Cómo estás?",
+    "¡Saludos! ¿Qué te trae por aquí hoy?",
+    "¡Hola! Siempre es un placer ayudarte.",
+    "¡Hola, amigo! ¿Cómo va todo?",
+    "¡Qué gusto saludarte! ¿En qué puedo asistirte?",
+    "¡Hola! ¿Cómo ha estado tu día hasta ahora?"
+  ],
+  "1": [
+    "¡Hasta luego! Espero verte pronto.",
+    "¡Adiós! Cuídate mucho.",
+    "¡Nos vemos! Ha sido un placer ayudarte.",
+    "¡Que tengas un excelente día! Hasta la próxima.",
+    "¡Hasta la vista! Aquí estaré cuando me necesites.",
+    "¡Adiós! No olvides regresar si necesitas algo.",
+    "¡Nos vemos pronto! Espero que todo te salga genial."
+  ],
+  "2": [
+    "¡De nada! Siempre feliz de ayudar.",
+    "¡Es un placer poder asistirte!",
+    "¡No hay de qué! Cualquier cosa, estoy aquí.",
+    "¡Encantado de ser útil! Avísame si necesitas algo más.",
+    "¡Gracias a ti por confiar en mí!",
+    "Siempre es un gusto poder ayudarte.",
+    "¡De nada! Estoy aquí para lo que necesites."
+  ],
+  "3": [
+    "¡Muy bien, gracias por preguntar! ¿Y tú?",
+    "¡Todo en orden! ¿Cómo va tu día?",
+    "Estoy aquí, listo para ayudarte. ¿Qué necesitas?",
+    "¡Excelente! Espero que tú también estés bien.",
+    "¡Todo genial! ¿Cómo te sientes hoy?",
+    "¡Aquí estoy, dispuesto a asistirte! ¿En qué puedo ayudarte?"
+  ],
+  "4": [
+    "¿En qué puedo ayudarte? Estoy aquí para eso.",
+    "Cuéntame qué necesitas, haré lo posible por asistirte.",
+    "Estoy listo para ayudarte. ¿Qué tienes en mente?",
+    "Dime en qué puedo ser útil, estoy aquí para ti.",
+    "¡Claro que sí! ¿Qué necesitas que haga por ti?",
+    "Estoy aquí para resolver tus dudas o ayudarte con cualquier cosa."
+  ],
+  "5": [
+    "Es una buena pregunta, ¿qué opinas tú al respecto?",
+    "Podríamos analizarlo más a fondo si quieres.",
+    "Es un tema interesante. ¿Te gustaría explorar más detalles?",
+    "Puedo investigar más sobre eso, ¿quieres que lo haga?",
+    "¡Gran consulta! ¿Tienes algo específico en mente?"
+  ],
+  "6": [
+    "Soy un chatbot diseñado para asistirte. ¿Cómo puedo ayudarte hoy?",
+    "Puedo responder preguntas, ofrecer información y mucho más.",
+    "¡Sí! Estoy aquí para lo que necesites. ¿Qué deseas saber?",
+    "Soy un modelo de IA. ¿Qué más te gustaría saber sobre mí?"
+  ],
+  "7": [
+    "Eso depende del contexto. ¿Puedes darme más detalles?",
+    "Puedo explicártelo. ¿Quieres un resumen o algo más específico?",
+    "Es un concepto fascinante. Déjame darte una explicación.",
+    "Aquí tienes una introducción: ¿te gustaría que profundice?"
+  ],
+  "8": [
+    "¿Quieres escuchar un chiste? Aquí va: ¿Por qué los programadores odian la naturaleza? ¡Porque tiene demasiados bugs!",
+    "¿Sabías que los chats como yo nunca tienen sueño? Porque estamos en modo 'awake' todo el tiempo.",
+    "Dicen que el código perfecto no existe... pero ¡yo me acerco bastante!",
+    "¡Espero que te haya hecho sonreír! Si quieres otro chiste, solo dilo."
+  ],
+  "9": [
+    "Hoy es un gran día. ¿Hay algo en específico que quieras saber?",
+    "Puedo ayudarte a verificar la fecha o la hora. Solo pregunta.",
+    "Dime qué necesitas saber sobre el día y te ayudo con gusto.",
+    "El tiempo es oro, ¡y aquí estoy para ayudarte a aprovecharlo!"
+  ],
+  "10": [
+    "Según el pronóstico, parece que el día estará despejado.",
+    "Parece que podría llover más tarde. ¿Tienes un paraguas a mano?",
+    "La temperatura hoy es agradable. ¿Planeas salir?",
+    "¡Hoy hace calor! Recuerda mantenerte hidratado."
+  ],
+  "11": [
+    "¿Qué tal un poco de lectura o aprender algo nuevo hoy?",
+    "Puedes relajarte viendo una película o dando un paseo.",
+    "Siempre es buen momento para aprender algo nuevo. ¿Te interesa la programación o algún otro tema?",
+    "¿Qué te parece organizar tus ideas y trabajar en un proyecto personal?"
+  ]
+}
