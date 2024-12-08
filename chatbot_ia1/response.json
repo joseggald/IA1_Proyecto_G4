@@ -1,89 +1,290 @@
 {
   "0": [
-    "¡Hola! ¿En qué puedo ayudarte?",
-    "¡Buen día! Espero que estés bien.",
-    "¡Hola, qué gusto verte! ¿Cómo estás?",
-    "¡Saludos! ¿Qué te trae por aquí hoy?",
-    "¡Hola! Siempre es un placer ayudarte.",
-    "¡Hola, amigo! ¿Cómo va todo?",
-    "¡Qué gusto saludarte! ¿En qué puedo asistirte?",
-    "¡Hola! ¿Cómo ha estado tu día hasta ahora?"
+    "¡Hola! Me alegra verte. ¿Cómo puedo ayudarte hoy?",
+    "¡Bienvenido! ¿Qué te trae por aquí?",
+    "¡Hola! ¿Hay algo específico en lo que pueda ayudarte?",
+    "¡Qué gusto saludarte! ¿En qué puedo asistirte hoy?",
+    "¡Hola! Estoy aquí para ayudarte. ¿Qué tienes en mente?",
+    "¡Buen día! ¿Cómo puedo hacer tu día mejor?",
+    "¡Saludos! ¿Listo para una conversación productiva?",
+    "¡Hola! Espero que estés teniendo un gran día. ¿En qué puedo ayudarte?",
+    "¡Qué bueno verte! ¿Necesitas ayuda con algo en particular?",
+    "¡Hola! Me alegro de que estés aquí. ¿Cómo va todo?"
   ],
+
   "1": [
-    "¡Hasta luego! Espero verte pronto.",
-    "¡Adiós! Cuídate mucho.",
-    "¡Nos vemos! Ha sido un placer ayudarte.",
-    "¡Que tengas un excelente día! Hasta la próxima.",
-    "¡Hasta la vista! Aquí estaré cuando me necesites.",
-    "¡Adiós! No olvides regresar si necesitas algo.",
-    "¡Nos vemos pronto! Espero que todo te salga genial."
+    "¡Hasta luego! Ha sido un placer ayudarte. Recuerda que puedo asistirte cuando lo necesites.",
+    "¡Adiós! Me alegro de haber podido ser de ayuda. ¡Que tengas un excelente día!",
+    "¡Nos vemos! Aquí estaré si necesitas más ayuda en el futuro.",
+    "¡Hasta pronto! Espero que nuestra conversación haya sido útil.",
+    "¡Que tengas un excelente día! Vuelve cuando quieras.",
+    "¡Hasta la próxima! Ha sido un gusto poder ayudarte.",
+    "¡Cuídate! Estaré aquí cuando necesites más ayuda.",
+    "¡Adiós! No dudes en volver si tienes más preguntas.",
+    "¡Hasta luego! Espero verte pronto por aquí.",
+    "¡Que te vaya muy bien! Recuerda que estoy aquí para ayudarte."
   ],
+
   "2": [
-    "¡De nada! Siempre feliz de ayudar.",
-    "¡Es un placer poder asistirte!",
-    "¡No hay de qué! Cualquier cosa, estoy aquí.",
-    "¡Encantado de ser útil! Avísame si necesitas algo más.",
-    "¡Gracias a ti por confiar en mí!",
-    "Siempre es un gusto poder ayudarte.",
-    "¡De nada! Estoy aquí para lo que necesites."
+    "¡Es un placer poder ayudarte! Si necesitas algo más, no dudes en preguntarme.",
+    "Me alegra haber podido ser de utilidad. ¿Hay algo más en lo que pueda ayudarte?",
+    "¡De nada! Tu satisfacción es mi prioridad. ¿Necesitas algo más?",
+    "El placer es mío. Estoy aquí para ayudarte en lo que necesites.",
+    "¡Gracias a ti por tu confianza! ¿Puedo ayudarte con algo más?",
+    "Me alegra que hayas encontrado útil mi ayuda. ¿Necesitas alguna aclaración?",
+    "¡Para eso estoy! No dudes en preguntar si necesitas más ayuda.",
+    "¡Es mi trabajo! Me alegra poder ser de ayuda.",
+    "¡Encantado de ayudar! ¿Hay algo más que necesites?",
+    "¡Gracias por tu amabilidad! Estoy aquí para lo que necesites."
   ],
+
   "3": [
-    "¡Muy bien, gracias por preguntar! ¿Y tú?",
-    "¡Todo en orden! ¿Cómo va tu día?",
-    "Estoy aquí, listo para ayudarte. ¿Qué necesitas?",
-    "¡Excelente! Espero que tú también estés bien.",
-    "¡Todo genial! ¿Cómo te sientes hoy?",
-    "¡Aquí estoy, dispuesto a asistirte! ¿En qué puedo ayudarte?"
+    "Entiendo cómo te sientes. ¿Quieres hablar más sobre ello?",
+    "Es normal sentirse así. ¿Hay algo específico que te preocupe?",
+    "Gracias por compartir eso conmigo. ¿Quieres que exploremos soluciones juntos?",
+    "Te escucho y entiendo tu situación. ¿Cómo puedo ayudarte a sentirte mejor?",
+    "Es importante expresar cómo nos sentimos. ¿Quieres contarme más?",
+    "Estoy aquí para escucharte. ¿Te gustaría profundizar en el tema?",
+    "Tus sentimientos son válidos. ¿Quieres hablar más sobre esto?",
+    "Me importa cómo te sientes. ¿Hay algo que pueda hacer para ayudar?",
+    "Comprendo lo que dices. ¿Necesitas desahogarte más?",
+    "Estoy aquí para apoyarte. ¿Quieres que busquemos soluciones juntos?"
   ],
+
   "4": [
-    "¿En qué puedo ayudarte? Estoy aquí para eso.",
-    "Cuéntame qué necesitas, haré lo posible por asistirte.",
-    "Estoy listo para ayudarte. ¿Qué tienes en mente?",
-    "Dime en qué puedo ser útil, estoy aquí para ti.",
-    "¡Claro que sí! ¿Qué necesitas que haga por ti?",
-    "Estoy aquí para resolver tus dudas o ayudarte con cualquier cosa."
+    "Por supuesto, estoy aquí para ayudarte. ¿Podrías darme más detalles?",
+    "Me encantaría ayudarte. ¿Puedes explicarme mejor la situación?",
+    "Cuenta conmigo. ¿Qué aspectos específicos te gustaría abordar?",
+    "Estoy listo para asistirte. ¿Por dónde prefieres empezar?",
+    "Veamos cómo puedo ayudarte mejor. ¿Me das más información?",
+    "Con gusto te ayudo. ¿Podrías ser más específico?",
+    "Estoy para apoyarte. ¿Qué necesitas exactamente?",
+    "Dime qué necesitas y haré lo posible por ayudarte.",
+    "¿Qué tipo de ayuda necesitas? Seré lo más claro posible.",
+    "Cuéntame más para poder ayudarte de la mejor manera."
   ],
+
   "5": [
-    "Es una buena pregunta, ¿qué opinas tú al respecto?",
-    "Podríamos analizarlo más a fondo si quieres.",
-    "Es un tema interesante. ¿Te gustaría explorar más detalles?",
-    "Puedo investigar más sobre eso, ¿quieres que lo haga?",
-    "¡Gran consulta! ¿Tienes algo específico en mente?"
+    "Es una pregunta interesante. ¿Quieres que exploremos diferentes perspectivas?",
+    "Hay varios aspectos que podemos analizar. ¿Por cuál prefieres empezar?",
+    "Es un tema que merece una buena reflexión. ¿Qué aspectos te interesan más?",
+    "Podemos analizarlo desde varios ángulos. ¿Qué enfoque prefieres?",
+    "Interesante consulta. ¿Te gustaría profundizar en algún aspecto específico?",
+    "Hay mucho que considerar aquí. ¿Qué parte te parece más relevante?",
+    "Podemos explorar diferentes opiniones. ¿Cuál es tu perspectiva inicial?",
+    "Es un tema complejo. ¿Por dónde te gustaría que empecemos?",
+    "Hay diversos puntos de vista. ¿Cuál te interesa más?",
+    "Analicemos esto juntos. ¿Qué aspecto te parece más importante?"
   ],
+
   "6": [
-    "Soy un chatbot diseñado para asistirte. ¿Cómo puedo ayudarte hoy?",
-    "Puedo responder preguntas, ofrecer información y mucho más.",
-    "¡Sí! Estoy aquí para lo que necesites. ¿Qué deseas saber?",
-    "Soy un modelo de IA. ¿Qué más te gustaría saber sobre mí?"
+    "Soy un asistente virtual diseñado para ayudarte en diversas tareas. ¿Qué te gustaría saber?",
+    "Utilizo procesamiento de lenguaje natural para entender y responder preguntas. ¿Algo específico que quieras saber?",
+    "Mi objetivo es asistirte de la mejor manera posible. ¿Qué te gustaría saber sobre mis capacidades?",
+    "Estoy diseñado para mantener conversaciones informativas y útiles. ¿Qué más quieres saber?",
+    "Soy un modelo de IA entrenado para ayudar en diversos temas. ¿Qué te interesa saber?",
+    "Mi propósito es asistir y proporcionar información útil. ¿Qué quieres conocer sobre mí?",
+    "Puedo ayudarte con una amplia variedad de temas. ¿Qué te gustaría explorar?",
+    "Estoy aquí para aprender y ayudar. ¿Qué te interesa saber sobre mi funcionamiento?",
+    "Me especializo en proporcionar asistencia e información. ¿Qué quieres saber?",
+    "Mi objetivo es ser útil y informativo. ¿Qué te gustaría conocer sobre mis capacidades?"
   ],
+
   "7": [
-    "Eso depende del contexto. ¿Puedes darme más detalles?",
-    "Puedo explicártelo. ¿Quieres un resumen o algo más específico?",
-    "Es un concepto fascinante. Déjame darte una explicación.",
-    "Aquí tienes una introducción: ¿te gustaría que profundice?"
+    "Déjame explicarte esto de manera clara. ¿Prefieres una explicación general o técnica?",
+    "Es un tema interesante que podemos explorar en detalle. ¿Por dónde empezamos?",
+    "Puedo explicártelo paso a paso. ¿Qué nivel de profundidad prefieres?",
+    "Tengo información detallada sobre esto. ¿Empezamos por los conceptos básicos?",
+    "Es un tema fascinante. ¿Quieres una explicación teórica o práctica?",
+    "Podemos abordar esto desde diferentes niveles. ¿Cuál prefieres?",
+    "Hay mucho que cubrir sobre este tema. ¿Qué te interesa más?",
+    "¿Te gustaría una explicación con ejemplos prácticos?",
+    "Puedo proporcionarte diferentes perspectivas. ¿Cuál prefieres?",
+    "Exploremos este tema juntos. ¿Qué aspecto te interesa más?"
   ],
+
   "8": [
-    "¿Quieres escuchar un chiste? Aquí va: ¿Por qué los programadores odian la naturaleza? ¡Porque tiene demasiados bugs!",
-    "¿Sabías que los chats como yo nunca tienen sueño? Porque estamos en modo 'awake' todo el tiempo.",
-    "Dicen que el código perfecto no existe... pero ¡yo me acerco bastante!",
-    "¡Espero que te haya hecho sonreír! Si quieres otro chiste, solo dilo."
+    "¡Claro! Aquí va uno: ¿Por qué los programadores prefieren el frío? ¡Porque detestan los bugs! 😄",
+    "¿Sabías que hay 10 tipos de personas? Las que entienden binario y las que no. 😄",
+    "¿Qué le dice un bit a otro bit? ¡Nos vemos en el bus! 😄",
+    "¿Por qué los programadores son tan malos en las fiestas? ¡Porque no pueden manejar el protocolo social! 😄",
+    "¿Por qué el programador salió del trabajo? ¡Porque no tenía clase! 😄",
+    "¿Qué hace un programador zombi? ¡Coding muerto! 😄",
+    "¿Por qué el código fue al doctor? ¡Porque tenía muchos bugs! 😄",
+    "¿Cuál es el postre favorito de los programadores? ¡El byte-oniato! 😄",
+    "¿Por qué el programador se quedó colgado? ¡Porque perdió su hilo! 😄",
+    "¿Qué le dice un Java a otro? ¡Te veo en el bytecafé! 😄"
   ],
+
   "9": [
-    "Hoy es un gran día. ¿Hay algo en específico que quieras saber?",
-    "Puedo ayudarte a verificar la fecha o la hora. Solo pregunta.",
-    "Dime qué necesitas saber sobre el día y te ayudo con gusto.",
-    "El tiempo es oro, ¡y aquí estoy para ayudarte a aprovecharlo!"
+    "¿Te gustaría saber algo específico sobre la fecha actual?",
+    "Puedo ayudarte con información sobre fechas y horarios. ¿Qué necesitas saber?",
+    "¿Necesitas esta información para algo en particular?",
+    "La gestión del tiempo es importante. ¿Qué información específica necesitas?",
+    "¿Te ayudo a organizar algo relacionado con fechas y horarios?",
+    "Puedo proporcionarte diferentes formatos de fecha y hora. ¿Cuál prefieres?",
+    "¿Necesitas ayuda para programar algo?",
+    "¿Te gustaría saber más detalles sobre el calendario?",
+    "Puedo ayudarte con planificación temporal. ¿Qué necesitas?",
+    "¿Quieres información sobre una fecha específica?"
   ],
+
   "10": [
-    "Según el pronóstico, parece que el día estará despejado.",
-    "Parece que podría llover más tarde. ¿Tienes un paraguas a mano?",
-    "La temperatura hoy es agradable. ¿Planeas salir?",
-    "¡Hoy hace calor! Recuerda mantenerte hidratado."
+    "Las condiciones climáticas son variables. ¿Necesitas información para alguna actividad?",
+    "¿Te gustaría saber el pronóstico para algún momento específico?",
+    "¿Necesitas saber cómo estará el tiempo en los próximos días?",
+    "¿Esta información es para planificar alguna actividad?",
+    "Puedo darte detalles sobre el clima. ¿Qué te interesa saber?",
+    "¿Necesitas información meteorológica específica?",
+    "¿Quieres saber más detalles sobre las condiciones actuales?",
+    "¿Te ayudo a planificar según el clima?",
+    "¿Necesitas recomendaciones basadas en el clima?",
+    "¿Quieres saber cómo afectará el clima tus planes?"
   ],
+
   "11": [
-    "¿Qué tal un poco de lectura o aprender algo nuevo hoy?",
-    "Puedes relajarte viendo una película o dando un paseo.",
-    "Siempre es buen momento para aprender algo nuevo. ¿Te interesa la programación o algún otro tema?",
-    "¿Qué te parece organizar tus ideas y trabajar en un proyecto personal?"
-  ]
+    "Tengo varias sugerencias que podrían interesarte. ¿Prefieres algo activo o relajado?",
+    "Hay muchas opciones interesantes. ¿Te gustaría algo educativo o recreativo?",
+    "Puedo sugerirte varias actividades. ¿Tienes alguna preferencia?",
+    "¿Te gustaría que te sugiera algo relacionado con tus intereses?",
+    "Hay muchas posibilidades. ¿Qué tipo de actividad prefieres?",
+    "Puedo recomendarte varias opciones. ¿Qué te gustaría explorar?",
+    "Tengo algunas ideas que podrían gustarte. ¿Quieres escucharlas?",
+    "¿Te gustaría sugerencias personalizadas según tus gustos?",
+    "Puedo ayudarte a encontrar algo interesante. ¿Qué buscas?",
+    "¿Quieres que te sugiera actividades según tus preferencias?"
+  ],
+
+  "12": [
+    "Veamos ese problema juntos. ¿Puedes darme más detalles sobre el error?",
+    "Analicemos esto paso a paso. ¿Cuándo empezó el problema?",
+    "Para ayudarte mejor, necesito más información. ¿Qué has intentado hasta ahora?",
+    "Vamos a resolver esto. ¿Me muestras el mensaje de error?",
+    "Entiendo tu frustración. ¿Podemos revisar el problema desde el principio?",
+    "Hay varias formas de abordar esto. ¿Empezamos por el diagnóstico?",
+    "¿Podrías compartir más contexto sobre el problema?",
+    "Trabajemos juntos en la solución. ¿Qué está fallando exactamente?",
+    "Encontraremos la causa. ¿Me describes el comportamiento esperado?",
+    "Vamos a solucionarlo. ¿Me das más detalles sobre el error?"
+  ],
+
+  "13": [
+    "Este es un tema técnico interesante. ¿Prefieres una explicación general o detallada?",
+    "Hay varios conceptos importantes aquí. ¿Por cuál te gustaría empezar?",
+    "Podemos profundizar en diferentes aspectos. ¿Qué te interesa más?",
+    "Es un tema complejo pero fascinante. ¿Qué parte quieres explorar primero?",
+    "Hay mucho que cubrir. ¿Empezamos por los fundamentos o algo específico?",
+    "¿Te gustaría un enfoque práctico o más teórico?",
+    "Puedo explicarte desde diferentes perspectivas. ¿Cuál prefieres?",
+    "Este tema tiene varias capas. ¿Por dónde quieres empezar?",
+    "¿Prefieres ejemplos prácticos o conceptos teóricos?",
+    "Podemos ir tan profundo como quieras. ¿Qué nivel de detalle prefieres?"
+  ],
+  "14": [
+      "La planificación es clave. ¿Has definido los objetivos principales?",
+      "Empecemos organizando las ideas. ¿Cuál es el alcance del proyecto?",
+      "Hay varios enfoques posibles. ¿Tienes alguna preferencia metodológica?",
+      "Vamos a estructurar esto bien. ¿Cuáles son tus recursos disponibles?",
+      "La organización es fundamental. ¿Quieres que revisemos las mejores prácticas?",
+      "Podemos crear un plan detallado. ¿Cuál es tu timeline?",
+      "¿Te gustaría explorar diferentes marcos de trabajo?",
+      "Definamos primero las prioridades. ¿Qué es lo más importante?",
+      "Hay varias herramientas que podemos usar. ¿Conoces alguna en particular?",
+      "¿Prefieres una metodología ágil o tradicional?",
+      "Empecemos por los requisitos básicos. ¿Los tienes definidos?",
+      "La comunicación es esencial. ¿Cómo prefieres gestionar las actualizaciones?",
+      "Podemos usar diferentes estrategias. ¿Qué te ha funcionado antes?",
+      "¿Quieres que definamos hitos y entregables?",
+      "Organicemos los recursos eficientemente. ¿Qué limitaciones tenemos?"
+    ],
+  
+    "15": [
+      "El aprendizaje es un viaje emocionante. ¿Por dónde te gustaría empezar?",
+      "Hay muchos caminos posibles. ¿Qué área te interesa más?",
+      "Podemos crear un plan personalizado. ¿Cuáles son tus objetivos?",
+      "¿Te gustaría que te sugiera recursos de aprendizaje?",
+      "El primer paso es importante. ¿Tienes experiencia previa?",
+      "Hay diferentes métodos de aprendizaje. ¿Cuál prefieres?",
+      "Podemos establecer un camino gradual. ¿Cuánto tiempo puedes dedicar?",
+      "¿Prefieres aprender con proyectos prácticos o teoría?",
+      "Hay excelentes recursos disponibles. ¿Qué formato prefieres?",
+      "¿Te gustaría empezar con los fundamentos o algo específico?",
+      "Podemos combinar diferentes recursos. ¿Qué estilo de aprendizaje te funciona mejor?",
+      "El aprendizaje continuo es clave. ¿Quieres establecer metas a corto plazo?",
+      "¿Te interesa obtener certificaciones en el proceso?",
+      "Hay comunidades muy activas. ¿Te gustaría conectar con otros aprendices?",
+      "Podemos adaptar el plan según avances. ¿Quieres establecer checkpoints?"
+    ],
+  
+    "16": [
+      "Entiendo tu inquietud. ¿Te gustaría explorar soluciones alternativas?",
+      "Hay varias maneras de abordar esto. ¿Qué has considerado hasta ahora?",
+      "Podemos analizar diferentes escenarios. ¿Cuál es tu principal preocupación?",
+      "¿Te gustaría que evaluemos los pros y contras juntos?",
+      "Hay aspectos importantes que considerar. ¿Qué factores son críticos para ti?",
+      "Podemos examinar cada opción en detalle. ¿Por dónde prefieres empezar?",
+      "La decisión es importante. ¿Quieres que analicemos el impacto de cada alternativa?",
+      "¿Te ayudaría ver algunos casos similares?",
+      "Podemos hacer un análisis comparativo. ¿Qué criterios son más importantes?",
+      "¿Prefieres un enfoque conservador o más innovador?",
+      "Hay diferentes estrategias disponibles. ¿Cuál se alinea mejor con tus objetivos?",
+      "Podemos evaluar los riesgos juntos. ¿Quieres que empecemos por ahí?",
+      "¿Te gustaría considerar algunas opciones no convencionales?",
+      "La flexibilidad es importante. ¿Necesitas una solución adaptable?",
+      "Podemos crear un plan de contingencia. ¿Te parece apropiado?"
+    ],
+  
+    "17": [
+      "La optimización es crucial. ¿Qué aspectos quieres mejorar primero?",
+      "Hay varias técnicas que podemos aplicar. ¿Cuál es tu principal objetivo?",
+      "Podemos medir el rendimiento actual. ¿Tienes métricas establecidas?",
+      "¿Te gustaría que revisemos las mejores prácticas juntos?",
+      "La eficiencia es importante. ¿Qué recursos están disponibles?",
+      "Podemos identificar cuellos de botella. ¿Dónde notas más problemas?",
+      "¿Prefieres optimizar para velocidad o recursos?",
+      "Hay diferentes estrategias de mejora. ¿Cuál te interesa más?",
+      "Podemos establecer benchmarks. ¿Tienes algún objetivo específico?",
+      "¿Te gustaría implementar monitoreo continuo?",
+      "La automatización puede ayudar. ¿Has considerado esta opción?",
+      "Podemos revisar el código existente. ¿Dónde sospechas que hay ineficiencias?",
+      "¿Quieres que analicemos el uso de recursos?",
+      "La escalabilidad es clave. ¿Has considerado el crecimiento futuro?",
+      "Podemos implementar mejoras graduales. ¿Por dónde prefieres empezar?"
+    ],
+  
+    "18": [
+      "La seguridad es fundamental. ¿Qué aspectos te preocupan más?",
+      "Podemos implementar varias capas de protección. ¿Cuáles son tus prioridades?",
+      "¿Te gustaría revisar las mejores prácticas de seguridad?",
+      "Hay diferentes protocolos disponibles. ¿Conoces alguno en particular?",
+      "La prevención es clave. ¿Quieres que evaluemos vulnerabilidades?",
+      "Podemos establecer políticas de seguridad. ¿Qué nivel de restricción necesitas?",
+      "¿Has considerado implementar autenticación de dos factores?",
+      "La encriptación es importante. ¿Qué tipo de datos necesitas proteger?",
+      "Podemos crear un plan de respuesta a incidentes. ¿Te parece necesario?",
+      "¿Te gustaría implementar monitoreo de seguridad?",
+      "Las auditorías regulares son importantes. ¿Quieres establecer un calendario?",
+      "Podemos revisar los accesos actuales. ¿Necesitas un sistema de roles?",
+      "La seguridad física también es importante. ¿Has considerado todos los aspectos?",
+      "¿Te gustaría implementar backups automáticos?",
+      "Podemos establecer protocolos de recuperación. ¿Los consideras necesarios?"
+    ],
+  
+    "19": [
+      "Las buenas prácticas son esenciales. ¿Quieres revisar las más importantes?",
+      "Hay estándares establecidos. ¿Conoces los principales?",
+      "Podemos implementar guías de estilo. ¿Tienes preferencias?",
+      "La documentación es crucial. ¿Quieres establecer un formato?",
+      "El control de versiones es importante. ¿Qué sistema utilizas?",
+      "Podemos establecer procesos de review. ¿Te interesa implementarlos?",
+      "¿Te gustaría definir convenciones de código?",
+      "Los tests son fundamentales. ¿Qué estrategia prefieres?",
+      "Podemos implementar CI/CD. ¿Has trabajado con estas herramientas?",
+      "La modularización es clave. ¿Quieres revisar la arquitectura?",
+      "¿Te interesa implementar patrones de diseño?",
+      "Podemos establecer métricas de calidad. ¿Cuáles consideras importantes?",
+      "El mantenimiento es crucial. ¿Has pensado en estrategias a largo plazo?",
+      "¿Quieres implementar revisiones de código regulares?",
+      "Podemos crear templates y snippets. ¿Te sería útil?"
+    ]
 }

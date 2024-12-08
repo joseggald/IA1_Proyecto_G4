@@ -16,6 +16,123 @@ from tqdm import tqdm
 import json
 import logging
 from sklearn.metrics.pairwise import cosine_similarity
+
+import re
+import numpy as np
+from collections import deque
+from typing import List, Dict, Set
+
+class EnhancedLanguageProcessor:
+    def __init__(self):
+        self.word_vectors = {}  # Aquí puedes cargar modelos de embeddings, como Word2Vec o GloVe.
+        self.context_memory = deque(maxlen=10)
+        self.synonyms = self._load_synonyms()
+        self.emotional_words = self._load_emotional_words()
+        self.stop_words = self._load_stop_words()
+        self.formality_indicators = self._load_formality_indicators()
+
+    def _load_synonyms(self) -> Dict[str, Set[str]]:
+        return {
+            'hola': {'saludos', 'buenos días', 'hey', 'hi', 'qué tal', 'hola a todos'},
+            'gracias': {'agradecido', 'te agradezco', 'thanks', 'mil gracias', 'muchas gracias'},
+            'adios': {'hasta luego', 'nos vemos', 'chao', 'bye', 'hasta pronto'},
+            'ayuda': {'auxilio', 'apoyo', 'asistencia', 'soporte', 'socorro'},
+            'perdón': {'disculpa', 'lo siento', 'mis disculpas', 'perdona'},
+            # Añadir más categorías según necesites
+        }
+
+    def _load_emotional_words(self) -> Dict[str, float]:
+        return {
+            'feliz': 1.0,
+            'triste': -1.0,
+            'enojado': -0.8,
+            'contento': 0.8,
+            'frustrado': -0.7,
+            'emocionado': 0.9,
+            'deprimido': -1.0,
+            'agradecido': 0.9,
+            'ansioso': -0.6,
+            'calmado': 0.8,
+            'confuso': -0.4,
+            'esperanzado': 0.7,
+            # Añadir más palabras emocionales
+        }
+
+    def _load_stop_words(self) -> Set[str]:
+        return {'de', 'la', 'que', 'el', 'en', 'y', 'a', 'los', 'se', 'por', 'las', 'un', 'para', 'con', 'es', 'una'}
+
+    def _load_formality_indicators(self) -> Dict[str, Set[str]]:
+        return {
+            'formal': {'por favor', 'gracias', 'podría', 'sería tan amable', 'disculpe'},
+            'informal': {'ok', 'va', 'dale', 'hey', 'qué onda'}
+        }
+
+    def clean_text(self, text: str) -> str:
+        text = text.lower().strip()
+        text = re.sub(r'[^\w\s¿?¡!.,]', '', text)  # Mantiene signos importantes
+        text = re.sub(r'\s+', ' ', text)
+        return text.strip()
+
+    def analyze_input(self, text: str) -> Dict:
+        cleaned_text = self.clean_text(text)
+        words = [word for word in cleaned_text.split() if word not in self.stop_words]
+        
+        analysis = {
+            'original': text,
+            'cleaned': cleaned_text,
+            'word_count': len(words),
+            'is_question': '?' in text,
+            'has_greeting': any(word in self.synonyms.get('hola', set()) for word in words),
+            'has_farewell': any(word in self.synonyms.get('adios', set()) for word in words),
+            'emotional_score': self._calculate_emotional_score(words),
+            'formality_level': self._calculate_formality(text),
+            'context_relevance': self._calculate_context_relevance(cleaned_text)
+        }
+        
+        if analysis['is_question']:
+            analysis['question_type'] = self._determine_question_type(text)
+        
+        return analysis
+
+    def _calculate_emotional_score(self, words: List[str]) -> float:
+        scores = [self.emotional_words.get(word, 0) for word in words]
+        return np.mean(scores) if scores else 0.0
+
+    def _calculate_formality(self, text: str) -> float:
+        words = set(text.split())
+        formal_score = len(words & self.formality_indicators['formal']) / len(words) if words else 0
+        informal_score = len(words & self.formality_indicators['informal']) / len(words) if words else 0
+        return formal_score - informal_score
+
+    def _calculate_context_relevance(self, text: str) -> float:
+        if not self.context_memory:
+            return 0.5
+        current_words = set(text.split())
+        context_words = set(' '.join(self.context_memory).split())
+        overlap = len(current_words & context_words)
+        return overlap / len(current_words) if current_words else 0
+
+    def _determine_question_type(self, text: str) -> str:
+        question_indicators = {
+            'qué': 'information',
+            'cómo': 'process',
+            'por qué': 'reason',
+            'cuándo': 'time',
+            'dónde': 'location',
+            'quién': 'person',
+            'cuál': 'choice',
+            'para qué': 'purpose'
+        }
+        text_lower = text.lower()
+        for indicator, qtype in question_indicators.items():
+            if indicator in text_lower:
+                return qtype
+        return 'general'
+
+    def update_context(self, text: str):
+        self.context_memory.append(text)
+
+
 class ContextualEncoder(nn.Module):
     def __init__(self, input_dim, hidden_dim=512, nhead=8, num_layers=4):
         super().__init__()
@@ -128,7 +245,7 @@ class ResidualBlock(nn.Module):
     def forward(self, x):
         return x + self.layers(x)
 class DynamicMemoryNetwork(nn.Module):
-    def __init__(self, vocab_size, embed_dim=256, hidden_dim=512, num_classes=12):
+    def __init__(self, vocab_size, embed_dim=256, hidden_dim=512, num_classes=20):
         super().__init__()
         self.embedding = nn.Embedding(vocab_size, embed_dim)
         self.encoder = ContextualEncoder(embed_dim, hidden_dim)
@@ -380,10 +497,10 @@ class ImprovedTrainer:
             vocab_size=self.tokenizer.vocab_size,
             embed_dim=256,
             hidden_dim=512,
-            num_classes=12
+            num_classes=20
         )
         self.model.to(self.device)
-        
+        self.language_processor = EnhancedLanguageProcessor()
         # Configuración de entrenamiento continuo
         self.buffer_size = 10000
         self.experience_buffer = deque(maxlen=self.buffer_size)
@@ -558,13 +675,18 @@ class ImprovedTrainer:
             print("No se encontró checkpoint existente. Iniciando con modelo nuevo.")
 
     def process_conversation(self, text, context=None):
-        """Método mejorado para procesar conversaciones con mejor manejo de errores"""
         try:
+            # Analizar input con el nuevo procesador
+            input_analysis = self.language_processor.analyze_input(text)
+            
+            # Actualizar contexto
+            self.language_processor.update_context(text)
+            
+            # Proceso normal del modelo
             self.model.eval()
             with torch.no_grad():
-                # Preparar input
                 inputs = self.tokenizer(
-                    text,
+                    input_analysis['cleaned'],  # Usar texto limpio
                     padding=True,
                     truncation=True,
                     max_length=128,
@@ -574,41 +696,36 @@ class ImprovedTrainer:
                 input_ids = inputs['input_ids'].to(self.device)
                 attention_mask = inputs['attention_mask'].to(self.device)
                 
-                # Forward pass
                 logits, confidence, context_analysis = self.model(
                     input_ids, 
                     attention_mask
                 )
                 
-                # Procesar resultados
-                probs = F.softmax(logits, dim=-1)
-                prediction = torch.argmax(probs, dim=-1).item()
-                conf_value = confidence.squeeze().item() if confidence.numel() > 0 else 0.0
-                
-                # Extraer valores del análisis de contexto
-                context_values = {
-                    'relevance': float(context_analysis['semantic_richness'].mean().item()),
-                    'novelty': float(context_analysis['context_depth'].mean().item()),
-                    'importance': float(context_analysis['memory_relevance'].mean().item())
+                # Combinar análisis del modelo con el análisis del lenguaje
+                combined_analysis = {
+                    'prediction': torch.argmax(logits, dim=-1).item(),
+                    'confidence': confidence.squeeze().item() if confidence.numel() > 0 else 0.0,
+                    'context_analysis': {
+                        'relevance': float(context_analysis['semantic_richness'].mean().item()),
+                        'novelty': float(context_analysis['context_depth'].mean().item()),
+                        'importance': float(context_analysis['memory_relevance'].mean().item())
+                    },
+                    'language_analysis': input_analysis
                 }
                 
-                return {
-                    'prediction': prediction,
-                    'confidence': conf_value,
-                    'context_analysis': context_values
-                }
+                return combined_analysis
                 
         except Exception as e:
             logging.error(f"Error en process_conversation: {str(e)}")
-            # Retornar valores por defecto en caso de error
             return {
-                'prediction': 0,  # Categoría por defecto (saludos)
+                'prediction': 0,
                 'confidence': 0.0,
                 'context_analysis': {
                     'relevance': 0.0,
                     'novelty': 0.0,
                     'importance': 0.0
-                }
+                },
+                'language_analysis': {}
             }
 
     def save_checkpoint(self):
