@@ -15,10 +15,114 @@ class ModelService {
     this.vocab_size = 2000;
     this.initialized = false;
     this.responses = null;
-    this.confidenceThreshold = 0.1;
+    this.confidenceThreshold = 0.15;
+    this.topicBoostFactor = 0.2;
+    this.debugMode = true;
     this.greetingThreshold = 0.1;
+    // Nuevas propiedades para tópicos
+    this.topicData = null;
+    this.conversationHistory = [];
+    this.memorySize = 10;
+  }
+  async verifyTopicData() {
+    try {
+      if (!this.topicData || typeof this.topicData !== 'object') {
+        console.error('Topic data not loaded or invalid');
+        return false;
+      }
+  
+      // Verificar estructura básica
+      const hasTopics = this.topicData.topics && typeof this.topicData.topics === 'object';
+      const hasKeywords = this.topicData.keywords && typeof this.topicData.keywords === 'object';
+      const hasRelations = this.topicData.relations && typeof this.topicData.relations === 'object';
+  
+      // Verificar contenido
+      const topicsCount = Object.keys(this.topicData.topics || {}).length;
+      const keywordsCount = Object.keys(this.topicData.keywords || {}).length;
+  
+      // Verificar integridad de los datos
+      let validTopics = 0;
+      for (const [topic, data] of Object.entries(this.topicData.topics)) {
+        if (Array.isArray(data.keywords) && Array.isArray(data.labels)) {
+          validTopics++;
+        }
+      }
+  
+      const verificationResult = {
+        structureValid: hasTopics && hasKeywords && hasRelations,
+        topicsCount,
+        keywordsCount,
+        validTopics,
+        sampleTopics: Object.keys(this.topicData.topics || {}).slice(0, 3),
+        sampleKeywords: Object.keys(this.topicData.keywords || {}).slice(0, 3)
+      };
+  
+      console.log('Topic data verification details:', verificationResult);
+  
+      // Considerar válido si al menos hay un tópico con datos válidos
+      return validTopics > 0;
+    } catch (error) {
+      console.error('Error during topic verification:', error);
+      return false;
+    }
   }
 
+  extractKeywords(text) {
+    const words = text.split(/\s+/).filter(word => word.length > 2 && !/^\d+$/.test(word));
+    if (this.debugMode) {
+      console.log('Extracted keywords:', words);
+    }
+    return [...new Set(words)];
+  }
+
+  identifyTopic(text, keywords) {
+    if (!this.topicData?.topics) {
+      if (this.debugMode) {
+        console.log('No topic data available for identification');
+      }
+      return null;
+    }
+
+    const topicScores = {};
+    
+    for (const [topic, data] of Object.entries(this.topicData.topics)) {
+      let score = 0;
+      
+      // Coincidencia de keywords
+      const matches = keywords.filter(keyword => 
+        data.keywords.some(topicKeyword => 
+          topicKeyword.includes(keyword) || keyword.includes(topicKeyword)
+        )
+      );
+      score += matches.length * 2;
+
+      if (this.debugMode && matches.length > 0) {
+        console.log(`Topic ${topic} keyword matches:`, matches);
+      }
+
+      // Contexto de conversación
+      if (this.conversationHistory.length > 0) {
+        const lastTopic = this.conversationHistory[this.conversationHistory.length - 1]?.topic;
+        if (lastTopic === topic) {
+          score += 1;
+        } else if (this.topicData.relations[lastTopic]?.includes(topic)) {
+          score += 0.5;
+        }
+      }
+
+      topicScores[topic] = score;
+    }
+
+    if (this.debugMode) {
+      console.log('Topic scores:', topicScores);
+    }
+
+    const entries = Object.entries(topicScores);
+    if (entries.length === 0) return null;
+    
+    const bestTopic = entries.reduce((a, b) => b[1] > a[1] ? b : a);
+    return bestTopic[1] > 0 ? bestTopic[0] : null;
+  }
   async loadFile(path) {
     try {
       const response = await fetch(path);
@@ -61,21 +165,6 @@ class ModelService {
         console.warn('OOV token not found - attempting to add it');
         this.tokenizer.word_index['<OOV>'] = 1;
         this.tokenizer.index_word['1'] = '<OOV>';
-      }
-
-      const commonWords = ['hola', 'gracias', 'ayuda', 'por'];
-      const foundCommonWords = commonWords.filter(word => 
-        Object.prototype.hasOwnProperty.call(this.tokenizer.word_index, word)
-      );
-
-      console.log('Common words check:', {
-        searched: commonWords,
-        found: foundCommonWords
-      });
-
-      if (foundCommonWords.length === 0) {
-        console.error('No common words found in vocabulary');
-        return false;
       }
 
       return true;
@@ -133,11 +222,9 @@ class ModelService {
     
     const sequence = words.map(word => {
       const token = this.tokenizer.word_index[word];
-      console.log(`Word: "${word}", Found in vocabulary: ${token !== undefined}, Token: ${token || 1}`);
       return token || this.tokenizer.word_index['<OOV>'] || 1;
     });
 
-    console.log('Final sequence:', sequence);
     return sequence;
   }
 
@@ -157,32 +244,32 @@ class ModelService {
 
       console.log('Iniciando carga de archivos...');
 
-      this.config = await this.loadFile('/model_config.json');
+      // Cargar configuración
+      this.config = await this.loadFile('./model_config.json');
       this.max_length = this.config.max_length;
       this.vocab_size = this.config.vocab_size;
+      this.memorySize = this.config.memory_size || 10;
 
+      console.log('Cargando datos de tópicos...');
+      this.topicData = await this.loadFile('./topic_data.json');
+      const topicStatus = await this.verifyTopicData();
+      console.log('Estado de carga de tópicos:', topicStatus);
+
+      // Cargar tokenizer
       console.log('Cargando tokenizer...');
-      const tokenizerData = await this.loadFile('/tokenizer.json');
-
-      // Verificar y acceder correctamente a la propiedad 'config' en tokenizerData
-      console.log("Tokenizer data loaded:", tokenizerData);
+      const tokenizerData = await this.loadFile('./tokenizer.json');
 
       if (tokenizerData && tokenizerData.config) {
-        // Acceder a los datos del tokenizer desde la propiedad config
         const tokenizerConfig = tokenizerData.config;
-
-        // Parsear los datos JSON si son cadenas
         this.tokenizer.word_index = JSON.parse(tokenizerConfig.word_index);
         this.tokenizer.index_word = JSON.parse(tokenizerConfig.index_word);
         this.tokenizer.word_counts = JSON.parse(tokenizerConfig.word_counts);
         this.tokenizer.index_docs = JSON.parse(tokenizerConfig.index_docs);
         this.tokenizer.word_docs = JSON.parse(tokenizerConfig.word_docs);
       } else {
-        console.error('Tokenizer data is invalid or missing. Expected structure: { word_index: {...}, index_word: {...}, ... }');
         throw new Error('Tokenizer data is invalid or missing.');
       }
 
-      // Verificar si <OOV> existe en word_index
       if (!this.tokenizer.word_index['<OOV>']) {
         this.tokenizer.word_index['<OOV>'] = 1;
       }
@@ -193,19 +280,22 @@ class ModelService {
           return acc;
         }, {});
 
-      console.log('Tokenizer procesado:', {
-        vocabularySize: Object.keys(this.tokenizer.word_index).length,
-        sampleWords: Object.keys(this.tokenizer.word_index).slice(0, 5)
-      });
-
+      // Cargar modelo
       console.log('Cargando modelo...');
-      const modelJson = await this.loadFile('/tfjs_model/model.json');
+      const modelJson = await this.loadFile('./tfjs_model/model.json');
 
+      // Asegurarse de que la topología del modelo tenga la configuración correcta
       if (!modelJson.modelTopology.config) {
         modelJson.modelTopology.config = {};
       }
 
-      modelJson.modelTopology.config.layers = [{
+      // Corregir la configuración de la capa de entrada
+      if (!modelJson.modelTopology.config.layers) {
+        modelJson.modelTopology.config.layers = [];
+      }
+
+      // Asegurar que la primera capa sea una capa de entrada correctamente configurada
+      const inputLayer = {
         class_name: "InputLayer",
         config: {
           batch_input_shape: [null, this.max_length],
@@ -214,19 +304,38 @@ class ModelService {
           ragged: false,
           name: "input_1"
         }
-      }, ...modelJson.modelTopology.config.layers.slice(1)];
+      };
 
-      this.model = await tf.loadLayersModel(
-        tf.io.fromMemory(modelJson),
-        {
-          strict: false,
-          customObjects: {},
-          metrics: ['accuracy']
-        }
-      );
+      // Si no hay capa de entrada, agregarla al principio
+      if (modelJson.modelTopology.config.layers[0]?.class_name !== "InputLayer") {
+        modelJson.modelTopology.config.layers.unshift(inputLayer);
+      } else {
+        // Si existe, actualizar su configuración
+        modelJson.modelTopology.config.layers[0] = inputLayer;
+      }
 
+      // Verificar y ajustar la siguiente capa (Embedding)
+      if (modelJson.modelTopology.config.layers[1]?.class_name === "Embedding") {
+        modelJson.modelTopology.config.layers[1].config.input_dim = this.vocab_size;
+        modelJson.modelTopology.config.layers[1].config.output_dim = 64; // embedding_dim
+        modelJson.modelTopology.config.layers[1].config.input_length = this.max_length;
+      }
+
+      try {
+        this.model = await tf.loadLayersModel(
+          tf.io.fromMemory(modelJson),
+          {
+            strict: false
+          }
+        );
+      } catch (modelError) {
+        console.error('Error loading model:', modelError);
+        throw new Error(`Failed to load model: ${modelError.message}`);
+      }
+
+      // Cargar respuestas
       console.log('Cargando respuestas...');
-      this.responses = await this.loadFile('/responses.json');
+      this.responses = await this.loadFile('./responses.json');
 
       this.initialized = true;
       console.log('Modelo inicializado correctamente');
@@ -237,7 +346,6 @@ class ModelService {
       throw error;
     }
   }
-
 
   async processMessage(text) {
     try {
@@ -250,24 +358,27 @@ class ModelService {
         throw new Error('Empty text after preprocessing');
       }
   
-      const words = processed_text.split(/\s+/).filter(word => word.length > 0);
-      const sequence = this.texts_to_sequences(processed_text);
+      // Análisis de tópicos mejorado
+      const keywords = this.extractKeywords(processed_text);
+      const currentTopic = this.identifyTopic(processed_text, keywords);
       
+      if (this.debugMode) {
+        console.log('Topic analysis:', {
+          text: processed_text,
+          keywords: keywords,
+          identifiedTopic: currentTopic
+        });
+      }
+  
+      const sequence = this.texts_to_sequences(processed_text);
       if (sequence.length === 0) {
         throw new Error('No valid tokens found in input text');
       }
   
-      console.log('Processing details:', {
-        originalText: text,
-        processedText: processed_text,
-        tokenSequence: sequence,
-        vocabularySize: Object.keys(this.tokenizer.word_index).length
-      });
-  
       const padded = this.pad_sequences(sequence);
       const tensorInput = tf.tensor2d([padded], [1, this.max_length]);
   
-      // Making the prediction
+      // Predicción con ajuste de tópicos
       const prediction = await tf.tidy(() => {
         const pred = this.model.predict(tensorInput);
         return pred.arraySync()[0];
@@ -275,24 +386,62 @@ class ModelService {
   
       tensorInput.dispose();
   
-      // Determine the predicted class and its confidence
-      const predictedClass = prediction.indexOf(Math.max(...prediction));
-      const confidence = prediction[predictedClass];
+      // Procesamiento de predicción con tópicos
+      let predictedClass = prediction.indexOf(Math.max(...prediction));
+      let confidence = prediction[predictedClass];
+      
+      // Ajuste de confianza basado en tópicos
+      if (currentTopic && this.topicData.topics[currentTopic]) {
+        const topicLabels = this.topicData.topics[currentTopic].labels;
+        
+        // Buscar la mejor predicción que coincida con el tópico
+        const topicAdjustedPredictions = prediction.map((conf, idx) => {
+          if (topicLabels.includes(String(idx))) {
+            return conf + this.topicBoostFactor;
+          }
+          return conf;
+        });
+
+        const newPredictedClass = topicAdjustedPredictions.indexOf(Math.max(...topicAdjustedPredictions));
+        const newConfidence = topicAdjustedPredictions[newPredictedClass];
+
+        if (this.debugMode) {
+          console.log('Topic adjustment:', {
+            originalClass: predictedClass,
+            originalConfidence: confidence,
+            adjustedClass: newPredictedClass,
+            adjustedConfidence: newConfidence,
+            topicLabels: topicLabels
+          });
+        }
+
+        predictedClass = newPredictedClass;
+        confidence = newConfidence;
+      }
   
-      // Check for greetings in the input
-      const greetingWords = new Set(['hola', 'saludos', 'buenos', 'buenas', 'hey']);
-      const isGreeting = words.some(word => greetingWords.has(word));
-  
+      // Seleccionar respuesta
       let responseText;
-      if (isGreeting) {
-        responseText = "¡Hola! ¿En qué puedo ayudarte?";
-      } else if (confidence > this.confidenceThreshold && this.responses && this.responses[predictedClass]) {
-        // Select a random response from possible responses
+      if (confidence > this.confidenceThreshold && this.responses[predictedClass]) {
         const possibleResponses = this.responses[predictedClass];
         responseText = possibleResponses[Math.floor(Math.random() * possibleResponses.length)];
       } else {
-        // Default fallback response if confidence is below threshold
         responseText = "Lo siento, no estoy seguro de cómo responder a eso. ¿Podrías dar más detalles?";
+      }
+  
+      // Actualizar historial
+      const conversationEntry = {
+        input: text,
+        processed_text: processed_text,
+        topic: currentTopic,
+        keywords: keywords,
+        response: responseText,
+        confidence: confidence,
+        timestamp: new Date().toISOString()
+      };
+  
+      this.conversationHistory.push(conversationEntry);
+      if (this.conversationHistory.length > this.memorySize) {
+        this.conversationHistory.shift();
       }
   
       return {
@@ -301,13 +450,13 @@ class ModelService {
         text: responseText,
         contextAnalysis: {
           processed_text: processed_text,
+          topic: currentTopic,
+          keywords: keywords,
           sequence_length: sequence.length,
           confidence_score: confidence,
           input_tokens: sequence,
-          vocabulary_hits: words.filter(word => this.tokenizer.word_index[word] !== undefined).length,
-          is_greeting: isGreeting,
-          words: words,
-          threshold_used: isGreeting ? this.greetingThreshold : this.confidenceThreshold
+          conversation_history: this.conversationHistory,
+          topic_adjusted: currentTopic !== null
         }
       };
     } catch (error) {
@@ -315,7 +464,6 @@ class ModelService {
       throw new Error(`Error processing message: ${error.message}`);
     }
   }
-  
 }
 
 export default new ModelService();
