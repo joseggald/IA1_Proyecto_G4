@@ -3,40 +3,66 @@ import numpy as np
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense, Embedding, LSTM, Bidirectional, Dropout
+from tensorflow.keras.layers import Dense, Embedding, GlobalMaxPooling1D, Dropout, Conv1D
 import tensorflow as tf
 from collections import deque
 import random
 from sklearn.model_selection import train_test_split
 from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
 import os
+from tensorflow.keras.regularizers import l2
+from nltk.tokenize import word_tokenize
+import nltk
+import re
 
-class EnhancedConversationalChatbot:
+class TopicAwareChatbot:
     def __init__(self):
+        # Parámetros del modelo
         self.vocab_size = 2000
         self.max_length = 20
-        self.embedding_dim = 64
-        self.memory_size = 5
+        self.embedding_dim = 128
+        self.memory_size = 10
 
+        # Rutas de archivos
         self.model_dir = 'saved_model'
         self.keras_model_path = os.path.join('model', 'chatbot_model.h5')
         self.tokenizer_path = os.path.join('public', 'tokenizer.json')
-        self.responses_path = 'response.json'  # Añadir path de respuestas
+        self.responses_path = 'response.json'
+        self.topic_data_path = os.path.join('public', 'topic_data.json')
         
-        # Inicialización
+        # Inicialización de componentes
         self.tokenizer = Tokenizer(num_words=self.vocab_size, oov_token="<OOV>")
         self.model = None
         self.responses = None
+        self.topic_data = self.initialize_topic_data()
         self.conversation_history = deque(maxlen=self.memory_size)
 
         # Parámetros de entrenamiento
-        self.batch_size = 16
-        self.epochs = 50
-        self.validation_split = 0.2
+        self.batch_size = 32
+        self.epochs = 150
+        self.validation_split = 0.15
         
-        # Cargar respuestas al inicializar
+        # Inicializar NLTK
+        try:
+            nltk.data.find('tokenizers/punkt')
+        except LookupError:
+            nltk.download('punkt')
+        
+        # Cargar datos
         self.load_responses()
-        
+
+    def initialize_topic_data(self):
+        """Inicializa o carga los datos de tópicos"""
+        try:
+            with open(self.topic_data_path, 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except FileNotFoundError:
+            return {
+                'topics': {},
+                'keywords': {},
+                'relations': {}
+            }
+
     def load_responses(self):
         """Carga el archivo de respuestas"""
         try:
@@ -48,82 +74,63 @@ class EnhancedConversationalChatbot:
             self.responses = {}
 
     def save_model(self):
-        """Guarda el modelo y el tokenizer"""
+        """Guarda el modelo y datos relacionados"""
         try:
-            # Crear directorios si no existen
+            # Crear directorios
             os.makedirs(os.path.dirname(self.keras_model_path), exist_ok=True)
             os.makedirs(os.path.dirname(self.tokenizer_path), exist_ok=True)
 
-            # 1. Guardar modelo en formato H5
-            print("Guardando modelo en formato H5...")
-            self.model.save(self.keras_model_path, save_format='h5')
-            print(f"Modelo guardado en: {self.keras_model_path}")
+            # Guardar modelo
+            print("Guardando modelo...")
+            self.model.save(self.keras_model_path)
             
-            # 2. Guardar tokenizer
+            # Guardar tokenizer
             print("Guardando tokenizer...")
             tokenizer_json = self.tokenizer.to_json()
             with open(self.tokenizer_path, 'w', encoding='utf-8') as f:
                 f.write(tokenizer_json)
-            print(f"Tokenizer guardado en: {self.tokenizer_path}")
             
-            # 3. Guardar configuración del modelo para referencia
-            model_config = {
-                'vocab_size': self.vocab_size,
-                'max_length': self.max_length,
-                'embedding_dim': self.embedding_dim
-            }
-            config_path = os.path.join('public', 'model_config.json')
-            with open(config_path, 'w', encoding='utf-8') as f:
-                json.dump(model_config, f, indent=2)
-            print(f"Configuración guardada en: {config_path}")
+            # Guardar topic data
+            print("Guardando datos de tópicos...")
+            with open(self.topic_data_path, 'w', encoding='utf-8') as f:
+                json.dump(self.topic_data, f, indent=2)
             
             return True
-            
         except Exception as e:
-            print(f"Error al guardar el modelo: {str(e)}")
+            print(f"Error al guardar: {str(e)}")
             return False
-            
+
     def load_model(self):
-        """Carga el modelo y el tokenizer guardados"""
+        """Carga el modelo y datos relacionados"""
         try:
             if os.path.exists(self.keras_model_path) and os.path.exists(self.tokenizer_path):
-                print("Cargando modelo guardado...")
                 # Cargar modelo
                 self.model = tf.keras.models.load_model(self.keras_model_path)
                 
-                print("Cargando tokenizer...")
                 # Cargar tokenizer
                 with open(self.tokenizer_path, 'r', encoding='utf-8') as f:
                     tokenizer_json = f.read()
                     self.tokenizer = tf.keras.preprocessing.text.tokenizer_from_json(tokenizer_json)
                 
-                # Asegurar que las respuestas estén cargadas
-                if self.responses is None:
-                    self.load_responses()
-                
-                print("Modelo y tokenizer cargados exitosamente!")
+                print("Modelo y datos cargados exitosamente")
                 return True
             return False
         except Exception as e:
             print(f"Error al cargar el modelo: {str(e)}")
             return False
 
-    def build_enhanced_model(self, num_classes):
-        """Construye un modelo más simple pero efectivo"""
+    def build_model(self, num_classes):
+        """Modelo más simple y efectivo"""
         model = Sequential([
-            Embedding(self.vocab_size, self.embedding_dim, input_length=self.max_length),
-            Bidirectional(LSTM(32, return_sequences=True)),
-            Dropout(0.2),
-            Bidirectional(LSTM(16)),
-            Dropout(0.2),
+            Embedding(self.vocab_size, 64, input_length=self.max_length),
+            Conv1D(64, 3, activation='relu'),
+            GlobalMaxPooling1D(),
             Dense(32, activation='relu'),
-            Dropout(0.2),
+            Dropout(0.5),
             Dense(num_classes, activation='softmax')
         ])
         
-        # Optimizador con learning rate más bajo
         optimizer = tf.keras.optimizers.Adam(learning_rate=0.001)
-        
         model.compile(
             optimizer=optimizer,
             loss='categorical_crossentropy',
@@ -132,87 +139,141 @@ class EnhancedConversationalChatbot:
         
         return model
 
+    def extract_keywords(self, text):
+        """Extrae palabras clave del texto"""
+        words = word_tokenize(text.lower())
+        keywords = [w for w in words if len(w) > 2 and not w.isdigit()]
+        return keywords
+
+    def identify_topic(self, text, keywords):
+        """Identifica el tópico del texto"""
+        if not self.topic_data['topics']:
+            return None
+
+        topic_scores = {}
+        for topic, data in self.topic_data['topics'].items():
+            score = 0
+            # Coincidencia de keywords
+            if 'keywords' in data:
+                matches = set(keywords) & set(data['keywords'])
+                score += len(matches) * 2
+
+            # Contexto de conversación
+            if self.conversation_history:
+                last_topic = self.conversation_history[-1].get('topic')
+                if last_topic == topic:
+                    score += 1
+                elif topic in self.topic_data['relations'].get(last_topic, []):
+                    score += 0.5
+
+            topic_scores[topic] = score
+
+        best_topic = max(topic_scores.items(), key=lambda x: x[1])
+        return best_topic[0] if best_topic[1] > 0 else None
+
     def preprocess_text(self, text):
-        """Preprocesamiento mejorado"""
+        """Preprocesa el texto de entrada"""
         # Normalización básica
         text = text.lower().strip()
         
         # Normalizar caracteres especiales
-        text = text.replace('á', 'a').replace('é', 'e').replace('í', 'i').replace('ó', 'o').replace('ú', 'u')
+        chars_to_replace = {
+            'á': 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ú': 'u',
+            'ü': 'u', 'ñ': 'n', '¿': '', '¡': ''
+        }
+        for old, new in chars_to_replace.items():
+            text = text.replace(old, new)
         
-        # Eliminar puntuación excepto signos de pregunta
-        text = ''.join([char for char in text if char.isalnum() or char.isspace() or char in '¿?'])
+        # Limpieza de texto
+        text = ' '.join(text.split())
         
-        return text
+        # Extraer información adicional
+        keywords = self.extract_keywords(text)
+        topic = self.identify_topic(text, keywords)
+        
+        return {
+            'processed_text': text,
+            'keywords': keywords,
+            'topic': topic
+        }
 
-    def train_enhanced_model(self):
-        """Entrena el modelo con mejor manejo de datos"""
-        print("Cargando y preparando datos...")
+    def train_model(self):
+        """Entrena el modelo del chatbot"""
+        print("Cargando datos de entrenamiento...")
         
         # Cargar datos
         with open('data.json', 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        with open('response.json', 'r', encoding='utf-8') as f:
-            self.responses = json.load(f)
+            training_data = json.load(f)
         
-        # Preparar datos
-        texts = [self.preprocess_text(item['input']) for item in data]
-        labels = [item['label'] for item in data]
-        
-        # Verificar distribución de clases
-        unique_labels = np.unique(labels)
-        num_classes = len(unique_labels)
-        print(f"\nNúmero de clases: {num_classes}")
-        for label in unique_labels:
-            count = labels.count(label)
-            print(f"Clase {label}: {count} ejemplos")
+        # Procesar datos
+        processed_data = []
+        for item in training_data:
+            proc_result = self.preprocess_text(item['input'])
+            processed_data.append({
+                'text': proc_result['processed_text'],
+                'label': item['label'],
+                'topic': proc_result['topic'],
+                'keywords': proc_result['keywords']
+            })
+
+        # Actualizar topic_data
+        for item in processed_data:
+            if item['topic'] and item['label']:
+                topic = item['topic']
+                if topic not in self.topic_data['topics']:
+                    self.topic_data['topics'][topic] = {
+                        'keywords': [],
+                        'labels': set()
+                    }
+                self.topic_data['topics'][topic]['labels'].add(item['label'])
+                self.topic_data['topics'][topic]['keywords'].extend(item['keywords'])
+
+        # Preparar datos para entrenamiento
+        texts = [item['text'] for item in processed_data]
+        labels = [item['label'] for item in processed_data]
         
         # Tokenización
-        print("\nRealizando tokenización...")
+        print("Realizando tokenización...")
         self.tokenizer.fit_on_texts(texts)
         sequences = self.tokenizer.texts_to_sequences(texts)
-        padded = pad_sequences(sequences, maxlen=self.max_length, padding='post', truncating='post')
+        padded = pad_sequences(sequences, maxlen=self.max_length, padding='post')
         
-        # Convertir etiquetas
+        # Preparar labels
+        unique_labels = np.unique(labels)
+        num_classes = len(unique_labels)
         categorical_labels = tf.keras.utils.to_categorical(labels, num_classes=num_classes)
         
         # Split de datos
         X_train, X_val, y_train, y_val = train_test_split(
-            padded, categorical_labels, 
-            test_size=self.validation_split, 
+            padded, categorical_labels,
+            test_size=self.validation_split,
             random_state=42,
-            stratify=labels  # Asegura distribución balanceada
+            stratify=labels
         )
         
-        print(f"\nDatos de entrenamiento: {X_train.shape[0]} ejemplos")
-        print(f"Datos de validación: {X_val.shape[0]} ejemplos")
-        
-        # Callbacks para mejor entrenamiento
+        # Callbacks
         callbacks = [
             EarlyStopping(
-                monitor='val_accuracy',
-                patience=10,
+                monitor='val_loss',
+                patience=20,
                 restore_best_weights=True,
                 verbose=1
             ),
             ReduceLROnPlateau(
                 monitor='val_loss',
-                factor=0.5,
+                factor=0.2,
                 patience=5,
-                verbose=1,
-                min_lr=0.0001
+                min_lr=0.00001,
+                verbose=1
             )
         ]
         
-        # Construir modelo
-        print("\nConstruyendo modelo...")
-        self.model = self.build_enhanced_model(num_classes)
+        print("Construyendo modelo...")
+        self.model = self.build_model(num_classes)
         
-        # Entrenar modelo
-        print("\nIniciando entrenamiento...")
+        print("Iniciando entrenamiento...")
         history = self.model.fit(
-            X_train,
-            y_train,
+            X_train, y_train,
             validation_data=(X_val, y_val),
             epochs=self.epochs,
             batch_size=self.batch_size,
@@ -220,23 +281,18 @@ class EnhancedConversationalChatbot:
             verbose=1
         )
         
-        # Evaluar modelo
-        print("\nEvaluando modelo...")
-        test_loss, test_accuracy = self.model.evaluate(X_val, y_val, verbose=0)
-        print(f"\nPrecisión final en validación: {test_accuracy:.4f}")
-        print(f"Pérdida final en validación: {test_loss:.4f}")
-        print("\nGuardando modelo y tokenizer...")
-        if self.save_model():
-            print("¡Guardado completado exitosamente!")
-        else:
-            print("Hubo problemas al guardar el modelo.")
+        # Guardar modelo y datos
+        print("Guardando modelo y datos...")
+        self.save_model()
         
         return history
 
     def get_response(self, text):
-        """Genera una respuesta usando el modelo entrenado"""
-        # Preprocesar entrada
-        processed_text = self.preprocess_text(text)
+        """Genera una respuesta para el texto de entrada"""
+        # Preprocesar texto
+        proc_result = self.preprocess_text(text)
+        processed_text = proc_result['processed_text']
+        current_topic = proc_result['topic']
         
         # Convertir a secuencia
         sequence = self.tokenizer.texts_to_sequences([processed_text])
@@ -244,48 +300,65 @@ class EnhancedConversationalChatbot:
         
         # Predicción
         prediction = self.model.predict(padded, verbose=0)[0]
-        predicted_class = np.argmax(prediction)
-        confidence = float(prediction[predicted_class])
+        top_3_classes = np.argsort(prediction)[-3:][::-1]
         
-        # Obtener respuesta
-        if str(predicted_class) in self.responses:
-            response = random.choice(self.responses[str(predicted_class)])
-        else:
-            response = "Lo siento, no estoy seguro de cómo responder a eso."
-            confidence = 0.0
+        # Seleccionar mejor respuesta
+        best_response = None
+        best_confidence = 0
+        
+        for pred_class in top_3_classes:
+            confidence = float(prediction[pred_class])
+            
+            if str(pred_class) in self.responses:
+                # Ajustar confianza basada en tópico
+                if current_topic:
+                    topic_labels = self.topic_data['topics'].get(current_topic, {}).get('labels', set())
+                    if str(pred_class) in topic_labels:
+                        confidence += 0.2
+                
+                if confidence > best_confidence:
+                    best_confidence = confidence
+                    best_response = random.choice(self.responses[str(pred_class)])
+        
+        if not best_response:
+            best_response = "Lo siento, no estoy seguro de cómo responder a eso."
+            best_confidence = 0.0
         
         # Actualizar historial
         self.conversation_history.append({
             'input': text,
-            'response': response,
-            'confidence': confidence
+            'processed_text': processed_text,
+            'topic': current_topic,
+            'keywords': proc_result['keywords'],
+            'response': best_response,
+            'confidence': best_confidence
         })
         
-        return response, confidence
+        return best_response, best_confidence
 
 def main():
-    print("Iniciando chatbot conversacional mejorado...")
-    bot = EnhancedConversationalChatbot()
+    """Función principal para ejecutar el chatbot"""
+    print("Iniciando chatbot...")
+    chatbot = TopicAwareChatbot()
     
-    # Intentar cargar modelo existente
-    if bot.load_model():
-        print("\nModelo cargado exitosamente!")
+    # Cargar o entrenar modelo
+    if chatbot.load_model():
+        print("Modelo cargado exitosamente")
     else:
-        print("\nEntrenando nuevo modelo...")
-        history = bot.train_enhanced_model()
+        print("Entrenando nuevo modelo...")
+        chatbot.train_model()
     
-    print("\n¡Listo para chatear! (escribe 'salir' para terminar)\n")
+    print("\nListo para chatear! (escribe 'salir' para terminar)")
     
     while True:
-        text = input("Tú: ")
+        text = input("\nTú: ")
         
         if text.lower() == 'salir':
             break
             
-        response, confidence = bot.get_response(text)
+        response, confidence = chatbot.get_response(text)
         print(f"Bot: {response}")
-        print(f"(confianza: {confidence:.2f})")
-        print()
+        print(f"(Confianza: {confidence:.2f})")
 
 if __name__ == "__main__":
     main()

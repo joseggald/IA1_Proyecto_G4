@@ -1,0 +1,73 @@
+{
+  "topics": {
+    "saludos": {
+      "keywords": [
+        "hola",
+        "hey",
+        "buenos",
+        "dias",
+        "tardes",
+        "noches",
+        "saludos",
+        "hi",
+        "que tal"
+      ],
+      "labels": ["0"],
+      "subtopics": ["estado"]
+    },
+    "estado": {
+      "keywords": [
+        "como",
+        "estas",
+        "que tal",
+        "todo bien",
+        "como va",
+        "que hay",
+        "que cuentas",
+        "como te va"
+      ],
+      "labels": ["1", "2"],
+      "subtopics": []
+    },
+    "despedida": {
+      "keywords": [
+        "adios",
+        "bye",
+        "hasta",
+        "luego",
+        "pronto",
+        "nos vemos",
+        "chao",
+        "me voy"
+      ],
+      "labels": ["3"],
+      "subtopics": []
+    },
+    "agradecimiento": {
+      "keywords": [
+        "gracias",
+        "thanks",
+        "agradezco",
+        "amable",
+        "aprecio"
+      ],
+      "labels": ["4"],
+      "subtopics": []
+    }
+  },
+  "relations": {
+    "saludos": ["estado", "despedida"],
+    "estado": ["saludos", "despedida", "agradecimiento"],
+    "despedida": ["agradecimiento"],
+    "agradecimiento": ["despedida"]
+  },
+  "keywords": {
+    "global": [
+      "por favor",
+      "ok",
+      "si",
+      "no",
+      "bien"
+    ]
+  }
+}
