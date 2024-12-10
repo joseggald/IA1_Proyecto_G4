@@ -122,5 +122,83 @@
     "te recomiendo hacer una pasta al ajo",
     "un sandwich de atun es una comida sencilla de preparar",
     "si buscas algo dulce podria recomendarte hacer brownies"
-  ]
+  ],
+
+  "16": [
+    "SQL es un lenguaje para gestionar bases de datos.",
+    "Lenguaje para consultar y manipular datos en tablas.",
+    "SQL organiza, consulta y modifica datos en bases relacionales.",
+    "Structured Query Language, usado para gestionar datos.",
+    "Un estándar para interactuar con bases de datos relacionales.",
+    "SQL facilita operaciones sobre datos almacenados en tablas."
+
+  ],
+
+  "17": [
+    "Bases relacionales y no relacionales son los principales tipos.",
+    "Relacionales, no relacionales, jerárquicas y orientadas a objetos.",
+    "Bases relacionales almacenan datos en tablas estructuradas.",
+    "No relacionales como MongoDB manejan datos no estructurados.",
+    "Relacionales incluyen MySQL, PostgreSQL, SQL Server y Oracle.",
+    "NoSQL incluye MongoDB, Cassandra, CouchDB y Redis.",
+    "Bases híbridas combinan características relacionales y no relacionales."
+  ],
+
+  "18": [
+    "Una tabla almacena datos organizados en filas y columnas.",
+    "Tablas son estructuras principales en bases de datos relacionales.",
+    "Una tabla organiza datos en filas y columnas relacionadas.",
+    "Tablas relacionales representan entidades con datos estructurados.",
+    "SQL usa tablas para almacenar información en formato estructurado."
+
+  ],
+
+  "19": [
+    "SELECT es un comando para consultar datos en bases SQL.",
+    "SELECT recupera datos específicos de una tabla en bases de datos.",
+    "SELECT permite obtener información almacenada en bases relacionales.",
+    "Un comando básico para extraer datos de tablas en SQL.",
+    "SELECT es usado para realizar consultas en bases de datos."
+
+	],
+
+	"20": [
+    "WHERE se usa para filtrar datos según condiciones en consultas SQL.",
+    "WHERE permite seleccionar filas específicas que cumplen criterios establecidos.",
+    "Un filtro SQL que aplica condiciones a consultas para seleccionar datos.",
+    "WHERE filtra registros en tablas según condiciones específicas.",
+    "Usa WHERE para extraer datos que cumplan criterios en SQL."
+	],
+
+  "21": [
+    "Soy un chatbot creado con el modelo LSTM usando TensorFlow, Python y JavaScript. Puedo ayudarte con conceptos básicos de SQL y programación.",
+    "Soy un asistente virtual desarrollado bajo LSTM, utilizando TensorFlow, Python y JavaScript. Estoy aquí para apoyarte con SQL y programación básica.",
+    "Soy un chatbot basado en LSTM, desarrollado con TensorFlow, Python y JavaScript. Mi propósito es ayudarte con SQL y temas básicos de programación.",
+    "Desarrollado con LSTM, TensorFlow, Python y JavaScript, soy un chatbot que puede explicarte conceptos de SQL y programación desde lo básico.",
+    "Soy un chatbot construido con el modelo LSTM mediante TensorFlow, Python y JavaScript. Te asisto en aprender SQL y programación básica."
+    ],
+
+  "22": [
+    "INSERT agrega nuevos registros a una tabla en SQL.",
+    "Comando SQL usado para insertar datos en tablas específicas.",
+    "INSERT añade filas con información a tablas de bases relacionales.",
+    "Sirve para incluir nuevos datos en una base de datos SQL.",
+    "INSERT permite insertar registros cumpliendo con la estructura de la tabla."
+    ],
+
+    "23": [
+    "UPDATE es un comando SQL usado para modificar datos existentes en una tabla.",
+    "Permite actualizar valores específicos en registros de una base de datos.",
+    "UPDATE modifica datos en tablas basándose en condiciones establecidas.",
+    "Comando SQL utilizado para cambiar valores de una o más filas.",
+    "UPDATE actualiza información existente en tablas de bases relacionales."
+    ],
+
+    "24": [
+    "DELETE es un comando SQL usado para eliminar datos de una tabla.",
+    "Comando utilizado para borrar registros específicos de tablas en bases de datos.",
+    "DELETE elimina filas completas de una tabla según las condiciones definidas.",
+    "Sirve para remover datos de una base relacional de manera controlada.",
+    "Comando esencial para eliminar registros en SQL usando filtros opcionales."
+    ]
 }

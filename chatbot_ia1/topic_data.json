@@ -190,13 +190,66 @@
       ],
       "labels":["15"],
       "subtopics":[]
+    },
+    "sql": {
+      "keywords": ["SQL", "bases de datos", "datos", "que es sql"],
+      "labels": ["16"],
+      "subtopics": []
+    },
+    "tipos": {
+      "keywords": ["tipos de", "bases de datos", "relacionales", "no relacionales", "modelos"],
+      "labels": ["17"],
+      "subtopics": []
+    },
+    
+    "tabla": {
+      "keywords": ["tabla", "tablas", "table", "que es una tabla"],
+      "labels": ["18"],
+      "subtopics": []
+    },
+    "select": {
+      "keywords": ["SELECT", "consulta", "consultas", "comando", "datos", "seleccionar", "filtrar"],
+      "labels": ["19"],
+      "subtopics": []
+    },
+    "where": {
+      "keywords": ["WHERE", "filtro", "filtros", "condición", "condiciones", "SQL", "consulta", "datos", "tablas", "filtrar"],
+      "labels": ["20"],
+      "subtopics": []
+    },
+    "existencial": {
+      "keywords": ["eres", "haces", "ayudar", "proposito"],
+      "labels": ["21"],
+      "subtopics": []
+    },
+    "insert": {
+      "keywords": ["insert", "insertar", "agregar"],
+      "labels": ["22"],
+      "subtopics": []
+    },
+    "update": {
+      "keywords": ["update", "actualizar", "modificar"],
+      "labels": ["23"],
+      "subtopics": []
+    },
+    "delete": {
+      "keywords": ["delete", "eliminar", "borrar"],
+      "labels": ["24"],
+      "subtopics": []
     }
   },
   "relations": {
     "saludos": ["estado", "despedida"],
     "estado": ["saludos", "despedida", "agradecimiento"],
     "despedida": ["agradecimiento"],
-    "agradecimiento": ["despedida"]
+    "agradecimiento": ["despedida"],
+    "sql": ["tipos", "tabla", "select", "where"],
+    "tipos": ["sql", "tabla"],
+    "tabla": ["tipos", "sql", "select", "where"],
+    "select": ["tabla", "where", "sql", "delete", "update"],
+    "where": ["select", "tabla", "sql", "delete", "update"],
+    "delete": ["select", "tabla", "sql","delete", "update"],
+    "update": ["select", "tabla", "sql","delete", "update"]
   },
   "keywords": {
     "global": [
