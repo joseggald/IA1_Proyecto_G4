@@ -52,5 +52,62 @@
   { "input": "Aprecio tu ayuda", "label": 4 },
   { "input": "Thanks", "label": 4 },
   { "input": "Gracias por tu tiempo", "label": 4 },
-  { "input": "Se agradece", "label": 4 }
+  { "input": "Se agradece", "label": 4 },
+
+  {"input": "que es la programacion", "label":5},
+  {"input": "define programacion en terminos de creacion de software", "label": 5},
+  {"input": "describe la programacion en terminos tecnicos","label":5},
+  {"input": "como se relaciona la programacion con el hardware","label":5},
+
+  {"input": "que es una variable","label":6},
+  {"input": "que hace una variable", "label":6},
+  {"input": "el valor de una variable puede cambiar","label":6},
+  {"input": "para que se utiliza una variable","label":6},
+
+  {"input":"que es un condicional if","label":7},
+  {"input":"que tipo de instruccion es un if","label":7},
+  {"input":"que hacen los condicionales","label":7},
+  {"input":"Los if toman desiciones","label":7},
+
+  {"input":"que es un ciclo en programacion","label":8},
+  {"input":"en que ayudan los ciclos en una aplicacion","label":8},
+  {"input":"que importancia tienen los ciclos en un programa","label":8},
+  {"input":"que condiciones debe cumplir un ciclo para ejecutarse","label":8},
+
+  {"input": "que es una funcion","label":9},
+  {"input": "un metodo devuelve un valor","label":9},
+  {"input": "que diferencia hay entre una funcion y un metodo","label":9},
+  {"input": "que importancia tienen las funciones y metodos","label":9},
+
+  {"input": "define oop","label":10},
+  {"input": "cuales son las caracteristicas del oop","label":10},
+  {"input": "es recomendable usar oop","label":10},
+  {"input": "que tan popular es oop","label":10},
+
+  {"input": "que genero de peliculas es el mas popular","label":11},
+  {"input": "cual es el costo promedio para hacer una pelicula","label":11},
+  {"input": "que pelicula de accion me recomendarias","label":11},
+  {"input": "Cuál es la película más popular de este año","label":11},
+
+  {"input": "cuentame un chiste","label":12},
+  {"input": "Dime un chiste","label":12},
+  {"input": "tienes algun chiste bueno","label":12},
+  {"input": "Di algo gracioso", "label":12},
+
+  {"input": "me recomiendas alguna actividad para hacer hoy", "label": 13},
+  {"input": "dime alguna actividad que podria realizar", "label": 13},
+  {"input": "que actividades podria realizar hoy", "label": 13},
+  {"input": "como podria hacer mi dia mas divertido", "label":13},
+
+  {"input": "di un dialogo de una pelicula", "label": 14},
+  {"input": "tienes algun dialogo de una pelicula", "label": 14},
+  {"input": "podrias darme un dialogo de una pelicula","label": 14},
+  {"input": "dame una frase de una pelicula","label":14},
+
+  {"input": "que comida podria preparar", "label": 15},
+  {"input": "recomiendame alguna comida", "label": 15},
+  {"input": "dame una comida que pueda preparar","label": 15},
+  {"input": "tengo ganas de comer algo","label":15}
+
+
 ]

@@ -1,3 +1,4 @@
+
 {
   "0": [
     "¡Hola! ¿Cómo estás?",
@@ -33,5 +34,93 @@
     "No hay de qué. ¿Necesitas algo más?",
     "¡Con gusto! Siempre es un placer",
     "¡Para eso estamos! ¿Hay algo más en que pueda ayudarte?"
+  ],
+
+  "5":[
+    "La programación es el proceso de diseñar y escribir instrucciones en un lenguaje comprensible para una computadora",
+    "Programación es el arte y la ciencia de crear software mediante la construcción de algoritmos",
+    "La programacion es el conjunto de tecnicas para traducir problemas del mundo real en soluciones computacionales",
+    "Programar es la disciplina que combina logica, creatividad y conocimientos tecincos para desarrollar aplicaciones",
+    "Programar es la accion de codificar instrucciones logicas estructuradas las cuales permiten al hardware realizar tareas especificas"
+  ],
+
+  "6": [
+    "Una variable es una espacio  en la memoria de una computadora donde se almacenan datos que pueden cambiar dentro de un programa.",
+    "las variables son identificadores asociados a un valor que permite al programa acceder y manipular dicho valor dinámicamente.",
+    "Variable es un nombre simbólico utilizado para representar datos en un programa",
+    "Es un elemento fundamental en programación que actúa como una referencia a un dato",
+    "Una variable es un recurso de programacion que se usa para almacenar informacion"
+  ],
+
+  "7": [
+    "Un condicional es una estructura de control que permite a un programa tomar decisiones dependiendo del resultado de la condicion.",
+    "es un mecanismo lógico que ejecuta diferentes bloques de código dependiendo de la evaluación de una o más expresiones booleanas.",
+    "Los condicionales son una herramienta de programacion que define el flujo de un programa en base a ciertas reglas.",
+    "Un condicional if es una instruccion que evalua una expresion logica y de ser verdadera ejecuta conjunto de instrucciones.",
+    "If es una declaracion condicional que representa una desicion en un programa."
+  ],
+
+  "8": [
+    "Un ciclo es una estructura de control que permite ejecutar un bloque de código repetidamente mientras una condición específica sea verdadera",
+    "Los ciclos son herramientas fundamentales en programación que automatizan la repetición de tareas",
+    "Un ciclo es un mecanismo que facilita la iteración sobre colecciones de datos, rangos de valores o instrucciones predefinidas",
+    "Un ciclo una secuencia repetitiva en un programa, diseñada para iterar un conjunto de instrucciones un número fijo de veces o hasta que una condición se cumpla o deje de cumplirse",
+    "Los ciclos son componentes lógicos que controlan la ejecución repetitiva en un programa"
+  ],
+
+  "9": [
+    "Una funcion es un bloque de código reutilizable que realiza una tarea específica y puede ser invocado desde diferentes partes de un programa.",
+    "Un metodo puede devolver un valor, pero no siempre lo hace.",
+    "La diferencia entre una funcion y un metodo es que una funcion es independiente y un metodo pertenece a un objeto",
+    "Las funciones y métodos son fundamentales en la programación porque permiten estructurar y organizar el código de manera eficiente, clara y reutilizable.",
+    "las funciones y métodos son esenciales para escribir código limpio"
+  ],
+
+  "10": [
+    "OOP es un paradigma de programación que organiza el código en torno a objetos",
+    "La programacion orientada a objetos es una metodología de desarrollo de software basada en principios como encapsulamiento, herencia, polimorfismo y abstracción",
+    "la OOP es recomendable en muchos casos, pero su conveniencia depende del tipo de proyecto y sus requerimientos.",
+    "Las principales caracteristicas de la OOP son encapsulamiento, Asbtraccion, herencia y polimorfismo",
+    "Es uno de los paradigmas de programación más populares y ampliamente utilizados en la industria del software"
+  ],
+
+  "11": [
+    "los géneros de acción, ciencia ficción y comedia son tradicionalmente los más populares",
+    "las películas de bajo presupuesto pueden hacerse por menos de $10 millones, las superproducciones pueden superar fácilmente los $200 millones o más",
+    "Te recomendaría Mad Max: Fury Road (2015), dirigida por George Miller. Es una de las películas de acción más emocionantes y visualmente impresionantes de la última década",
+    "La pelicula mas popular del año 2024 es deadpool y wolverine",
+    "¿que tipo de peliculas te gustan?"
+  ],
+
+  "12": [
+    "¡claro aqui tienes un chiste! Soy un tipo saludable. +¿Te gusta comer bien? -No, pero siempre me saludan",
+    "¿Cómo se despiden los químicos? Ácido un placer.",
+    "Me sacaron del grupo de WhatsApp de paracaidismo. Se ve que no caía bien.",
+    "¿Qué hace un pez en la oficina? Nada.",
+    "¿Quién es el papá del príncipe azul? El Blu-ray"
+  ],
+
+  "13": [
+    "Te puedo recomendar realizar una caminata en algun sendero o parque",
+    "podria recomendarte ver una pelicula en el cine",
+    "Podrias pasar tiempos con familiares o amigos",
+    "Intentar una nueva receta seria una buena recomendacion",
+    "Si quieres una opcion saludable podrias ejercitarte"
+  ],
+
+  "14": [
+    "por que tan serio? -el Joker en Batman: el caballero de la noche",
+    "que la fuerza te acompañe -Star Wars.",
+    "hasta la vista,baby -Terminator en Terminator 2: El dia del juicio",
+    "al infinito y mas alla -buzz lightyear en Toy Story",
+    "estas hablandome? -travis bickle en taxi driver"
+  ],
+
+  "15": [
+    "porque no intentas cocinar unos tacos",
+    "podrias hacer una ensalada cesar",
+    "te recomiendo hacer una pasta al ajo",
+    "un sandwich de atun es una comida sencilla de preparar",
+    "si buscas algo dulce podria recomendarte hacer brownies"
   ]
 }

@@ -53,6 +53,143 @@
       ],
       "labels": ["4"],
       "subtopics": []
+    },
+    "programacion":{
+      "keywords":[
+        "definicion",
+        "programacion",
+        "dame una",
+        "que es",
+        "creacion",
+        "software",
+        "tecnicos",
+        "hardware"
+      ],
+      "labels":["5"],
+      "subtopics":[]
+    },
+    "variables":{
+      "keywords":[
+        "que hace",
+        "variable",
+        "valor",
+        "puede cambiar",
+        "para que",
+        "se utiliza"
+      ],
+      "labels":["6"],
+      "subtopics":[]
+    },
+    "condicionales":{
+      "keywords":[
+        "condicional",
+        "if",
+        "que tipo",
+        "instruccion",
+        "toman",
+        "desiciones"
+      ],
+      "labels":["7"],
+      "subtopics":[]
+    },
+    "ciclos":{
+      "keywords":[
+        "ciclos",
+        "en que",
+        "ayudan",
+        "aplicacion",
+        "tienen",
+        "importancia",
+        "ejecutarse",
+        "cumplir",
+        "condiciones"
+      ],
+      "lables":["8"],
+      "subtopics":[]
+    },
+    "funciones":{
+      "keywords":[
+        "que es una",
+        "funcion",
+        "metodos",
+        "devuelve",
+        "diferencia",
+        "hay entre"
+      ],
+      "labels":["9"],
+      "subtopics":[]
+    },
+    "objetos":{
+      "keywords":[
+        "oop",
+        "orientada",
+        "objetos",
+        "caracteristicas",
+        "cuales son",
+        "que tan",
+        "popular",
+        "recomendable",
+        "caracteristicas"
+      ],
+      "lables":["10"],
+      "subtopics":[]
+    },
+    "peliculas":{
+      "keywords":[
+        "pelicula",
+        "costo",
+        "promedio",
+        "accion",
+        "genero",
+        "año",
+        "cual"
+      ],
+      "labels":["11"],
+      "subtopics":[]
+    },
+    "chistes":{
+      "keywords":[
+        "cuentame",
+        "bueno",
+        "gracioso",
+        "chiste"
+      ],
+      "labels":["12"],
+      "subtopics":[]
+    },
+    "actividades":{
+      "keywords": [
+        "recomiendas",
+        "hacer",
+        "actividad",
+        "hoy",
+        "realizar",
+        "divertido"
+      ],
+      "labels":["13"],
+      "subtopics":[]
+    },
+    "dialogos":{
+      "keywords":[
+        "di",
+        "algun",
+        "dialogo",
+        "pelicula",
+        "frase"
+      ],
+      "labels":["14"],
+      "subtopics":[]
+    },
+    "cocina": {
+      "keywords":[
+        "preparar",
+        "comer",
+        "ganas",
+        "alguna",
+        "comida"
+      ],
+      "labels":["15"],
+      "subtopics":[]
     }
   },
   "relations": {
