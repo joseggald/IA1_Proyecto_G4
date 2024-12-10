@@ -15,6 +15,7 @@ from nltk.tokenize import word_tokenize
 import nltk
 import re
 
+
 class TopicAwareChatbot:
     def __init__(self):
         # Parámetros del modelo
@@ -40,7 +41,7 @@ class TopicAwareChatbot:
         # Parámetros de entrenamiento
         self.batch_size = 32
         self.epochs = 150
-        self.validation_split = 0.15
+        self.validation_split = 0.18
         
         # Inicializar NLTK
         try:
