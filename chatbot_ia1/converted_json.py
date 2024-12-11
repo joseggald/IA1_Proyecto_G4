@@ -133,7 +133,7 @@ def convert_h5_to_json(h5_path, output_dir):
     # Model parameters
     vocab_size = 2000
     sequence_length = 20
-    embedding_dim = 64
+    embedding_dim = 128
     
     # Create model with explicit input shape
     print("\nCreating model with explicit input shape...")
