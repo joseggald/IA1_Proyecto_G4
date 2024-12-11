@@ -2,20 +2,20 @@
   "topics": {
     "saludos": {
       "keywords": [
-        "dias",
-        "¿cómo",
-        "hola,",
-        "hi",
         "saludos",
-        "estás?",
-        "buenas",
-        "buenos",
-        "hey",
-        "que tal",
         "días",
+        "estás?",
+        "hey",
+        "buenos",
+        "que tal",
         "tardes",
+        "hola,",
+        "¿cómo",
+        "hi",
         "hola",
-        "noches"
+        "dias",
+        "noches",
+        "buenas"
       ],
       "labels": [
         "0"
@@ -24,23 +24,23 @@
     },
     "confirmacion": {
       "keywords": [
-        "¿cómo",
-        "día?",
-        "si",
-        "exacto",
-        "por supuesto",
-        "efectivamente",
-        "desde luego",
-        "todo?",
-        "¿qué",
         "correcto",
-        "tal",
         "estás?",
-        "tu",
         "va",
+        "por supuesto",
+        "¿qué",
+        "desde luego",
+        "efectivamente",
+        "todo?",
         "te",
         "encuentras?",
-        "claro"
+        "claro",
+        "si",
+        "tal",
+        "día?",
+        "¿cómo",
+        "exacto",
+        "tu"
       ],
       "labels": [
         "1"
@@ -49,21 +49,21 @@
     },
     "agradecimiento": {
       "keywords": [
+        "bien,",
+        "te agradezco",
+        "bastante",
+        "todo",
+        "bien",
+        "muy",
+        "agradezco",
+        "gracias",
         "muchas gracias",
+        "thank",
         "thanks",
         "¿y",
-        "perfecto",
-        "te agradezco",
-        "thank",
-        "bien,",
-        "bastante",
-        "excelente",
-        "gracias",
         "tú?",
-        "todo",
-        "muy",
-        "bien",
-        "agradezco"
+        "perfecto",
+        "excelente"
       ],
       "labels": [
         "2"
@@ -72,21 +72,21 @@
     },
     "despedida": {
       "keywords": [
-        "hasta pronto",
         "luego",
-        "hasta luego",
-        "voy",
-        "pronto",
         "adiós",
-        "chao",
-        "adios",
         "bye",
-        "hasta",
-        "me",
         "goodbye",
-        "vemos",
+        "hasta",
+        "voy",
+        "nos vemos",
         "nos",
-        "nos vemos"
+        "adios",
+        "chao",
+        "hasta luego",
+        "me",
+        "hasta pronto",
+        "vemos",
+        "pronto"
       ],
       "labels": [
         "3"
@@ -95,22 +95,22 @@
     },
     "cortesia": {
       "keywords": [
-        "por",
-        "por favor",
-        "mil",
         "amable",
-        "tu",
-        "perdón",
-        "gentil",
-        "disculpa",
         "please",
-        "gracias",
+        "perdón",
+        "mil",
+        "muchas",
         "todo",
         "te",
+        "gentil",
         "muy",
-        "lo",
         "agradezco",
-        "muchas"
+        "gracias",
+        "por",
+        "por favor",
+        "disculpa",
+        "lo",
+        "tu"
       ],
       "labels": [
         "4"
@@ -119,85 +119,69 @@
     }
   },
   "keywords": {
-    "dias": [
-      "saludos"
-    ],
-    "¿cómo": [
-      "saludos",
-      "confirmacion"
-    ],
-    "hola,": [
-      "saludos"
-    ],
-    "hi": [
-      "saludos"
-    ],
     "saludos": [
+      "saludos"
+    ],
+    "días": [
       "saludos"
     ],
     "estás?": [
       "saludos",
       "confirmacion"
     ],
-    "buenas": [
+    "hey": [
       "saludos"
     ],
     "buenos": [
       "saludos"
     ],
-    "hey": [
-      "saludos"
-    ],
     "que tal": [
-      "saludos"
-    ],
-    "días": [
       "saludos"
     ],
     "tardes": [
       "saludos"
     ],
+    "hola,": [
+      "saludos"
+    ],
+    "¿cómo": [
+      "saludos",
+      "confirmacion"
+    ],
+    "hi": [
+      "saludos"
+    ],
     "hola": [
+      "saludos"
+    ],
+    "dias": [
       "saludos"
     ],
     "noches": [
       "saludos"
     ],
-    "día?": [
+    "buenas": [
+      "saludos"
+    ],
+    "correcto": [
       "confirmacion"
     ],
-    "si": [
-      "confirmacion"
-    ],
-    "exacto": [
+    "va": [
       "confirmacion"
     ],
     "por supuesto": [
       "confirmacion"
     ],
-    "efectivamente": [
+    "¿qué": [
       "confirmacion"
     ],
     "desde luego": [
       "confirmacion"
     ],
+    "efectivamente": [
+      "confirmacion"
+    ],
     "todo?": [
-      "confirmacion"
-    ],
-    "¿qué": [
-      "confirmacion"
-    ],
-    "correcto": [
-      "confirmacion"
-    ],
-    "tal": [
-      "confirmacion"
-    ],
-    "tu": [
-      "confirmacion",
-      "cortesia"
-    ],
-    "va": [
       "confirmacion"
     ],
     "te": [
@@ -210,7 +194,54 @@
     "claro": [
       "confirmacion"
     ],
+    "si": [
+      "confirmacion"
+    ],
+    "tal": [
+      "confirmacion"
+    ],
+    "día?": [
+      "confirmacion"
+    ],
+    "exacto": [
+      "confirmacion"
+    ],
+    "tu": [
+      "confirmacion",
+      "cortesia"
+    ],
+    "bien,": [
+      "agradecimiento"
+    ],
+    "te agradezco": [
+      "agradecimiento"
+    ],
+    "bastante": [
+      "agradecimiento"
+    ],
+    "todo": [
+      "agradecimiento",
+      "cortesia"
+    ],
+    "bien": [
+      "agradecimiento"
+    ],
+    "muy": [
+      "agradecimiento",
+      "cortesia"
+    ],
+    "agradezco": [
+      "agradecimiento",
+      "cortesia"
+    ],
+    "gracias": [
+      "agradecimiento",
+      "cortesia"
+    ],
     "muchas gracias": [
+      "agradecimiento"
+    ],
+    "thank": [
       "agradecimiento"
     ],
     "thanks": [
@@ -219,90 +250,77 @@
     "¿y": [
       "agradecimiento"
     ],
+    "tú?": [
+      "agradecimiento"
+    ],
     "perfecto": [
-      "agradecimiento"
-    ],
-    "te agradezco": [
-      "agradecimiento"
-    ],
-    "thank": [
-      "agradecimiento"
-    ],
-    "bien,": [
-      "agradecimiento"
-    ],
-    "bastante": [
       "agradecimiento"
     ],
     "excelente": [
       "agradecimiento"
     ],
-    "gracias": [
-      "agradecimiento",
-      "cortesia"
-    ],
-    "tú?": [
-      "agradecimiento"
-    ],
-    "todo": [
-      "agradecimiento",
-      "cortesia"
-    ],
-    "muy": [
-      "agradecimiento",
-      "cortesia"
-    ],
-    "bien": [
-      "agradecimiento"
-    ],
-    "agradezco": [
-      "agradecimiento",
-      "cortesia"
-    ],
-    "hasta pronto": [
-      "despedida"
-    ],
     "luego": [
-      "despedida"
-    ],
-    "hasta luego": [
-      "despedida"
-    ],
-    "voy": [
-      "despedida"
-    ],
-    "pronto": [
       "despedida"
     ],
     "adiós": [
       "despedida"
     ],
-    "chao": [
-      "despedida"
-    ],
-    "adios": [
-      "despedida"
-    ],
     "bye": [
-      "despedida"
-    ],
-    "hasta": [
-      "despedida"
-    ],
-    "me": [
       "despedida"
     ],
     "goodbye": [
       "despedida"
     ],
-    "vemos": [
+    "hasta": [
+      "despedida"
+    ],
+    "voy": [
+      "despedida"
+    ],
+    "nos vemos": [
       "despedida"
     ],
     "nos": [
       "despedida"
     ],
-    "nos vemos": [
+    "adios": [
       "despedida"
+    ],
+    "chao": [
+      "despedida"
+    ],
+    "hasta luego": [
+      "despedida"
+    ],
+    "me": [
+      "despedida"
+    ],
+    "hasta pronto": [
+      "despedida"
+    ],
+    "vemos": [
+      "despedida"
+    ],
+    "pronto": [
+      "despedida"
+    ],
+    "amable": [
+      "cortesia"
+    ],
+    "please": [
+      "cortesia"
+    ],
+    "perdón": [
+      "cortesia"
+    ],
+    "mil": [
+      "cortesia"
+    ],
+    "muchas": [
+      "cortesia"
+    ],
+    "gentil": [
+      "cortesia"
     ],
     "por": [
       "cortesia"
@@ -310,28 +328,10 @@
     "por favor": [
       "cortesia"
     ],
-    "mil": [
-      "cortesia"
-    ],
-    "amable": [
-      "cortesia"
-    ],
-    "perdón": [
-      "cortesia"
-    ],
-    "gentil": [
-      "cortesia"
-    ],
     "disculpa": [
       "cortesia"
     ],
-    "please": [
-      "cortesia"
-    ],
     "lo": [
-      "cortesia"
-    ],
-    "muchas": [
       "cortesia"
     ]
   },

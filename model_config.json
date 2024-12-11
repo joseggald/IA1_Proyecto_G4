@@ -6,7 +6,7 @@
     20
   ],
   "batch_size": null,
-  "num_classes": 5,
+  "num_classes": 26,
   "memory_size": 10,
   "topic_aware": true
 }

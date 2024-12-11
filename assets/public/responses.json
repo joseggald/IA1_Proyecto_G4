@@ -33,5 +33,155 @@
     "No hay de qu\u00e9. \u00bfNecesitas algo m\u00e1s?",
     "\u00a1Con gusto! Siempre es un placer",
     "\u00a1Para eso estamos! \u00bfHay algo m\u00e1s en que pueda ayudarte?"
+  ],
+  "5": [
+    "La programaci\u00f3n es el proceso de dise\u00f1ar y escribir instrucciones en un lenguaje comprensible para una computadora",
+    "Programaci\u00f3n es el arte y la ciencia de crear software mediante la construcci\u00f3n de algoritmos",
+    "La programacion es el conjunto de tecnicas para traducir problemas del mundo real en soluciones computacionales",
+    "Programar es la disciplina que combina logica, creatividad y conocimientos tecincos para desarrollar aplicaciones",
+    "Programar es la accion de codificar instrucciones logicas estructuradas las cuales permiten al hardware realizar tareas especificas"
+  ],
+  "6": [
+    "Una variable es una espacio  en la memoria de una computadora donde se almacenan datos que pueden cambiar dentro de un programa.",
+    "las variables son identificadores asociados a un valor que permite al programa acceder y manipular dicho valor din\u00e1micamente.",
+    "Variable es un nombre simb\u00f3lico utilizado para representar datos en un programa",
+    "Es un elemento fundamental en programaci\u00f3n que act\u00faa como una referencia a un dato",
+    "Una variable es un recurso de programacion que se usa para almacenar informacion"
+  ],
+  "7": [
+    "Un condicional es una estructura de control que permite a un programa tomar decisiones dependiendo del resultado de la condicion.",
+    "es un mecanismo l\u00f3gico que ejecuta diferentes bloques de c\u00f3digo dependiendo de la evaluaci\u00f3n de una o m\u00e1s expresiones booleanas.",
+    "Los condicionales son una herramienta de programacion que define el flujo de un programa en base a ciertas reglas.",
+    "Un condicional if es una instruccion que evalua una expresion logica y de ser verdadera ejecuta conjunto de instrucciones.",
+    "If es una declaracion condicional que representa una desicion en un programa."
+  ],
+  "8": [
+    "Un ciclo es una estructura de control que permite ejecutar un bloque de c\u00f3digo repetidamente mientras una condici\u00f3n espec\u00edfica sea verdadera",
+    "Los ciclos son herramientas fundamentales en programaci\u00f3n que automatizan la repetici\u00f3n de tareas",
+    "Un ciclo es un mecanismo que facilita la iteraci\u00f3n sobre colecciones de datos, rangos de valores o instrucciones predefinidas",
+    "Un ciclo una secuencia repetitiva en un programa, dise\u00f1ada para iterar un conjunto de instrucciones un n\u00famero fijo de veces o hasta que una condici\u00f3n se cumpla o deje de cumplirse",
+    "Los ciclos son componentes l\u00f3gicos que controlan la ejecuci\u00f3n repetitiva en un programa"
+  ],
+  "9": [
+    "Una funcion es un bloque de c\u00f3digo reutilizable que realiza una tarea espec\u00edfica y puede ser invocado desde diferentes partes de un programa.",
+    "Un metodo puede devolver un valor, pero no siempre lo hace.",
+    "La diferencia entre una funcion y un metodo es que una funcion es independiente y un metodo pertenece a un objeto",
+    "Las funciones y m\u00e9todos son fundamentales en la programaci\u00f3n porque permiten estructurar y organizar el c\u00f3digo de manera eficiente, clara y reutilizable.",
+    "las funciones y m\u00e9todos son esenciales para escribir c\u00f3digo limpio"
+  ],
+  "10": [
+    "OOP es un paradigma de programaci\u00f3n que organiza el c\u00f3digo en torno a objetos",
+    "La programacion orientada a objetos es una metodolog\u00eda de desarrollo de software basada en principios como encapsulamiento, herencia, polimorfismo y abstracci\u00f3n",
+    "la OOP es recomendable en muchos casos, pero su conveniencia depende del tipo de proyecto y sus requerimientos.",
+    "Las principales caracteristicas de la OOP son encapsulamiento, Asbtraccion, herencia y polimorfismo",
+    "Es uno de los paradigmas de programaci\u00f3n m\u00e1s populares y ampliamente utilizados en la industria del software"
+  ],
+  "11": [
+    "los g\u00e9neros de acci\u00f3n, ciencia ficci\u00f3n y comedia son tradicionalmente los m\u00e1s populares",
+    "las pel\u00edculas de bajo presupuesto pueden hacerse por menos de $10 millones, las superproducciones pueden superar f\u00e1cilmente los $200 millones o m\u00e1s",
+    "Te recomendar\u00eda Mad Max: Fury Road (2015), dirigida por George Miller. Es una de las pel\u00edculas de acci\u00f3n m\u00e1s emocionantes y visualmente impresionantes de la \u00faltima d\u00e9cada",
+    "La pelicula mas popular del a\u00f1o 2024 es deadpool y wolverine",
+    "\u00bfque tipo de peliculas te gustan?"
+  ],
+  "12": [
+    "\u00a1claro aqui tienes un chiste! Soy un tipo saludable. +\u00bfTe gusta comer bien? -No, pero siempre me saludan",
+    "\u00bfC\u00f3mo se despiden los qu\u00edmicos? \u00c1cido un placer.",
+    "Me sacaron del grupo de WhatsApp de paracaidismo. Se ve que no ca\u00eda bien.",
+    "\u00bfQu\u00e9 hace un pez en la oficina? Nada.",
+    "\u00bfQui\u00e9n es el pap\u00e1 del pr\u00edncipe azul? El Blu-ray"
+  ],
+  "13": [
+    "Te puedo recomendar realizar una caminata en algun sendero o parque",
+    "podria recomendarte ver una pelicula en el cine",
+    "Podrias pasar tiempos con familiares o amigos",
+    "Intentar una nueva receta seria una buena recomendacion",
+    "Si quieres una opcion saludable podrias ejercitarte"
+  ],
+  "14": [
+    "por que tan serio? -el Joker en Batman: el caballero de la noche",
+    "que la fuerza te acompa\u00f1e -Star Wars.",
+    "hasta la vista,baby -Terminator en Terminator 2: El dia del juicio",
+    "al infinito y mas alla -buzz lightyear en Toy Story",
+    "estas hablandome? -travis bickle en taxi driver"
+  ],
+  "15": [
+    "porque no intentas cocinar unos tacos",
+    "podrias hacer una ensalada cesar",
+    "te recomiendo hacer una pasta al ajo",
+    "un sandwich de atun es una comida sencilla de preparar",
+    "si buscas algo dulce podria recomendarte hacer brownies"
+  ],
+  "16": [
+    "SQL es un lenguaje para gestionar bases de datos.",
+    "Lenguaje para consultar y manipular datos en tablas.",
+    "SQL organiza, consulta y modifica datos en bases relacionales.",
+    "Structured Query Language, usado para gestionar datos.",
+    "Un est\u00e1ndar para interactuar con bases de datos relacionales.",
+    "SQL facilita operaciones sobre datos almacenados en tablas."
+  ],
+  "17": [
+    "Bases relacionales y no relacionales son los principales tipos.",
+    "Relacionales, no relacionales, jer\u00e1rquicas y orientadas a objetos.",
+    "Bases relacionales almacenan datos en tablas estructuradas.",
+    "No relacionales como MongoDB manejan datos no estructurados.",
+    "Relacionales incluyen MySQL, PostgreSQL, SQL Server y Oracle.",
+    "NoSQL incluye MongoDB, Cassandra, CouchDB y Redis.",
+    "Bases h\u00edbridas combinan caracter\u00edsticas relacionales y no relacionales."
+  ],
+  "18": [
+    "Una tabla almacena datos organizados en filas y columnas.",
+    "Tablas son estructuras principales en bases de datos relacionales.",
+    "Una tabla organiza datos en filas y columnas relacionadas.",
+    "Tablas relacionales representan entidades con datos estructurados.",
+    "SQL usa tablas para almacenar informaci\u00f3n en formato estructurado."
+  ],
+  "19": [
+    "SELECT es un comando para consultar datos en bases SQL.",
+    "SELECT recupera datos espec\u00edficos de una tabla en bases de datos.",
+    "SELECT permite obtener informaci\u00f3n almacenada en bases relacionales.",
+    "Un comando b\u00e1sico para extraer datos de tablas en SQL.",
+    "SELECT es usado para realizar consultas en bases de datos."
+  ],
+  "20": [
+    "WHERE se usa para filtrar datos seg\u00fan condiciones en consultas SQL.",
+    "WHERE permite seleccionar filas espec\u00edficas que cumplen criterios establecidos.",
+    "Un filtro SQL que aplica condiciones a consultas para seleccionar datos.",
+    "WHERE filtra registros en tablas seg\u00fan condiciones espec\u00edficas.",
+    "Usa WHERE para extraer datos que cumplan criterios en SQL."
+  ],
+  "21": [
+    "Soy un chatbot creado con el modelo LSTM usando TensorFlow, Python y JavaScript. Puedo ayudarte con conceptos b\u00e1sicos de SQL y programaci\u00f3n.",
+    "Soy un asistente virtual desarrollado bajo LSTM, utilizando TensorFlow, Python y JavaScript. Estoy aqu\u00ed para apoyarte con SQL y programaci\u00f3n b\u00e1sica.",
+    "Soy un chatbot basado en LSTM, desarrollado con TensorFlow, Python y JavaScript. Mi prop\u00f3sito es ayudarte con SQL y temas b\u00e1sicos de programaci\u00f3n.",
+    "Desarrollado con LSTM, TensorFlow, Python y JavaScript, soy un chatbot que puede explicarte conceptos de SQL y programaci\u00f3n desde lo b\u00e1sico.",
+    "Soy un chatbot construido con el modelo LSTM mediante TensorFlow, Python y JavaScript. Te asisto en aprender SQL y programaci\u00f3n b\u00e1sica."
+  ],
+  "22": [
+    "INSERT agrega nuevos registros a una tabla en SQL.",
+    "Comando SQL usado para insertar datos en tablas espec\u00edficas.",
+    "INSERT a\u00f1ade filas con informaci\u00f3n a tablas de bases relacionales.",
+    "Sirve para incluir nuevos datos en una base de datos SQL.",
+    "INSERT permite insertar registros cumpliendo con la estructura de la tabla."
+  ],
+  "23": [
+    "UPDATE es un comando SQL usado para modificar datos existentes en una tabla.",
+    "Permite actualizar valores espec\u00edficos en registros de una base de datos.",
+    "UPDATE modifica datos en tablas bas\u00e1ndose en condiciones establecidas.",
+    "Comando SQL utilizado para cambiar valores de una o m\u00e1s filas.",
+    "UPDATE actualiza informaci\u00f3n existente en tablas de bases relacionales."
+  ],
+  "24": [
+    "DELETE es un comando SQL usado para eliminar datos de una tabla.",
+    "Comando utilizado para borrar registros espec\u00edficos de tablas en bases de datos.",
+    "DELETE elimina filas completas de una tabla seg\u00fan las condiciones definidas.",
+    "Sirve para remover datos de una base relacional de manera controlada.",
+    "Comando esencial para eliminar registros en SQL usando filtros opcionales."
+  ],
+  "25": [
+    "Interesante elecci\u00f3n. \u00a1Divi\u00e9rtete!",
+    "\u00a1Divi\u00e9rtete con tus amigos!",
+    "\u00a1Que disfrutes tu salida!",
+    "\u00a1Que tengas un buen rato!",
+    "\u00a1Que te diviertas mucho!"
   ]
 }
