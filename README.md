@@ -53,6 +53,43 @@ pip install -r requirements.txt
 ### Arquitectura de la solución final
 ![model.png](docu-images%2Fmodel.png)
 
+### Detalles del Modelo y Funcionalidades
+
+#### **Datos y Entrenamiento**
+- Los datos de entrenamiento provienen del archivo `data.json` que contiene pares de texto y etiquetas. Cada etiqueta representa una categoría de respuesta.
+- Los datos son preprocesados para:
+    - Normalizar el texto.
+    - Eliminar caracteres especiales.
+    - Extraer palabras clave.
+- El modelo se entrena usando:
+    - **`categorical_crossentropy`** como función de pérdida.
+
+---
+
+#### **Predicción y Respuesta**
+- El modelo predice la etiqueta del texto ingresado por el usuario.
+- Las respuestas correspondientes a cada etiqueta están definidas en el archivo `response.json`.
+- El modelo ajusta la predicción en función del contexto y el historial de la conversación.
+
+---
+
+#### **Manejo de Tópicos**
+- El chatbot utiliza un sistema de tópicos almacenado en `topic_data.json` para identificar y asociar temas relevantes al texto.
+- Este sistema ayuda a:
+    - Mejorar la precisión de las respuestas.
+    - Mantener la coherencia en conversaciones prolongadas.
+
+---
+
+#### **Funciones Clave**
+1. **Entrenamiento**:
+    - Entrena el modelo con datos preprocesados y lo guarda en formato `.h5`.
+2. **Carga del Modelo**:
+    - Permite reutilizar un modelo entrenado previamente.
+3. **Historial de Conversación**:
+    - Utiliza una cola (`deque`) para mantener un historial limitado de interacciones.
+4. **Extracción de Palabras Clave**:
+    - Identifica palabras importantes del texto ingresado.
 
 
 ---
