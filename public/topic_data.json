@@ -236,6 +236,15 @@
       "keywords": ["delete", "eliminar", "borrar"],
       "labels": ["24"],
       "subtopics": []
+    },
+    "amigos": {
+      "keywords": [
+        "amigos",
+        "salir",
+        "Saldre"
+      ],
+      "labels": ["25"],
+      "subtopics": []
     }
   },
   "relations": {
