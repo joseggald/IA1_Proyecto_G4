@@ -170,7 +170,10 @@
     {"input": "Como elimino datos", "label": 24},
     {"input": "Que significa DELETE", "label": 24},
     {"input": "Como elimino registros", "label": 24},
-    {"input": "Como funciona DELETE", "label": 24}
+    {"input": "Como funciona DELETE", "label": 24},
 
-
+    { "input": "Saldre con unos amigos", "label": 25 },
+    { "input": "Saldre a tomar algo con amigos", "label": 25 },
+    { "input": "Saldre a un concierto con amigos", "label": 25 },
+    { "input": "Saldre a comer con amigos", "label": 25 }
 ]

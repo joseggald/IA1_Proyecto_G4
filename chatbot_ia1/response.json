@@ -200,5 +200,12 @@
     "DELETE elimina filas completas de una tabla según las condiciones definidas.",
     "Sirve para remover datos de una base relacional de manera controlada.",
     "Comando esencial para eliminar registros en SQL usando filtros opcionales."
+    ],
+    "25": [
+      "Interesante elección. ¡Diviértete!",
+      "¡Diviértete con tus amigos!",
+      "¡Que disfrutes tu salida!",
+      "¡Que tengas un buen rato!",
+      "¡Que te diviertas mucho!"
     ]
 }
