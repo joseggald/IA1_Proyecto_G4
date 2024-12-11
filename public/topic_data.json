@@ -1,5 +1,263 @@
 {
-  "topics": {},
-  "keywords": {},
-  "relations": {}
+  "topics": {
+    "saludos": {
+      "keywords": [
+        "hola",
+        "hey",
+        "buenos",
+        "dias",
+        "tardes",
+        "noches",
+        "saludos",
+        "hi",
+        "que tal"
+      ],
+      "labels": ["0"],
+      "subtopics": ["estado"]
+    },
+    "estado": {
+      "keywords": [
+        "como",
+        "estas",
+        "que tal",
+        "todo bien",
+        "como va",
+        "que hay",
+        "que cuentas",
+        "como te va"
+      ],
+      "labels": ["1", "2"],
+      "subtopics": []
+    },
+    "despedida": {
+      "keywords": [
+        "adios",
+        "bye",
+        "hasta",
+        "luego",
+        "pronto",
+        "nos vemos",
+        "chao",
+        "me voy"
+      ],
+      "labels": ["3"],
+      "subtopics": []
+    },
+    "agradecimiento": {
+      "keywords": [
+        "gracias",
+        "thanks",
+        "agradezco",
+        "amable",
+        "aprecio"
+      ],
+      "labels": ["4"],
+      "subtopics": []
+    },
+    "programacion":{
+      "keywords":[
+        "definicion",
+        "programacion",
+        "dame una",
+        "que es",
+        "creacion",
+        "software",
+        "tecnicos",
+        "hardware"
+      ],
+      "labels":["5"],
+      "subtopics":[]
+    },
+    "variables":{
+      "keywords":[
+        "que hace",
+        "variable",
+        "valor",
+        "puede cambiar",
+        "para que",
+        "se utiliza"
+      ],
+      "labels":["6"],
+      "subtopics":[]
+    },
+    "condicionales":{
+      "keywords":[
+        "condicional",
+        "if",
+        "que tipo",
+        "instruccion",
+        "toman",
+        "desiciones"
+      ],
+      "labels":["7"],
+      "subtopics":[]
+    },
+    "ciclos":{
+      "keywords":[
+        "ciclos",
+        "en que",
+        "ayudan",
+        "aplicacion",
+        "tienen",
+        "importancia",
+        "ejecutarse",
+        "cumplir",
+        "condiciones"
+      ],
+      "lables":["8"],
+      "subtopics":[]
+    },
+    "funciones":{
+      "keywords":[
+        "que es una",
+        "funcion",
+        "metodos",
+        "devuelve",
+        "diferencia",
+        "hay entre"
+      ],
+      "labels":["9"],
+      "subtopics":[]
+    },
+    "objetos":{
+      "keywords":[
+        "oop",
+        "orientada",
+        "objetos",
+        "caracteristicas",
+        "cuales son",
+        "que tan",
+        "popular",
+        "recomendable",
+        "caracteristicas"
+      ],
+      "lables":["10"],
+      "subtopics":[]
+    },
+    "peliculas":{
+      "keywords":[
+        "pelicula",
+        "costo",
+        "promedio",
+        "accion",
+        "genero",
+        "año",
+        "cual"
+      ],
+      "labels":["11"],
+      "subtopics":[]
+    },
+    "chistes":{
+      "keywords":[
+        "cuentame",
+        "bueno",
+        "gracioso",
+        "chiste"
+      ],
+      "labels":["12"],
+      "subtopics":[]
+    },
+    "actividades":{
+      "keywords": [
+        "recomiendas",
+        "hacer",
+        "actividad",
+        "hoy",
+        "realizar",
+        "divertido"
+      ],
+      "labels":["13"],
+      "subtopics":[]
+    },
+    "dialogos":{
+      "keywords":[
+        "di",
+        "algun",
+        "dialogo",
+        "pelicula",
+        "frase"
+      ],
+      "labels":["14"],
+      "subtopics":[]
+    },
+    "cocina": {
+      "keywords":[
+        "preparar",
+        "comer",
+        "ganas",
+        "alguna",
+        "comida"
+      ],
+      "labels":["15"],
+      "subtopics":[]
+    },
+    "sql": {
+      "keywords": ["SQL", "bases de datos", "datos", "que es sql"],
+      "labels": ["16"],
+      "subtopics": []
+    },
+    "tipos": {
+      "keywords": ["tipos de", "bases de datos", "relacionales", "no relacionales", "modelos"],
+      "labels": ["17"],
+      "subtopics": []
+    },
+    
+    "tabla": {
+      "keywords": ["tabla", "tablas", "table", "que es una tabla"],
+      "labels": ["18"],
+      "subtopics": []
+    },
+    "select": {
+      "keywords": ["SELECT", "consulta", "consultas", "comando", "datos", "seleccionar", "filtrar"],
+      "labels": ["19"],
+      "subtopics": []
+    },
+    "where": {
+      "keywords": ["WHERE", "filtro", "filtros", "condición", "condiciones", "SQL", "consulta", "datos", "tablas", "filtrar"],
+      "labels": ["20"],
+      "subtopics": []
+    },
+    "existencial": {
+      "keywords": ["eres", "haces", "ayudar", "proposito"],
+      "labels": ["21"],
+      "subtopics": []
+    },
+    "insert": {
+      "keywords": ["insert", "insertar", "agregar"],
+      "labels": ["22"],
+      "subtopics": []
+    },
+    "update": {
+      "keywords": ["update", "actualizar", "modificar"],
+      "labels": ["23"],
+      "subtopics": []
+    },
+    "delete": {
+      "keywords": ["delete", "eliminar", "borrar"],
+      "labels": ["24"],
+      "subtopics": []
+    }
+  },
+  "relations": {
+    "saludos": ["estado", "despedida"],
+    "estado": ["saludos", "despedida", "agradecimiento"],
+    "despedida": ["agradecimiento"],
+    "agradecimiento": ["despedida"],
+    "sql": ["tipos", "tabla", "select", "where"],
+    "tipos": ["sql", "tabla"],
+    "tabla": ["tipos", "sql", "select", "where"],
+    "select": ["tabla", "where", "sql", "delete", "update"],
+    "where": ["select", "tabla", "sql", "delete", "update"],
+    "delete": ["select", "tabla", "sql","delete", "update"],
+    "update": ["select", "tabla", "sql","delete", "update"]
+  },
+  "keywords": {
+    "global": [
+      "por favor",
+      "ok",
+      "si",
+      "no",
+      "bien"
+    ]
+  }
 }
