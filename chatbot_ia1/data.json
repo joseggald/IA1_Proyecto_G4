@@ -107,7 +107,138 @@
   {"input": "que comida podria preparar", "label": 15},
   {"input": "recomiendame alguna comida", "label": 15},
   {"input": "dame una comida que pueda preparar","label": 15},
-  {"input": "tengo ganas de comer algo","label":15}
+  {"input": "tengo ganas de comer algo","label":15},
 
+  {"input": "Qué es SQL", "label": 16},
+    {"input": "Qué significa SQL?", "label": 16},
+    {"input": "Cómo definir SQL?", "label": 16},
+    {"input": "Qué representa SQL?", "label": 16},
+    {"input": "Qué hace SQL?", "label": 16},
+
+
+	{"input": "Qué tipos de bases de datos existen?", "label": 17},
+	{"input": "Que tipos de bases de datos existen?", "label": 17},
+	{"input": "¿Qué modelos de bases existen?", "label": 17},
+	{"input": "¿Qué clases de bases existen?", "label": 17},
+	{"input": "¿Cuáles son los tipos de bases?", "label": 17},
+	{"input": "Cuáles son los tipos de bases?", "label": 17},
+
+
+  {"input": "Qué es una tabla", "label": 18},
+  {"input": "Qué significa una tabla", "label": 18},
+  {"input": "Qué es tabla en SQL", "label": 18},
+  {"input": "Para qué sirve una tabla", "label": 18},
+  {"input": "Qué es table en bases", "label": 18},
+
+
+
+  {"input": "Qué es SELECT", "label": 19},
+  {"input": "Qué significa SELECT", "label": 19},
+  {"input": "Cómo funciona SELECT", "label": 19},
+  {"input": "Qué hace SELECT", "label": 19},
+  {"input": "Qué son consultas", "label": 19},
+
+
+
+  {"input": "Que es WHERE", "label": 20},
+  {"input": "Que significa WHERE", "label": 20},
+  {"input": "Como funciona WHERE", "label": 20},
+  {"input": "Que hace WHERE", "label": 20},
+  {"input": "Que son los filtros", "label": 20},
+
+
+  {"input": "Que eres", "label": 21},
+  {"input": "Quien eres", "label": 21},
+  {"input": "Que haces", "label": 21},
+  {"input": "Cual es tu funcion", "label": 21},
+
+  {"input": "Que es INSERT", "label": 22},
+    {"input": "Que significa INSERT", "label": 22},
+    {"input": "Como funciona INSERT", "label": 22},
+    {"input": "Para que sirve INSERT", "label": 22},
+    {"input": "Que hace el comando INSERT", "label": 22},
+
+
+    {"input": "Que es UPDATE", "label": 23},
+    {"input": "Que significa UPDATE", "label": 23},
+    {"input": "Como funciona UPDATE", "label": 23},
+    {"input": "Para que sirve UPDATE", "label": 23},
+    {"input": "Que hace el comando UPDATE", "label": 23},
+
+
+    {"input": "Que es DELETE", "label": 24},
+    {"input": "Como elimino datos", "label": 24},
+    {"input": "Que significa DELETE", "label": 24},
+    {"input": "Como elimino registros", "label": 24},
+    {"input": "Como funciona DELETE", "label": 24},
+
+    { "input": "Saldre con unos amigos", "label": 25 },
+    { "input": "Saldre a tomar algo con amigos", "label": 25 },
+    { "input": "Saldre a un concierto con amigos", "label": 25 },
+    { "input": "Saldre a comer con amigos", "label": 25 },
+
+    { "input": "Hello", "label": 26 },
+    { "input": "Hey", "label": 26 },
+    { "input": "Good morning", "label": 26 },
+    { "input": "Good afternoon", "label": 26 },
+    { "input": "Good evening", "label": 26 },
+    { "input": "Hello, how are you?", "label": 26 },
+    { "input": "What's up", "label": 26 },
+    { "input": "Greetings", "label": 26 },
+    { "input": "Hello, what's up?", "label": 26 },
+    { "input": "Hi", "label": 26 },
+
+    { "input": "what is sql", "label": 27 },
+    { "input": "what does sql mean?", "label": 27 },
+    { "input": "how to define sql?", "label": 27 },
+    { "input": "what does sql represent?", "label": 27 },
+    { "input": "what does sql do?", "label": 27 },
+
+    { "input": "what types of databases exist?", "label": 28 },
+    { "input": "what kinds of databases exist?", "label": 28 },
+    { "input": "what database models exist?", "label": 28 },
+    { "input": "what classes of databases exist?", "label": 28 },
+    { "input": "what are the types of databases?", "label": 28 },
+
+    { "input": "what is a table", "label": 29 },
+    { "input": "what does a table mean", "label": 29 },
+    { "input": "what is table in sql", "label": 29 },
+    { "input": "what is a table used for", "label": 29 },
+    { "input": "what is table in databases", "label": 29 },
+
+    { "input": "what is select", "label": 30 },
+    { "input": "what does select mean", "label": 30 },
+    { "input": "how does select work", "label": 30 },
+    { "input": "what does select do", "label": 30 },
+    { "input": "what are queries", "label": 30 },
+
+    { "input": "what is where", "label": 31 },
+    { "input": "what does where mean", "label": 31 },
+    { "input": "how does where work", "label": 31 },
+    { "input": "what does where do", "label": 31 },
+    { "input": "what are filters", "label": 31 },
+
+    { "input": "what are you", "label": 32 },
+    { "input": "who are you", "label": 32 },
+    { "input": "what do you do", "label": 32 },
+    { "input": "what is your function", "label": 32 },
+
+    { "input": "what is insert", "label": 33 },
+    { "input": "what does insert mean", "label": 33 },
+    { "input": "how does insert work", "label": 33 },
+    { "input": "what is insert used for", "label": 33 },
+    { "input": "what does the insert command do", "label": 33 },
+
+    { "input": "what is update", "label": 34 },
+    { "input": "what does update mean", "label": 34 },
+    { "input": "how does update work", "label": 34 },
+    { "input": "what is update used for", "label": 34 },
+    { "input": "what does the update command do", "label": 34 },
+
+    { "input": "what is delete", "label": 35 },
+    { "input": "how do i delete data", "label": 35 },
+    { "input": "what does delete mean", "label": 35 },
+    { "input": "how do i delete records", "label": 35 },
+    { "input": "how does delete work", "label": 35 }
 
 ]
