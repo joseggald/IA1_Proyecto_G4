@@ -3,13 +3,11 @@
     "saludos": {
       "keywords": [
         "hola",
-        "hey",
         "buenos",
         "dias",
         "tardes",
         "noches",
         "saludos",
-        "hi",
         "que tal"
       ],
       "labels": ["0"],
@@ -236,28 +234,81 @@
       "keywords": ["delete", "eliminar", "borrar"],
       "labels": ["24"],
       "subtopics": []
+    },
+    "hello": {
+      "keywords": ["hey","hello", "hi", "moning", "afternoon", "evening", "What's up"],
+      "labels": ["26"],
+      "subtopics": []
+    },
+
+    "sql-en": {
+      "keywords": ["sql", "databases", "data", "what is sql"],
+      "labels": ["27"],
+      "subtopics": []
+    },
+
+    "types-en": {
+      "keywords": ["types of", "databases", "relational", "non-relational", "models"],
+      "labels": ["28"],
+      "subtopics": []
+    },
+    "table-en": {
+      "keywords": ["table", "tables", "what is a table", "sql tables"],
+      "labels": ["29"],
+      "subtopics": []
+    },
+    "select-en": {
+      "keywords": ["select", "query", "queries", "command", "data", "select data", "filter"],
+      "labels": ["30"],
+      "subtopics": []
+    },
+    "where-en": {
+      "keywords": ["where", "filter", "filters", "condition", "conditions", "sql", "query", "data", "tables", "filter data"],
+      "labels": ["31"],
+      "subtopics": []
+    },
+    "existential-en": {
+      "keywords": ["are you", "do you", "help", "purpose"],
+      "labels": ["32"],
+      "subtopics": []
+    },
+    "insert-en": {
+      "keywords": ["insert", "add", "insert data"],
+      "labels": ["33"],
+      "subtopics": []
+    },
+    "update-en": {
+      "keywords": ["update", "modify", "change"],
+      "labels": ["34"],
+      "subtopics": []
+    },
+    "delete-en": {
+      "keywords": ["delete", "remove", "delete data"],
+      "labels": ["35"],
+      "subtopics": []
     }
-  },
-  "relations": {
-    "saludos": ["estado", "despedida"],
-    "estado": ["saludos", "despedida", "agradecimiento"],
-    "despedida": ["agradecimiento"],
-    "agradecimiento": ["despedida"],
-    "sql": ["tipos", "tabla", "select", "where"],
-    "tipos": ["sql", "tabla"],
-    "tabla": ["tipos", "sql", "select", "where"],
-    "select": ["tabla", "where", "sql", "delete", "update"],
-    "where": ["select", "tabla", "sql", "delete", "update"],
-    "delete": ["select", "tabla", "sql","delete", "update"],
-    "update": ["select", "tabla", "sql","delete", "update"]
-  },
-  "keywords": {
-    "global": [
-      "por favor",
-      "ok",
-      "si",
-      "no",
-      "bien"
-    ]
-  }
+
+      },
+      "relations": {
+        "saludos": ["estado", "despedida"],
+        "estado": ["saludos", "despedida", "agradecimiento"],
+        "despedida": ["agradecimiento"],
+        "agradecimiento": ["despedida"],
+        "sql": ["tipos", "tabla", "select", "where"],
+        "tipos": ["sql", "tabla"],
+        "tabla": ["tipos", "sql", "select", "where"],
+        "select": ["tabla", "where", "sql", "delete", "update"],
+        "where": ["select", "tabla", "sql", "delete", "update"],
+        "delete": ["select", "tabla", "sql","delete", "update"],
+        "update": ["select", "tabla", "sql","delete", "update"]
+      },
+      "keywords": {
+        "global": [
+          "por favor",
+          "ok",
+          "si",
+          "no",
+          "bien"
+        ]
+      }
 }
