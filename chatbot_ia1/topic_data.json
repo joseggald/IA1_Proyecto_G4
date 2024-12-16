@@ -235,6 +235,13 @@
       "labels": ["24"],
       "subtopics": []
     },
+
+    "datos": {
+      "keywords": ["saldre","amigos"],
+      "labels": ["25"],
+      "subtopics": []
+    },
+
     "hello": {
       "keywords": ["hey","hello", "hi", "moning", "afternoon", "evening", "What's up"],
       "labels": ["26"],
@@ -304,11 +311,7 @@
       },
       "keywords": {
         "global": [
-          "por favor",
-          "ok",
-          "si",
-          "no",
-          "bien"
+          "por favor", "ok","si","no","bien"
         ]
       }
 }
