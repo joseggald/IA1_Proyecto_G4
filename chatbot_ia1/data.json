@@ -239,6 +239,93 @@
     { "input": "how do i delete data", "label": 35 },
     { "input": "what does delete mean", "label": 35 },
     { "input": "how do i delete records", "label": 35 },
-    { "input": "how does delete work", "label": 35 }
+    { "input": "how does delete work", "label": 35 },
+
+    { "input": "I will go out with some friends", "label": 36 },
+    { "input": "I will go out for drinks with friends", "label": 36 },
+    { "input": "I will go to a concert with friends", "label": 36 },
+    { "input": "I will go out to eat with friends", "label": 36 },
+
+    { "input": "how are you?", "label": 37 },
+    { "input": "how is your day going?", "label": 37 },
+    { "input": "how are you feeling?", "label": 37 },
+    { "input": "how is everything going?", "label": 37 },
+    { "input": "What have you been up to?", "label": 37 },
+
+    { "input": "Fine, thanks", "label": 38 },
+    { "input": "Everything great", "label": 38 },
+    { "input": "very good", "label": 38 },
+    { "input": "Great", "label": 38 },
+    { "input": "Fine, and you?", "label": 38 },
+    { "input": "Fine, thanks for asking", "label": 38 },
+
+    { "input": "goodbye", "label": 39 },
+    { "input": "See you later", "label": 39 },
+    { "input": "See you", "label": 39 },
+    { "input": "Bye", "label": 39 },
+    { "input": "See you soon", "label": 39 },
+    { "input": "See you tomorrow", "label": 39 },
+
+    { "input": "Thanks", "label": 40 },
+    { "input": "Thank you very much", "label": 40 },
+    { "input": "I appreciate it", "label": 40 },
+    { "input": "Many thanks", "label": 40 },
+    { "input": "Thanks for everything", "label": 40 },
+    { "input": "You're very kind", "label": 40 },
+    { "input": "I appreciate your help", "label": 40 },
+    { "input": "Thank you for your time", "label": 40 },
+    { "input": "Much appreciated", "label": 40 },
+
+    { "input": "what is programming", "label": 41 },
+    { "input": "Can you give me a definition of programming", "label": 41 },
+    { "input": "describe programming in technical terms", "label": 41 },
+    { "input": "how is programming related to hardware", "label": 41 },
+    { "input": "define programming in terms of software creation", "label": 41 },
+
+    {"input": "what is a variable","label":42},
+    {"input": "what does a variable do", "label":42},
+    {"input": "define variable in programming","label":42},
+    {"input": "what is a variable used for","label":42},
+
+    { "input": "what is an if", "label": 43 },
+    { "input": "what type of instruction is an if", "label": 43 },
+    { "input": "what do conditionals do", "label": 43 },
+    { "input": "do ifs make decisions", "label": 43 },
+
+    {"input":"what are loops in programming","label":44},
+    {"input":"How do loops help in an application?","label":44},
+    {"input":"can you define loops in programming","label":44},
+    {"input":"what do loops do in an application","label":44},
+
+    { "input": "what is a function", "label": 45 },
+    { "input": "can you give me one definition of function", "label": 45 },
+    { "input": "what is the difference between a function and a method", "label": 45 },
+    { "input": "how important are functions and methods", "label": 45 },
+
+    {"input": "can you define oop","label":46},
+    {"input": "what are the characteristics of oop","label":46},
+    {"input": "Is it recommended to use oop?","label":46},
+    {"input": "how popular is oop?","label":46},
+
+    { "input": "tell me a joke", "label": 47 },
+    { "input": "say a joke", "label": 47 },
+    { "input": "do you have a good joke", "label": 47 },
+    { "input": "say something funny", "label": 47 },
+
+    { "input": "do you recommend any activity to do today", "label": 48 },
+    { "input": "tell me an activity I could do today", "label": 48 },
+    { "input": "what activities could I do today", "label": 48 },
+    { "input": "how can I make my day more fun", "label": 48 },
+
+    { "input": "say a movie quote", "label": 49 },
+    { "input": "do you have any movie quotes", "label": 49 },
+    { "input": "could you give me a movie quote", "label": 49 },
+    { "input": "give me a line from a movie", "label": 49 },
+
+    { "input": "what food could I make", "label": 50 },
+    { "input": "recommend me a food", "label": 50 },
+    { "input": "give me a food I can prepare", "label": 50 },
+    { "input": "I feel like eating something", "label": 50 }
+
 
 ]

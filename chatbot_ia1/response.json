@@ -10,11 +10,11 @@
   ]
   ,
   "1": [
-    "Muy bien, gracias por preguntar. ¿Y tú qué tal?",
-    "Todo bien por aquí. ¿Qué tal tú?",
-    "Bastante bien. ¿Y tú cómo estás?",
-    "Excelente, gracias. ¿Qué tal va tu día?",
-    "Todo marcha bien. ¿Cómo te va a ti?"
+    "Muy bien, gracias por preguntar. ¿Y tú qué tal, Tienes dudas conceptos de bases de datos o conceptos de programación? ",
+    "Todo bien por aquí. ¿Qué tal tú, necesitas ayuda en algun tema sobre bases de datos o programacion?",
+    "Bastante bien. ¿Y tú cómo estás?, tengo conceptos de programacion y bases de datos por si necesitas ayuda",
+    "Excelente, gracias. ¿Qué tal va tu día?, recuerda que tengo conceptos de bases de datos y pogramacion",
+    "Todo marcha bien. ¿Cómo te va a ti?, puedo darte conceptos de programacion y bases de datos"
   ],
   "2": [
     "¡Me alegro mucho! ¿Hay algo en particular que quieras contarme?",
@@ -31,19 +31,19 @@
     "¡Que te vaya muy bien! Hasta la próxima"
   ],
   "4": [
-    "¡De nada! Estoy aquí para ayudar",
-    "Es un placer poder ayudarte",
-    "No hay de qué. ¿Necesitas algo más?",
-    "¡Con gusto! Siempre es un placer",
-    "¡Para eso estamos! ¿Hay algo más en que pueda ayudarte?"
+    "¡De nada! Estoy aquí para ayudar en conceptos de bases de datos y programacion",
+    "Es un placer poder ayudarte. recuerda que tengo conceptos de programacion y bases de datos",
+    "No hay de qué. ¿Necesitas algo más?, tengo informacion sobre bases de datos y programacion",
+    "¡Con gusto! Siempre es un placer. recuerda que si necesitas ayuda en conceptos de programacion y bases de datos esoty aqui para ayudarte",
+    "¡Para eso estamos! ¿Hay algo más en que pueda ayudarte?, puedo ayudarte en conceptos de bases de datos y programacion"
   ],
 
   "5":[
-    "La programación es el proceso de diseñar y escribir instrucciones en un lenguaje comprensible para una computadora",
-    "Programación es el arte y la ciencia de crear software mediante la construcción de algoritmos",
-    "La programacion es el conjunto de tecnicas para traducir problemas del mundo real en soluciones computacionales",
-    "Programar es la disciplina que combina logica, creatividad y conocimientos tecincos para desarrollar aplicaciones",
-    "Programar es la accion de codificar instrucciones logicas estructuradas las cuales permiten al hardware realizar tareas especificas"
+    "La programación es el proceso de diseñar y escribir instrucciones en un lenguaje comprensible para una computadora.\nEn el tema de programacion puedo hablarte de variables, ciclos, condicionales y objetos",
+    "Programación es el arte y la ciencia de crear software mediante la construcción de algoritmos.\nEn programación puedo explicarte sobre variables, bucles, condicionales y objetos.",
+    "La programacion es el conjunto de tecnicas para traducir problemas del mundo real en soluciones computacionales.\nEn el ámbito de la programación, puedo enseñarte acerca de variables, bucles, decisiones lógicas y objetos.",
+    "Programar es la disciplina que combina logica, creatividad y conocimientos tecincos para desarrollar aplicaciones.\nDentro de programación, puedo tratar temas como variables, iteraciones, condicionales y objetos.",
+    "Programar es la accion de codificar instrucciones logicas estructuradas las cuales permiten al hardware realizar tareas especificas.\nPuedo abordar conceptos de programación como variables, ciclos, estructuras de control y objetos."
   ],
 
   "6": [
@@ -276,5 +276,125 @@
     "DELETE removes entire rows from a table based on defined conditions. Feel free to ask more about SQL or programming.",
     "Used to remove data from a relational database in a controlled manner. Ask more about this command or programming if you need.",
     "An essential command to delete records in SQL using optional filters. You can expand your knowledge about SQL or programming."
+  ],
+  "36": [
+    "Interesting choice. If you need anything else, feel free to ask.",
+    "Have fun with your friends! If something intrigues you, let me know.",
+    "Enjoy your outing! You can ask about SQL or programming.",
+    "Have a great time! If you have questions, I’m here to help.",
+    "Have lots of fun! Remember, you can ask me about programming or SQL."
+  ],
+
+  "37": [
+  "Very well, thank you for asking. How about you? Do you have any questions about database concepts or programming concepts?",
+  "All good here. How about you? Do you need help with any topic related to databases or programming?",
+  "Pretty good. How are you? I have programming and database concepts if you need help.",
+  "Excellent, thank you. How's your day going? Remember, I can help with database and programming concepts.",
+  "Everything is going well. How about you? I can provide programming and database concepts."
+  ],
+
+
+  "38": [
+    "glad to hear that! is there anything in particular you'd like to tell me?",
+    "That's great! what plans do you have for today?",
+    "Awesome! glad you're doing well",
+    "Excellent! it's good to know",
+    "That's great! is there anything i can help you with?"
+  ],
+
+  "39": [
+    "See you later! have an excellent day",
+    "See you! take care.",
+    "Goodbye! looking forward to seeing you soon.",
+    "See you soon! it was nice talking to you",
+    "Hope everything goes well! Until next time"
+  ],
+
+  "40" : [
+    "You're welcome! I'm here to help with database and programming concepts.",
+    "It's a pleasure to assist you. Remember, I have knowledge about programming and database concepts.",
+    "No problem. Do you need anything else? I have information on databases and programming.",
+    "You're welcome! It's always a pleasure. Remember, if you need help with programming and database concepts, I'm here to assist you.",
+    "That's what I'm here for! Is there anything else I can help you with? I can assist with database and programming concepts."
+  ],
+
+  "41": [
+    "Programming is the process of designing and writing instructions in a language understandable to a computer.\nIn the topic of programming, I can talk to you about variables, loops, conditionals, and objects.",
+    "Programming is the art and science of creating software by building algorithms.\nIn programming, I can explain variables, loops, conditionals, and objects to you.",
+    "Programming is the set of techniques to translate real-world problems into computational solutions.\nIn the field of programming, I can teach you about variables, loops, logical decisions, and objects.",
+    "Programming is the discipline that combines logic, creativity, and technical knowledge to develop applications.\nWithin programming, I can cover topics such as variables, iterations, conditionals, and objects.",
+    "Programming is the act of coding structured logical instructions that allow hardware to perform specific tasks.\nI can discuss programming concepts such as variables, loops, control structures, and objects."
+  ],
+
+  "42": [
+    "A variable is a space in a computer's memory where data is stored that can change within a program.",
+    "Variables are identifiers associated with a value that allow the program to access and manipulate that value dynamically.",
+    "A variable is a symbolic name used to represent data in a program.",
+    "It is a fundamental element in programming that acts as a reference to a piece of data.",
+    "A variable is a programming resource used to store information."
+  ],
+
+  "43": [
+    "A conditional is a control structure that allows a program to make decisions depending on the outcome of a condition.",
+    "It is a logical mechanism that executes different blocks of code based on the evaluation of one or more boolean expressions.",
+    "Conditionals are a programming tool that defines the flow of a program based on certain rules.",
+    "An if conditional is an instruction that evaluates a logical expression and, if true, executes a set of instructions.",
+    "If is a conditional statement that represents a decision in a program."
+  ],
+
+  "44": [
+    "A loop is a control structure that allows a block of code to execute repeatedly while a specific condition is true.",
+    "Loops are fundamental tools in programming that automate the repetition of tasks.",
+    "A loop is a mechanism that facilitates iteration over data collections, value ranges, or predefined instructions.",
+    "A loop is a repetitive sequence in a program, designed to iterate a set of instructions a fixed number of times or until a condition is met or no longer met.",
+    "Loops are logical components that control repetitive execution in a program."
+  ],
+
+  "45": [
+    "A function is a reusable block of code that performs a specific task and can be called from different parts of a program.",
+    "A function is a reusable piece of code that takes input, processes it, and returns an output",
+    "The difference between a function and a method is that a function is independent, while a method belongs to an object.",
+    "Functions and methods are fundamental in programming because they allow code to be structured and organized efficiently, clearly, and in a reusable way.",
+    "A function is a way to encapsulate code logic, allowing it to be called multiple times with different inputs."
+  ],
+
+  "46": [
+    "OOP is a programming paradigm that organizes code around objects.",
+    "Object-Oriented Programming (OOP) is a software development methodology based on principles like encapsulation, inheritance, polymorphism, and abstraction.",
+    "OOP is recommended in many cases, but its suitability depends on the type of project and its requirements.",
+    "The main characteristics of OOP are encapsulation, abstraction, inheritance, and polymorphism.",
+    "It is one of the most popular and widely used programming paradigms in the software industry."
+  ],
+
+  "47": [
+    "Sure, here's a joke! What do you call two monkeys that share an Amazon account? Prime mates",
+    "Why did the pharmacist walk on her tiptoes? She didn't want to wake the sleeping pills.",
+    "What would the Terminator be called in his retirement? The Exterminator.",
+    "My boss told me to have a good day, so I went home.",
+    "Why is Peter Pan always flying? Because he Neverlands."
+  ],
+
+  "48": [
+    "I can recommend taking a walk on a trail or in a park.",
+    "I could suggest watching a movie at the cinema.",
+    "You could spend time with family or friends.",
+    "Trying a new recipe would be a good recommendation.",
+    "If you're looking for a healthy option, you could exercise."
+  ],
+
+  "49": [
+    "Why so serious? - The Joker in Batman: The Dark Knight.",
+    "May the Force be with you - Star Wars.",
+    "Hasta la vista, baby - Terminator in Terminator 2: Judgment Day.",
+    "To infinity and beyond - Buzz Lightyear in Toy Story.",
+    "Are you talking to me? - Travis Bickle in Taxi Driver."
+  ],
+
+  "50": [
+    "Why not try cooking some tacos?",
+    "You could make a Caesar salad.",
+    "I recommend making garlic pasta.",
+    "A tuna sandwich is a simple meal to prepare.",
+    "If you're looking for something sweet, I could recommend making brownies."
   ]
 }
