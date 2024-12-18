@@ -117,7 +117,7 @@
       "labels":["9"],
       "subtopics":[]
     },
-    "objetos":{
+    "OOP":{
       "keywords":[
         "oop",
         "orientada",
@@ -320,7 +320,6 @@
         "everything",
         "feeling",
         "day",
-        "what",
         "have",
         "fine",
         "thanks",
@@ -351,7 +350,6 @@
         "very",
         "much",
         "appreciate",
-        "it",
         "many",
         "You're",
         "kind",
@@ -366,13 +364,9 @@
     },
     "programming":{
       "keywords":[
-        "what",
-        "is",
         "programming",
-        "can",
         "you",
         "give",
-        "me",
         "definition",
         "describe",
         "technical",
@@ -390,11 +384,8 @@
       "keywords":[
         "define",
         "variable",
-        "in programming",
-        "what",
-        "is",
+        "programming",
         "does",
-        "do",
         "used",
         "for"
       ],
@@ -403,14 +394,9 @@
     },
     "if-en":{
       "keywords":[
-        "what",
-        "is",
-        "an",
         "if",
         "type",
-        "of",
         "instruction",
-        "do",
         "conditionals",
         "ifs",
         "make",
@@ -421,65 +407,42 @@
     },
     "loops":{
       "keywords":[
-        "what",
-        "are",
         "loops",
-        "in",
         "programming",
         "how",
-        "do",
         "help",
         "applications",
-        "can",
         "you",
-        "define",
-        "an"
+        "define"
       ],
       "labels":["44"],
       "subtopics":[]
     },
     "functions":{
       "keywords":[
-        "what",
-        "is",
-        "a",
         "function",
-        "can",
         "you",
         "give",
-        "me",
         "one",
         "definition",
-        "of",
-        "the",
         "difference",
         "between",
-        "and",
         "method",
         "how",
         "important",
-        "are",
         "functions",
         "methods"
       ],
       "labels":["45"],
       "subtopics":[]
     },
-    "objects":{
+    "OOP-en":{
       "keywords":[
-        "can",
         "you",
         "define",
         "oop",
-        "what",
-        "are",
-        "the",
         "characteristics",
-        "of",
-        "is",
-        "it",
         "recommended",
-        "to",
         "use",
         "how",
         "popular"
@@ -490,11 +453,8 @@
     "jokes":{
       "keywords":[
         "tell",
-        "me",
-        "a",
         "joke",
         "say",
-        "do",
         "you",
         "have",
         "good",
@@ -507,17 +467,12 @@
     },
     "activities":{
       "keywords":[
-        "do",
         "you",
         "recommend",
         "any",
         "activity",
-        "to",
         "today",
         "tell",
-        "me",
-        "an",
-        "i",
         "could",
         "how",
         "can",
@@ -533,17 +488,14 @@
     "movie-quotes":{
       "keywords":[
         "say",
-        "a",
         "movie",
         "quote",
-        "do",
         "you",
         "have",
         "any",
         "quotes",
         "could",
         "give",
-        "me",
         "line",
         "from"
       ],
@@ -552,16 +504,11 @@
     },
     "food":{
       "keywords":[
-        "what",
         "food",
         "could",
-        "i",
         "make",
         "recommend",
-        "me",
-        "a",
         "give",
-        "can",
         "prepare",
         "feel",
         "like",
@@ -569,6 +516,84 @@
         "something"
       ],
       "labels":["50"],
+      "subtopics":[]
+    },
+    "clases-progra":{
+      "keywords":[
+        "clase",
+        "programacion",
+        "explica",
+        "define",
+        "sirve"
+      ],
+      "labels":["51"],
+      "subtopics":[]
+    },
+    "classes-programming":{
+      "keywords":[
+        "class",
+        "programming",
+        "explain",
+        "define",
+        "purpose"
+      ],
+      "labels":["52"],
+      "subtopics":[]
+    },
+    "objetos":{
+      "keywords":[
+        "objeto",
+        "programacion",
+        "como",
+        "define",
+        "definicion",
+        "representa",
+        "podrias",
+        "explicarme"
+      ],
+      "labels":["53"],
+      "subtopics":[]
+    },
+    "objects":{
+      "keywords":[
+        "object",
+        "programming",
+        "how",
+        "defined",
+        "definition",
+        "represent",
+        "could",
+        "you",
+        "explain"
+      ],
+      "labels":["54"],
+      "subtopics":[]
+    },
+    "encapsulamiento":{
+      "keywords":[
+        "encapsulamiento",
+        "dame",
+        "una",
+        "definicion",
+        "significa",
+        "podrias",
+        "definir"
+      ],
+      "labels":["55"],
+      "subtopics":[]
+    },
+    "encapsulamiento-en":{
+      "keywords":[
+        "encapsulation",
+        "give",
+        "definition",
+        "mean",
+        "could",
+        "you",
+        "define",
+        "does"
+      ],
+      "labels":["56"],
       "subtopics":[]
     }
 
@@ -592,7 +617,7 @@
       },
       "keywords": {
         "global": [
-          "por favor", "ok","si","no","bien"
+          "por favor", "ok","si","no","bien","a","me","i","what","can","do","an","to","are","the","of","is","it","and","in","of","que","es","una","en","un","para"
         ]
       }
 }

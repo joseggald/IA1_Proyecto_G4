@@ -396,5 +396,56 @@
     "I recommend making garlic pasta.",
     "A tuna sandwich is a simple meal to prepare.",
     "If you're looking for something sweet, I could recommend making brownies."
+  ],
+
+  "51":[
+    "Una clase es un modelo o plantilla que define las propiedades y métodos que los objetos de ese tipo tendrán.",
+    "Es una estructura que permite crear objetos con atributos y comportamientos específicos.",
+    "En programación orientada a objetos, una clase es el diseño base de los objetos que comparten características similares.",
+    "Es un concepto que organiza código en componentes reutilizables y estructurados.",
+    "Una clase es el mecanismo principal en OOP para implementar el encapsulamiento, la herencia y el polimorfismo."
+  ],
+
+  "52":[
+    "A class is a blueprint or template that defines the properties and methods objects of that type will have.",
+    "It is a structure that allows creating objects with specific attributes and behaviors.",
+    "In object-oriented programming, a class is the base design of objects that share similar characteristics.",
+    "It is a concept that organizes code into reusable and structured components.",
+    "A class is the main mechanism in OOP to implement encapsulation, inheritance, and polymorphism."
+  ],
+
+  "53": [
+    "Un objeto es una instancia de una clase que agrupa datos y métodos relacionados.",
+    "Es una entidad en programación orientada a objetos que tiene atributos y comportamiento.",
+    "Un objeto es una unidad básica de la programación orientada a objetos que encapsula datos y lógica.",
+    "Es una instancia específica que hereda las propiedades y métodos de su clase.",
+    "Es una entidad autónoma que combina datos y métodos para operar sobre esos datos."
+
+  ],
+
+  "54":[
+    "An object is an instance of a class that groups related data and methods.",
+    "It is an entity in object-oriented programming that has attributes and behavior.",
+    "An object is a basic unit of object-oriented programming that encapsulates data and logic.",
+    "It is a specific instance that inherits the properties and methods of its class.",
+    "It is an autonomous entity that combines data and methods to operate on that data."
+
+  ],
+
+  "55": [
+    "El encapsulamiento es un principio de la programación orientada a objetos que restringe el acceso directo a los datos de un objeto.",
+    "Es la práctica de ocultar detalles internos de una clase y exponer solo lo necesario mediante métodos públicos.",
+    "El encapsulamiento permite proteger los datos de un objeto al mantenerlos privados y controlando su acceso con getters y setters.",
+    "Se refiere a la agrupación de datos y métodos en una misma entidad para ocultar su implementación.",
+    "El encapsulamiento asegura que los datos de un objeto sean manipulados solo a través de su interfaz pública."
+  ],
+
+  "56": [
+    "Encapsulation is a principle of object-oriented programming that restricts direct access to an object's data.",
+    "It is the practice of hiding the internal details of a class and exposing only what is necessary through public methods.",
+    "Encapsulation allows protecting an object's data by keeping it private and controlling its access with getters and setters.",
+    "It refers to the grouping of data and methods in a single entity to hide its implementation.",
+    "Encapsulation ensures that an object's data is manipulated only through its public interface."
   ]
+
 }

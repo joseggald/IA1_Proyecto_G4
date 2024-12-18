@@ -325,7 +325,39 @@
     { "input": "what food could I make", "label": 50 },
     { "input": "recommend me a food", "label": 50 },
     { "input": "give me a food I can prepare", "label": 50 },
-    { "input": "I feel like eating something", "label": 50 }
+    { "input": "I feel like eating something", "label": 50 },
+
+    {"input": "que es una clase en programacion", "label":51},
+    {"input": "Explica que es una clase en programacion.", "label": 51},
+    {"input": "Define una clase en programacion.", "label": 51},
+    {"input": "Para que sirve una clase en programacion?", "label": 51},
+
+    {"input": "What is a class in programming?", "label": 52},
+    {"input": "Explain what a class is in programming.", "label": 52},
+    {"input": "Define a class in programming.", "label": 52},
+    {"input": "What is the purpose of a class in programming?", "label": 52},
+
+    {"input": "que es un objeto en programacion", "label":53},
+    {"input": "Como se define un objeto en programacion?", "label":53},
+    {"input": "cual es la definicion de un objeto en programacion", "label":53},
+    {"input": "que representa un objeto en programacion", "label":53},
+    {"input": "podrias explicarme que es un objeto en programacion", "label":53},
+
+    {"input": "What is an object in programming?", "label": 54},
+    {"input": "How is an object defined in programming?", "label": 54},
+    {"input": "What is the definition of an object in programming?", "label": 54},
+    {"input": "What does an object represent in programming?", "label": 54},
+    {"input": "Could you explain what an object is in programming?", "label": 54},
+
+    {"input": "que es el encapsulamiento","label":55},
+    {"input": "dame una definicion de encapsulamiento","label":55},
+    {"input": "que significa encapsulamiento","label":55},
+    {"input": "podrias definir encapsulamiento","label":55},
+
+    {"input": "What is encapsulation?", "label": 56},
+    {"input": "Give me a definition of encapsulation.", "label": 56},
+    {"input": "What does encapsulation mean?", "label": 56},
+    {"input": "Could you define encapsulation?", "label": 56}
 
 
 ]
