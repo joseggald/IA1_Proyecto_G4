@@ -1,37 +1,400 @@
+
 {
   "0": [
-    "\u00a1Hola! \u00bfC\u00f3mo est\u00e1s?",
-    "\u00a1Hola! Me alegra verte",
-    "\u00a1Hola! \u00bfQu\u00e9 tal?",
-    "\u00a1Hey! \u00bfC\u00f3mo va todo?",
-    "\u00a1Saludos! \u00bfC\u00f3mo est\u00e1s hoy?"
-  ],
+    "¡Hola! ¿Cómo te encuentras hoy? Puedo ayudarte con SQL o programación.",
+    "¡Hey! Es genial verte por aquí. ¿Tienes dudas sobre SQL o conceptos de programación?",
+    "¡Saludos! ¿Cómo va todo contigo? Si necesitas ayuda con bases de datos o programación, estoy aquí.",
+    "¡Hola! Espero que tengas un gran día. Pregunta lo que quieras sobre SQL o programación.",
+    "¡Hey! Estoy listo para ayudarte con SQL o cualquier concepto de programación.",
+    "¡Hola! Soy un chatbot experto en programación y SQL. ¿En qué concepto puedo asistirte hoy?"
+  ]
+  ,
   "1": [
-    "Muy bien, gracias por preguntar. \u00bfY t\u00fa qu\u00e9 tal?",
-    "Todo bien por aqu\u00ed. \u00bfQu\u00e9 tal t\u00fa?",
-    "Bastante bien. \u00bfY t\u00fa c\u00f3mo est\u00e1s?",
-    "Excelente, gracias. \u00bfQu\u00e9 tal va tu d\u00eda?",
-    "Todo marcha bien. \u00bfC\u00f3mo te va a ti?"
+    "Muy bien, gracias por preguntar. ¿Y tú qué tal, Tienes dudas conceptos de bases de datos o conceptos de programación? ",
+    "Todo bien por aquí. ¿Qué tal tú, necesitas ayuda en algun tema sobre bases de datos o programacion?",
+    "Bastante bien. ¿Y tú cómo estás?, tengo conceptos de programacion y bases de datos por si necesitas ayuda",
+    "Excelente, gracias. ¿Qué tal va tu día?, recuerda que tengo conceptos de bases de datos y pogramacion",
+    "Todo marcha bien. ¿Cómo te va a ti?, puedo darte conceptos de programacion y bases de datos"
   ],
   "2": [
-    "\u00a1Me alegro mucho! \u00bfHay algo en particular que quieras contarme?",
-    "\u00a1Qu\u00e9 bueno! \u00bfQu\u00e9 planes tienes para hoy?",
-    "\u00a1Genial! Me alegra que est\u00e9s bien",
-    "\u00a1Excelente! Es bueno saberlo",
-    "\u00a1Qu\u00e9 bien! \u00bfHay algo en lo que pueda ayudarte?"
+    "¡Me alegro mucho! ¿Hay algo en particular que quieras contarme?",
+    "¡Qué bueno! ¿Qué planes tienes para hoy?",
+    "¡Genial! Me alegra que estés bien",
+    "¡Excelente! Es bueno saberlo",
+    "¡Qué bien! ¿Hay algo en lo que pueda ayudarte?"
   ],
   "3": [
-    "\u00a1Hasta luego! Que tengas un excelente d\u00eda",
-    "\u00a1Nos vemos! Cu\u00eddate mucho",
-    "\u00a1Adi\u00f3s! Espero verte pronto",
-    "\u00a1Hasta pronto! Ha sido un gusto charlar",
-    "\u00a1Que te vaya muy bien! Hasta la pr\u00f3xima"
+    "¡Hasta luego! Que tengas un excelente día",
+    "¡Nos vemos! Cuídate mucho",
+    "¡Adiós! Espero verte pronto",
+    "¡Hasta pronto! Ha sido un gusto charlar",
+    "¡Que te vaya muy bien! Hasta la próxima"
   ],
   "4": [
-    "\u00a1De nada! Estoy aqu\u00ed para ayudar",
-    "Es un placer poder ayudarte",
-    "No hay de qu\u00e9. \u00bfNecesitas algo m\u00e1s?",
-    "\u00a1Con gusto! Siempre es un placer",
-    "\u00a1Para eso estamos! \u00bfHay algo m\u00e1s en que pueda ayudarte?"
+    "¡De nada! Estoy aquí para ayudar en conceptos de bases de datos y programacion",
+    "Es un placer poder ayudarte. recuerda que tengo conceptos de programacion y bases de datos",
+    "No hay de qué. ¿Necesitas algo más?, tengo informacion sobre bases de datos y programacion",
+    "¡Con gusto! Siempre es un placer. recuerda que si necesitas ayuda en conceptos de programacion y bases de datos esoty aqui para ayudarte",
+    "¡Para eso estamos! ¿Hay algo más en que pueda ayudarte?, puedo ayudarte en conceptos de bases de datos y programacion"
+  ],
+
+  "5":[
+    "La programación es el proceso de diseñar y escribir instrucciones en un lenguaje comprensible para una computadora.\nEn el tema de programacion puedo hablarte de variables, ciclos, condicionales y objetos",
+    "Programación es el arte y la ciencia de crear software mediante la construcción de algoritmos.\nEn programación puedo explicarte sobre variables, bucles, condicionales y objetos.",
+    "La programacion es el conjunto de tecnicas para traducir problemas del mundo real en soluciones computacionales.\nEn el ámbito de la programación, puedo enseñarte acerca de variables, bucles, decisiones lógicas y objetos.",
+    "Programar es la disciplina que combina logica, creatividad y conocimientos tecincos para desarrollar aplicaciones.\nDentro de programación, puedo tratar temas como variables, iteraciones, condicionales y objetos.",
+    "Programar es la accion de codificar instrucciones logicas estructuradas las cuales permiten al hardware realizar tareas especificas.\nPuedo abordar conceptos de programación como variables, ciclos, estructuras de control y objetos."
+  ],
+
+  "6": [
+    "Una variable es una espacio  en la memoria de una computadora donde se almacenan datos que pueden cambiar dentro de un programa.",
+    "las variables son identificadores asociados a un valor que permite al programa acceder y manipular dicho valor dinámicamente.",
+    "Variable es un nombre simbólico utilizado para representar datos en un programa",
+    "Es un elemento fundamental en programación que actúa como una referencia a un dato",
+    "Una variable es un recurso de programacion que se usa para almacenar informacion"
+  ],
+
+  "7": [
+    "Un condicional es una estructura de control que permite a un programa tomar decisiones dependiendo del resultado de la condicion.",
+    "es un mecanismo lógico que ejecuta diferentes bloques de código dependiendo de la evaluación de una o más expresiones booleanas.",
+    "Los condicionales son una herramienta de programacion que define el flujo de un programa en base a ciertas reglas.",
+    "Un condicional if es una instruccion que evalua una expresion logica y de ser verdadera ejecuta conjunto de instrucciones.",
+    "If es una declaracion condicional que representa una desicion en un programa."
+  ],
+
+  "8": [
+    "Un ciclo es una estructura de control que permite ejecutar un bloque de código repetidamente mientras una condición específica sea verdadera",
+    "Los ciclos son herramientas fundamentales en programación que automatizan la repetición de tareas",
+    "Un ciclo es un mecanismo que facilita la iteración sobre colecciones de datos, rangos de valores o instrucciones predefinidas",
+    "Un ciclo una secuencia repetitiva en un programa, diseñada para iterar un conjunto de instrucciones un número fijo de veces o hasta que una condición se cumpla o deje de cumplirse",
+    "Los ciclos son componentes lógicos que controlan la ejecución repetitiva en un programa"
+  ],
+
+  "9": [
+    "Una funcion es un bloque de código reutilizable que realiza una tarea específica y puede ser invocado desde diferentes partes de un programa.",
+    "Un metodo puede devolver un valor, pero no siempre lo hace.",
+    "La diferencia entre una funcion y un metodo es que una funcion es independiente y un metodo pertenece a un objeto",
+    "Las funciones y métodos son fundamentales en la programación porque permiten estructurar y organizar el código de manera eficiente, clara y reutilizable.",
+    "las funciones y métodos son esenciales para escribir código limpio"
+  ],
+
+  "10": [
+    "OOP es un paradigma de programación que organiza el código en torno a objetos",
+    "La programacion orientada a objetos es una metodología de desarrollo de software basada en principios como encapsulamiento, herencia, polimorfismo y abstracción",
+    "la OOP es recomendable en muchos casos, pero su conveniencia depende del tipo de proyecto y sus requerimientos.",
+    "Las principales caracteristicas de la OOP son encapsulamiento, Asbtraccion, herencia y polimorfismo",
+    "Es uno de los paradigmas de programación más populares y ampliamente utilizados en la industria del software"
+  ],
+
+  "11": [
+    "los géneros de acción, ciencia ficción y comedia son tradicionalmente los más populares",
+    "las películas de bajo presupuesto pueden hacerse por menos de $10 millones, las superproducciones pueden superar fácilmente los $200 millones o más",
+    "Te recomendaría Mad Max: Fury Road (2015), dirigida por George Miller. Es una de las películas de acción más emocionantes y visualmente impresionantes de la última década",
+    "La pelicula mas popular del año 2024 es deadpool y wolverine",
+    "¿que tipo de peliculas te gustan?"
+  ],
+
+  "12": [
+    "¡claro aqui tienes un chiste! Soy un tipo saludable. +¿Te gusta comer bien? -No, pero siempre me saludan",
+    "¿Cómo se despiden los químicos? Ácido un placer.",
+    "Me sacaron del grupo de WhatsApp de paracaidismo. Se ve que no caía bien.",
+    "¿Qué hace un pez en la oficina? Nada.",
+    "¿Quién es el papá del príncipe azul? El Blu-ray"
+  ],
+
+  "13": [
+    "Te puedo recomendar realizar una caminata en algun sendero o parque",
+    "podria recomendarte ver una pelicula en el cine",
+    "Podrias pasar tiempos con familiares o amigos",
+    "Intentar una nueva receta seria una buena recomendacion",
+    "Si quieres una opcion saludable podrias ejercitarte"
+  ],
+
+  "14": [
+    "por que tan serio? -el Joker en Batman: el caballero de la noche",
+    "que la fuerza te acompañe -Star Wars.",
+    "hasta la vista,baby -Terminator en Terminator 2: El dia del juicio",
+    "al infinito y mas alla -buzz lightyear en Toy Story",
+    "estas hablandome? -travis bickle en taxi driver"
+  ],
+
+  "15": [
+    "porque no intentas cocinar unos tacos",
+    "podrias hacer una ensalada cesar",
+    "te recomiendo hacer una pasta al ajo",
+    "un sandwich de atun es una comida sencilla de preparar",
+    "si buscas algo dulce podria recomendarte hacer brownies"
+  ],
+
+  "16": [
+    "SQL es un lenguaje para gestionar bases de datos. Puedes seguir preguntando acerca de conceptos de bases de datos.",
+    "Lenguaje para consultar y manipular datos en tablas. Tengo mas información acerca de conceptos de sql.",
+    "SQL organiza, consulta y modifica datos en bases relacionales. Puedes preguntarme acerca de comandos como SELECT.",
+    "Structured Query Language, usado para gestionar datos. Te puedo dar mas información acerca de bases de datos.",
+    "Un estándar para interactuar con bases de datos relacionales. Te puedo ayudar con otro concepto SQL.",
+    "SQL facilita operaciones sobre datos almacenados en tablas. ¿Algo más que necesites saber relacionado con bases de datos o algún concepto de programación? "
+
+  ],
+
+  "17": [
+    "Bases relacionales y no relacionales son los principales tipos. ¿Te gustaría saber algo más sobre bases de datos o programación?",
+    "Relacionales, no relacionales, jerárquicas y orientadas a objetos.¿Tienes más dudas sobre bases de datos o conceptos de programación?",
+    "Bases relacionales almacenan datos en tablas estructuradas. ¿Hay algo más sobre programación o bases de datos que necesites aclarar?",
+    "No relacionales como MongoDB manejan datos no estructurados. ¿Puedo ayudarte con otra consulta sobre programación o bases de datos?",
+    "Relacionales incluyen MySQL, PostgreSQL, SQL Server y Oracle. ¿Necesitas más información sobre conceptos de bases de datos o programación?",
+    "NoSQL incluye MongoDB, Cassandra, CouchDB y Redis. ¿Quieres saber más sobre bases de datos o programación?",
+    "Bases híbridas combinan características relacionales y no relacionales. ¿Hay algo más que necesites aclarar sobre bases de datos o programación?"
+  ],
+
+  "18": [
+    "Una tabla almacena datos organizados en filas y columnas. Puedes preguntar más sobre SQL o programación si lo deseas.",
+    "Tablas son estructuras principales en bases de datos relacionales. Si quieres saber más, consulta sobre SQL o conceptos de programación.",
+    "Una tabla organiza datos en filas y columnas relacionadas. Explora más sobre SQL o cualquier otro aspecto de programación.",
+    "Tablas relacionales representan entidades con datos estructurados. Anímate a preguntar sobre SQL o temas relacionados con programación.",
+    "SQL usa tablas para almacenar información en formato estructurado. Puedes ampliar tus dudas sobre SQL o programación."
+  ],
+
+  "19": [
+    "SELECT es un comando para consultar datos en bases SQL. Si tienes dudas, pregúntame sobre SQL o programación.",
+    "SELECT recupera datos específicos de una tabla en bases de datos. Puedes explorar más conceptos sobre SQL o programación.",
+    "SELECT permite obtener información almacenada en bases relacionales. Anímate a preguntar sobre este comando u otros temas de programación.",
+    "Un comando básico para extraer datos de tablas en SQL. Consulta más detalles sobre SQL o programación si lo deseas.",
+    "SELECT es usado para realizar consultas en bases de datos. Si necesitas más información, pregúntame sobre SQL o programación."
+  ],
+  "20": [
+    "WHERE se usa para filtrar datos según condiciones en consultas SQL. Puedes preguntar más sobre SQL o conceptos de programación.",
+    "WHERE permite seleccionar filas específicas que cumplen criterios establecidos. Si quieres saber más, consulta sobre SQL o programación.",
+    "Un filtro SQL que aplica condiciones a consultas para seleccionar datos. Anímate a explorar más sobre SQL o programación.",
+    "WHERE filtra registros en tablas según condiciones específicas. ¿Te gustaría saber más sobre SQL o temas de programación?",
+    "Usa WHERE para extraer datos que cumplan criterios en SQL. Puedes ampliar tus dudas sobre este tema o programación."
+  ],
+  "21": [
+    "Soy un chatbot creado con el modelo LSTM usando TensorFlow, Python y JavaScript. Pregunta sobre SQL o programación para aprender más.",
+    "Soy un asistente virtual desarrollado bajo LSTM, utilizando TensorFlow, Python y JavaScript. Explora tus dudas sobre SQL o programación básica.",
+    "Soy un chatbot basado en LSTM, desarrollado con TensorFlow, Python y JavaScript. Estoy aquí para responder preguntas sobre SQL y programación.",
+    "Desarrollado con LSTM, TensorFlow, Python y JavaScript, soy un chatbot que puede guiarte en SQL y conceptos básicos de programación.",
+    "Soy un chatbot construido con el modelo LSTM mediante TensorFlow, Python y JavaScript. Estoy listo para ayudarte con SQL o programación básica."
+  ],
+  "22": [
+    "INSERT agrega nuevos registros a una tabla en SQL. Si tienes dudas, pregúntame sobre este tema o programación.",
+    "Comando SQL usado para insertar datos en tablas específicas. Puedes explorar más sobre SQL o conceptos de programación.",
+    "INSERT añade filas con información a tablas de bases relacionales. Anímate a preguntar más sobre SQL o temas de programación.",
+    "Sirve para incluir nuevos datos en una base de datos SQL. Consulta más sobre este tema o programación si lo necesitas.",
+    "INSERT permite insertar registros cumpliendo con la estructura de la tabla. Puedes ampliar tus conocimientos sobre SQL o programación."
+  ],
+  "23": [
+    "UPDATE es un comando SQL usado para modificar datos existentes en una tabla. Pregunta más sobre este tema o programación si lo deseas.",
+    "Permite actualizar valores específicos en registros de una base de datos. Explora más sobre este tema o conceptos de programación.",
+    "UPDATE modifica datos en tablas basándose en condiciones establecidas. Anímate a consultar más sobre SQL o programación.",
+    "Comando SQL utilizado para cambiar valores de una o más filas. Puedes preguntar más sobre SQL o programación si lo necesitas.",
+    "UPDATE actualiza información existente en tablas de bases relacionales. Pregunta más sobre este comando o programación si tienes dudas."
+  ],
+  "24": [
+    "DELETE es un comando SQL usado para eliminar datos de una tabla. Puedes preguntar más sobre este tema o conceptos de programación.",
+    "Comando utilizado para borrar registros específicos de tablas en bases de datos. Explora más sobre SQL o programación si lo deseas.",
+    "DELETE elimina filas completas de una tabla según las condiciones definidas. Anímate a preguntar más sobre SQL o programación.",
+    "Sirve para remover datos de una base relacional de manera controlada. Consulta más sobre este comando o programación si lo necesitas.",
+    "Comando esencial para eliminar registros en SQL usando filtros opcionales. Puedes ampliar tus conocimientos sobre SQL o programación."
+  ],
+  "25": [
+    "Interesante elección. Si necesitas algo más, pregunta con confianza.",
+    "¡Diviértete con tus amigos! Si algo te intriga, pregúntame.",
+    "¡Que disfrutes tu salida! Puedes preguntar sobre SQL o programación.",
+    "¡Que tengas un buen rato! Si tienes dudas, estoy aquí para ayudarte.",
+    "¡Que te diviertas mucho! Recuerda que puedes preguntarme sobre programación o SQL."
+  ],
+  "26": [
+    "Hi! How are you today? I can help with SQL or programming.",
+    "Hey! Great to see you here. Do you have questions about SQL or programming concepts?",
+    "Greetings! How's everything going? If you need help with databases or programming, I'm here.",
+    "Hi! Hope you're having a great day. Ask anything about SQL or programming.",
+    "Hey! I'm ready to help you with SQL or any programming concept.",
+    "Hi! I'm a chatbot expert in programming and SQL. What concept can I assist you with today?"
+  ],
+  "27": [
+    "SQL is a language for managing databases. You can keep asking about database concepts.",
+    "A language for querying and manipulating data in tables. I have more information about SQL concepts.",
+    "SQL organizes, queries, and modifies data in relational databases. You can ask me about commands like SELECT.",
+    "Structured Query Language, used to manage data. I can give you more information about databases.",
+    "A standard for interacting with relational databases. I can help you with another SQL concept.",
+    "SQL facilitates operations on data stored in tables. Anything else you need to know about databases or programming concepts?"
+  ],
+  "28": [
+    "Relational and non-relational are the main types of databases. Would you like to learn more about databases or programming?",
+    "Relational, non-relational, hierarchical, and object-oriented. Do you have more questions about databases or programming concepts?",
+    "Relational databases store data in structured tables. Is there anything else about databases or programming you need clarified?",
+    "Non-relational databases like MongoDB handle unstructured data. Can I help you with another query about programming or databases?",
+    "Relational databases include MySQL, PostgreSQL, SQL Server, and Oracle. Do you need more information about database or programming concepts?",
+    "NoSQL includes MongoDB, Cassandra, CouchDB, and Redis. Would you like to learn more about databases or programming?",
+    "Hybrid databases combine relational and non-relational features. Anything else you need to know about databases or programming?"
+  ],
+  "29": [
+    "A table stores data organized in rows and columns. You can ask more about SQL or programming if you want.",
+    "Tables are main structures in relational databases. If you want to know more, ask about SQL or programming concepts.",
+    "A table organizes data into related rows and columns. Explore more about SQL or any other aspect of programming.",
+    "Relational tables represent entities with structured data. Feel free to ask about SQL or related programming topics.",
+    "SQL uses tables to store information in a structured format. You can expand your questions about SQL or programming."
+  ],
+  "30": [
+    "SELECT is a command to query data in SQL databases. If you have questions, feel free to ask about SQL or programming.",
+    "SELECT retrieves specific data from a table in databases. You can explore more concepts about SQL or programming.",
+    "SELECT allows retrieving stored information in relational databases. Feel free to ask about this command or other programming topics.",
+    "A basic command to extract data from tables in SQL. Ask for more details about SQL or programming if you want.",
+    "SELECT is used to perform queries in databases. If you need more information, ask about SQL or programming."
+  ],
+  "31": [
+    "WHERE is used to filter data based on conditions in SQL queries. Feel free to ask more about SQL or programming concepts.",
+    "WHERE allows selecting specific rows that meet established criteria. You can explore more about SQL or programming.",
+    "A SQL filter that applies conditions to queries for selecting data. Feel free to ask about SQL or programming.",
+    "WHERE filters records in tables based on specific conditions. Would you like to know more about SQL or programming topics?",
+    "Use WHERE to extract data that meets criteria in SQL. You can expand your knowledge about this topic or programming."
+  ],
+  "32": [
+    "I am a chatbot created with the LSTM model using TensorFlow, Python, and JavaScript. Ask about SQL or programming to learn more.",
+    "I am a virtual assistant developed under LSTM, using TensorFlow, Python, and JavaScript. Explore your questions about SQL or basic programming.",
+    "I am a chatbot based on LSTM, developed with TensorFlow, Python, and JavaScript. I am here to answer questions about SQL and programming.",
+    "Developed with LSTM, TensorFlow, Python, and JavaScript, I am a chatbot that can guide you in SQL and basic programming concepts.",
+    "I am a chatbot built with the LSTM model using TensorFlow, Python, and JavaScript. I am ready to help you with SQL or basic programming."
+  ],
+  "33": [
+    "INSERT adds new records to a table in SQL. If you have questions, ask about this topic or programming.",
+    "SQL command used to insert data into specific tables. You can explore more about SQL or programming concepts.",
+    "INSERT adds rows with information to relational database tables. Feel free to ask more about SQL or programming topics.",
+    "Used to include new data in an SQL database. Ask more about this topic or programming if you need.",
+    "INSERT allows inserting records while meeting the table's structure. Expand your knowledge about SQL or programming."
+  ],
+  "34": [
+    "UPDATE is an SQL command used to modify existing data in a table. Ask more about this topic or programming if you want.",
+    "It allows updating specific values in database records. Explore more about this topic or programming concepts.",
+    "UPDATE modifies data in tables based on established conditions. Feel free to ask more about SQL or programming.",
+    "SQL command used to change values of one or more rows. Ask more about SQL or programming if you need.",
+    "UPDATE updates existing information in relational database tables. Ask more about this command or programming if you have doubts."
+  ],
+  "35": [
+    "DELETE is an SQL command used to remove data from a table. You can ask more about this topic or programming concepts.",
+    "Command used to delete specific records from database tables. Explore more about SQL or programming if you want.",
+    "DELETE removes entire rows from a table based on defined conditions. Feel free to ask more about SQL or programming.",
+    "Used to remove data from a relational database in a controlled manner. Ask more about this command or programming if you need.",
+    "An essential command to delete records in SQL using optional filters. You can expand your knowledge about SQL or programming."
+  ],
+  "36": [
+    "Interesting choice. If you need anything else, feel free to ask.",
+    "Have fun with your friends! If something intrigues you, let me know.",
+    "Enjoy your outing! You can ask about SQL or programming.",
+    "Have a great time! If you have questions, I’m here to help.",
+    "Have lots of fun! Remember, you can ask me about programming or SQL."
+  ],
+
+  "37": [
+  "Very well, thank you for asking. How about you? Do you have any questions about database concepts or programming concepts?",
+  "All good here. How about you? Do you need help with any topic related to databases or programming?",
+  "Pretty good. How are you? I have programming and database concepts if you need help.",
+  "Excellent, thank you. How's your day going? Remember, I can help with database and programming concepts.",
+  "Everything is going well. How about you? I can provide programming and database concepts."
+  ],
+
+
+  "38": [
+    "glad to hear that! is there anything in particular you'd like to tell me?",
+    "That's great! what plans do you have for today?",
+    "Awesome! glad you're doing well",
+    "Excellent! it's good to know",
+    "That's great! is there anything i can help you with?"
+  ],
+
+  "39": [
+    "See you later! have an excellent day",
+    "See you! take care.",
+    "Goodbye! looking forward to seeing you soon.",
+    "See you soon! it was nice talking to you",
+    "Hope everything goes well! Until next time"
+  ],
+
+  "40" : [
+    "You're welcome! I'm here to help with database and programming concepts.",
+    "It's a pleasure to assist you. Remember, I have knowledge about programming and database concepts.",
+    "No problem. Do you need anything else? I have information on databases and programming.",
+    "You're welcome! It's always a pleasure. Remember, if you need help with programming and database concepts, I'm here to assist you.",
+    "That's what I'm here for! Is there anything else I can help you with? I can assist with database and programming concepts."
+  ],
+
+  "41": [
+    "Programming is the process of designing and writing instructions in a language understandable to a computer.\nIn the topic of programming, I can talk to you about variables, loops, conditionals, and objects.",
+    "Programming is the art and science of creating software by building algorithms.\nIn programming, I can explain variables, loops, conditionals, and objects to you.",
+    "Programming is the set of techniques to translate real-world problems into computational solutions.\nIn the field of programming, I can teach you about variables, loops, logical decisions, and objects.",
+    "Programming is the discipline that combines logic, creativity, and technical knowledge to develop applications.\nWithin programming, I can cover topics such as variables, iterations, conditionals, and objects.",
+    "Programming is the act of coding structured logical instructions that allow hardware to perform specific tasks.\nI can discuss programming concepts such as variables, loops, control structures, and objects."
+  ],
+
+  "42": [
+    "A variable is a space in a computer's memory where data is stored that can change within a program.",
+    "Variables are identifiers associated with a value that allow the program to access and manipulate that value dynamically.",
+    "A variable is a symbolic name used to represent data in a program.",
+    "It is a fundamental element in programming that acts as a reference to a piece of data.",
+    "A variable is a programming resource used to store information."
+  ],
+
+  "43": [
+    "A conditional is a control structure that allows a program to make decisions depending on the outcome of a condition.",
+    "It is a logical mechanism that executes different blocks of code based on the evaluation of one or more boolean expressions.",
+    "Conditionals are a programming tool that defines the flow of a program based on certain rules.",
+    "An if conditional is an instruction that evaluates a logical expression and, if true, executes a set of instructions.",
+    "If is a conditional statement that represents a decision in a program."
+  ],
+
+  "44": [
+    "A loop is a control structure that allows a block of code to execute repeatedly while a specific condition is true.",
+    "Loops are fundamental tools in programming that automate the repetition of tasks.",
+    "A loop is a mechanism that facilitates iteration over data collections, value ranges, or predefined instructions.",
+    "A loop is a repetitive sequence in a program, designed to iterate a set of instructions a fixed number of times or until a condition is met or no longer met.",
+    "Loops are logical components that control repetitive execution in a program."
+  ],
+
+  "45": [
+    "A function is a reusable block of code that performs a specific task and can be called from different parts of a program.",
+    "A function is a reusable piece of code that takes input, processes it, and returns an output",
+    "The difference between a function and a method is that a function is independent, while a method belongs to an object.",
+    "Functions and methods are fundamental in programming because they allow code to be structured and organized efficiently, clearly, and in a reusable way.",
+    "A function is a way to encapsulate code logic, allowing it to be called multiple times with different inputs."
+  ],
+
+  "46": [
+    "OOP is a programming paradigm that organizes code around objects.",
+    "Object-Oriented Programming (OOP) is a software development methodology based on principles like encapsulation, inheritance, polymorphism, and abstraction.",
+    "OOP is recommended in many cases, but its suitability depends on the type of project and its requirements.",
+    "The main characteristics of OOP are encapsulation, abstraction, inheritance, and polymorphism.",
+    "It is one of the most popular and widely used programming paradigms in the software industry."
+  ],
+
+  "47": [
+    "Sure, here's a joke! What do you call two monkeys that share an Amazon account? Prime mates",
+    "Why did the pharmacist walk on her tiptoes? She didn't want to wake the sleeping pills.",
+    "What would the Terminator be called in his retirement? The Exterminator.",
+    "My boss told me to have a good day, so I went home.",
+    "Why is Peter Pan always flying? Because he Neverlands."
+  ],
+
+  "48": [
+    "I can recommend taking a walk on a trail or in a park.",
+    "I could suggest watching a movie at the cinema.",
+    "You could spend time with family or friends.",
+    "Trying a new recipe would be a good recommendation.",
+    "If you're looking for a healthy option, you could exercise."
+  ],
+
+  "49": [
+    "Why so serious? - The Joker in Batman: The Dark Knight.",
+    "May the Force be with you - Star Wars.",
+    "Hasta la vista, baby - Terminator in Terminator 2: Judgment Day.",
+    "To infinity and beyond - Buzz Lightyear in Toy Story.",
+    "Are you talking to me? - Travis Bickle in Taxi Driver."
+  ],
+
+  "50": [
+    "Why not try cooking some tacos?",
+    "You could make a Caesar salad.",
+    "I recommend making garlic pasta.",
+    "A tuna sandwich is a simple meal to prepare.",
+    "If you're looking for something sweet, I could recommend making brownies."
   ]
 }

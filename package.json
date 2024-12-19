@@ -18,11 +18,18 @@
     "@tensorflow/tfjs": "^4.22.0",
     "@tensorflow/tfjs-backend-webgl": "^4.22.0",
     "@tensorflow/tfjs-layers": "^4.22.0",
+    "compromise": "^14.14.3",
+    "franc": "^6.2.0",
+    "franc-min": "^6.2.0",
     "gh-pages": "^6.2.0",
+    "lodash": "^4.17.21",
     "lucide-react": "^0.465.0",
+    "natural": "^8.0.1",
     "onnxjs": "^0.1.8",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "string-similarity": "^4.0.4",
+    "string-similarity-js": "^2.1.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
