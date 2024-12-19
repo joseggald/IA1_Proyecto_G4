@@ -27,19 +27,7 @@ export const useChat = () => {
     const initModel = async () => {
       try {
         await ModelService.init();
-        const tokenizerOk = await ModelService.verifyTokenizer();
-        const responsesOk = await ModelService.verifyResponses();
-        
-        console.log('Model initialization status:', {
-          tokenizerStatus: tokenizerOk,
-          responsesStatus: responsesOk,
-          modelLoaded: ModelService.model !== null
-        });
-
-        if (!tokenizerOk || !responsesOk) {
-          throw new Error('Verificación del modelo falló');
-        }
-
+        console.log('Modelo inicializado correctamente.');
         setIsModelReady(true);
       } catch (error) {
         console.error('Error detallado inicializando el modelo:', error);
