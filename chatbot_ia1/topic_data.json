@@ -93,7 +93,8 @@
     "ciclos":{
       "keywords":[
         "ciclos",
-        "en que",
+        "ciclo",
+        "programacion",
         "ayudan",
         "aplicacion",
         "tienen",
@@ -102,17 +103,23 @@
         "cumplir",
         "condiciones"
       ],
-      "lables":["8"],
+      "labels":["8"],
       "subtopics":[]
     },
     "funciones":{
       "keywords":[
-        "que es una",
         "funcion",
+        "metodo",
         "metodos",
+        "funciones",
         "devuelve",
         "diferencia",
-        "hay entre"
+        "valor",
+        "hay",
+        "entre",
+        "definicion",
+        "define",
+        "programacion"
       ],
       "labels":["9"],
       "subtopics":[]
@@ -124,12 +131,11 @@
         "objetos",
         "caracteristicas",
         "cuales son",
-        "que tan",
         "popular",
         "recomendable",
         "caracteristicas"
       ],
-      "lables":["10"],
+      "labels":["10"],
       "subtopics":[]
     },
     "peliculas":{
@@ -655,6 +661,165 @@
       "keywords": ["loops", "instructions", "statements", "repetition", "python"],
       "labels": ["68"],
       "subtopics": []
+    },
+    "herencia": {
+      "keywords":[
+        "herencia",
+        "programacion",
+        "explica",
+        "como",
+        "define",
+        "contexto",
+        "concepto",
+        "proposito",
+        "tiene"
+      ],
+      "labels":["69"],
+      "subtopics":[]
+    },
+    "inheritance":{
+      "keywords":[
+        "inheritance",
+        "programming",
+        "explain",
+        "how",
+        "defined",
+        "context",
+        "define",
+        "concept",
+        "purpose",
+        "does",
+        "serve"
+      ],
+      "labels":["70"],
+      "subtopics":[]
+    },
+    "abstraccion":{
+      "keywords":[
+        "abstraccion",
+        "programacion",
+        "significa",
+        "explica",
+        "representa",
+        "orientada",
+        "objetos",
+        "como",
+        "funciona"
+      ],
+      "labels":["71"],
+      "subtopics":[]
+    },
+    "abstraction":{
+      "keywords":[
+        "abstraction",
+        "programming",
+        "mean",
+        "explain",
+        "represent",
+        "object",
+        "oriented"
+      ],
+      "labels":["72"],
+      "subtopics":[]
+    },
+    "polimorfismo":{
+      "keywords":[
+        "polimorfismo",
+        "programacion",
+        "orientada",
+        "objetos",
+        "significa",
+        "explica",
+        "concepto",
+        "representa",
+        "como",
+        "funciona"
+      ],
+      "labels":["73"],
+      "subtopics":[]
+    },
+    "polymorphism":{
+      "keywords":[
+        "polymorphism",
+        "object",
+        "oriented",
+        "programming",
+        "does",
+        "mean",
+        "explain",
+        "concept",
+        "represent",
+        "how",
+        "work"
+      ],
+      "labels":["74"],
+      "subtopics":[]
+    },
+    "getter":{
+      "keywords":[
+        "son",
+        "funciones",
+        "getter",
+        "programacion",
+        "explica",
+        "define",
+        "concepto",
+        "por que",
+        "utilizan",
+        "cual",
+        "proposito"
+      ],
+      "labels":["75"],
+      "subtopics":[]
+    },
+    "getter-en":{
+      "keywords":[
+        "are",
+        "getter",
+        "functions",
+        "programming",
+        "explain",
+        "define",
+        "concept",
+        "why",
+        "used",
+        "purpose"
+      ],
+      "labels":["76"],
+      "subtopics":[]
+    },
+    "setter":{
+      "keywords":[
+        "son",
+        "funciones",
+        "setter",
+        "programacion",
+        "explica",
+        "define",
+        "concepto",
+        "por que",
+        "utilizan",
+        "cual",
+        "proposito"
+      ],
+      "labels":["77"],
+      "subtopics":[]
+    },
+    "setter-en":{
+      "keywords":[
+        "are",
+        "setter",
+        "functions",
+        "programming",
+        "explain",
+        "define",
+        "concept",
+        "why",
+        "used",
+        "purpose"
+      ],
+      "labels":["78"],
+      "subtopics":[]
     }
 
       },

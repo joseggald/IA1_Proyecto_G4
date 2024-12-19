@@ -78,11 +78,13 @@
   {"input": "un metodo devuelve un valor","label":9},
   {"input": "que diferencia hay entre una funcion y un metodo","label":9},
   {"input": "que importancia tienen las funciones y metodos","label":9},
+  {"input": "dame una definicion de funcion en programacion","label":9},
 
   {"input": "define oop","label":10},
   {"input": "cuales son las caracteristicas del oop","label":10},
   {"input": "es recomendable usar oop","label":10},
   {"input": "que tan popular es oop","label":10},
+  {"input": "que es oop en programacion","label":10},
 
   {"input": "que genero de peliculas es el mas popular","label":11},
   {"input": "cual es el costo promedio para hacer una pelicula","label":11},
@@ -431,6 +433,65 @@
     {"input": "What are the loop statements in Python?", "label": 68},
     {"input": "What types of loops does Python have?", "label": 68},
     {"input": "What repetition structures exist in Python?", "label": 68},
-    {"input": "How do loops work in Python?", "label": 68}
+    {"input": "How do loops work in Python?", "label": 68},
 
+    {"input": "que es la herencia en programacion","label":69},
+    {"input": "Explica que es la herencia en programacion.", "label": 69},
+    {"input": "Como se define la herencia en el contexto de programacion?", "label": 69},
+    {"input": "Define el concepto de herencia en programacion.", "label": 69},
+    {"input": "Que proposito tiene la herencia en programacion?", "label": 69},
+
+    {"input": "What is inheritance in programming?", "label": 70},
+    {"input": "Explain what inheritance is in programming.", "label": 70},
+    {"input": "How is inheritance defined in the context of programming?", "label": 70},
+    {"input": "Define the concept of inheritance in programming.", "label": 70},
+    {"input": "What purpose does inheritance serve in programming?", "label": 70},
+
+    {"input": "que es la abstraccion en programacion?", "label": 71},
+    {"input": "que significa la abstraccion en programacion?", "label": 71},
+    {"input": "explica que es la abstraccion en programacion.", "label": 71},
+    {"input": "que representa la abstraccion en programacion orientada a objetos?", "label": 71},
+    {"input": "como funciona la abstraccion en programacion orientada a objetos","label":71},
+
+    {"input": "What is abstraction in programming?", "label": 72},
+    {"input": "What does abstraction mean in programming?", "label": 72},
+    {"input": "Explain what abstraction is in programming.", "label": 72},
+    {"input": "What does abstraction represent in object oriented programming?", "label": 72},
+    {"input": "How does abstraction work in object oriented programming?", "label": 72},
+
+    {"input": "que es el polimorfismo en programacion orientada a objetos","label":73},
+    {"input": "que significa polimorfismo en programacion orientada a objetos","label":73},
+    {"input": "explica el concepto de polimorfismo en programacion orientada a objetos","label":73},
+    {"input": "que representa el polimorfismo en programacion orientada a objetos","label":73},
+    {"input": "como funciona el polimorfismo en programacion orientada a objetos","label":73},
+
+    {"input": "What is polymorphism in object oriented programming?", "label": 74},
+    {"input": "What does polymorphism mean in object oriented programming?", "label": 74},
+    {"input": "Explain the concept of polymorphism in object oriented programming.", "label": 74},
+    {"input": "What does polymorphism represent in object oriented programming?", "label": 74},
+    {"input": "How does polymorphism work in object oriented programming?", "label": 74},
+
+    {"input": "que son las funciones getter en programacion?", "label": 75},
+    {"input": "explica que son las funciones getter en programacion?", "label": 75},
+    {"input": "define el concepto funciones getter en programacion?", "label": 75},
+    {"input": "por que se utilizan las funciones getter en programacion?", "label": 75},
+    {"input": "cual es el proposito de las funciones getter en programacion?", "label": 75},
+
+    {"input": "What are getter functions in programming?", "label": 76},
+    {"input": "Explain what getter functions are in programming.", "label": 76},
+    {"input": "Define the concept of getter functions in programming.", "label": 76},
+    {"input": "Why are getter functions used in programming?", "label": 76},
+    {"input": "What is the purpose of getter functions in programming?", "label": 76},
+
+    {"input": "que son las funciones setter en programacion?", "label": 77},
+    {"input": "explica que son las funciones setter en programacion?", "label": 77},
+    {"input": "define el concepto funciones setter en programacion?", "label": 77},
+    {"input": "por que se utilizan las funciones setter en programacion?", "label": 77},
+    {"input": "cual es el proposito de las funciones setter en programacion?", "label": 77},
+
+    {"input": "What are setter functions in programming?", "label": 78},
+    {"input": "Explain what setter functions are in programming.", "label": 78},
+    {"input": "Define the concept of setter functions in programming.", "label": 78},
+    {"input": "Why are setter functions used in programming?", "label": 78},
+    {"input": "What is the purpose of setter functions in programming?", "label": 78}
 ]

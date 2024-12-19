@@ -531,6 +531,86 @@
     "Available loop statements in Python are 'for', 'while', 'break', 'continue', and 'pass'. Any more Python-related questions?",
     "'For', 'while', 'break', 'continue', and 'pass' are loop instructions in Python. Want to know more about Python?",
     "You can use 'for', 'while', 'break', 'continue', and 'pass' to manage loops in Python. Do you have additional questions about Python?"
+  ],
+
+  "69": [
+    "La herencia es un principio de la programación orientada a objetos que permite que una clase derive propiedades y métodos de otra.",
+    "La herencia permite crear nuevas clases basadas en clases existentes, añadiendo o modificando funcionalidades.",
+    "Es un concepto que permite a una clase reutilizar el comportamiento y estado definido en otra clase.",
+    "La herencia permite que las clases compartan código común, promoviendo la reutilización y reduciendo redundancias.",
+    "Es el mecanismo por el cual una clase puede extender otra para reutilizar su código."
+  ],
+
+  "70": [
+    "Inheritance is a principle of object-oriented programming that allows a class to derive properties and methods from another.",
+    "Inheritance allows creating new classes based on existing ones, adding or modifying functionalities.",
+    "It is a concept that allows a class to reuse the behavior and state defined in another class.",
+    "Inheritance allows classes to share common code, promoting reuse and reducing redundancies.",
+    "It is the mechanism by which a class can extend another to reuse its code."
+  ],
+
+  "71":[
+    "La abstracción es un principio que permite enfocarse en los detalles esenciales de un objeto y ocultar su complejidad.",
+    "Es el proceso de representar conceptos relevantes mientras se omiten detalles innecesarios.",
+    "La abstracción en programación orientada a objetos simplifica el diseño al separar qué hace un objeto de cómo lo hace.",
+    "La abstracción permite crear modelos que representan el comportamiento sin preocuparse por la implementación.",
+    "Es una forma de ocultar detalles de implementación para centrarse en las funcionalidades clave."
+  ],
+
+  "72":[
+    "Abstraction is a principle that allows focusing on the essential details of an object and hiding its complexity.",
+    "It is the process of representing relevant concepts while omitting unnecessary details.",
+    "Abstraction in object-oriented programming simplifies design by separating what an object does from how it does it.",
+    "Abstraction allows creating models that represent behavior without worrying about implementation.",
+    "It is a way of hiding implementation details to focus on key functionalities."
+  ],
+
+  "73":[
+    "El polimorfismo es un principio de la programación orientada a objetos que permite que una entidad tome múltiples formas.",
+    "Es la capacidad de una función o método de comportarse de manera diferente dependiendo del contexto.",
+    "En programación, el polimorfismo se utiliza para sobrescribir o sobrecargar métodos en clases relacionadas.",
+    "Es la habilidad de procesar objetos de diferentes tipos a través de una referencia común.",
+    "El polimorfismo se manifiesta cuando una misma operación puede aplicarse a distintos tipos de datos."
+  ],
+
+  "74":[
+    "Polymorphism is a principle of object-oriented programming that allows an entity to take multiple forms.",
+    "It is the ability of a function or method to behave differently depending on the context.",
+    "In programming, polymorphism is used to override or overload methods in related classes.",
+    "It is the ability to process objects of different types through a common reference.",
+    "Polymorphism is evident when the same operation can be applied to different data types."
+  ],
+
+  "75":[
+    "Un getter es una función que permite acceder al valor de un atributo privado de un objeto.",
+    "Los getters son funciones que devuelven el estado de una variable miembro de un objeto.",
+    "Los getters permiten leer los valores de los atributos sin acceder directamente a ellos.",
+    "Los getters son herramientas que ayudan a mantener la consistencia del estado interno de un objeto.",
+    "Es una técnica que permite acceder a los datos de un objeto sin romper su diseño orientado a objetos."
+  ],
+
+  "76":[
+    "A getter is a function that allows access to the value of a private attribute of an object.",
+    "Getters are functions that return the state of a member variable of an object.",
+    "Getters allow reading attribute values without directly accessing them.",
+    "Getters are tools that help maintain the consistency of an object's internal state.",
+    "It is a technique that allows accessing an object's data without breaking its object-oriented design."
+  ],
+
+  "77":[
+    "Un setter es una función que permite modificar el valor de un atributo privado de un objeto.",
+    "Es un método utilizado para establecer o actualizar el valor de una propiedad encapsulada dentro de una clase.",
+    "Los setters son funciones que asignan valores a las variables miembro de un objeto.",
+    "Es una función que permite establecer el estado de un atributo interno manteniendo su integridad.",
+    "Un setter es un método diseñado para modificar la información de un objeto siguiendo principios de encapsulación."
+  ],
+
+  "78":[
+    "A setter is a function that allows modifying the value of a private attribute of an object.",
+    "It is a method used to set or update the value of a property encapsulated within a class.",
+    "Setters are functions that assign values to an object's member variables.",
+    "It is a function that allows setting the state of an internal attribute while maintaining its integrity.",
+    "A setter is a method designed to modify an object's information following encapsulation principles."
   ]
 
 }
