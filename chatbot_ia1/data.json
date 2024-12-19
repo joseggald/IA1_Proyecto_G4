@@ -357,7 +357,80 @@
     {"input": "What is encapsulation?", "label": 56},
     {"input": "Give me a definition of encapsulation.", "label": 56},
     {"input": "What does encapsulation mean?", "label": 56},
-    {"input": "Could you define encapsulation?", "label": 56}
+    {"input": "Could you define encapsulation?", "label": 56},
 
+    {"input": "¿Qué es Python?", "label": 57},
+    {"input": "¿Puedes explicar qué es Python?", "label": 57},
+    {"input": "Define Python.", "label": 57},
+    {"input": "¿Qué significa Python?", "label": 57},
+    {"input": "Explica los conceptos básicos de Python.", "label": 57},
+
+    {"input": "What is Python?", "label": 58},
+    {"input": "Can you explain Python?", "label": 58},
+    {"input": "Define Python.", "label": 58},
+    {"input": "What does Python mean?", "label": 58},
+    {"input": "Explain Python basics.", "label": 58},
+
+    {"input": "¿Para qué se utiliza Python?", "label": 59},
+    {"input": "¿Cuál es el uso de Python?", "label": 59},
+    {"input": "¿Qué aplicaciones tiene Python?", "label": 59},
+    {"input": "¿En qué se usa Python?", "label": 59},
+    {"input": "¿Qué propósito tiene Python?", "label": 59},
+
+    {"input": "What is Python used for?", "label": 60},
+    {"input": "What are the uses of Python?", "label": 60},
+    {"input": "What applications does Python have?", "label": 60},
+    {"input": "How is Python used?", "label": 60},
+    {"input": "What is the purpose of Python?", "label": 60},
+
+
+    {"input": "¿Cómo instalo Python en mi computadora?", "label": 61},
+    {"input": "¿Cómo puedo instalar Python en mi PC?", "label": 61},
+    {"input": "¿Qué pasos debo seguir para instalar Python?", "label": 61},
+    {"input": "¿Cómo se instala Python en una computadora?", "label": 61},
+    {"input": "¿Cuál es la manera de instalar Python en mi equipo?", "label": 61},
+
+    {"input": "How do I install Python on my computer?", "label": 62},
+    {"input": "How can I install Python on my PC?", "label": 62},
+    {"input": "What steps should I follow to install Python?", "label": 62},
+    {"input": "How is Python installed on a computer?", "label": 62},
+    {"input": "What is the way to install Python on my device?", "label": 62},
+
+    {"input": "¿Cómo ejecuto un programa de Python?", "label": 63},
+    {"input": "¿Cómo puedo ejecutar un programa en Python?", "label": 63},
+    {"input": "¿Qué debo hacer para correr un programa en Python?", "label": 63},
+    {"input": "¿Cómo se corre un script de Python?", "label": 63},
+    {"input": "¿Cuál es la forma de ejecutar un código en Python?", "label": 63},
+
+    {"input": "How do I run a Python program?", "label": 64},
+    {"input": "How can I execute a Python program?", "label": 64},
+    {"input": "What should I do to run a Python program?", "label": 64},
+    {"input": "How do I run a Python script?", "label": 64},
+    {"input": "What is the way to execute Python code?", "label": 64},
+
+    {"input": "¿Qué instrucciones de control de flujo tiene Python?", "label": 65},
+    {"input": "¿Cuáles son las instrucciones de control de flujo en Python?", "label": 65},
+    {"input": "¿Qué estructuras de control ofrece Python?", "label": 65},
+    {"input": "¿Qué tipos de control de flujo hay en Python?", "label": 65},
+    {"input": "¿Cómo funcionan las instrucciones de control de flujo en Python?", "label": 65},
+
+
+    {"input": "What control flow instructions does Python have?", "label": 66},
+    {"input": "What are the control flow statements in Python?", "label": 66},
+    {"input": "What control structures does Python provide?", "label": 66},
+    {"input": "What types of control flow exist in Python?", "label": 66},
+    {"input": "How do control flow statements work in Python?", "label": 66},
+
+    {"input": "¿Qué instrucciones para bucles ofrece Python?", "label": 67},
+    {"input": "¿Cuáles son las instrucciones de bucles en Python?", "label": 67},
+    {"input": "¿Qué tipos de bucles tiene Python?", "label": 67},
+    {"input": "¿Qué estructuras de repetición hay en Python?", "label": 67},
+    {"input": "¿Cómo funcionan los bucles en Python?", "label": 67},
+
+    {"input": "What loop instructions does Python offer?", "label": 68},
+    {"input": "What are the loop statements in Python?", "label": 68},
+    {"input": "What types of loops does Python have?", "label": 68},
+    {"input": "What repetition structures exist in Python?", "label": 68},
+    {"input": "How do loops work in Python?", "label": 68}
 
 ]

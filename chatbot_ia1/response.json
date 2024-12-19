@@ -1,12 +1,12 @@
 
 {
   "0": [
-    "¡Hola! ¿Cómo te encuentras hoy? Puedo ayudarte con SQL o programación.",
-    "¡Hey! Es genial verte por aquí. ¿Tienes dudas sobre SQL o conceptos de programación?",
+    "¡Hola! ¿Cómo te encuentras hoy? Puedo ayudarte con SQL, Python o  conceptos basicos de programación.",
+    "¡Hey! Es genial verte por aquí. ¿Tienes dudas sobre SQL, Python o conceptos de programación?",
     "¡Saludos! ¿Cómo va todo contigo? Si necesitas ayuda con bases de datos o programación, estoy aquí.",
-    "¡Hola! Espero que tengas un gran día. Pregunta lo que quieras sobre SQL o programación.",
-    "¡Hey! Estoy listo para ayudarte con SQL o cualquier concepto de programación.",
-    "¡Hola! Soy un chatbot experto en programación y SQL. ¿En qué concepto puedo asistirte hoy?"
+    "¡Hola! Espero que tengas un gran día. Pregunta lo que quieras sobre SQL, Python o programación.",
+    "¡Hey! Estoy listo para ayudarte con SQL, Python o cualquier concepto de programación.",
+    "¡Hola! Soy un chatbot experto en programación, SQL y Python. ¿En qué concepto puedo asistirte hoy?"
   ]
   ,
   "1": [
@@ -204,12 +204,12 @@
     "¡Que te diviertas mucho! Recuerda que puedes preguntarme sobre programación o SQL."
   ],
   "26": [
-    "Hi! How are you today? I can help with SQL or programming.",
-    "Hey! Great to see you here. Do you have questions about SQL or programming concepts?",
+    "Hi! How are you today? I can help with SQL, Python or programming.",
+    "Hey! Great to see you here. Do you have questions about SQL, Python or programming concepts?",
     "Greetings! How's everything going? If you need help with databases or programming, I'm here.",
-    "Hi! Hope you're having a great day. Ask anything about SQL or programming.",
-    "Hey! I'm ready to help you with SQL or any programming concept.",
-    "Hi! I'm a chatbot expert in programming and SQL. What concept can I assist you with today?"
+    "Hi! Hope you're having a great day. Ask anything about SQL, Python or programming.",
+    "Hey! I'm ready to help you with SQL, Python or any programming concept.",
+    "Hi! I'm a chatbot expert in programming, Python and SQL. What concept can I assist you with today?"
   ],
   "27": [
     "SQL is a language for managing databases. You can keep asking about database concepts.",
@@ -446,6 +446,91 @@
     "Encapsulation allows protecting an object's data by keeping it private and controlling its access with getters and setters.",
     "It refers to the grouping of data and methods in a single entity to hide its implementation.",
     "Encapsulation ensures that an object's data is manipulated only through its public interface."
+  ],
+
+  "57": [
+    "Python es un lenguaje de programación interpretado que soporta múltiples paradigmas como orientación a objetos y programación funcional. ¿Algo más que quieras saber sobre Python?",
+    "Es un lenguaje de código abierto ampliamente utilizado en aplicaciones como desarrollo web, análisis de datos y automatización. ¿Quieres aprender más sobre Python?",
+    "Python es conocido por su sintaxis sencilla y su gran ecosistema de bibliotecas y frameworks. ¡Pregúntame cualquier cosa sobre Python!",
+    "Un lenguaje ideal tanto para principiantes como para desarrolladores avanzados debido a su facilidad de uso y versatilidad. ¿Tienes alguna otra duda sobre Python?",
+    "Python es una herramienta potente para resolver problemas complejos y construir aplicaciones robustas. ¿Algo más que quieras saber sobre Python?"
+  ],
+  "58": [
+    "Python is an interpreted programming language supporting multiple paradigms like object-oriented and functional programming. Anything else you'd like to know about Python?",
+    "It is an open-source language widely used in web development, data analysis, and automation tasks. Want to explore Python further?",
+    "Python is known for its simple syntax and vast ecosystem of libraries and frameworks. Ask if you need more Python info!",
+    "An ideal language for both beginners and advanced developers due to its ease of use and versatility. Do you have more Python-related questions?",
+    "Python is a powerful tool for solving complex problems and building robust applications. Anything else I can assist with in Python?"
+  ],
+  "59": [
+    "Python se utiliza para desarrollo web, análisis de datos y más. ¿Quieres que profundice en Python?",
+    "Es útil para tareas como automatización, ciencia de datos y aprendizaje automático. ¿Tienes más preguntas sobre Python?",
+    "Python es ideal para principiantes y proyectos avanzados. Pregúntame si necesitas más detalles de Python.",
+    "Desde desarrollo de videojuegos hasta análisis financiero, Python es muy flexible. ¿Algo más que quieras saber sobre Python?",
+    "Puedes usar Python en casi cualquier campo tecnológico. ¿Necesitas ejemplos más específicos de Python?"
+  ],
+  "60": [
+    "Python is used for web development, data analysis, and more. Any specific Python area you'd like to explore?",
+    "It's great for automation, data science, and machine learning. Do you have more Python questions?",
+    "Python works well for beginners and advanced projects. Feel free to ask for more Python details!",
+    "From game development to financial analysis, Python is very flexible. Want to know more about Python?",
+    "You can use Python in almost any tech field. Need specific Python examples?"
+  ],
+  "61": [
+    "Descarga Python desde su sitio oficial (python.org) y ejecuta el instalador adecuado para tu sistema operativo. Sigue los pasos del asistente y selecciona la opción de agregar Python al PATH. ¿Algo más en lo que pueda asistirte sobre Python?",
+    "Visita python.org, descarga el instalador correspondiente a tu sistema operativo y ejecútalo. Asegúrate de habilitar la opción para añadir Python al PATH. ¿Tienes más dudas sobre la instalación de Python?",
+    "Para instalar Python, descarga el instalador desde su sitio oficial y sigue las instrucciones. Recuerda marcar la casilla para añadir Python al PATH. ¿Puedo ayudarte con otro tema relacionado con Python?",
+    "Puedes instalar Python usando gestores de paquetes como apt (Linux) o brew (Mac). También está disponible en su página oficial. ¿Algo más que quieras saber sobre Python?",
+    "Descarga Python de python.org, selecciona tu sistema operativo, y sigue las instrucciones del instalador. Añade Python al PATH durante la instalación. ¿Tienes más preguntas sobre Python?"
+  ],
+  "62": [
+    "Download Python from its official website (python.org) and run the installer for your operating system. Follow the setup wizard and ensure you check the option to add Python to PATH. Need help with anything else in Python?",
+    "Visit python.org, download the appropriate installer for your OS, and execute it. Make sure to enable the option to add Python to PATH. Any more questions about Python installation?",
+    "To install Python, get the installer from its official site and follow the instructions. Remember to check the box to add Python to PATH. Can I assist with another Python topic?",
+    "You can install Python using package managers like apt (Linux) or brew (Mac), or download it directly from python.org. Anything else you'd like to know about Python?",
+    "Download Python from python.org, select your operating system, and follow the installation steps. Add Python to PATH during the process. Any more Python-related questions?"
+  ],
+  "63": [
+    "Para correr un programa Python, abre una terminal, navega hasta la carpeta donde está el archivo y escribe 'python archivo.py'. ¿Algo más que quieras saber sobre Python?",
+    "Usa un IDE como PyCharm: abre el archivo en el IDE y presiona 'Run'. ¿Algo más en lo que te pueda ayudar con Python?",
+    "También puedes usar entornos interactivos como Jupyter para ejecutar tu código. ¿Tienes más dudas sobre Python?",
+    "Guarda tu código con extensión .py, abre una terminal y usa 'python archivo.py' para ejecutarlo. ¿Necesitas más asistencia sobre Python?",
+    "Si estás en Windows, usa PowerShell o CMD; en Linux o Mac, usa la terminal para correr 'python archivo.py'. ¿Algo más que quieras saber sobre Python?"
+  ],
+  "64": [
+    "To run a Python program, open a terminal, navigate to the folder containing the file, and type 'python file.py'. Anything else you'd like to ask about Python?",
+    "Use an IDE like PyCharm: open the file in the IDE and press 'Run'. Anything else I can assist with in Python?",
+    "You can also use interactive environments like Jupyter to execute your code. Any other Python questions?",
+    "Save your code with a .py extension, open a terminal, and run 'python file.py'. Need more Python help?",
+    "On Windows, use PowerShell or CMD; on Linux or Mac, use the terminal to run 'python file.py'. Anything else you'd like to know about Python?"
+  ],
+  "65": [
+    "Las estructuras de control de flujo en Python incluyen 'if', 'elif', 'else', 'for', 'while', 'break', 'continue' y 'pass'. ¿Quieres saber más sobre Python?",
+    "Las instrucciones disponibles son 'if', 'elif', 'else', 'for', 'while', 'break', 'continue' y 'pass'. ¿Puedo ayudarte con algo más relacionado con Python?",
+    "En Python puedes usar 'if', 'elif', 'else', 'for', 'while', 'break', 'continue' y 'pass' como control de flujo. ¿Algo más que quieras saber sobre Python?",
+    "'If', 'elif', 'else', 'for', 'while', 'break', 'continue' y 'pass' son instrucciones de control de flujo. ¿Tienes más dudas sobre Python?",
+    "Python ofrece las instrucciones 'if', 'elif', 'else', 'for', 'while', 'break', 'continue' y 'pass'. ¿Necesitas más información sobre Python?"
+  ],
+  "66": [
+    "Control flow structures in Python include 'if', 'elif', 'else', 'for', 'while', 'break', 'continue', and 'pass'. Want to learn more about Python?",
+    "Available statements are 'if', 'elif', 'else', 'for', 'while', 'break', 'continue', and 'pass'. Need further assistance with Python?",
+    "In Python, you can use 'if', 'elif', 'else', 'for', 'while', 'break', 'continue', and 'pass' for control flow. Anything else you'd like to know about Python?",
+    "'If', 'elif', 'else', 'for', 'while', 'break', 'continue', and 'pass' are control flow statements. Any more Python-related questions?",
+    "Python provides 'if', 'elif', 'else', 'for', 'while', 'break', 'continue', and 'pass' as control flow options. Do you have additional questions about Python?"
+  ],
+  "67": [
+    "Las instrucciones de bucles en Python son 'for', 'while', 'break', 'continue' y 'pass'. ¿Algo más que quieras saber sobre Python?",
+    "En Python puedes usar 'for', 'while', 'break', 'continue' y 'pass' para trabajar con bucles. ¿Necesitas más información sobre Python?",
+    "Los bucles disponibles en Python incluyen 'for', 'while', 'break', 'continue' y 'pass'. ¿Puedo ayudarte con algo más sobre Python?",
+    "'For', 'while', 'break', 'continue' y 'pass' son las instrucciones de bucles en Python. ¿Tienes más dudas sobre Python?",
+    "Puedes usar 'for', 'while', 'break', 'continue' y 'pass' para manejar bucles en Python. ¿Algo más que quieras saber sobre Python?"
+  ],
+  "68": [
+    "Loop instructions in Python include 'for', 'while', 'break', 'continue', and 'pass'. Anything else you'd like to ask about Python?",
+    "In Python, you can use 'for', 'while', 'break', 'continue', and 'pass' to work with loops. Need further assistance with Python?",
+    "Available loop statements in Python are 'for', 'while', 'break', 'continue', and 'pass'. Any more Python-related questions?",
+    "'For', 'while', 'break', 'continue', and 'pass' are loop instructions in Python. Want to know more about Python?",
+    "You can use 'for', 'while', 'break', 'continue', and 'pass' to manage loops in Python. Do you have additional questions about Python?"
   ]
 
 }

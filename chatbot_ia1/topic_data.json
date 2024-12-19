@@ -595,6 +595,66 @@
       ],
       "labels":["56"],
       "subtopics":[]
+    },
+    "python-basics-es": {
+      "keywords": ["python", "definir", "explicar", "significado", "conceptos basicos"],
+      "labels": ["57"],
+      "subtopics": []
+    },
+    "python-basics-en": {
+      "keywords": ["python", "define", "explain", "meaning", "basics"],
+      "labels": ["58"],
+      "subtopics": []
+    },
+    "python-uses-es": {
+      "keywords": ["python", "usos", "aplicaciones", "proposito", "para que sirve"],
+      "labels": ["59"],
+      "subtopics": []
+    },
+    "python-uses-en": {
+      "keywords": ["python", "uses", "applications", "purpose", "used for"],
+      "labels": ["60"],
+      "subtopics": []
+    },
+    "python-installation-es": {
+      "keywords": ["instalar", "python", "pasos", "computadora", "pc", "dispositivo"],
+      "labels": ["61"],
+      "subtopics": []
+    },
+    "python-installation-en": {
+      "keywords": ["install", "python", "steps", "computer", "pc", "device"],
+      "labels": ["62"],
+      "subtopics": []
+    },
+    "python-execution-es": {
+      "keywords": ["ejecutar", "programa", "python", "script", "codigo"],
+      "labels": ["63"],
+      "subtopics": []
+    },
+    "python-execution-en": {
+      "keywords": ["run", "execute", "program", "python", "script", "code"],
+      "labels": ["64"],
+      "subtopics": []
+    },
+    "python-control-flow-es": {
+      "keywords": ["flujo de control", "instrucciones", "estructuras", "python"],
+      "labels": ["65"],
+      "subtopics": []
+    },
+    "python-control-flow-en": {
+      "keywords": ["control flow", "statements", "instructions", "structures", "python"],
+      "labels": ["66"],
+      "subtopics": []
+    },
+    "python-loops-es": {
+      "keywords": ["bucles", "instrucciones", "repeticion", "estructuras", "python"],
+      "labels": ["67"],
+      "subtopics": []
+    },
+    "python-loops-en": {
+      "keywords": ["loops", "instructions", "statements", "repetition", "python"],
+      "labels": ["68"],
+      "subtopics": []
     }
 
       },
@@ -611,9 +671,11 @@
         "delete": ["select", "tabla", "sql","delete", "update"],
         "update": ["select", "tabla", "sql","delete", "update"],
         "hello":["estado-en","despedida-en"],
-        "estado-en":["hello","despedida-en","agradecimiento-en"],
+        "estado-en":["despedida-en","agradecimiento-en"],
         "despedida-en":["agradecimiento-en"],
-        "agradecimiento-en":["despedida-en"]
+        "agradecimiento-en":["despedida-en"],
+        "python-basics-es": ["python-uses-es", "python-installation-es", "python-execution-es","python-control-flow-es", "python-loops-es"],
+        "python-basics-en": ["python-uses-en", "python-installation-en", "python-execution-en","python-control-flow-en", "python-loops-en"]
       },
       "keywords": {
         "global": [
