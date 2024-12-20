@@ -19,13 +19,24 @@
         "como",
         "estas",
         "dia",
-        "todo bien",
+        "bien",
         "como va",
         "que hay",
         "que cuentas",
         "como te va"
       ],
-      "labels": ["1", "2"],
+      "labels": ["1"],
+      "subtopics": []
+    },
+    "estado2": {
+      "keywords": [
+        "bien gracias",
+        "bien bien",
+        "excelente",
+        "super",
+        "super bien"
+      ],
+      "labels": ["2"],
       "subtopics": []
     },
     "despedida": {
@@ -45,7 +56,6 @@
     "agradecimiento": {
       "keywords": [
         "gracias",
-        "thanks",
         "agradezco",
         "amable",
         "aprecio",
