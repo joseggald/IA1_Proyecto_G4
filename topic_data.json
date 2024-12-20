@@ -8,8 +8,7 @@
         "tardes",
         "noches",
         "saludos",
-        "que tal",
-        "hey"
+        "que tal"
       ],
       "labels": ["0"],
       "subtopics": ["estado"]
@@ -42,7 +41,6 @@
     "despedida": {
       "keywords": [
         "adios",
-        "bye",
         "hasta",
         "luego",
         "pronto",
@@ -83,7 +81,7 @@
     },
     "variables":{
       "keywords":[
-        "variable",
+        "una variable",
         "valor",
         "puede cambiar",
         "utiliza"
