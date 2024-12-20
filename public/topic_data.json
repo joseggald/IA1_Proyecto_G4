@@ -7,7 +7,9 @@
         "dias",
         "tardes",
         "noches",
-        "saludos"
+        "saludos",
+        "que tal",
+        "hey"
       ],
       "labels": ["0"],
       "subtopics": ["estado"]
@@ -16,7 +18,7 @@
       "keywords": [
         "como",
         "estas",
-        "que tal",
+        "dia",
         "todo bien",
         "como va",
         "que hay",
@@ -46,33 +48,35 @@
         "thanks",
         "agradezco",
         "amable",
-        "aprecio"
+        "aprecio",
+        "muchas",
+        "muy"
       ],
       "labels": ["4"],
       "subtopics": []
     },
     "programacion":{
       "keywords":[
-        "definicion",
+        "define",
         "programacion",
-        "dame una",
-        "que es",
+        "dame",
         "creacion",
         "software",
         "tecnicos",
-        "hardware"
+        "hardware",
+        "terminos",
+        "describe",
+        "relaciona"
       ],
       "labels":["5"],
       "subtopics":[]
     },
     "variables":{
       "keywords":[
-        "que hace",
         "variable",
         "valor",
         "puede cambiar",
-        "para que",
-        "se utiliza"
+        "utiliza"
       ],
       "labels":["6"],
       "subtopics":[]
@@ -80,8 +84,10 @@
     "condicionales":{
       "keywords":[
         "condicional",
+        "condicionales",
         "if",
-        "que tipo",
+        "tipo",
+        "hacen",
         "instruccion",
         "toman",
         "desiciones"
@@ -92,43 +98,53 @@
     "ciclos":{
       "keywords":[
         "ciclos",
-        "en que",
+        "ciclo",
+        "programacion",
         "ayudan",
         "aplicacion",
         "tienen",
         "importancia",
         "ejecutarse",
         "cumplir",
-        "condiciones"
+        "condiciones",
+        "programa"
       ],
-      "lables":["8"],
+      "labels":["8"],
       "subtopics":[]
     },
     "funciones":{
       "keywords":[
-        "que es una",
         "funcion",
+        "metodo",
         "metodos",
+        "funciones",
         "devuelve",
         "diferencia",
-        "hay entre"
+        "valor",
+        "hay",
+        "entre",
+        "definicion",
+        "define",
+        "programacion",
+        "importancia",
+        "tienen"
       ],
       "labels":["9"],
       "subtopics":[]
     },
-    "objetos":{
+    "OOP":{
       "keywords":[
+        "define",
         "oop",
         "orientada",
         "objetos",
         "caracteristicas",
-        "cuales son",
-        "que tan",
+        "cuales",
         "popular",
         "recomendable",
         "caracteristicas"
       ],
-      "lables":["10"],
+      "labels":["10"],
       "subtopics":[]
     },
     "peliculas":{
@@ -139,7 +155,10 @@
         "accion",
         "genero",
         "año",
-        "cual"
+        "cual",
+        "popular",
+        "hacer",
+        "recomendarias"
       ],
       "labels":["11"],
       "subtopics":[]
@@ -149,7 +168,11 @@
         "cuentame",
         "bueno",
         "gracioso",
-        "chiste"
+        "chiste",
+        "dime",
+        "tienes",
+        "di",
+        "algo"
       ],
       "labels":["12"],
       "subtopics":[]
@@ -157,11 +180,16 @@
     "actividades":{
       "keywords": [
         "recomiendas",
+        "alguna",
         "hacer",
         "actividad",
         "hoy",
         "realizar",
-        "divertido"
+        "divertido",
+        "dime",
+        "actividades",
+        "podria",
+        "dia"
       ],
       "labels":["13"],
       "subtopics":[]
@@ -172,7 +200,11 @@
         "algun",
         "dialogo",
         "pelicula",
-        "frase"
+        "frase",
+        "tienes",
+        "podrias",
+        "darme",
+        "dame"
       ],
       "labels":["14"],
       "subtopics":[]
@@ -183,120 +215,124 @@
         "comer",
         "ganas",
         "alguna",
-        "comida"
+        "comida",
+        "podria",
+        "recomiendame",
+        "dame",
+        "pueda",
+        "algo"
       ],
       "labels":["15"],
       "subtopics":[]
     },
     "sql": {
-      "keywords": ["SQL", "bases de datos", "datos", "que es sql"],
+      "keywords": ["SQL", "significa", "definir", "representa"],
       "labels": ["16"],
       "subtopics": []
     },
     "tipos": {
-      "keywords": ["tipos de", "bases de datos", "relacionales", "no relacionales", "modelos"],
+      "keywords": ["tipos", "bases", "datos", "existen", "clases", "modelos", "cuales"],
       "labels": ["17"],
       "subtopics": []
     },
 
     "tabla": {
-      "keywords": ["tabla", "tablas", "table", "que es una tabla"],
+      "keywords": ["tabla", "significa", "table", "sql", "sirve", "bases"],
       "labels": ["18"],
       "subtopics": []
     },
     "select": {
-      "keywords": ["SELECT", "consulta", "consultas", "comando", "datos", "seleccionar", "filtrar"],
+      "keywords": ["SELECT", "significa", "funciona", "hace", "son"],
       "labels": ["19"],
       "subtopics": []
     },
     "where": {
-      "keywords": ["WHERE", "filtro", "filtros", "condición", "condiciones", "SQL", "consulta", "datos", "tablas", "filtrar", "que"],
+      "keywords": ["WHERE", "significa", "filtros", "hace", "where", "SQL"],
       "labels": ["20"],
       "subtopics": []
     },
     "existencial": {
-      "keywords": ["eres", "haces", "ayudar", "proposito", "que", "tu"],
+      "keywords": ["eres", "haces", "funcion", "cual"],
       "labels": ["21"],
       "subtopics": []
     },
     "insert": {
-      "keywords": ["insert", "insertar", "agregar"],
+      "keywords": ["insert", "significa", "como","funciona","para","sirve","hace","comando"],
       "labels": ["22"],
       "subtopics": []
     },
     "update": {
-      "keywords": ["update", "actualizar", "modificar"],
+      "keywords": ["update", "significa", "como","funciona","para","sirve","hace","comando"],
       "labels": ["23"],
       "subtopics": []
     },
     "delete": {
-      "keywords": ["delete", "eliminar", "borrar"],
+      "keywords": ["delete","como", "elimino", "datos","significa","registros","hace","comando"],
       "labels": ["24"],
       "subtopics": []
     },
 
     "datos": {
-      "keywords": ["saldre","amigos"],
+      "keywords": ["saldre","amigos","tomar","algo","concierto","comer"],
       "labels": ["25"],
       "subtopics": []
     },
 
     "hello-en": {
-      "keywords": ["hey","hello", "hi", "morning", "afternoon", "evening", "What's up"],
+      "keywords": ["hey","hello", "hi", "morning", "afternoon", "evening", "What's up","good","greetings","hi"],
       "labels": ["26"],
       "subtopics": ["estado-en"]
     },
 
     "sql-en": {
-      "keywords": ["sql", "databases", "data", "what is sql"],
+      "keywords": ["sql", "databases", "data", "mean","how","define","represent"],
       "labels": ["27"],
       "subtopics": []
     },
 
     "types-en": {
-      "keywords": ["types of", "databases", "relational", "non-relational", "models"],
+      "keywords": ["types", "databases", "exist", "classes", "models","database"],
       "labels": ["28"],
       "subtopics": []
     },
     "table-en": {
-      "keywords": ["table", "tables", "what is a table", "sql tables"],
+      "keywords": ["table", "tables", "mean", "sql","used","databases"],
       "labels": ["29"],
       "subtopics": []
     },
     "select-en": {
-      "keywords": ["select", "query", "queries", "command", "data", "select data", "filter"],
+      "keywords": ["select", "mean", "work", "does", "queries"],
       "labels": ["30"],
       "subtopics": []
     },
     "where-en": {
-      "keywords": ["where", "filter", "filters", "condition", "conditions", "sql", "query", "data", "tables", "filter data"],
+      "keywords": ["where", "mean", "filters", "condition", "how", "does", "work", "are"],
       "labels": ["31"],
       "subtopics": []
     },
     "existential-en": {
-      "keywords": ["are you", "do you", "help", "purpose"],
+      "keywords": ["you", "your", "function", "are"],
       "labels": ["32"],
       "subtopics": []
     },
     "insert-en": {
-      "keywords": ["insert", "add", "insert data"],
+      "keywords": ["insert", "does", "mean","work","used","command"],
       "labels": ["33"],
       "subtopics": []
     },
     "update-en": {
-      "keywords": ["update", "modify", "change"],
+      "keywords": ["update", "mean", "work","does","used","command"],
       "labels": ["34"],
       "subtopics": []
     },
     "delete-en": {
-      "keywords": ["delete", "remove", "delete data"],
+      "keywords": ["delete", "data", "does","mean","records","work"],
       "labels": ["35"],
       "subtopics": []
     },
     "friends-en": {
       "keywords": [
         "I",
-        "will",
         "go",
         "out",
         "friends",
@@ -310,23 +346,16 @@
     },
     "estado-en": {
       "keywords":[
-        "how",
-        "are",
         "you",
-        "going",
-        "been",
-        "up to",
-        "everything",
-        "feeling",
         "day",
-        "what",
-        "have",
+        "going",
+        "feeling",
+        "your",
+        "everything",
+        "been up",
         "fine",
         "thanks",
-        "great",
-        "very",
-        "good",
-        "for asking"
+        "great"
       ],
       "labels": ["37,38"],
       "subtopics": []
@@ -350,7 +379,6 @@
         "very",
         "much",
         "appreciate",
-        "it",
         "many",
         "You're",
         "kind",
@@ -365,22 +393,17 @@
     },
     "programming-en":{
       "keywords":[
-        "what",
-        "is",
         "programming",
-        "can",
-        "you",
         "give",
-        "me",
         "definition",
         "describe",
         "technical",
         "terms",
-        "how",
         "related",
         "hardware",
         "software",
-        "creation"
+        "creation",
+        "define"
       ],
       "labels":["41"],
       "subtopics":[]
@@ -389,11 +412,8 @@
       "keywords":[
         "define",
         "variable",
-        "in programming",
-        "what",
-        "is",
+        "programming",
         "does",
-        "do",
         "used",
         "for"
       ],
@@ -402,14 +422,9 @@
     },
     "if-en":{
       "keywords":[
-        "what",
-        "is",
-        "an",
         "if",
         "type",
-        "of",
         "instruction",
-        "do",
         "conditionals",
         "ifs",
         "make",
@@ -420,67 +435,41 @@
     },
     "loops-en":{
       "keywords":[
-        "what",
-        "are",
         "loops",
-        "in",
         "programming",
-        "how",
-        "do",
         "help",
-        "applications",
-        "can",
+        "application",
         "you",
-        "define",
-        "an"
+        "define"
       ],
       "labels":["44"],
       "subtopics":[]
     },
-    "functions-en":{
+    "functions":{
       "keywords":[
-        "what",
-        "is",
-        "a",
         "function",
-        "can",
         "you",
         "give",
-        "me",
         "one",
         "definition",
-        "of",
-        "the",
         "difference",
         "between",
-        "and",
         "method",
-        "how",
         "important",
-        "are",
         "functions",
         "methods"
       ],
       "labels":["45"],
       "subtopics":[]
     },
-    "objects-en":{
+    "OOP-en":{
       "keywords":[
-        "can",
         "you",
         "define",
         "oop",
-        "what",
-        "are",
-        "the",
         "characteristics",
-        "of",
-        "is",
-        "it",
         "recommended",
-        "to",
         "use",
-        "how",
         "popular"
       ],
       "labels":["46"],
@@ -489,15 +478,11 @@
     "jokes-en":{
       "keywords":[
         "tell",
-        "me",
-        "a",
         "joke",
         "say",
-        "do",
         "you",
         "have",
         "good",
-        "say",
         "something",
         "funny"
       ],
@@ -506,20 +491,13 @@
     },
     "activities-en":{
       "keywords":[
-        "do",
         "you",
         "recommend",
         "any",
         "activity",
-        "to",
         "today",
         "tell",
-        "me",
-        "an",
-        "i",
         "could",
-        "how",
-        "can",
         "make",
         "my",
         "day",
@@ -532,17 +510,14 @@
     "movie-quotes-en":{
       "keywords":[
         "say",
-        "a",
         "movie",
         "quote",
-        "do",
         "you",
         "have",
         "any",
         "quotes",
         "could",
         "give",
-        "me",
         "line",
         "from"
       ],
@@ -551,16 +526,11 @@
     },
     "food-en":{
       "keywords":[
-        "what",
         "food",
         "could",
-        "i",
         "make",
         "recommend",
-        "me",
-        "a",
         "give",
-        "can",
         "prepare",
         "feel",
         "like",
@@ -568,6 +538,293 @@
         "something"
       ],
       "labels":["50"],
+      "subtopics":[]
+    },
+    "clases-progra":{
+      "keywords":[
+        "clase",
+        "programacion",
+        "explica",
+        "define",
+        "sirve",
+        "clases"
+      ],
+      "labels":["51"],
+      "subtopics":[]
+    },
+    "classes-programming-en":{
+      "keywords":[
+        "class",
+        "programming",
+        "explain",
+        "define",
+        "purpose"
+      ],
+      "labels":["52"],
+      "subtopics":[]
+    },
+    "objetos":{
+      "keywords":[
+        "objeto",
+        "programacion",
+        "como",
+        "define",
+        "definicion",
+        "representa",
+        "podrias",
+        "explicarme"
+      ],
+      "labels":["53"],
+      "subtopics":[]
+    },
+    "objects-en":{
+      "keywords":[
+        "object",
+        "programming",
+        "defined",
+        "definition",
+        "represent",
+        "could",
+        "you",
+        "explain"
+      ],
+      "labels":["54"],
+      "subtopics":[]
+    },
+    "encapsulamiento":{
+      "keywords":[
+        "encapsulamiento",
+        "dame",
+        "definicion",
+        "significa",
+        "podrias",
+        "definir"
+      ],
+      "labels":["55"],
+      "subtopics":[]
+    },
+    "encapsulamiento-en":{
+      "keywords":[
+        "encapsulation",
+        "give",
+        "definition",
+        "mean",
+        "could",
+        "you",
+        "define",
+        "does"
+      ],
+      "labels":["56"],
+      "subtopics":[]
+    },
+    "python-basics-es": {
+      "keywords": ["python", "define", "explicar", "significa", "conceptos","basicos","explica"],
+      "labels": ["57"],
+      "subtopics": []
+    },
+    "python-basics-en": {
+      "keywords": ["python", "you","define", "explain", "mean", "basics"],
+      "labels": ["58"],
+      "subtopics": []
+    },
+    "python-uses-es": {
+      "keywords": ["python", "utiliza", "uso", "aplicaciones", "usa","proposito"],
+      "labels": ["59"],
+      "subtopics": []
+    },
+    "python-uses-en": {
+      "keywords": ["python", "uses", "applications", "purpose", "used"],
+      "labels": ["60"],
+      "subtopics": []
+    },
+    "python-installation-es": {
+      "keywords": ["instalar","instalo","instala", "python", "pasos", "computadora", "pc"],
+      "labels": ["61"],
+      "subtopics": []
+    },
+    "python-installation-en": {
+      "keywords": ["install", "python", "steps", "computer", "pc", "device","installed"],
+      "labels": ["62"],
+      "subtopics": []
+    },
+    "python-execution-es": {
+      "keywords": ["ejecutar", "ejecuto", "programa", "python", "script", "codigo","correr","corre","forma"],
+      "labels": ["63"],
+      "subtopics": []
+    },
+    "python-execution-en": {
+      "keywords": ["run", "execute", "program", "python", "script", "code"],
+      "labels": ["64"],
+      "subtopics": []
+    },
+    "python-control-flow-es": {
+      "keywords": ["flujo","control", "instrucciones", "estructuras", "python","ofrece","tipos","funcionan"],
+      "labels": ["65"],
+      "subtopics": []
+    },
+    "python-control-flow-en": {
+      "keywords": ["control", "flow", "statements", "instructions", "structures", "python","provide","types","exist"],
+      "labels": ["66"],
+      "subtopics": []
+    },
+    "python-loops-es": {
+      "keywords": ["bucles", "instrucciones", "repeticion", "estructuras", "python","tipos","funcionan"],
+      "labels": ["67"],
+      "subtopics": []
+    },
+    "python-loops-en": {
+      "keywords": ["loops","loop", "instructions", "statements", "repetition", "python","types","offer","structures"],
+      "labels": ["68"],
+      "subtopics": []
+    },
+    "herencia": {
+      "keywords":[
+        "herencia",
+        "programacion",
+        "explica",
+        "define",
+        "contexto",
+        "concepto",
+        "proposito",
+        "tiene"
+      ],
+      "labels":["69"],
+      "subtopics":[]
+    },
+    "inheritance-en":{
+      "keywords":[
+        "inheritance",
+        "programming",
+        "explain",
+        "defined",
+        "context",
+        "define",
+        "concept",
+        "purpose",
+        "does",
+        "serve"
+      ],
+      "labels":["70"],
+      "subtopics":[]
+    },
+    "abstraccion":{
+      "keywords":[
+        "abstraccion",
+        "programacion",
+        "significa",
+        "explica",
+        "representa",
+        "orientada",
+        "objetos",
+        "funciona"
+      ],
+      "labels":["71"],
+      "subtopics":[]
+    },
+    "abstraction-en":{
+      "keywords":[
+        "abstraction",
+        "programming",
+        "mean",
+        "explain",
+        "represent",
+        "object",
+        "oriented"
+      ],
+      "labels":["72"],
+      "subtopics":[]
+    },
+    "polimorfismo":{
+      "keywords":[
+        "polimorfismo",
+        "programacion",
+        "orientada",
+        "objetos",
+        "significa",
+        "explica",
+        "concepto",
+        "representa",
+        "funciona"
+      ],
+      "labels":["73"],
+      "subtopics":[]
+    },
+    "polymorphism-en":{
+      "keywords":[
+        "polymorphism",
+        "object",
+        "oriented",
+        "programming",
+        "mean",
+        "explain",
+        "concept",
+        "represent",
+        "work"
+      ],
+      "labels":["74"],
+      "subtopics":[]
+    },
+    "getter":{
+      "keywords":[
+        "funciones",
+        "getter",
+        "programacion",
+        "explica",
+        "define",
+        "concepto",
+        "por que",
+        "utilizan",
+        "proposito"
+      ],
+      "labels":["75"],
+      "subtopics":[]
+    },
+    "getter-en":{
+      "keywords":[
+        "are",
+        "getter",
+        "functions",
+        "programming",
+        "explain",
+        "define",
+        "concept",
+        "why",
+        "used",
+        "purpose"
+      ],
+      "labels":["76"],
+      "subtopics":[]
+    },
+    "setter":{
+      "keywords":[
+        "funciones",
+        "setter",
+        "programacion",
+        "explica",
+        "define",
+        "concepto",
+        "por que",
+        "utilizan",
+        "cual",
+        "proposito"
+      ],
+      "labels":["77"],
+      "subtopics":[]
+    },
+    "setter-en":{
+      "keywords":[
+        "are",
+        "setter",
+        "functions",
+        "programming",
+        "explain",
+        "define",
+        "concept",
+        "why",
+        "used",
+        "purpose"
+      ],
+      "labels":["78"],
       "subtopics":[]
     }
 
@@ -585,15 +842,18 @@
         "delete": ["select", "tabla", "sql","delete", "update"],
         "update": ["select", "tabla", "sql","delete", "update"],
         "hello":["estado-en","despedida-en"],
-        "estado-en":["hello-en","despedida-en","agradecimiento-en"],
+        "estado-en":["despedida-en","agradecimiento-en"],
         "despedida-en":["agradecimiento-en"],
         "agradecimiento-en":["despedida-en"],
-        "programacion": ["variables", "ciclos", "condicionales", "objetos"],
-        "variables": ["ciclos", "condicionales"]
+        "python-basics-es": ["python-uses-es", "python-installation-es", "python-execution-es","python-control-flow-es", "python-loops-es"],
+        "python-basics-en": ["python-uses-en", "python-installation-en", "python-execution-en","python-control-flow-en", "python-loops-en"]
       },
       "keywords": {
         "global": [
-          "por favor", "ok","si","no","bien"
+          "por favor", "ok","si","no","bien",
+          "a","me","i","what","can","do","an","to",
+          "are","the","of","is","it","and","in","of","how","why","in",
+          "que","es","una","en","un","para"
         ]
       }
 }
