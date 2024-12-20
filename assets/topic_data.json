@@ -234,7 +234,7 @@
       "subtopics":[]
     },
     "sql": {
-      "keywords": ["SQL", "significa", "definir", "representa"],
+      "keywords": ["SQL", "significa", "definir", "representa", "es sql", "sql"],
       "labels": ["16"],
       "subtopics": []
     },
@@ -255,7 +255,7 @@
       "subtopics": []
     },
     "where": {
-      "keywords": ["WHERE", "significa", "filtros", "hace", "where", "SQL"],
+      "keywords": ["WHERE", "significa", "filtros", "hace", "where"],
       "labels": ["20"],
       "subtopics": []
     },
@@ -551,7 +551,6 @@
     "clases-progra":{
       "keywords":[
         "clase",
-        "programacion",
         "explica",
         "define",
         "sirve",
