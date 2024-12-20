@@ -93,7 +93,7 @@
       "keywords":[
         "condicional",
         "condicionales",
-        "if",
+        "condicional if",
         "tipo",
         "hacen",
         "instruccion",
@@ -239,18 +239,18 @@
       "subtopics": []
     },
     "tipos": {
-      "keywords": ["tipos", "bases", "datos", "existen", "clases", "modelos", "cuales"],
+      "keywords": ["tipos", "bases", "datos", "existen", "clases", "modelos"],
       "labels": ["17"],
       "subtopics": []
     },
 
     "tabla": {
-      "keywords": ["tabla", "significa", "table", "sql", "sirve", "bases"],
+      "keywords": ["tabla", "significa", "sirve", "bases"],
       "labels": ["18"],
       "subtopics": []
     },
     "select": {
-      "keywords": ["SELECT", "significa", "funciona", "hace", "son"],
+      "keywords": ["SELECT", "significa", "funciona", "hace"],
       "labels": ["19"],
       "subtopics": []
     },
@@ -260,7 +260,7 @@
       "subtopics": []
     },
     "existencial": {
-      "keywords": ["eres", "haces", "funcion", "cual"],
+      "keywords": ["eres", "haces", "funcionas", "sos", "eres tu"],
       "labels": ["21"],
       "subtopics": []
     },
