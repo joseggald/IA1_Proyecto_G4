@@ -41,7 +41,7 @@ class TopicAwareChatbot:
         # Parámetros de entrenamiento
         self.batch_size = 32
         self.epochs = 150
-        self.validation_split = 0.18
+        self.validation_split = 0.20
         
         # Inicializar NLTK
         try:

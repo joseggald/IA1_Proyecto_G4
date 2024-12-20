@@ -1,20 +1,20 @@
 
 {
   "0": [
-    "¡Hola! ¿Cómo te encuentras hoy? Puedo ayudarte con SQL o programación.",
-    "¡Hey! Es genial verte por aquí. ¿Tienes dudas sobre SQL o conceptos de programación?",
+    "¡Hola! ¿Cómo te encuentras hoy? Puedo ayudarte con SQL, Python o  conceptos basicos de programación.",
+    "¡Hey! Es genial verte por aquí. ¿Tienes dudas sobre SQL, Python o conceptos de programación?",
     "¡Saludos! ¿Cómo va todo contigo? Si necesitas ayuda con bases de datos o programación, estoy aquí.",
-    "¡Hola! Espero que tengas un gran día. Pregunta lo que quieras sobre SQL o programación.",
-    "¡Hey! Estoy listo para ayudarte con SQL o cualquier concepto de programación.",
-    "¡Hola! Soy un chatbot experto en programación y SQL. ¿En qué concepto puedo asistirte hoy?"
+    "¡Hola! Espero que tengas un gran día. Pregunta lo que quieras sobre SQL, Python o programación.",
+    "¡Hey! Estoy listo para ayudarte con SQL, Python o cualquier concepto de programación.",
+    "¡Hola! Soy un chatbot experto en programación, SQL y Python. ¿En qué concepto puedo asistirte hoy?"
   ]
   ,
   "1": [
-    "Muy bien, gracias por preguntar. ¿Y tú qué tal?",
-    "Todo bien por aquí. ¿Qué tal tú?",
-    "Bastante bien. ¿Y tú cómo estás?",
-    "Excelente, gracias. ¿Qué tal va tu día?",
-    "Todo marcha bien. ¿Cómo te va a ti?"
+    "Muy bien, gracias por preguntar. ¿Y tú qué tal, Tienes dudas conceptos de bases de datos o conceptos de programación? ",
+    "Todo bien por aquí. ¿Qué tal tú, necesitas ayuda en algun tema sobre bases de datos o programacion?",
+    "Bastante bien. ¿Y tú cómo estás?, tengo conceptos de programacion y bases de datos por si necesitas ayuda",
+    "Excelente, gracias. ¿Qué tal va tu día?, recuerda que tengo conceptos de bases de datos y pogramacion",
+    "Todo marcha bien. ¿Cómo te va a ti?, puedo darte conceptos de programacion y bases de datos"
   ],
   "2": [
     "¡Me alegro mucho! ¿Hay algo en particular que quieras contarme?",
@@ -31,19 +31,19 @@
     "¡Que te vaya muy bien! Hasta la próxima"
   ],
   "4": [
-    "¡De nada! Estoy aquí para ayudar",
-    "Es un placer poder ayudarte",
-    "No hay de qué. ¿Necesitas algo más?",
-    "¡Con gusto! Siempre es un placer",
-    "¡Para eso estamos! ¿Hay algo más en que pueda ayudarte?"
+    "¡De nada! Estoy aquí para ayudar en conceptos de bases de datos y programacion",
+    "Es un placer poder ayudarte. recuerda que tengo conceptos de programacion y bases de datos",
+    "No hay de qué. ¿Necesitas algo más?, tengo informacion sobre bases de datos y programacion",
+    "¡Con gusto! Siempre es un placer. recuerda que si necesitas ayuda en conceptos de programacion y bases de datos esoty aqui para ayudarte",
+    "¡Para eso estamos! ¿Hay algo más en que pueda ayudarte?, puedo ayudarte en conceptos de bases de datos y programacion"
   ],
 
   "5":[
-    "La programación es el proceso de diseñar y escribir instrucciones en un lenguaje comprensible para una computadora",
-    "Programación es el arte y la ciencia de crear software mediante la construcción de algoritmos",
-    "La programacion es el conjunto de tecnicas para traducir problemas del mundo real en soluciones computacionales",
-    "Programar es la disciplina que combina logica, creatividad y conocimientos tecincos para desarrollar aplicaciones",
-    "Programar es la accion de codificar instrucciones logicas estructuradas las cuales permiten al hardware realizar tareas especificas"
+    "La programación es el proceso de diseñar y escribir instrucciones en un lenguaje comprensible para una computadora.\nEn el tema de programacion puedo hablarte de variables, ciclos, condicionales y objetos",
+    "Programación es el arte y la ciencia de crear software mediante la construcción de algoritmos.\nEn programación puedo explicarte sobre variables, bucles, condicionales y objetos.",
+    "La programacion es el conjunto de tecnicas para traducir problemas del mundo real en soluciones computacionales.\nEn el ámbito de la programación, puedo enseñarte acerca de variables, bucles, decisiones lógicas y objetos.",
+    "Programar es la disciplina que combina logica, creatividad y conocimientos tecincos para desarrollar aplicaciones.\nDentro de programación, puedo tratar temas como variables, iteraciones, condicionales y objetos.",
+    "Programar es la accion de codificar instrucciones logicas estructuradas las cuales permiten al hardware realizar tareas especificas.\nPuedo abordar conceptos de programación como variables, ciclos, estructuras de control y objetos."
   ],
 
   "6": [
@@ -204,12 +204,12 @@
     "¡Que te diviertas mucho! Recuerda que puedes preguntarme sobre programación o SQL."
   ],
   "26": [
-    "Hi! How are you today? I can help with SQL or programming.",
-    "Hey! Great to see you here. Do you have questions about SQL or programming concepts?",
+    "Hi! How are you today? I can help with SQL, Python or programming.",
+    "Hey! Great to see you here. Do you have questions about SQL, Python or programming concepts?",
     "Greetings! How's everything going? If you need help with databases or programming, I'm here.",
-    "Hi! Hope you're having a great day. Ask anything about SQL or programming.",
-    "Hey! I'm ready to help you with SQL or any programming concept.",
-    "Hi! I'm a chatbot expert in programming and SQL. What concept can I assist you with today?"
+    "Hi! Hope you're having a great day. Ask anything about SQL, Python or programming.",
+    "Hey! I'm ready to help you with SQL, Python or any programming concept.",
+    "Hi! I'm a chatbot expert in programming, Python and SQL. What concept can I assist you with today?"
   ],
   "27": [
     "SQL is a language for managing databases. You can keep asking about database concepts.",
@@ -283,5 +283,334 @@
     "Enjoy your outing! You can ask about SQL or programming.",
     "Have a great time! If you have questions, I’m here to help.",
     "Have lots of fun! Remember, you can ask me about programming or SQL."
+  ],
+
+  "37": [
+  "Very well, thank you for asking. How about you? Do you have any questions about database concepts or programming concepts?",
+  "All good here. How about you? Do you need help with any topic related to databases or programming?",
+  "Pretty good. How are you? I have programming and database concepts if you need help.",
+  "Excellent, thank you. How's your day going? Remember, I can help with database and programming concepts.",
+  "Everything is going well. How about you? I can provide programming and database concepts."
+  ],
+
+
+  "38": [
+    "glad to hear that! is there anything in particular you'd like to tell me?",
+    "That's great! what plans do you have for today?",
+    "Awesome! glad you're doing well",
+    "Excellent! it's good to know",
+    "That's great! is there anything i can help you with?"
+  ],
+
+  "39": [
+    "See you later! have an excellent day",
+    "See you! take care.",
+    "Goodbye! looking forward to seeing you soon.",
+    "See you soon! it was nice talking to you",
+    "Hope everything goes well! Until next time"
+  ],
+
+  "40" : [
+    "You're welcome! I'm here to help with database and programming concepts.",
+    "It's a pleasure to assist you. Remember, I have knowledge about programming and database concepts.",
+    "No problem. Do you need anything else? I have information on databases and programming.",
+    "You're welcome! It's always a pleasure. Remember, if you need help with programming and database concepts, I'm here to assist you.",
+    "That's what I'm here for! Is there anything else I can help you with? I can assist with database and programming concepts."
+  ],
+
+  "41": [
+    "Programming is the process of designing and writing instructions in a language understandable to a computer.\nIn the topic of programming, I can talk to you about variables, loops, conditionals, and objects.",
+    "Programming is the art and science of creating software by building algorithms.\nIn programming, I can explain variables, loops, conditionals, and objects to you.",
+    "Programming is the set of techniques to translate real-world problems into computational solutions.\nIn the field of programming, I can teach you about variables, loops, logical decisions, and objects.",
+    "Programming is the discipline that combines logic, creativity, and technical knowledge to develop applications.\nWithin programming, I can cover topics such as variables, iterations, conditionals, and objects.",
+    "Programming is the act of coding structured logical instructions that allow hardware to perform specific tasks.\nI can discuss programming concepts such as variables, loops, control structures, and objects."
+  ],
+
+  "42": [
+    "A variable is a space in a computer's memory where data is stored that can change within a program.",
+    "Variables are identifiers associated with a value that allow the program to access and manipulate that value dynamically.",
+    "A variable is a symbolic name used to represent data in a program.",
+    "It is a fundamental element in programming that acts as a reference to a piece of data.",
+    "A variable is a programming resource used to store information."
+  ],
+
+  "43": [
+    "A conditional is a control structure that allows a program to make decisions depending on the outcome of a condition.",
+    "It is a logical mechanism that executes different blocks of code based on the evaluation of one or more boolean expressions.",
+    "Conditionals are a programming tool that defines the flow of a program based on certain rules.",
+    "An if conditional is an instruction that evaluates a logical expression and, if true, executes a set of instructions.",
+    "If is a conditional statement that represents a decision in a program."
+  ],
+
+  "44": [
+    "A loop is a control structure that allows a block of code to execute repeatedly while a specific condition is true.",
+    "Loops are fundamental tools in programming that automate the repetition of tasks.",
+    "A loop is a mechanism that facilitates iteration over data collections, value ranges, or predefined instructions.",
+    "A loop is a repetitive sequence in a program, designed to iterate a set of instructions a fixed number of times or until a condition is met or no longer met.",
+    "Loops are logical components that control repetitive execution in a program."
+  ],
+
+  "45": [
+    "A function is a reusable block of code that performs a specific task and can be called from different parts of a program.",
+    "A function is a reusable piece of code that takes input, processes it, and returns an output",
+    "The difference between a function and a method is that a function is independent, while a method belongs to an object.",
+    "Functions and methods are fundamental in programming because they allow code to be structured and organized efficiently, clearly, and in a reusable way.",
+    "A function is a way to encapsulate code logic, allowing it to be called multiple times with different inputs."
+  ],
+
+  "46": [
+    "OOP is a programming paradigm that organizes code around objects.",
+    "Object-Oriented Programming (OOP) is a software development methodology based on principles like encapsulation, inheritance, polymorphism, and abstraction.",
+    "OOP is recommended in many cases, but its suitability depends on the type of project and its requirements.",
+    "The main characteristics of OOP are encapsulation, abstraction, inheritance, and polymorphism.",
+    "It is one of the most popular and widely used programming paradigms in the software industry."
+  ],
+
+  "47": [
+    "Sure, here's a joke! What do you call two monkeys that share an Amazon account? Prime mates",
+    "Why did the pharmacist walk on her tiptoes? She didn't want to wake the sleeping pills.",
+    "What would the Terminator be called in his retirement? The Exterminator.",
+    "My boss told me to have a good day, so I went home.",
+    "Why is Peter Pan always flying? Because he Neverlands."
+  ],
+
+  "48": [
+    "I can recommend taking a walk on a trail or in a park.",
+    "I could suggest watching a movie at the cinema.",
+    "You could spend time with family or friends.",
+    "Trying a new recipe would be a good recommendation.",
+    "If you're looking for a healthy option, you could exercise."
+  ],
+
+  "49": [
+    "Why so serious? - The Joker in Batman: The Dark Knight.",
+    "May the Force be with you - Star Wars.",
+    "Hasta la vista, baby - Terminator in Terminator 2: Judgment Day.",
+    "To infinity and beyond - Buzz Lightyear in Toy Story.",
+    "Are you talking to me? - Travis Bickle in Taxi Driver."
+  ],
+
+  "50": [
+    "Why not try cooking some tacos?",
+    "You could make a Caesar salad.",
+    "I recommend making garlic pasta.",
+    "A tuna sandwich is a simple meal to prepare.",
+    "If you're looking for something sweet, I could recommend making brownies."
+  ],
+
+  "51":[
+    "Una clase es un modelo o plantilla que define las propiedades y métodos que los objetos de ese tipo tendrán.",
+    "Es una estructura que permite crear objetos con atributos y comportamientos específicos.",
+    "En programación orientada a objetos, una clase es el diseño base de los objetos que comparten características similares.",
+    "Es un concepto que organiza código en componentes reutilizables y estructurados.",
+    "Una clase es el mecanismo principal en OOP para implementar el encapsulamiento, la herencia y el polimorfismo."
+  ],
+
+  "52":[
+    "A class is a blueprint or template that defines the properties and methods objects of that type will have.",
+    "It is a structure that allows creating objects with specific attributes and behaviors.",
+    "In object-oriented programming, a class is the base design of objects that share similar characteristics.",
+    "It is a concept that organizes code into reusable and structured components.",
+    "A class is the main mechanism in OOP to implement encapsulation, inheritance, and polymorphism."
+  ],
+
+  "53": [
+    "Un objeto es una instancia de una clase que agrupa datos y métodos relacionados.",
+    "Es una entidad en programación orientada a objetos que tiene atributos y comportamiento.",
+    "Un objeto es una unidad básica de la programación orientada a objetos que encapsula datos y lógica.",
+    "Es una instancia específica que hereda las propiedades y métodos de su clase.",
+    "Es una entidad autónoma que combina datos y métodos para operar sobre esos datos."
+
+  ],
+
+  "54":[
+    "An object is an instance of a class that groups related data and methods.",
+    "It is an entity in object-oriented programming that has attributes and behavior.",
+    "An object is a basic unit of object-oriented programming that encapsulates data and logic.",
+    "It is a specific instance that inherits the properties and methods of its class.",
+    "It is an autonomous entity that combines data and methods to operate on that data."
+
+  ],
+
+  "55": [
+    "El encapsulamiento es un principio de la programación orientada a objetos que restringe el acceso directo a los datos de un objeto.",
+    "Es la práctica de ocultar detalles internos de una clase y exponer solo lo necesario mediante métodos públicos.",
+    "El encapsulamiento permite proteger los datos de un objeto al mantenerlos privados y controlando su acceso con getters y setters.",
+    "Se refiere a la agrupación de datos y métodos en una misma entidad para ocultar su implementación.",
+    "El encapsulamiento asegura que los datos de un objeto sean manipulados solo a través de su interfaz pública."
+  ],
+
+  "56": [
+    "Encapsulation is a principle of object-oriented programming that restricts direct access to an object's data.",
+    "It is the practice of hiding the internal details of a class and exposing only what is necessary through public methods.",
+    "Encapsulation allows protecting an object's data by keeping it private and controlling its access with getters and setters.",
+    "It refers to the grouping of data and methods in a single entity to hide its implementation.",
+    "Encapsulation ensures that an object's data is manipulated only through its public interface."
+  ],
+
+  "57": [
+    "Python es un lenguaje de programación interpretado que soporta múltiples paradigmas como orientación a objetos y programación funcional. ¿Algo más que quieras saber sobre Python?",
+    "Es un lenguaje de código abierto ampliamente utilizado en aplicaciones como desarrollo web, análisis de datos y automatización. ¿Quieres aprender más sobre Python?",
+    "Python es conocido por su sintaxis sencilla y su gran ecosistema de bibliotecas y frameworks. ¡Pregúntame cualquier cosa sobre Python!",
+    "Un lenguaje ideal tanto para principiantes como para desarrolladores avanzados debido a su facilidad de uso y versatilidad. ¿Tienes alguna otra duda sobre Python?",
+    "Python es una herramienta potente para resolver problemas complejos y construir aplicaciones robustas. ¿Algo más que quieras saber sobre Python?"
+  ],
+  "58": [
+    "Python is an interpreted programming language supporting multiple paradigms like object-oriented and functional programming. Anything else you'd like to know about Python?",
+    "It is an open-source language widely used in web development, data analysis, and automation tasks. Want to explore Python further?",
+    "Python is known for its simple syntax and vast ecosystem of libraries and frameworks. Ask if you need more Python info!",
+    "An ideal language for both beginners and advanced developers due to its ease of use and versatility. Do you have more Python-related questions?",
+    "Python is a powerful tool for solving complex problems and building robust applications. Anything else I can assist with in Python?"
+  ],
+  "59": [
+    "Python se utiliza para desarrollo web, análisis de datos y más. ¿Quieres que profundice en Python?",
+    "Es útil para tareas como automatización, ciencia de datos y aprendizaje automático. ¿Tienes más preguntas sobre Python?",
+    "Python es ideal para principiantes y proyectos avanzados. Pregúntame si necesitas más detalles de Python.",
+    "Desde desarrollo de videojuegos hasta análisis financiero, Python es muy flexible. ¿Algo más que quieras saber sobre Python?",
+    "Puedes usar Python en casi cualquier campo tecnológico. ¿Necesitas ejemplos más específicos de Python?"
+  ],
+  "60": [
+    "Python is used for web development, data analysis, and more. Any specific Python area you'd like to explore?",
+    "It's great for automation, data science, and machine learning. Do you have more Python questions?",
+    "Python works well for beginners and advanced projects. Feel free to ask for more Python details!",
+    "From game development to financial analysis, Python is very flexible. Want to know more about Python?",
+    "You can use Python in almost any tech field. Need specific Python examples?"
+  ],
+  "61": [
+    "Descarga Python desde su sitio oficial (python.org) y ejecuta el instalador adecuado para tu sistema operativo. Sigue los pasos del asistente y selecciona la opción de agregar Python al PATH. ¿Algo más en lo que pueda asistirte sobre Python?",
+    "Visita python.org, descarga el instalador correspondiente a tu sistema operativo y ejecútalo. Asegúrate de habilitar la opción para añadir Python al PATH. ¿Tienes más dudas sobre la instalación de Python?",
+    "Para instalar Python, descarga el instalador desde su sitio oficial y sigue las instrucciones. Recuerda marcar la casilla para añadir Python al PATH. ¿Puedo ayudarte con otro tema relacionado con Python?",
+    "Puedes instalar Python usando gestores de paquetes como apt (Linux) o brew (Mac). También está disponible en su página oficial. ¿Algo más que quieras saber sobre Python?",
+    "Descarga Python de python.org, selecciona tu sistema operativo, y sigue las instrucciones del instalador. Añade Python al PATH durante la instalación. ¿Tienes más preguntas sobre Python?"
+  ],
+  "62": [
+    "Download Python from its official website (python.org) and run the installer for your operating system. Follow the setup wizard and ensure you check the option to add Python to PATH. Need help with anything else in Python?",
+    "Visit python.org, download the appropriate installer for your OS, and execute it. Make sure to enable the option to add Python to PATH. Any more questions about Python installation?",
+    "To install Python, get the installer from its official site and follow the instructions. Remember to check the box to add Python to PATH. Can I assist with another Python topic?",
+    "You can install Python using package managers like apt (Linux) or brew (Mac), or download it directly from python.org. Anything else you'd like to know about Python?",
+    "Download Python from python.org, select your operating system, and follow the installation steps. Add Python to PATH during the process. Any more Python-related questions?"
+  ],
+  "63": [
+    "Para correr un programa Python, abre una terminal, navega hasta la carpeta donde está el archivo y escribe 'python archivo.py'. ¿Algo más que quieras saber sobre Python?",
+    "Usa un IDE como PyCharm: abre el archivo en el IDE y presiona 'Run'. ¿Algo más en lo que te pueda ayudar con Python?",
+    "También puedes usar entornos interactivos como Jupyter para ejecutar tu código. ¿Tienes más dudas sobre Python?",
+    "Guarda tu código con extensión .py, abre una terminal y usa 'python archivo.py' para ejecutarlo. ¿Necesitas más asistencia sobre Python?",
+    "Si estás en Windows, usa PowerShell o CMD; en Linux o Mac, usa la terminal para correr 'python archivo.py'. ¿Algo más que quieras saber sobre Python?"
+  ],
+  "64": [
+    "To run a Python program, open a terminal, navigate to the folder containing the file, and type 'python file.py'. Anything else you'd like to ask about Python?",
+    "Use an IDE like PyCharm: open the file in the IDE and press 'Run'. Anything else I can assist with in Python?",
+    "You can also use interactive environments like Jupyter to execute your code. Any other Python questions?",
+    "Save your code with a .py extension, open a terminal, and run 'python file.py'. Need more Python help?",
+    "On Windows, use PowerShell or CMD; on Linux or Mac, use the terminal to run 'python file.py'. Anything else you'd like to know about Python?"
+  ],
+  "65": [
+    "Las estructuras de control de flujo en Python incluyen 'if', 'elif', 'else', 'for', 'while', 'break', 'continue' y 'pass'. ¿Quieres saber más sobre Python?",
+    "Las instrucciones disponibles son 'if', 'elif', 'else', 'for', 'while', 'break', 'continue' y 'pass'. ¿Puedo ayudarte con algo más relacionado con Python?",
+    "En Python puedes usar 'if', 'elif', 'else', 'for', 'while', 'break', 'continue' y 'pass' como control de flujo. ¿Algo más que quieras saber sobre Python?",
+    "'If', 'elif', 'else', 'for', 'while', 'break', 'continue' y 'pass' son instrucciones de control de flujo. ¿Tienes más dudas sobre Python?",
+    "Python ofrece las instrucciones 'if', 'elif', 'else', 'for', 'while', 'break', 'continue' y 'pass'. ¿Necesitas más información sobre Python?"
+  ],
+  "66": [
+    "Control flow structures in Python include 'if', 'elif', 'else', 'for', 'while', 'break', 'continue', and 'pass'. Want to learn more about Python?",
+    "Available statements are 'if', 'elif', 'else', 'for', 'while', 'break', 'continue', and 'pass'. Need further assistance with Python?",
+    "In Python, you can use 'if', 'elif', 'else', 'for', 'while', 'break', 'continue', and 'pass' for control flow. Anything else you'd like to know about Python?",
+    "'If', 'elif', 'else', 'for', 'while', 'break', 'continue', and 'pass' are control flow statements. Any more Python-related questions?",
+    "Python provides 'if', 'elif', 'else', 'for', 'while', 'break', 'continue', and 'pass' as control flow options. Do you have additional questions about Python?"
+  ],
+  "67": [
+    "Las instrucciones de bucles en Python son 'for', 'while', 'break', 'continue' y 'pass'. ¿Algo más que quieras saber sobre Python?",
+    "En Python puedes usar 'for', 'while', 'break', 'continue' y 'pass' para trabajar con bucles. ¿Necesitas más información sobre Python?",
+    "Los bucles disponibles en Python incluyen 'for', 'while', 'break', 'continue' y 'pass'. ¿Puedo ayudarte con algo más sobre Python?",
+    "'For', 'while', 'break', 'continue' y 'pass' son las instrucciones de bucles en Python. ¿Tienes más dudas sobre Python?",
+    "Puedes usar 'for', 'while', 'break', 'continue' y 'pass' para manejar bucles en Python. ¿Algo más que quieras saber sobre Python?"
+  ],
+  "68": [
+    "Loop instructions in Python include 'for', 'while', 'break', 'continue', and 'pass'. Anything else you'd like to ask about Python?",
+    "In Python, you can use 'for', 'while', 'break', 'continue', and 'pass' to work with loops. Need further assistance with Python?",
+    "Available loop statements in Python are 'for', 'while', 'break', 'continue', and 'pass'. Any more Python-related questions?",
+    "'For', 'while', 'break', 'continue', and 'pass' are loop instructions in Python. Want to know more about Python?",
+    "You can use 'for', 'while', 'break', 'continue', and 'pass' to manage loops in Python. Do you have additional questions about Python?"
+  ],
+
+  "69": [
+    "La herencia es un principio de la programación orientada a objetos que permite que una clase derive propiedades y métodos de otra.",
+    "La herencia permite crear nuevas clases basadas en clases existentes, añadiendo o modificando funcionalidades.",
+    "Es un concepto que permite a una clase reutilizar el comportamiento y estado definido en otra clase.",
+    "La herencia permite que las clases compartan código común, promoviendo la reutilización y reduciendo redundancias.",
+    "Es el mecanismo por el cual una clase puede extender otra para reutilizar su código."
+  ],
+
+  "70": [
+    "Inheritance is a principle of object-oriented programming that allows a class to derive properties and methods from another.",
+    "Inheritance allows creating new classes based on existing ones, adding or modifying functionalities.",
+    "It is a concept that allows a class to reuse the behavior and state defined in another class.",
+    "Inheritance allows classes to share common code, promoting reuse and reducing redundancies.",
+    "It is the mechanism by which a class can extend another to reuse its code."
+  ],
+
+  "71":[
+    "La abstracción es un principio que permite enfocarse en los detalles esenciales de un objeto y ocultar su complejidad.",
+    "Es el proceso de representar conceptos relevantes mientras se omiten detalles innecesarios.",
+    "La abstracción en programación orientada a objetos simplifica el diseño al separar qué hace un objeto de cómo lo hace.",
+    "La abstracción permite crear modelos que representan el comportamiento sin preocuparse por la implementación.",
+    "Es una forma de ocultar detalles de implementación para centrarse en las funcionalidades clave."
+  ],
+
+  "72":[
+    "Abstraction is a principle that allows focusing on the essential details of an object and hiding its complexity.",
+    "It is the process of representing relevant concepts while omitting unnecessary details.",
+    "Abstraction in object-oriented programming simplifies design by separating what an object does from how it does it.",
+    "Abstraction allows creating models that represent behavior without worrying about implementation.",
+    "It is a way of hiding implementation details to focus on key functionalities."
+  ],
+
+  "73":[
+    "El polimorfismo es un principio de la programación orientada a objetos que permite que una entidad tome múltiples formas.",
+    "Es la capacidad de una función o método de comportarse de manera diferente dependiendo del contexto.",
+    "En programación, el polimorfismo se utiliza para sobrescribir o sobrecargar métodos en clases relacionadas.",
+    "Es la habilidad de procesar objetos de diferentes tipos a través de una referencia común.",
+    "El polimorfismo se manifiesta cuando una misma operación puede aplicarse a distintos tipos de datos."
+  ],
+
+  "74":[
+    "Polymorphism is a principle of object-oriented programming that allows an entity to take multiple forms.",
+    "It is the ability of a function or method to behave differently depending on the context.",
+    "In programming, polymorphism is used to override or overload methods in related classes.",
+    "It is the ability to process objects of different types through a common reference.",
+    "Polymorphism is evident when the same operation can be applied to different data types."
+  ],
+
+  "75":[
+    "Un getter es una función que permite acceder al valor de un atributo privado de un objeto.",
+    "Los getters son funciones que devuelven el estado de una variable miembro de un objeto.",
+    "Los getters permiten leer los valores de los atributos sin acceder directamente a ellos.",
+    "Los getters son herramientas que ayudan a mantener la consistencia del estado interno de un objeto.",
+    "Es una técnica que permite acceder a los datos de un objeto sin romper su diseño orientado a objetos."
+  ],
+
+  "76":[
+    "A getter is a function that allows access to the value of a private attribute of an object.",
+    "Getters are functions that return the state of a member variable of an object.",
+    "Getters allow reading attribute values without directly accessing them.",
+    "Getters are tools that help maintain the consistency of an object's internal state.",
+    "It is a technique that allows accessing an object's data without breaking its object-oriented design."
+  ],
+
+  "77":[
+    "Un setter es una función que permite modificar el valor de un atributo privado de un objeto.",
+    "Es un método utilizado para establecer o actualizar el valor de una propiedad encapsulada dentro de una clase.",
+    "Los setters son funciones que asignan valores a las variables miembro de un objeto.",
+    "Es una función que permite establecer el estado de un atributo interno manteniendo su integridad.",
+    "Un setter es un método diseñado para modificar la información de un objeto siguiendo principios de encapsulación."
+  ],
+
+  "78":[
+    "A setter is a function that allows modifying the value of a private attribute of an object.",
+    "It is a method used to set or update the value of a property encapsulated within a class.",
+    "Setters are functions that assign values to an object's member variables.",
+    "It is a function that allows setting the state of an internal attribute while maintaining its integrity.",
+    "A setter is a method designed to modify an object's information following encapsulation principles."
   ]
+
 }
