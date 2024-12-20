@@ -17,7 +17,9 @@ Spanish
 17.  Que es SQL, como funcona o es sql, Como definir SQL?
 18. Que tipos de bases de datos existen?, Que modelos de bases existen?,Cuales son los tipos de bases?
 19. para que sirve las tablas, Que es una tabla en bases, que es una tabla de sql
-20. 
-21.
-22.
+20. que es comando select, como funciona un comando select, para que sirve el select
+21. Que significa WHERE, Que hace WHERE, que es where en sql
+22. Quien eres, que eres tu
 23. como funciona un insert, que es el insert, en sql como inserto, como se hace un insert
+24. dime como funciona el update, que hace el update
+25. que es un delete, como funciona un delete, como borro con delete en sql
