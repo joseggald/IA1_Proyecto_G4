@@ -35,15 +35,67 @@ pip install -r requirements.txt
 
 ## **3. Descripción General**
 ### Arquitectura del Modelo
-1. Entrada: Texto proporcionado por el usuario.
-2. Preprocesamiento: Normalización, tokenización y conversión a secuencias.
-3. Modelo: Modelo Secuencial - Define las capas del modelo de manera lineal.
-   - **_Embedding Layer_**: Convierte las palabras (o tokens) en representaciones vectoriales densas..
-   - **_Capa convolucional_** (Conv1D): Extrae características locales (n-gramas) del texto para encontrar patrones relevantes.
-   - **_Max Pooling Global_** (GlobalMaxPooling1D): Reduce dimensionalidad seleccionando las características más significativas. 
-   - **_Capas densas para clasificación_:** Realizan la clasificación basada en las características extraídas.
-   - **_Softmax_:** Genera probabilidades para cada clase, permitiendo asignar la categoría más probable.
-4. Salida: Respuesta seleccionada de un archivo JSON basado en la predicción del modelo.
+El modelo utilizado en el **ChatBot Pro** está diseñado para procesar texto de manera eficiente y proporcionar respuestas relevantes basadas en temas específicos. A continuación, se describe su funcionamiento y estructura:
+
+#### 1. **Entrenamiento y Configuración en Python**
+El modelo es inicialmente entrenado en Python utilizando la biblioteca **TensorFlow**. Los principales componentes de esta fase son:
+
+- **Preprocesamiento de texto:** 
+  - Se utiliza **NLTK** para tokenizar y limpiar el texto.
+  - Se normalizan caracteres especiales (como acentos y puntuación) y se eliminan palabras irrelevantes.
+  
+- **Arquitectura del Modelo:**
+  - **Embedding Layer:** Representa las palabras en un espacio vectorial.
+  - **Conv1D:** Extrae patrones locales de las palabras para capturar relaciones entre ellas.
+  - **GlobalMaxPooling1D:** Reduce la dimensionalidad del resultado y resalta características clave.
+  - **Dense Layers:** Procesan la información para clasificarla en las categorías configuradas.
+  - **Softmax:** Genera probabilidades para cada clase de respuesta.
+
+- **Entrenamiento:**
+  - Utiliza **categorical_crossentropy** como función de pérdida y el optimizador Adam.
+  - Se divide el conjunto de datos en entrenamiento y validación para mejorar el rendimiento.
+
+- **Guardado del Modelo:**
+  - El modelo entrenado se guarda como un archivo H5, junto con el tokenizador y los datos de tópicos.
+
+#### 2. **Exportación e Implementación en JavaScript**
+El modelo exportado en Python se convierte para su uso en JavaScript mediante **TensorFlow.js**, adaptándose al entorno de ejecución del cliente. 
+
+- **Cargado del Modelo:**
+  - Se utilizan los archivos `model.json` (topología del modelo) y `tokenizer.json` (información del tokenizador).
+  - Las capas se ajustan para mantener la compatibilidad con TensorFlow.js.
+
+- **Procesamiento de Entrada:**
+  - **Preprocesamiento en JS:** Realiza limpieza y tokenización similares a las del modelo en Python.
+  - **Padding:** Se asegura de que las secuencias tengan una longitud fija (20 en este caso).
+
+- **Identificación de Tópicos:**
+  - Combina palabras clave extraídas del texto con un sistema de puntuación basado en relaciones entre tópicos y contexto histórico de la conversación.
+
+- **Ajuste Basado en Tópicos:**
+  - Si un tópico es identificado, las predicciones relacionadas se ajustan para aumentar su confianza.
+
+#### 3. **Limitaciones de JavaScript**
+Aunque se implementa el modelo en TensorFlow.js, su funcionalidad en el navegador tiene algunas limitaciones en comparación con Python:
+
+- **Rendimiento:**
+  - El procesamiento en el navegador puede ser más lento, especialmente en dispositivos de baja potencia.
+  
+- **Preprocesamiento:**
+  - La tokenización y normalización de texto son menos sofisticadas en JavaScript.
+
+- **Capacidades del Modelo:**
+  - Algunos ajustes avanzados (como regularizaciones complejas) no son directamente compatibles en TensorFlow.js.
+
+#### 4. **Funcionalidades Clave**
+El modelo está diseñado para:
+- Responder preguntas relacionadas con **programación, SQL y Python**.
+- Manejar temas casuales como chistes, actividades, y citas de películas.
+- Operar tanto en **español** como en **inglés**, adaptándose al idioma del usuario.
+
+#### 5. **Interacción entre Python y JavaScript**
+- **Python:** Responsable del entrenamiento y ajustes complejos del modelo.
+- **JavaScript:** Implementa el modelo para aplicaciones web, permitiendo que los usuarios interactúen directamente desde el navegador.
 
 ### Tecnologías Utilizadas
 - **TensorFlow/Keras**: Para la creación y entrenamiento del modelo.
