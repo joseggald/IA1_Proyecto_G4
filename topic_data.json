@@ -250,7 +250,7 @@
       "subtopics": []
     },
     "select": {
-      "keywords": ["SELECT", "significa", "funciona", "hace", "seleccionar", "utilizar"],
+      "keywords": ["SELECT", "significa", "funciona", "hace", "seleccionar", "utilizar", "comando", "comando select"],
       "labels": ["19"],
       "subtopics": []
     },
@@ -265,17 +265,17 @@
       "subtopics": []
     },
     "insert": {
-      "keywords": ["insert", "significa", "como","funciona","para","sirve","hace","comando"],
+      "keywords": ["insert", "significa", "como","funciona","para","sirve","hace"],
       "labels": ["22"],
       "subtopics": []
     },
     "update": {
-      "keywords": ["update", "significa", "como","funciona","para","sirve","hace","comando"],
+      "keywords": ["update", "significa", "como","funciona","para","sirve","hace"],
       "labels": ["23"],
       "subtopics": []
     },
     "delete": {
-      "keywords": ["delete","como", "elimino", "datos","significa","registros","hace","comando"],
+      "keywords": ["delete","como", "elimino", "datos","significa","registros","hace"],
       "labels": ["24"],
       "subtopics": []
     },
