@@ -27,4 +27,13 @@ Spanish
 27. define las clases, que es una clase
 28. como defines objeto en la programacion,que es un objeto en progamacion, que es un objeto
 29. que es el encapsulamiento, define que es el encapsulamiento
-30. 
+30. define conceptos basicos de python, explica que es python
+31. que uso tiene python en applicaciones, en que se usa pytho, que aplicaciones tiene python
+32. como instalo python, como es para instalar python
+33. como lo ejecuto mi programa en python, como corro mi porgrama de python
+34. Qué instrucciones para bucles ofrece Python?, Cuáles son las instrucciones de bucles en Python?
+35. que es la herencia en programacion, define la herencia en programacion
+36. que es la abstraccion en programacion?, explica que es la abstraccion en programacion.
+37. que es el polimorfismo en programacion orientada a objetos., explica el concepto de polimorfismo en programacion orientada a objetos
+38. que son las funciones getter en programacion?
+39. explica que son las funciones setter en programacion?, por que se utilizan las funciones setter en programacion?
