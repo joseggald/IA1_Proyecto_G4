@@ -10,7 +10,7 @@
         "saludos"
       ],
       "labels": ["0"],
-      "subtopics": ["estado"]
+      "subtopics": []
     },
     "estado": {
       "keywords": [
@@ -624,7 +624,7 @@
       "subtopics":[]
     },
     "python-basics-es": {
-      "keywords": ["python", "define", "explicar", "significa", "conceptos","basicos","explica"],
+      "keywords": ["python","es python", "define", "explicar", "significa", "conceptos","basicos","explica"],
       "labels": ["57"],
       "subtopics": []
     },

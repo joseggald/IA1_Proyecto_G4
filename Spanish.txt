@@ -23,3 +23,8 @@ Spanish
 23. como funciona un insert, que es el insert, en sql como inserto, como se hace un insert
 24. dime como funciona el update, que hace el update
 25. que es un delete, como funciona un delete, como borro con delete en sql
+26. saldre con amigos ... (cualquier cosa)
+27. define las clases, que es una clase
+28. como defines objeto en la programacion,que es un objeto en progamacion, que es un objeto
+29. que es el encapsulamiento, define que es el encapsulamiento
+30. 

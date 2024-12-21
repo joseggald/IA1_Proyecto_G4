@@ -7,11 +7,10 @@
         "dias",
         "tardes",
         "noches",
-        "saludos",
-        "que tal"
+        "saludos"
       ],
       "labels": ["0"],
-      "subtopics": ["estado"]
+      "subtopics": []
     },
     "estado": {
       "keywords": [
@@ -625,7 +624,7 @@
       "subtopics":[]
     },
     "python-basics-es": {
-      "keywords": ["python", "define", "explicar", "significa", "conceptos","basicos","explica"],
+      "keywords": ["python","es python", "define", "explicar", "significa", "conceptos","basicos","explica"],
       "labels": ["57"],
       "subtopics": []
     },
@@ -687,7 +686,7 @@
     "herencia": {
       "keywords":[
         "herencia",
-        "programacion",
+        "en la programacion",
         "explica",
         "define",
         "contexto",
@@ -717,7 +716,7 @@
     "abstraccion":{
       "keywords":[
         "abstraccion",
-        "programacion",
+        "en la programacion",
         "significa",
         "explica",
         "representa",
@@ -744,7 +743,7 @@
     "polimorfismo":{
       "keywords":[
         "polimorfismo",
-        "programacion",
+        "en la programacion",
         "orientada",
         "objetos",
         "significa",
@@ -775,7 +774,9 @@
       "keywords":[
         "funciones",
         "getter",
-        "programacion",
+        "getters",
+        "un getter",
+        "los getters",
         "explica",
         "define",
         "concepto",
@@ -806,7 +807,9 @@
       "keywords":[
         "funciones",
         "setter",
-        "programacion",
+        "setters",
+        "un setter",
+        "los setters",
         "explica",
         "define",
         "concepto",
