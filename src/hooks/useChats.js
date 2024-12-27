@@ -1,7 +1,12 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
-import ModelService from '../services/modelService';
+import { ChatbotModel } from '../models/';
+
+// Datos de entrenamiento y respuestas (importados directamente)
+import trainingData from '../data.json';
+import responseData from '../data/response.json';
 
 export const useChat = () => {
+  // Estado inicial de los mensajes con persistencia en localStorage
   const [messages, setMessages] = useState(() => {
     const savedMessages = localStorage.getItem('chat-messages');
     return savedMessages ? JSON.parse(savedMessages) : [{
@@ -12,9 +17,11 @@ export const useChat = () => {
     }];
   });
 
+  // Estados para el manejo del chat
   const [inputValue, setInputValue] = useState('');
   const [isModelReady, setIsModelReady] = useState(false);
   const [isProcessing, setIsProcessing] = useState(false);
+  const [chatbot, setChatbot] = useState(null);
   const messagesEndRef = useRef(null);
 
   // Persistir mensajes en localStorage
@@ -22,22 +29,27 @@ export const useChat = () => {
     localStorage.setItem('chat-messages', JSON.stringify(messages));
   }, [messages]);
 
-  // Inicializar el modelo
+  // Inicializar el modelo del chatbot
   useEffect(() => {
-    const initModel = async () => {
+    const initChatbot = async () => {
       try {
-        await ModelService.init();
-        console.log('Modelo inicializado correctamente.');
+        // Inicializar chatbot con los datos importados
+        const bot = new ChatbotModel();
+        await bot.initialize(trainingData);
+        
+        setChatbot(bot);
         setIsModelReady(true);
+        console.log('Chatbot inicializado correctamente.');
       } catch (error) {
-        console.error('Error detallado inicializando el modelo:', error);
+        console.error('Error detallado inicializando el chatbot:', error);
         addMessage({
           text: "Lo siento, hubo un problema al cargar el sistema. Por favor, intenta recargar la página.",
           sender: 'bot'
         });
       }
     };
-    initModel();
+
+    initChatbot();
   }, []);
 
   // Auto scroll al último mensaje
@@ -45,6 +57,19 @@ export const useChat = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages]);
 
+  // Función para obtener respuesta basada en el label
+  const getResponse = (label) => {
+    try {
+      const labelResponses = responseData[label] || [];
+      return labelResponses[Math.floor(Math.random() * labelResponses.length)] ||
+        'Lo siento, no entendí tu mensaje.';
+    } catch (error) {
+      console.error('Error obteniendo respuesta:', error);
+      return 'Lo siento, ocurrió un error al procesar tu mensaje.';
+    }
+  };
+
+  // Función para añadir mensajes al chat
   const addMessage = useCallback((newMessage) => {
     const messageWithMetadata = {
       id: Date.now().toString(),
@@ -54,15 +79,17 @@ export const useChat = () => {
     setMessages(prev => [...prev, messageWithMetadata]);
   }, []);
 
+  // Manejador del cambio en el input
   const handleInputChange = useCallback((e) => {
     setInputValue(e.target.value);
   }, []);
 
+  // Manejador del envío de mensajes
   const handleSubmit = useCallback(async (e) => {
     e.preventDefault();
-    
+
     const userMessage = inputValue.trim();
-    if (!userMessage || isProcessing) return;
+    if (!userMessage || isProcessing || !chatbot) return;
 
     setIsProcessing(true);
     setInputValue('');
@@ -74,16 +101,17 @@ export const useChat = () => {
     });
 
     try {
-      console.log('Starting message processing for:', userMessage);
-      const response = await ModelService.processMessage(userMessage);
+      // Obtener predicción del chatbot
+      const label = await chatbot.predict(userMessage);
       
-      console.log('Final response:', response);
-      
+      // Obtener respuesta basada en el label
+      const responseText = getResponse(label);
+
       // Añadir respuesta del bot
       addMessage({
-        text: response.text || "Lo siento, no pude procesar tu mensaje.",
+        text: responseText,
         sender: 'bot',
-        analysis: response.contextAnalysis
+        label: label
       });
     } catch (error) {
       console.error('Error completo en handleSubmit:', error);
@@ -95,8 +123,9 @@ export const useChat = () => {
     } finally {
       setIsProcessing(false);
     }
-  }, [inputValue, isProcessing, addMessage]);
+  }, [inputValue, isProcessing, chatbot, addMessage]);
 
+  // Función para limpiar el chat
   const clearChat = useCallback(() => {
     setMessages([{
       id: Date.now().toString(),

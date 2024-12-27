@@ -1,616 +1,305 @@
-
 {
   "0": [
-    "¡Hola! ¿Cómo te encuentras hoy? Puedo ayudarte con SQL, Python o  conceptos basicos de programación.",
-    "¡Hey! Es genial verte por aquí. ¿Tienes dudas sobre SQL, Python o conceptos de programación?",
-    "¡Saludos! ¿Cómo va todo contigo? Si necesitas ayuda con bases de datos o programación, estoy aquí.",
-    "¡Hola! Espero que tengas un gran día. Pregunta lo que quieras sobre SQL, Python o programación.",
-    "¡Hey! Estoy listo para ayudarte con SQL, Python o cualquier concepto de programación.",
-    "¡Hola! Soy un chatbot experto en programación, SQL y Python. ¿En qué concepto puedo asistirte hoy?"
-  ]
-  ,
+    "¡Hola! Soy un chatbot especializado en programación y conceptos de bases de datos. ¿En qué puedo ayudarte?",
+    "¡Hey! Me alegro de verte. ¿Tienes alguna duda sobre programación o bases de datos?",
+    "¡Saludos! Estoy aquí para ayudarte con temas de programación y bases de datos. ¿Qué te gustaría aprender?",
+    "¡Hola! ¿Qué te gustaría saber sobre programación o bases de datos?",
+    "¡Bienvenido! Soy un asistente especializado en programación y bases de datos. ¿En qué puedo ayudarte?"
+  ],
   "1": [
-    "Muy bien, gracias por preguntar. ¿Y tú qué tal, Tienes dudas conceptos de bases de datos o conceptos de programación? ",
-    "Todo bien por aquí. ¿Qué tal tú, necesitas ayuda en algun tema sobre bases de datos o programacion?",
-    "Bastante bien. ¿Y tú cómo estás?, tengo conceptos de programacion y bases de datos por si necesitas ayuda",
-    "Excelente, gracias. ¿Qué tal va tu día?, recuerda que tengo conceptos de bases de datos y pogramacion",
-    "Todo marcha bien. ¿Cómo te va a ti?, puedo darte conceptos de programacion y bases de datos"
+    "Soy un chatbot creado para enseñar programación y bases de datos. ¿Qué necesitas saber?",
+    "Puedo explicar conceptos de programación y bases de datos. ¿Tienes algún tema en mente?",
+    "Soy un asistente diseñado para ayudarte con dudas de programación y bases de datos. ¿Te interesa algún tema en particular?",
+    "Mi función principal es enseñarte programación y bases de datos, y responder tus preguntas. ¿Cómo puedo asistirte?",
+    "Estoy aquí para ayudarte a comprender conceptos de programación y bases de datos. ¿Tienes alguna pregunta?"
   ],
   "2": [
-    "¡Me alegro mucho! ¿Hay algo en particular que quieras contarme?",
-    "¡Qué bueno! ¿Qué planes tienes para hoy?",
-    "¡Genial! Me alegra que estés bien",
-    "¡Excelente! Es bueno saberlo",
-    "¡Qué bien! ¿Hay algo en lo que pueda ayudarte?"
+    "¡Muy bien! ¿Cómo puedo asistirte hoy?",
+    "Todo perfecto, gracias por preguntar. ¿En qué te puedo ayudar?",
+    "¡Genial! Listo para resolver tus dudas. ¿Qué necesitas saber?",
+    "Todo bien. Preparado para ayudarte con programación o bases de datos. ¿Por dónde empezamos?",
+    "¡Estoy excelente! ¿Te puedo ayudar con algo específico?"
   ],
   "3": [
-    "¡Hasta luego! Que tengas un excelente día",
-    "¡Nos vemos! Cuídate mucho",
-    "¡Adiós! Espero verte pronto",
-    "¡Hasta pronto! Ha sido un gusto charlar",
-    "¡Que te vaya muy bien! Hasta la próxima"
+    "La programación es el proceso de escribir instrucciones para que una computadora realice tareas específicas. \n ¿Te gustaría aprender más empezando por conceptos como algoritmos, lenguajes o algun concepto basico?",
+    "Programar es dar órdenes precisas a una máquina para que resuelva problemas o ejecute acciones. \n ¿Te gustaría aprender más empezando por conceptos como variables, constantes o algun concepto que te interesante?",
+    "La programación combina lógica, creatividad y conocimiento técnico para crear soluciones informáticas. \n ¿Te gustaría aprender más empezando por conceptos como algoritmos, lenguajes o algun concepto basico?",
+    "Escribir código es esencialmente el lenguaje con el que le decimos a una computadora qué hacer. \n ¿Te gustaría aprender más empezando por conceptos como variables, constantes, funciones, ciclos o algun concepto que te interesante?",
+    "En términos simples, programar es como enseñarle a un robot cómo realizar tareas paso a paso. \n ¿Te gustaría aprender más empezando por conceptos como algoritmos, lenguajes o algun concepto basico?"
   ],
   "4": [
-    "¡De nada! Estoy aquí para ayudar en conceptos de bases de datos y programacion",
-    "Es un placer poder ayudarte. recuerda que tengo conceptos de programacion y bases de datos",
-    "No hay de qué. ¿Necesitas algo más?, tengo informacion sobre bases de datos y programacion",
-    "¡Con gusto! Siempre es un placer. recuerda que si necesitas ayuda en conceptos de programacion y bases de datos esoty aqui para ayudarte",
-    "¡Para eso estamos! ¿Hay algo más en que pueda ayudarte?, puedo ayudarte en conceptos de bases de datos y programacion"
+    "Un algoritmo es una secuencia de pasos lógicos y definidos que resuelven un problema específico. ¿Quieres saber que algoritmos puedo enseñarte?",
+    "Los algoritmos son como recetas que indican paso a paso cómo llegar a un objetivo. ¿Te gustaría aprender más sobre ellos, puedo enseñarte los que tengo disponibles?",
+    "Un algoritmo organiza las instrucciones necesarias para realizar una tarea de manera eficiente. ¿Te gustaría conocer algunos algoritmos que tengo?",
+    "Esencialmente, un algoritmo es un conjunto de reglas que se siguen para resolver problemas. ¿Te gustaría aprender sobre algunos algoritmos que tengo?",
+    "Un algoritmo permite estructurar soluciones claras y repetibles para problemas complejos. ¿Te gustaría conocer algunos algoritmos que tengo?"
   ],
-
-  "5":[
-    "La programación es el proceso de diseñar y escribir instrucciones en un lenguaje comprensible para una computadora.\nEn el tema de programacion puedo hablarte de variables, ciclos, condicionales y objetos",
-    "Programación es el arte y la ciencia de crear software mediante la construcción de algoritmos.\nEn programación puedo explicarte sobre variables, bucles, condicionales y objetos.",
-    "La programacion es el conjunto de tecnicas para traducir problemas del mundo real en soluciones computacionales.\nEn el ámbito de la programación, puedo enseñarte acerca de variables, bucles, decisiones lógicas y objetos.",
-    "Programar es la disciplina que combina logica, creatividad y conocimientos tecincos para desarrollar aplicaciones.\nDentro de programación, puedo tratar temas como variables, iteraciones, condicionales y objetos.",
-    "Programar es la accion de codificar instrucciones logicas estructuradas las cuales permiten al hardware realizar tareas especificas.\nPuedo abordar conceptos de programación como variables, ciclos, estructuras de control y objetos."
+  "5": [
+    "Un lenguaje de programación es una herramienta que usamos para comunicarnos con las computadoras.",
+    "Los lenguajes de programación permiten crear software, aplicaciones y sistemas informáticos.",
+    "En esencia, un lenguaje de programación traduce nuestras ideas en instrucciones que una computadora entiende.",
+    "Imagina los lenguajes de programación como idiomas para hablarle a las máquinas.",
+    "Los lenguajes de programación, son esenciales para crear programas útiles y funcionales."
   ],
-
   "6": [
-    "Una variable es una espacio  en la memoria de una computadora donde se almacenan datos que pueden cambiar dentro de un programa.",
-    "las variables son identificadores asociados a un valor que permite al programa acceder y manipular dicho valor dinámicamente.",
-    "Variable es un nombre simbólico utilizado para representar datos en un programa",
-    "Es un elemento fundamental en programación que actúa como una referencia a un dato",
-    "Una variable es un recurso de programacion que se usa para almacenar informacion"
+    "Una variable es un espacio reservado en la memoria de un programa para almacenar información temporalmente. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Las variables son fundamentales para la programación, ya que permiten manipular datos en el código. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Una variable actúa como una etiqueta para guardar valores que pueden cambiar a lo largo de un programa. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Imagina una variable como una caja donde puedes guardar información, como números o texto. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Esencialmente, las variables son contenedores que ayudan a manejar datos dinámicos en programación. ¿Quieres saber más como funcionan en Python o JavaScript?"
   ],
-
   "7": [
-    "Un condicional es una estructura de control que permite a un programa tomar decisiones dependiendo del resultado de la condicion.",
-    "es un mecanismo lógico que ejecuta diferentes bloques de código dependiendo de la evaluación de una o más expresiones booleanas.",
-    "Los condicionales son una herramienta de programacion que define el flujo de un programa en base a ciertas reglas.",
-    "Un condicional if es una instruccion que evalua una expresion logica y de ser verdadera ejecuta conjunto de instrucciones.",
-    "If es una declaracion condicional que representa una desicion en un programa."
+    "Una constante es similar a una variable, pero su valor no puede cambiar una vez que se define. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Las constantes son útiles para representar valores que permanecen iguales a lo largo de un programa. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Piensa en una constante como un dato fijo, como el valor de Pi, que no necesita modificarse. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "En programación, las constantes nos ayudan a evitar errores al asegurar que ciertos valores no cambien. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Una constante garantiza que un valor crítico permanezca inalterado durante la ejecución de un programa. ¿Quieres saber más como funcionan en Python o JavaScript?"
   ],
-
   "8": [
-    "Un ciclo es una estructura de control que permite ejecutar un bloque de código repetidamente mientras una condición específica sea verdadera",
-    "Los ciclos son herramientas fundamentales en programación que automatizan la repetición de tareas",
-    "Un ciclo es un mecanismo que facilita la iteración sobre colecciones de datos, rangos de valores o instrucciones predefinidas",
-    "Un ciclo una secuencia repetitiva en un programa, diseñada para iterar un conjunto de instrucciones un número fijo de veces o hasta que una condición se cumpla o deje de cumplirse",
-    "Los ciclos son componentes lógicos que controlan la ejecución repetitiva en un programa"
+    "Un ciclo 'for' repite un bloque de código un número específico de veces. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Los ciclos 'for' son ideales para recorrer listas, arreglos u otras colecciones de datos. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "En esencia, un ciclo 'for' automatiza tareas repetitivas al iterar sobre una secuencia. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Los bucles 'for' nos ayudan a ejecutar una serie de pasos predefinidos de manera eficiente. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Imagina un ciclo 'for' como una manera de decir: 'Repite esto hasta que termines todos los elementos'. ¿Quieres saber más como funcionan en Python o JavaScript?"
   ],
-
   "9": [
-    "Una funcion es un bloque de código reutilizable que realiza una tarea específica y puede ser invocado desde diferentes partes de un programa.",
-    "Un metodo puede devolver un valor, pero no siempre lo hace.",
-    "La diferencia entre una funcion y un metodo es que una funcion es independiente y un metodo pertenece a un objeto",
-    "Las funciones y métodos son fundamentales en la programación porque permiten estructurar y organizar el código de manera eficiente, clara y reutilizable.",
-    "las funciones y métodos son esenciales para escribir código limpio"
+    "Un 'if' en programación evalúa si una condición es verdadera para decidir qué acción realizar. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Las condiciones 'if' son fundamentales para tomar decisiones en el flujo de un programa. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Piensa en un 'if' como una pregunta que el programa responde con 'sí' o 'no' para proceder. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Las estructuras 'if' permiten a los programas responder dinámicamente a diferentes situaciones. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "En términos simples, un 'if' revisa si algo es cierto y luego actúa en consecuencia. ¿Quieres saber más como funcionan en Python o JavaScript?"
   ],
-
   "10": [
-    "OOP es un paradigma de programación que organiza el código en torno a objetos",
-    "La programacion orientada a objetos es una metodología de desarrollo de software basada en principios como encapsulamiento, herencia, polimorfismo y abstracción",
-    "la OOP es recomendable en muchos casos, pero su conveniencia depende del tipo de proyecto y sus requerimientos.",
-    "Las principales caracteristicas de la OOP son encapsulamiento, Asbtraccion, herencia y polimorfismo",
-    "Es uno de los paradigmas de programación más populares y ampliamente utilizados en la industria del software"
+    "Un ciclo 'while' repite un bloque de código mientras una condición siga siendo verdadera. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Los bucles 'while' permiten crear repeticiones dinámicas controladas por condiciones lógicas. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Piensa en un 'while' como una manera de decir: 'Repite esto hasta que se cumpla cierta condición'. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Los ciclos 'while' son útiles cuando no se sabe exactamente cuántas veces se repetirá una acción. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Un 'while' continúa ejecutando instrucciones hasta que la condición que lo controla sea falsa. ¿Quieres saber más como funcionan en Python o JavaScript?"
   ],
-
   "11": [
-    "los géneros de acción, ciencia ficción y comedia son tradicionalmente los más populares",
-    "las películas de bajo presupuesto pueden hacerse por menos de $10 millones, las superproducciones pueden superar fácilmente los $200 millones o más",
-    "Te recomendaría Mad Max: Fury Road (2015), dirigida por George Miller. Es una de las películas de acción más emocionantes y visualmente impresionantes de la última década",
-    "La pelicula mas popular del año 2024 es deadpool y wolverine",
-    "¿que tipo de peliculas te gustan?"
+    "Un ciclo es una estructura que permite ejecutar repetidamente un conjunto de instrucciones. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Los ciclos automatizan tareas repetitivas, como sumar números o procesar datos. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "En programación, los ciclos son esenciales para manejar grandes volúmenes de datos de manera eficiente. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Los bucles como 'for' y 'while' son tipos comunes de ciclos usados en programación. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Piensa en los ciclos como herramientas para repetir acciones sin escribir el mismo código varias veces. ¿Quieres saber más como funcionan en Python o JavaScript?"
   ],
-
   "12": [
-    "¡claro aqui tienes un chiste! Soy un tipo saludable. +¿Te gusta comer bien? -No, pero siempre me saludan",
-    "¿Cómo se despiden los químicos? Ácido un placer.",
-    "Me sacaron del grupo de WhatsApp de paracaidismo. Se ve que no caía bien.",
-    "¿Qué hace un pez en la oficina? Nada.",
-    "¿Quién es el papá del príncipe azul? El Blu-ray"
+    "Una función es un bloque de código diseñado para realizar una tarea específica. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Las funciones son fundamentales para organizar y reutilizar código en programación. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Piensa en una función como una receta que puedes usar cada vez que necesites un plato específico. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Las funciones permiten dividir problemas complejos en partes más manejables. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "En esencia, una función toma entradas, realiza operaciones y devuelve resultados. ¿Quieres saber más como funcionan en Python o JavaScript?"
   ],
-
   "13": [
-    "Te puedo recomendar realizar una caminata en algun sendero o parque",
-    "podria recomendarte ver una pelicula en el cine",
-    "Podrias pasar tiempos con familiares o amigos",
-    "Intentar una nueva receta seria una buena recomendacion",
-    "Si quieres una opcion saludable podrias ejercitarte"
+    "Una clase es un modelo que define las características y comportamientos de un tipo de objeto. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Las clases son la base de la programación orientada a objetos, permitiendo organizar datos y funciones. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Piensa en una clase como un plano para construir objetos similares pero independientes. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Las clases encapsulan datos y métodos para trabajar con esos datos de manera estructurada. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "En programación, una clase es como una plantilla para crear instancias o 'objetos'.  ¿Quieres saber más como funcionan en Python o JavaScript?"
   ],
-
   "14": [
-    "por que tan serio? -el Joker en Batman: el caballero de la noche",
-    "que la fuerza te acompañe -Star Wars.",
-    "hasta la vista,baby -Terminator en Terminator 2: El dia del juicio",
-    "al infinito y mas alla -buzz lightyear en Toy Story",
-    "estas hablandome? -travis bickle en taxi driver"
+    "Un objeto es una instancia de una clase, que contiene datos y funciones relacionados. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "En programación orientada a objetos, los objetos representan entidades con características y comportamientos. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Piensa en un objeto como algo tangible construido a partir de un plano (la clase). ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Un objeto combina datos (atributos) y métodos (funciones) para interactuar con el programa. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "En esencia, los objetos permiten modelar y trabajar con datos de manera más natural y lógica.  ¿Quieres saber más como funcionan en Python o JavaScript?"
   ],
-
   "15": [
-    "porque no intentas cocinar unos tacos",
-    "podrias hacer una ensalada cesar",
-    "te recomiendo hacer una pasta al ajo",
-    "un sandwich de atun es una comida sencilla de preparar",
-    "si buscas algo dulce podria recomendarte hacer brownies"
+    "El polimorfismo es un principio de la programación orientada a objetos que permite usar un método de diferentes formas. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Piensa en el polimorfismo como una manera de adaptar un comportamiento común a diferentes contextos. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "En esencia, el polimorfismo permite que métodos en diferentes clases tengan el mismo nombre pero implementaciones distintas. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "El polimorfismo facilita la reutilización de código al permitir trabajar con objetos de diferentes tipos de manera uniforme. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Es una herramienta poderosa para crear sistemas flexibles y extensibles en programación. ¿Quieres saber más como funcionan en Python o JavaScript?"
   ],
-
   "16": [
-    "SQL es un lenguaje para gestionar bases de datos. Puedes seguir preguntando acerca de conceptos de bases de datos.",
-    "Lenguaje para consultar y manipular datos en tablas. Tengo mas información acerca de conceptos de sql.",
-    "SQL organiza, consulta y modifica datos en bases relacionales. Puedes preguntarme acerca de comandos como SELECT.",
-    "Structured Query Language, usado para gestionar datos. Te puedo dar mas información acerca de bases de datos.",
-    "Un estándar para interactuar con bases de datos relacionales. Te puedo ayudar con otro concepto SQL.",
-    "SQL facilita operaciones sobre datos almacenados en tablas. ¿Algo más que necesites saber relacionado con bases de datos o algún concepto de programación? "
-
+    "La herencia permite que una clase tome propiedades y comportamientos de otra clase.  ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "En programación, la herencia facilita la reutilización y extensión del código existente.  ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Piensa en la herencia como una forma de crear una nueva clase basada en una ya existente.  ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Con la herencia, las clases pueden compartir métodos y atributos sin duplicar código.  ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Esencialmente, la herencia conecta clases de manera lógica y estructurada.  ¿Quieres saber más como funcionan en Python o JavaScript?"
   ],
-
   "17": [
-    "Bases relacionales y no relacionales son los principales tipos. ¿Te gustaría saber algo más sobre bases de datos o programación?",
-    "Relacionales, no relacionales, jerárquicas y orientadas a objetos.¿Tienes más dudas sobre bases de datos o conceptos de programación?",
-    "Bases relacionales almacenan datos en tablas estructuradas. ¿Hay algo más sobre programación o bases de datos que necesites aclarar?",
-    "No relacionales como MongoDB manejan datos no estructurados. ¿Puedo ayudarte con otra consulta sobre programación o bases de datos?",
-    "Relacionales incluyen MySQL, PostgreSQL, SQL Server y Oracle. ¿Necesitas más información sobre conceptos de bases de datos o programación?",
-    "NoSQL incluye MongoDB, Cassandra, CouchDB y Redis. ¿Quieres saber más sobre bases de datos o programación?",
-    "Bases híbridas combinan características relacionales y no relacionales. ¿Hay algo más que necesites aclarar sobre bases de datos o programación?"
+    "El encapsulamiento es un principio que protege los datos y controla el acceso a ellos en programación. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Piensa en el encapsulamiento como una manera de mantener ciertas partes de un objeto privadas. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "El encapsulamiento garantiza que los datos solo se modifiquen a través de métodos específicos. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "Es una herramienta clave para prevenir errores y mantener un código más seguro y organizado. ¿Quieres saber más como funcionan en Python o JavaScript?",
+    "En esencia, el encapsulamiento es como una caja fuerte que protege la información de un objeto. ¿Quieres saber más como funcionan en Python o JavaScript?"
   ],
-
   "18": [
-    "Una tabla almacena datos organizados en filas y columnas. Puedes preguntar más sobre SQL o programación si lo deseas.",
-    "Tablas son estructuras principales en bases de datos relacionales. Si quieres saber más, consulta sobre SQL o conceptos de programación.",
-    "Una tabla organiza datos en filas y columnas relacionadas. Explora más sobre SQL o cualquier otro aspecto de programación.",
-    "Tablas relacionales representan entidades con datos estructurados. Anímate a preguntar sobre SQL o temas relacionados con programación.",
-    "SQL usa tablas para almacenar información en formato estructurado. Puedes ampliar tus dudas sobre SQL o programación."
-  ],
-
+    "La abstracción es un concepto que permite enfocarse en lo esencial, ignorando los detalles innecesarios.",
+    "Piensa en la abstracción como una manera de simplificar la complejidad mostrando solo lo relevante.",
+    "La abstracción oculta los detalles internos y expone solo lo necesario para interactuar con un objeto.",
+    "Esencialmente, la abstracción facilita trabajar con sistemas complejos al reducirlos a sus aspectos fundamentales.",
+    "Es un principio clave para diseñar interfaces claras y fáciles de usar."
+  ], 
   "19": [
-    "SELECT es un comando para consultar datos en bases SQL. Si tienes dudas, pregúntame sobre SQL o programación.",
-    "SELECT recupera datos específicos de una tabla en bases de datos. Puedes explorar más conceptos sobre SQL o programación.",
-    "SELECT permite obtener información almacenada en bases relacionales. Anímate a preguntar sobre este comando u otros temas de programación.",
-    "Un comando básico para extraer datos de tablas en SQL. Consulta más detalles sobre SQL o programación si lo deseas.",
-    "SELECT es usado para realizar consultas en bases de datos. Si necesitas más información, pregúntame sobre SQL o programación."
+    "La programación orientada a objetos (POO) es un paradigma que organiza el código en objetos que combinan datos y funciones.",
+    "POO, o programación orientada a objetos, utiliza conceptos como clases, herencia y polimorfismo para modelar problemas complejos.",
+    "En POO, los objetos representan entidades del mundo real, con atributos (datos) y métodos (funciones).",
+    "La programación orientada a objetos facilita la organización del código, haciéndolo más reutilizable y fácil de mantener.",
+    "En términos simples, la POO es una forma de programar basada en modelos llamados objetos, que interactúan entre sí."
   ],
   "20": [
-    "WHERE se usa para filtrar datos según condiciones en consultas SQL. Puedes preguntar más sobre SQL o conceptos de programación.",
-    "WHERE permite seleccionar filas específicas que cumplen criterios establecidos. Si quieres saber más, consulta sobre SQL o programación.",
-    "Un filtro SQL que aplica condiciones a consultas para seleccionar datos. Anímate a explorar más sobre SQL o programación.",
-    "WHERE filtra registros en tablas según condiciones específicas. ¿Te gustaría saber más sobre SQL o temas de programación?",
-    "Usa WHERE para extraer datos que cumplan criterios en SQL. Puedes ampliar tus dudas sobre este tema o programación."
+    "Existen muchos lenguajes de programación, como Python, JavaScript, Java, C++, y más.",
+    "Los lenguajes de programación disponibles son variados y dependen del contexto. Algunos ejemplos son Python, JavaScript, y Java.",
+    "Entre los lenguajes de programación más usados encontrarás Python, JavaScript, y C++."
   ],
   "21": [
-    "Soy un chatbot creado con el modelo LSTM usando TensorFlow, Python y JavaScript. Pregunta sobre SQL o programación para aprender más.",
-    "Soy un asistente virtual desarrollado bajo LSTM, utilizando TensorFlow, Python y JavaScript. Explora tus dudas sobre SQL o programación básica.",
-    "Soy un chatbot basado en LSTM, desarrollado con TensorFlow, Python y JavaScript. Estoy aquí para responder preguntas sobre SQL y programación.",
-    "Desarrollado con LSTM, TensorFlow, Python y JavaScript, soy un chatbot que puede guiarte en SQL y conceptos básicos de programación.",
-    "Soy un chatbot construido con el modelo LSTM mediante TensorFlow, Python y JavaScript. Estoy listo para ayudarte con SQL o programación básica."
+    "Los lenguajes más populares en programación incluyen Python, JavaScript, Java, y C++.",
+    "Actualmente, Python y JavaScript son considerados los lenguajes de programación más populares debido a su versatilidad.",
+    "Entre los lenguajes más populares encontrarás Python, ideal para IA, y JavaScript, clave para desarrollo web."
   ],
   "22": [
-    "INSERT agrega nuevos registros a una tabla en SQL. Si tienes dudas, pregúntame sobre este tema o programación.",
-    "Comando SQL usado para insertar datos en tablas específicas. Puedes explorar más sobre SQL o conceptos de programación.",
-    "INSERT añade filas con información a tablas de bases relacionales. Anímate a preguntar más sobre SQL o temas de programación.",
-    "Sirve para incluir nuevos datos en una base de datos SQL. Consulta más sobre este tema o programación si lo necesitas.",
-    "INSERT permite insertar registros cumpliendo con la estructura de la tabla. Puedes ampliar tus conocimientos sobre SQL o programación."
-  ],
+    "Yo estoy diseñado para trabajar con Python y JavaScript. ¿Quieres saber más sobre ellos?",
+    "Los lenguajes que entiendo son Python y JavaScript, ambos ideales para programación eficiente. ¿Quieres saber más sobre ellos?",
+    "Actualmente, los lenguajes que puedo manejar son Python y JavaScript. ¿Quieres saber más sobre ellos?"
+  ], 
   "23": [
-    "UPDATE es un comando SQL usado para modificar datos existentes en una tabla. Pregunta más sobre este tema o programación si lo deseas.",
-    "Permite actualizar valores específicos en registros de una base de datos. Explora más sobre este tema o conceptos de programación.",
-    "UPDATE modifica datos en tablas basándose en condiciones establecidas. Anímate a consultar más sobre SQL o programación.",
-    "Comando SQL utilizado para cambiar valores de una o más filas. Puedes preguntar más sobre SQL o programación si lo necesitas.",
-    "UPDATE actualiza información existente en tablas de bases relacionales. Pregunta más sobre este comando o programación si tienes dudas."
+    "Python es un lenguaje de programación de alto nivel, conocido por su sintaxis sencilla y legibilidad. ¿Quieres empezar por instalarlo?",
+    "Python es ideal para principiantes y expertos, siendo utilizado en desarrollo web, análisis de datos, inteligencia artificial y más. ¿Quieres empezar por instalarlo?",
+    "En términos simples, Python es un lenguaje versátil que permite escribir programas de manera clara y eficiente. ¿Quieres empezar por instalarlo?",
+    "Python es un lenguaje interpretado y multiparadigma, lo que significa que puedes usarlo para diversos tipos de proyectos. ¿Quieres empezar por instalarlo?",
+    "Es un lenguaje ampliamente utilizado en la industria tecnológica debido a su facilidad de uso y poderosa comunidad. ¿Quieres empezar por instalarlo?"
   ],
   "24": [
-    "DELETE es un comando SQL usado para eliminar datos de una tabla. Puedes preguntar más sobre este tema o conceptos de programación.",
-    "Comando utilizado para borrar registros específicos de tablas en bases de datos. Explora más sobre SQL o programación si lo deseas.",
-    "DELETE elimina filas completas de una tabla según las condiciones definidas. Anímate a preguntar más sobre SQL o programación.",
-    "Sirve para remover datos de una base relacional de manera controlada. Consulta más sobre este comando o programación si lo necesitas.",
-    "Comando esencial para eliminar registros en SQL usando filtros opcionales. Puedes ampliar tus conocimientos sobre SQL o programación."
+    "### Cómo instalar Python en Windows, macOS y Linux:\n\n1. **Windows**:\n   - Descarga el instalador desde [https://www.python.org/downloads](https://www.python.org/downloads).\n   - Asegúrate de marcar la casilla **'Add Python to PATH'** durante la instalación.\n   - Ejecútalo y sigue las instrucciones.\n\n2. **macOS**:\n   - Usa Homebrew escribiendo en la terminal:\n     ```\n     brew install python\n     ```\n   - O descarga el instalador desde la página oficial y sigue las instrucciones.\n\n3. **Linux**:\n   - Abre una terminal y ejecuta:\n     ```\n     sudo apt update\n     sudo apt install python3\n     ```\n\nVerifica la instalación escribiendo:\n```bash\npython --version\n```",
+    "### Instrucciones Paso a Paso para Instalar Python:\n\n#### **Windows**:\n1. Ve a [https://www.python.org/downloads](https://www.python.org/downloads) y descarga el instalador.\n2. Ejecútalo y asegúrate de marcar **'Add Python to PATH'**.\n3. Haz clic en **'Install Now'** y espera a que termine la instalación.\n4. Verifica la instalación escribiendo en el terminal:\n   ```\n   python --version\n   ```\n\n#### **macOS**:\n1. Instala Homebrew desde [https://brew.sh](https://brew.sh) si no lo tienes.\n2. En la terminal, escribe:\n   ```\n   brew install python\n   ```\n3. Alternativamente, descarga Python desde la página oficial y sigue las instrucciones del instalador.\n\n#### **Linux**:\n1. Abre una terminal.\n2. Escribe:\n   ```\n   sudo apt update\n   sudo apt install python3\n   ```\n3. Verifica la instalación escribiendo:\n   ```\n   python3 --version\n   ```\n\n¡Python está listo para usarse!",
+    "### Instalar Python y Configurarlo Correctamente:\n\n#### **Windows**:\n1. Descarga el instalador desde [https://www.python.org/downloads](https://www.python.org/downloads).\n2. Durante la instalación, selecciona **'Add Python to PATH'**.\n3. Verifica la instalación ejecutando en el terminal:\n   ```\n   python --version\n   ```\n\n#### **macOS**:\n1. Instala Python con Homebrew escribiendo:\n   ```\n   brew install python\n   ```\n2. Alternativamente, descarga Python desde la página oficial.\n\n#### **Linux**:\n1. Actualiza los paquetes de tu sistema:\n   ```\n   sudo apt update\n   ```\n2. Instala Python:\n   ```\n   sudo apt install python3\n   ```\n\n### Usar `pip` para Instalar Librerías:\nDespués de instalar Python, puedes instalar librerías adicionales con `pip`. Por ejemplo:\n```bash\npip install numpy\n```"
   ],
   "25": [
-    "Interesante elección. Si necesitas algo más, pregunta con confianza.",
-    "¡Diviértete con tus amigos! Si algo te intriga, pregúntame.",
-    "¡Que disfrutes tu salida! Puedes preguntar sobre SQL o programación.",
-    "¡Que tengas un buen rato! Si tienes dudas, estoy aquí para ayudarte.",
-    "¡Que te diviertas mucho! Recuerda que puedes preguntarme sobre programación o SQL."
+    "Para ejecutar tu programa en Python, guarda el código en un archivo con extensión `.py` y usa el comando `python nombre_del_archivo.py` en tu terminal.",
+    "Puedes correr tu programa en Python desde un IDE como PyCharm o VSCode, que tienen opciones integradas para ejecución.",
+    "Si usas una terminal, simplemente navega hasta el directorio donde guardaste el archivo y ejecuta el comando `python3 archivo.py`."
   ],
   "26": [
-    "Hi! How are you today? I can help with SQL, Python or programming.",
-    "Hey! Great to see you here. Do you have questions about SQL, Python or programming concepts?",
-    "Greetings! How's everything going? If you need help with databases or programming, I'm here.",
-    "Hi! Hope you're having a great day. Ask anything about SQL, Python or programming.",
-    "Hey! I'm ready to help you with SQL, Python or any programming concept.",
-    "Hi! I'm a chatbot expert in programming, Python and SQL. What concept can I assist you with today?"
+      "### Primeros pasos para empezar a programar en Python:\n\n1. Instala Python en tu computadora siguiendo las instrucciones del tópico **24**.\n2. Descarga un editor de texto o IDE (como [VSCode](https://code.visualstudio.com) o PyCharm).\n3. Crea un archivo con extensión `.py`, por ejemplo: `mi_programa.py`.\n4. Escribe este código inicial:\n   ```python\n   print('¡Hola, mundo!')\n   ```\n5. Guarda el archivo.\n6. Abre una terminal, navega al directorio donde guardaste el archivo, y escribe:\n   ```\n   python mi_programa.py\n   ```\n  ¿Quieres saber mas conceptos basicos o avanzados, puedo enseñarte algoritmos, definiciones, estructura de datos?",
+      "### Crear una aplicación sencilla en Python:\n\n1. Abre tu editor de texto y crea un archivo llamado `calculadora.py`.\n2. Escribe este código:\n   ```python\n   def suma(a, b):\n       return a + b\n\n   num1 = int(input('Ingresa el primer número: '))\n   num2 = int(input('Ingresa el segundo número: '))\n   resultado = suma(num1, num2)\n   print(f'El resultado de la suma es: {resultado}')\n   ```\n3. Guarda el archivo.\n4. Desde la terminal, corre el programa escribiendo:\n   ```\n   python calculadora.py\n   ```\n5. Sigue las instrucciones en la terminal para probar tu programa. \n  ¿Quieres saber mas conceptos basicos o avanzados, puedo enseñarte algoritmos, definiciones, estructura de datos?",
+      "### Crear un programa interactivo:\n\n1. Abre un archivo llamado `adivinanza.py`.\n2. Escribe el siguiente código:\n   ```python\n   import random\n\n   numero_secreto = random.randint(1, 10)\n   intentos = 0\n\n   print('Adivina un número entre 1 y 10')\n\n   while True:\n       intento = int(input('Ingresa tu número: '))\n       intentos += 1\n       if intento == numero_secreto:\n           print(f'¡Felicidades! Adivinaste en {intentos} intentos.')\n           break\n       elif intento < numero_secreto:\n           print('El número es mayor. Intenta nuevamente.')\n       else:\n           print('El número es menor. Intenta nuevamente.')\n   ```\n3. Guarda el archivo y corre el programa desde tu terminal:\n   ```\n   python adivinanza.py\n   ``` \n  ¿Quieres saber mas conceptos basicos o avanzados, puedo enseñarte algoritmos, definiciones, estructura de datos?"
   ],
   "27": [
-    "SQL is a language for managing databases. You can keep asking about database concepts.",
-    "A language for querying and manipulating data in tables. I have more information about SQL concepts.",
-    "SQL organizes, queries, and modifies data in relational databases. You can ask me about commands like SELECT.",
-    "Structured Query Language, used to manage data. I can give you more information about databases.",
-    "A standard for interacting with relational databases. I can help you with another SQL concept.",
-    "SQL facilitates operations on data stored in tables. Anything else you need to know about databases or programming concepts?"
+    "### Definir Variables en Python:\nLas variables en Python no necesitan declaración previa, se asignan automáticamente:\n```python\n# Asignar una variable\na = 10\nb = 'Hola'\nc = True\nprint(a, b, c)\n```",
+    "Puedes cambiar el valor de una variable asignándola de nuevo:\n```python\n# Reasignación de variables\nx = 5\nx = 'Python'\nprint(x)  # Salida: Python\n```",
+    "Usa nombres descriptivos para variables:\n```python\n# Nombres significativos\nedad = 25\nnombre = 'Juan'\nprint(f'{nombre} tiene {edad} años.')\n```"
   ],
   "28": [
-    "Relational and non-relational are the main types of databases. Would you like to learn more about databases or programming?",
-    "Relational, non-relational, hierarchical, and object-oriented. Do you have more questions about databases or programming concepts?",
-    "Relational databases store data in structured tables. Is there anything else about databases or programming you need clarified?",
-    "Non-relational databases like MongoDB handle unstructured data. Can I help you with another query about programming or databases?",
-    "Relational databases include MySQL, PostgreSQL, SQL Server, and Oracle. Do you need more information about database or programming concepts?",
-    "NoSQL includes MongoDB, Cassandra, CouchDB, and Redis. Would you like to learn more about databases or programming?",
-    "Hybrid databases combine relational and non-relational features. Anything else you need to know about databases or programming?"
+    "### Definir Constantes en Python:\nAunque no existen constantes estrictas en Python, se usa una convención:\n```python\n# Usar nombres en mayúsculas\nPI = 3.14159\nVELOCIDAD_LUZ = 299792458\nprint(PI, VELOCIDAD_LUZ)\n```",
+    "Para proteger constantes, utiliza `dataclasses`:\n```python\nfrom dataclasses import dataclass\n@dataclass(frozen=True)\nclass Constantes:\n    PI: float = 3.14159\n    E: float = 2.71828\nprint(Constantes.PI)\n```",
+    "Coloca las constantes en un archivo separado para mantenerlas centralizadas:\n```python\n# constants.py\nPI = 3.14159\n\n# main.py\nfrom constants import PI\nprint(PI)\n```"
   ],
   "29": [
-    "A table stores data organized in rows and columns. You can ask more about SQL or programming if you want.",
-    "Tables are main structures in relational databases. If you want to know more, ask about SQL or programming concepts.",
-    "A table organizes data into related rows and columns. Explore more about SQL or any other aspect of programming.",
-    "Relational tables represent entities with structured data. Feel free to ask about SQL or related programming topics.",
-    "SQL uses tables to store information in a structured format. You can expand your questions about SQL or programming."
+    "### Crear Funciones en Python:\nDefinir funciones con `def` y usar `return` para devolver resultados:\n```python\ndef sumar(a, b):\n    return a + b\n\nprint(sumar(3, 7))\n```",
+    "Las funciones pueden tener valores predeterminados:\n```python\ndef saludar(nombre='Mundo'):\n    print(f'Hola, {nombre}!')\n\nsaludar()\nsaludar('Ana')\n```",
+    "Usa funciones lambda para expresiones simples:\n```python\n# Función lambda\nmultiplicar = lambda x, y: x * y\nprint(multiplicar(2, 3))\n```"
   ],
   "30": [
-    "SELECT is a command to query data in SQL databases. If you have questions, feel free to ask about SQL or programming.",
-    "SELECT retrieves specific data from a table in databases. You can explore more concepts about SQL or programming.",
-    "SELECT allows retrieving stored information in relational databases. Feel free to ask about this command or other programming topics.",
-    "A basic command to extract data from tables in SQL. Ask for more details about SQL or programming if you want.",
-    "SELECT is used to perform queries in databases. If you need more information, ask about SQL or programming."
+    "### Definir Clases en Python:\nLas clases agrupan datos y comportamientos:\n```python\nclass Persona:\n    def __init__(self, nombre, edad):\n        self.nombre = nombre\n        self.edad = edad\n\npersona = Persona('Ana', 30)\nprint(persona.nombre)\n```",
+    "Añade métodos a las clases:\n```python\nclass Persona:\n    def __init__(self, nombre, edad):\n        self.nombre = nombre\n        self.edad = edad\n\n    def saludar(self):\n        print(f'Hola, soy {self.nombre}')\n\npersona = Persona('Ana', 30)\npersona.saludar()\n```",
+    "Crea clases con herencia:\n```python\nclass Animal:\n    def __init__(self, especie):\n        self.especie = especie\n\nclass Perro(Animal):\n    def __init__(self, nombre, raza):\n        super().__init__('Perro')\n        self.nombre = nombre\n        self.raza = raza\n\nmi_perro = Perro('Max', 'Labrador')\nprint(mi_perro.especie, mi_perro.nombre)\n```"
   ],
   "31": [
-    "WHERE is used to filter data based on conditions in SQL queries. Feel free to ask more about SQL or programming concepts.",
-    "WHERE allows selecting specific rows that meet established criteria. You can explore more about SQL or programming.",
-    "A SQL filter that applies conditions to queries for selecting data. Feel free to ask about SQL or programming.",
-    "WHERE filters records in tables based on specific conditions. Would you like to know more about SQL or programming topics?",
-    "Use WHERE to extract data that meets criteria in SQL. You can expand your knowledge about this topic or programming."
+    "### Crear Objetos en Python:\nLos objetos son instancias de clases:\n```python\nclass Coche:\n    def __init__(self, marca, modelo):\n        self.marca = marca\n        self.modelo = modelo\n\ncoche = Coche('Toyota', 'Corolla')\nprint(coche.marca, coche.modelo)\n```",
+    "Los objetos pueden tener métodos:\n```python\nclass Coche:\n    def __init__(self, marca, modelo):\n        self.marca = marca\n        self.modelo = modelo\n\n    def arrancar(self):\n        print(f'{self.marca} {self.modelo} está arrancando.')\n\nmi_coche = Coche('Ford', 'Fiesta')\nmi_coche.arrancar()\n```",
+    "Los objetos se pueden combinar con otras clases:\n```python\nclass Motor:\n    def __init__(self, tipo):\n        self.tipo = tipo\n\nclass Coche:\n    def __init__(self, marca, modelo, motor):\n        self.marca = marca\n        self.modelo = modelo\n        self.motor = motor\n\nmi_motor = Motor('Eléctrico')\nmi_coche = Coche('Tesla', 'Model S', mi_motor)\nprint(mi_coche.motor.tipo)\n```"
   ],
   "32": [
-    "I am a chatbot created with the LSTM model using TensorFlow, Python, and JavaScript. Ask about SQL or programming to learn more.",
-    "I am a virtual assistant developed under LSTM, using TensorFlow, Python, and JavaScript. Explore your questions about SQL or basic programming.",
-    "I am a chatbot based on LSTM, developed with TensorFlow, Python, and JavaScript. I am here to answer questions about SQL and programming.",
-    "Developed with LSTM, TensorFlow, Python, and JavaScript, I am a chatbot that can guide you in SQL and basic programming concepts.",
-    "I am a chatbot built with the LSTM model using TensorFlow, Python, and JavaScript. I am ready to help you with SQL or basic programming."
+    "### Ejemplo de un ciclo for en Python:\n```python\n# Recorrer una lista\nnombres = ['Ana', 'Luis', 'Pedro']\nfor nombre in nombres:\n    print(f'Hola, {nombre}!')\n\n# Recorrer un rango de números\nfor i in range(5):\n    print(f'Número: {i}')\n```",
+    "Los ciclos `for` se utilizan para iterar sobre elementos de una colección. Aquí tienes un ejemplo:\n```python\n# Sumar elementos de una lista\nnumeros = [1, 2, 3, 4]\nsuma = 0\nfor num in numeros:\n    suma += num\nprint(f'La suma es: {suma}')\n```",
+    "# Iterar sobre un diccionario\n  estudiantes = {'Ana': 9, 'Luis': 8, 'Pedro': 7}\n  for nombre, nota in estudiantes.items():\n    print(f'Estudiante: {nombre}, Nota: {nota}')\n\n  # Usar un ciclo for con una lista de listas\n  matriz = [\n    [1, 2, 3],\n    [4, 5, 6],\n    [7, 8, 9]\n  ]\n  for fila in matriz:\n    for elemento in fila:\n      print(elemento, end=' ')\n    print()"
   ],
   "33": [
-    "INSERT adds new records to a table in SQL. If you have questions, ask about this topic or programming.",
-    "SQL command used to insert data into specific tables. You can explore more about SQL or programming concepts.",
-    "INSERT adds rows with information to relational database tables. Feel free to ask more about SQL or programming topics.",
-    "Used to include new data in an SQL database. Ask more about this topic or programming if you need.",
-    "INSERT allows inserting records while meeting the table's structure. Expand your knowledge about SQL or programming."
+    "### Ejemplo de una condición if en Python:\n```python\nedad = 18\nif edad >= 18:\n    print('Eres mayor de edad')\nelse:\n    print('Eres menor de edad')\n```",
+    "Las condiciones `if` permiten ejecutar código basado en una condición lógica. Ejemplo:\n```python\nnumero = 5\nif numero % 2 == 0:\n    print('Es un número par')\nelse:\n    print('Es un número impar')\n```",
+    "Puedes combinar condiciones con `elif` para evaluar múltiples casos:\n```python\npuntuacion = 85\nif puntuacion >= 90:\n    print('A')\nelif puntuacion >= 80:\n    print('B')\nelif puntuacion >= 70:\n    print('C')\nelse:\n    print('Reprobado')\n```"
   ],
   "34": [
-    "UPDATE is an SQL command used to modify existing data in a table. Ask more about this topic or programming if you want.",
-    "It allows updating specific values in database records. Explore more about this topic or programming concepts.",
-    "UPDATE modifies data in tables based on established conditions. Feel free to ask more about SQL or programming.",
-    "SQL command used to change values of one or more rows. Ask more about SQL or programming if you need.",
-    "UPDATE updates existing information in relational database tables. Ask more about this command or programming if you have doubts."
+    "### Ejemplo de un bucle while en Python:\n```python\ncontador = 0\nwhile contador < 5:\n    print(f'Contador: {contador}')\n    contador += 1\n```",
+    "Los bucles `while` repiten código mientras una condición sea verdadera. Ejemplo:\n```python\n# Pedir un número positivo al usuario\nnumero = -1\nwhile numero < 0:\n    numero = int(input('Introduce un número positivo: '))\nprint(f'Número válido: {numero}')\n```",
+    "Usa un bucle `while` para ejecutar tareas hasta que se cumpla una condición:\n```python\n# Contar hasta 10\nn = 1\nwhile n <= 10:\n    print(n)\n    n += 1\n```"
   ],
   "35": [
-    "DELETE is an SQL command used to remove data from a table. You can ask more about this topic or programming concepts.",
-    "Command used to delete specific records from database tables. Explore more about SQL or programming if you want.",
-    "DELETE removes entire rows from a table based on defined conditions. Feel free to ask more about SQL or programming.",
-    "Used to remove data from a relational database in a controlled manner. Ask more about this command or programming if you need.",
-    "An essential command to delete records in SQL using optional filters. You can expand your knowledge about SQL or programming."
+    "### Ejemplo de un ciclo en Python:\n```python\n# Ciclo while\nn = 0\nwhile n < 3:\n    print(f'Iteración {n}')\n    n += 1\n\n# Ciclo for\nfor letra in 'Python':\n    print(f'Letra: {letra}')\n```",
+    "Los ciclos son estructuras que permiten repetir código. Ejemplo:\n```python\n# Multiplicar números del 1 al 5\nfor i in range(1, 6):\n    print(f'5 x {i} = {5 * i}')\n```",
+    "Puedes usar ciclos para recorrer listas, cadenas, diccionarios y más. Ejemplo:\n```python\n# Recorrer una lista\ncolores = ['Rojo', 'Verde', 'Azul']\nfor color in colores:\n    print(color)\n```"
   ],
   "36": [
-    "Interesting choice. If you need anything else, feel free to ask.",
-    "Have fun with your friends! If something intrigues you, let me know.",
-    "Enjoy your outing! You can ask about SQL or programming.",
-    "Have a great time! If you have questions, I’m here to help.",
-    "Have lots of fun! Remember, you can ask me about programming or SQL."
+    "### Ejemplo de polimorfismo en Python:\n```python\nclass Animal:\n    def sonido(self):\n        pass\n\nclass Perro(Animal):\n    def sonido(self):\n        return 'Ladra'\n\nclass Gato(Animal):\n    def sonido(self):\n        return 'Maulla'\n\nanimales = [Perro(), Gato()]\nfor animal in animales:\n    print(animal.sonido())\n```",
+    "El polimorfismo permite utilizar un mismo método en distintas clases. Ejemplo:\n```python\nclass Forma:\n    def area(self):\n        pass\n\nclass Cuadrado(Forma):\n    def __init__(self, lado):\n        self.lado = lado\n\n    def area(self):\n        return self.lado ** 2\n\ncuadrado = Cuadrado(4)\nprint(f'Área del cuadrado: {cuadrado.area()}')\n```",
+    "El polimorfismo facilita la reutilización de métodos en diferentes contextos. Ejemplo:\n```python\nclass Vehiculo:\n    def desplazamiento(self):\n        pass\n\nclass Coche(Vehiculo):\n    def desplazamiento(self):\n        return 'Se desplaza en 4 ruedas'\n\nclass Moto(Vehiculo):\n    def desplazamiento(self):\n        return 'Se desplaza en 2 ruedas'\n\nvehiculos = [Coche(), Moto()]\nfor vehiculo in vehiculos:\n    print(vehiculo.desplazamiento())\n```"
   ],
-
   "37": [
-  "Very well, thank you for asking. How about you? Do you have any questions about database concepts or programming concepts?",
-  "All good here. How about you? Do you need help with any topic related to databases or programming?",
-  "Pretty good. How are you? I have programming and database concepts if you need help.",
-  "Excellent, thank you. How's your day going? Remember, I can help with database and programming concepts.",
-  "Everything is going well. How about you? I can provide programming and database concepts."
+    "### Ejemplo de herencia en Python:\n```python\nclass Persona:\n    def __init__(self, nombre):\n        self.nombre = nombre\n\nclass Estudiante(Persona):\n    def __init__(self, nombre, carrera):\n        super().__init__(nombre)\n        self.carrera = carrera\n\nestudiante = Estudiante('Ana', 'Ingeniería')\nprint(f'{estudiante.nombre} estudia {estudiante.carrera}')\n```",
+    "La herencia permite crear clases basadas en otras. Ejemplo:\n```python\nclass Vehiculo:\n    def __init__(self, marca):\n        self.marca = marca\n\nclass Coche(Vehiculo):\n    def __init__(self, marca, modelo):\n        super().__init__(marca)\n        self.modelo = modelo\n\ncoche = Coche('Toyota', 'Corolla')\nprint(f'Coche: {coche.marca} {coche.modelo}')\n```",
+    "La herencia facilita la reutilización de código y la creación de clases especializadas. Ejemplo:\n```python\nclass Animal:\n    def sonido(self):\n        pass\n\nclass Perro(Animal):\n    def sonido(self):\n        return 'Ladra'\n\nclass Gato(Animal):\n    def sonido(self):\n        return 'Maulla'\n\nperro = Perro()\ngato = Gato()\nprint(perro.sonido())\nprint(gato.sonido())\n```"
   ],
-
-
   "38": [
-    "glad to hear that! is there anything in particular you'd like to tell me?",
-    "That's great! what plans do you have for today?",
-    "Awesome! glad you're doing well",
-    "Excellent! it's good to know",
-    "That's great! is there anything i can help you with?"
+    "### Ejemplo de encapsulamiento en Python:\n```python\nclass Cuenta:\n    def __init__(self):\n        self.__saldo = 0\n\n    def depositar(self, cantidad):\n        if cantidad > 0:\n            self.__saldo += cantidad\n\n    def obtener_saldo(self):\n        return self.__saldo\n\ncuenta = Cuenta()\ncuenta.depositar(100)\nprint(cuenta.obtener_saldo())\n```",
+    "El encapsulamiento protege los datos de acceso no autorizado. Ejemplo:\n```python\nclass Usuario:\n    def __init__(self, nombre):\n        self.__nombre = nombre\n\n    def obtener_nombre(self):\n        return self.__nombre\n\nusuario = Usuario('Carlos')\nprint(usuario.obtener_nombre())\n```",
+    "El encapsulamiento evita modificaciones directas a los datos. Ejemplo:\n```python\nclass Persona:\n    def __init__(self, nombre):\n        self.__nombre = nombre\n\n    def cambiar_nombre(self, nuevo_nombre):\n        self.__nombre = nuevo_nombre\n\npersona = Persona('Ana')\npersona.cambiar_nombre('Luis')\nprint(persona.__nombre)\n```"
   ],
-
   "39": [
-    "See you later! have an excellent day",
-    "See you! take care.",
-    "Goodbye! looking forward to seeing you soon.",
-    "See you soon! it was nice talking to you",
-    "Hope everything goes well! Until next time"
+    "### Lista de algoritmos que puedo enseñarte:\n- Algoritmos de búsqueda: búsqueda lineal y binaria.\n- Algoritmos de ordenamiento: burbuja, quicksort.\n- Algoritmos en estructuras de datos: árboles binarios, grafos.\n\n¿Con cuál te gustaría comenzar?",
+    "Puedo enseñarte varios algoritmos. Por ejemplo:\n- Algoritmos de búsqueda (lineal, binaria).\n- Algoritmos de grafos (DFS, BFS).\n- Algoritmos de ordenamiento (burbuja, quicksort).\n\n¿Te interesa algún algoritmo específico?",
+    "Mis habilidades incluyen enseñar:\n1. Algoritmos de búsqueda, como búsqueda binaria.\n2. Ordenamientos: burbuja, selección, quicksort.\n3. Algoritmos de árboles: recorrido inorden, preorden.\n\n¡Dime por dónde quieres empezar!"
+  ], 
+  "40": [
+    "Un algoritmo de búsqueda es una técnica utilizada para localizar un elemento dentro de una colección de datos. Ejemplo: búsqueda lineal en listas desordenadas o búsqueda binaria en listas ordenadas.",
+    "Los algoritmos de búsqueda son esenciales en programación y se utilizan para encontrar información en estructuras de datos como listas o árboles. Ejemplos: búsqueda binaria y búsqueda en profundidad (DFS).",
+    "Se usan algoritmos de búsqueda para navegar y recuperar datos de estructuras. La búsqueda binaria, por ejemplo, es eficiente al dividir repetidamente una lista ordenada en mitades para localizar un elemento."
   ],
-
-  "40" : [
-    "You're welcome! I'm here to help with database and programming concepts.",
-    "It's a pleasure to assist you. Remember, I have knowledge about programming and database concepts.",
-    "No problem. Do you need anything else? I have information on databases and programming.",
-    "You're welcome! It's always a pleasure. Remember, if you need help with programming and database concepts, I'm here to assist you.",
-    "That's what I'm here for! Is there anything else I can help you with? I can assist with database and programming concepts."
-  ],
-
   "41": [
-    "Programming is the process of designing and writing instructions in a language understandable to a computer.\nIn the topic of programming, I can talk to you about variables, loops, conditionals, and objects.",
-    "Programming is the art and science of creating software by building algorithms.\nIn programming, I can explain variables, loops, conditionals, and objects to you.",
-    "Programming is the set of techniques to translate real-world problems into computational solutions.\nIn the field of programming, I can teach you about variables, loops, logical decisions, and objects.",
-    "Programming is the discipline that combines logic, creativity, and technical knowledge to develop applications.\nWithin programming, I can cover topics such as variables, iterations, conditionals, and objects.",
-    "Programming is the act of coding structured logical instructions that allow hardware to perform specific tasks.\nI can discuss programming concepts such as variables, loops, control structures, and objects."
+    "Los algoritmos de ordenamiento organizan datos en un orden específico, como ascendente o descendente. Ejemplo: el algoritmo burbuja que compara elementos adyacentes e intercambia según sea necesario.",
+    "Un algoritmo de ordenamiento es un conjunto de pasos para reorganizar elementos en una estructura de datos. Ejemplos populares incluyen quicksort, mergesort y selección.",
+    "Los algoritmos de ordenamiento son cruciales para procesar datos eficientemente. Un ejemplo es el mergesort, que divide recursivamente la lista en sublistas y las combina de forma ordenada."
   ],
-
   "42": [
-    "A variable is a space in a computer's memory where data is stored that can change within a program.",
-    "Variables are identifiers associated with a value that allow the program to access and manipulate that value dynamically.",
-    "A variable is a symbolic name used to represent data in a program.",
-    "It is a fundamental element in programming that acts as a reference to a piece of data.",
-    "A variable is a programming resource used to store information."
+    "Los algoritmos de grafos son métodos para explorar relaciones en grafos, como rutas, conexiones y ciclos. Ejemplos: búsqueda en profundidad (DFS) y búsqueda en amplitud (BFS).",
+    "Un grafo es una estructura que conecta nodos mediante aristas. Algoritmos como Dijkstra se utilizan para encontrar el camino más corto entre nodos.",
+    "En programación, los algoritmos de grafos permiten modelar redes como carreteras, redes sociales o circuitos. DFS y BFS son comunes para explorar todos los nodos de un grafo."
   ],
-
   "43": [
-    "A conditional is a control structure that allows a program to make decisions depending on the outcome of a condition.",
-    "It is a logical mechanism that executes different blocks of code based on the evaluation of one or more boolean expressions.",
-    "Conditionals are a programming tool that defines the flow of a program based on certain rules.",
-    "An if conditional is an instruction that evaluates a logical expression and, if true, executes a set of instructions.",
-    "If is a conditional statement that represents a decision in a program."
+    "Un algoritmo de árboles se utiliza para recorrer o modificar árboles binarios. Ejemplo: recorrido inorden, que procesa primero el subárbol izquierdo, luego la raíz y finalmente el subárbol derecho.",
+    "Los árboles son estructuras jerárquicas. Los algoritmos asociados incluyen recorrido preorden, inorden y postorden, útiles en búsquedas, expresiones matemáticas y más.",
+    "Los algoritmos de árboles permiten recorrer o modificar estructuras como árboles binarios o de decisión. Ejemplo: preorden (raíz, izquierda, derecha) para explorar nodos jerárquicamente."
   ],
-
   "44": [
-    "A loop is a control structure that allows a block of code to execute repeatedly while a specific condition is true.",
-    "Loops are fundamental tools in programming that automate the repetition of tasks.",
-    "A loop is a mechanism that facilitates iteration over data collections, value ranges, or predefined instructions.",
-    "A loop is a repetitive sequence in a program, designed to iterate a set of instructions a fixed number of times or until a condition is met or no longer met.",
-    "Loops are logical components that control repetitive execution in a program."
+    "El algoritmo burbuja organiza los elementos comparando pares adyacentes y los intercambia si están en el orden incorrecto. Es simple, pero ineficiente para listas grandes.",
+    "El ordenamiento burbuja revisa repetidamente la lista, intercambiando elementos si están fuera de lugar. Es fácil de implementar, pero tiene una complejidad O(n²).",
+    "En este algoritmo, cada iteración 'burbujea' el elemento más grande hacia su posición correcta. Aunque no es eficiente, es un buen algoritmo para aprender."
   ],
-
   "45": [
-    "A function is a reusable block of code that performs a specific task and can be called from different parts of a program.",
-    "A function is a reusable piece of code that takes input, processes it, and returns an output",
-    "The difference between a function and a method is that a function is independent, while a method belongs to an object.",
-    "Functions and methods are fundamental in programming because they allow code to be structured and organized efficiently, clearly, and in a reusable way.",
-    "A function is a way to encapsulate code logic, allowing it to be called multiple times with different inputs."
+    "Quicksort es un algoritmo de ordenamiento eficiente que divide y conquista. Elige un pivote y reorganiza los elementos en torno a él, luego ordena recursivamente las sublistas.",
+    "Este algoritmo utiliza un pivote para dividir la lista en dos partes: menores y mayores que el pivote. Es eficiente con una complejidad promedio de O(n log n).",
+    "Quicksort organiza los elementos dividiendo la lista en partes menores y mayores respecto a un pivote. Funciona recursivamente hasta que las sublistas están ordenadas."
   ],
-
   "46": [
-    "OOP is a programming paradigm that organizes code around objects.",
-    "Object-Oriented Programming (OOP) is a software development methodology based on principles like encapsulation, inheritance, polymorphism, and abstraction.",
-    "OOP is recommended in many cases, but its suitability depends on the type of project and its requirements.",
-    "The main characteristics of OOP are encapsulation, abstraction, inheritance, and polymorphism.",
-    "It is one of the most popular and widely used programming paradigms in the software industry."
+    "### Quicksort básico en Python:\n```python\ndef quicksort(arr):\n    if len(arr) <= 1:\n        return arr\n    pivote = arr[0]\n    menores = [x for x in arr[1:] if x < pivote]\n    mayores = [x for x in arr[1:] if x >= pivote]\n    return quicksort(menores) + [pivote] + quicksort(mayores)\nnumeros = [5, 2, 9, 1, 5]\nprint(quicksort(numeros))\n```",
+    "Quicksort optimizado:\n```python\ndef quicksort(arr):\n    if len(arr) <= 1:\n        return arr\n    pivote = arr[len(arr) // 2]\n    izquierda = [x for x in arr if x < pivote]\n    iguales = [x for x in arr if x == pivote]\n    derecha = [x for x in arr if x > pivote]\n    return quicksort(izquierda) + iguales + quicksort(derecha)\nnumeros = [3, 6, 8, 10, 1, 2, 1]\nprint(quicksort(numeros))\n```",
+    "Quicksort con índices explícitos:\n```python\ndef quicksort(arr, inicio, fin):\n    if inicio < fin:\n        pivote = particion(arr, inicio, fin)\n        quicksort(arr, inicio, pivote - 1)\n        quicksort(arr, pivote + 1, fin)\n\ndef particion(arr, inicio, fin):\n    pivote = arr[fin]\n    i = inicio - 1\n    for j in range(inicio, fin):\n        if arr[j] < pivote:\n            i += 1\n            arr[i], arr[j] = arr[j], arr[i]\n    arr[i + 1], arr[fin] = arr[fin], arr[i + 1]\n    return i + 1\n\nnumeros = [4, 2, 7, 3, 8, 1]\nquicksort(numeros, 0, len(numeros) - 1)\nprint(numeros)\n```"
   ],
-
   "47": [
-    "Sure, here's a joke! What do you call two monkeys that share an Amazon account? Prime mates",
-    "Why did the pharmacist walk on her tiptoes? She didn't want to wake the sleeping pills.",
-    "What would the Terminator be called in his retirement? The Exterminator.",
-    "My boss told me to have a good day, so I went home.",
-    "Why is Peter Pan always flying? Because he Neverlands."
+    "### Algoritmo burbuja básico en Python:\n```python\ndef burbuja(arr):\n    n = len(arr)\n    for i in range(n):\n        for j in range(0, n-i-1):\n            if arr[j] > arr[j+1]:\n                arr[j], arr[j+1] = arr[j+1], arr[j]\n    return arr\nnumeros = [64, 34, 25, 12, 22, 11, 90]\nprint(burbuja(numeros))\n```",
+    "Ordenamiento burbuja optimizado:\n```python\ndef burbuja_optimizada(arr):\n    n = len(arr)\n    for i in range(n):\n        swapped = False\n        for j in range(0, n-i-1):\n            if arr[j] > arr[j+1]:\n                arr[j], arr[j+1] = arr[j+1], arr[j]\n                swapped = True\n        if not swapped:\n            break\n    return arr\nnumeros = [5, 1, 4, 2, 8]\nprint(burbuja_optimizada(numeros))\n```",
+    "Burbuja con seguimiento de pasos:\n```python\ndef burbuja_con_pasos(arr):\n    for i in range(len(arr)):\n        for j in range(0, len(arr) - i - 1):\n            print(f'Comparando {arr[j]} y {arr[j+1]}')\n            if arr[j] > arr[j + 1]:\n                arr[j], arr[j + 1] = arr[j + 1], arr[j]\n    return arr\nnumeros = [3, 2, 1]\nprint(burbuja_con_pasos(numeros))\n```"
   ],
-
   "48": [
-    "I can recommend taking a walk on a trail or in a park.",
-    "I could suggest watching a movie at the cinema.",
-    "You could spend time with family or friends.",
-    "Trying a new recipe would be a good recommendation.",
-    "If you're looking for a healthy option, you could exercise."
+    "### Recorrido inorden en un árbol binario:\n```python\nclass Nodo:\n    def __init__(self, valor):\n        self.valor = valor\n        self.izquierda = None\n        self.derecha = None\n\ndef inorden(nodo):\n    if nodo:\n        inorden(nodo.izquierda)\n        print(nodo.valor)\n        inorden(nodo.derecha)\n\nraiz = Nodo(10)\nraiz.izquierda = Nodo(5)\nraiz.derecha = Nodo(20)\nraiz.izquierda.izquierda = Nodo(3)\nraiz.izquierda.derecha = Nodo(7)\ninorden(raiz)\n```",
+    "Inserción en un árbol binario de búsqueda:\n```python\nclass Nodo:\n    def __init__(self, valor):\n        self.valor = valor\n        self.izquierda = None\n        self.derecha = None\n\ndef insertar(nodo, valor):\n    if nodo is None:\n        return Nodo(valor)\n    if valor < nodo.valor:\n        nodo.izquierda = insertar(nodo.izquierda, valor)\n    else:\n        nodo.derecha = insertar(nodo.derecha, valor)\n    return nodo\n\ndef inorden(nodo):\n    if nodo:\n        inorden(nodo.izquierda)\n        print(nodo.valor)\n        inorden(nodo.derecha)\n\nraiz = None\nvalores = [10, 5, 20, 3, 7]\nfor val in valores:\n    raiz = insertar(raiz, val)\ninorden(raiz)\n```",
+    "Recorrido preorden en un árbol:\n```python\nclass Nodo:\n    def __init__(self, valor):\n        self.valor = valor\n        self.izquierda = None\n        self.derecha = None\n\ndef preorden(nodo):\n    if nodo:\n        print(nodo.valor)\n        preorden(nodo.izquierda)\n        preorden(nodo.derecha)\n\nraiz = Nodo(15)\nraiz.izquierda = Nodo(10)\nraiz.derecha = Nodo(20)\nraiz.izquierda.izquierda = Nodo(8)\nraiz.izquierda.derecha = Nodo(12)\npreorden(raiz)\n```"
   ],
-
   "49": [
-    "Why so serious? - The Joker in Batman: The Dark Knight.",
-    "May the Force be with you - Star Wars.",
-    "Hasta la vista, baby - Terminator in Terminator 2: Judgment Day.",
-    "To infinity and beyond - Buzz Lightyear in Toy Story.",
-    "Are you talking to me? - Travis Bickle in Taxi Driver."
+    "### Búsqueda en profundidad (DFS) en un grafo:\n```python\ndef dfs(grafo, nodo, visitados):\n    if nodo not in visitados:\n        print(nodo)\n        visitados.add(nodo)\n        for vecino in grafo[nodo]:\n            dfs(grafo, vecino, visitados)\ngrafo = {\n    'A': ['B', 'C'],\n    'B': ['D', 'E'],\n    'C': ['F'],\n    'D': [],\n    'E': ['F'],\n    'F': []\n}\ndfs(grafo, 'A', set())\n```",
+    "Búsqueda en amplitud (BFS) en un grafo:\n```python\ndef bfs(grafo, inicio):\n    visitados, cola = set(), [inicio]\n    while cola:\n        nodo = cola.pop(0)\n        if nodo not in visitados:\n            print(nodo)\n            visitados.add(nodo)\n            cola.extend(grafo[nodo])\ngrafo = {\n    'A': ['B', 'C'],\n    'B': ['D', 'E'],\n    'C': ['F'],\n    'D': [],\n    'E': ['F'],\n    'F': []\n}\nbfs(grafo, 'A')\n```",
+    "Cálculo de caminos más cortos con Dijkstra:\n```python\nimport heapq\ndef dijkstra(grafo, inicio):\n    distancias = {nodo: float('infinity') for nodo in grafo}\n    distancias[inicio] = 0\n    cola = [(0, inicio)]\n    while cola:\n        actual_dist, actual_nodo = heapq.heappop(cola)\n        for vecino, peso in grafo[actual_nodo].items():\n            distancia = actual_dist + peso\n            if distancia < distancias[vecino]:\n                distancias[vecino] = distancia\n                heapq.heappush(cola, (distancia, vecino))\n    return distancias\ngrafo = {\n    'A': {'B': 1, 'C': 4},\n    'B': {'C': 2, 'D': 5},\n    'C': {'D': 1},\n    'D': {}\n}\nprint(dijkstra(grafo, 'A'))\n```"
   ],
-
   "50": [
-    "Why not try cooking some tacos?",
-    "You could make a Caesar salad.",
-    "I recommend making garlic pasta.",
-    "A tuna sandwich is a simple meal to prepare.",
-    "If you're looking for something sweet, I could recommend making brownies."
+    "### Ordenamiento por selección:\n```python\ndef seleccion(arr):\n    for i in range(len(arr)):\n        min_idx = i\n        for j in range(i+1, len(arr)):\n            if arr[j] < arr[min_idx]:\n                min_idx = j\n        arr[i], arr[min_idx] = arr[min_idx], arr[i]\nnumeros = [64, 25, 12, 22, 11]\nseleccion(numeros)\nprint(numeros)\n```",
+    "Ordenamiento por inserción:\n```python\ndef insercion(arr):\n    for i in range(1, len(arr)):\n        key = arr[i]\n        j = i-1\n        while j >= 0 and key < arr[j]:\n            arr[j+1] = arr[j]\n            j -= 1\n        arr[j+1] = key\nnumeros = [12, 11, 13, 5, 6]\ninsercion(numeros)\nprint(numeros)\n```",
+    "Ordenamiento mergesort:\n```python\ndef mergesort(arr):\n    if len(arr) > 1:\n        mid = len(arr) // 2\n        L = arr[:mid]\n        R = arr[mid:]\n        mergesort(L)\n        mergesort(R)\n        i = j = k = 0\n        while i < len(L) and j < len(R):\n            if L[i] < R[j]:\n                arr[k] = L[i]\n                i += 1\n            else:\n                arr[k] = R[j]\n                j += 1\n            k += 1\n        while i < len(L):\n            arr[k] = L[i]\n            i += 1\n            k += 1\n        while j < len(R):\n            arr[k] = R[j]\n            j += 1\n            k += 1\nnumeros = [38, 27, 43, 3, 9, 82, 10]\nmergesort(numeros)\nprint(numeros)\n```"
   ],
-
-  "51":[
-    "Una clase es un modelo o plantilla que define las propiedades y métodos que los objetos de ese tipo tendrán.",
-    "Es una estructura que permite crear objetos con atributos y comportamientos específicos.",
-    "En programación orientada a objetos, una clase es el diseño base de los objetos que comparten características similares.",
-    "Es un concepto que organiza código en componentes reutilizables y estructurados.",
-    "Una clase es el mecanismo principal en OOP para implementar el encapsulamiento, la herencia y el polimorfismo."
-  ],
-
-  "52":[
-    "A class is a blueprint or template that defines the properties and methods objects of that type will have.",
-    "It is a structure that allows creating objects with specific attributes and behaviors.",
-    "In object-oriented programming, a class is the base design of objects that share similar characteristics.",
-    "It is a concept that organizes code into reusable and structured components.",
-    "A class is the main mechanism in OOP to implement encapsulation, inheritance, and polymorphism."
-  ],
-
-  "53": [
-    "Un objeto es una instancia de una clase que agrupa datos y métodos relacionados.",
-    "Es una entidad en programación orientada a objetos que tiene atributos y comportamiento.",
-    "Un objeto es una unidad básica de la programación orientada a objetos que encapsula datos y lógica.",
-    "Es una instancia específica que hereda las propiedades y métodos de su clase.",
-    "Es una entidad autónoma que combina datos y métodos para operar sobre esos datos."
-
-  ],
-
-  "54":[
-    "An object is an instance of a class that groups related data and methods.",
-    "It is an entity in object-oriented programming that has attributes and behavior.",
-    "An object is a basic unit of object-oriented programming that encapsulates data and logic.",
-    "It is a specific instance that inherits the properties and methods of its class.",
-    "It is an autonomous entity that combines data and methods to operate on that data."
-
-  ],
-
-  "55": [
-    "El encapsulamiento es un principio de la programación orientada a objetos que restringe el acceso directo a los datos de un objeto.",
-    "Es la práctica de ocultar detalles internos de una clase y exponer solo lo necesario mediante métodos públicos.",
-    "El encapsulamiento permite proteger los datos de un objeto al mantenerlos privados y controlando su acceso con getters y setters.",
-    "Se refiere a la agrupación de datos y métodos en una misma entidad para ocultar su implementación.",
-    "El encapsulamiento asegura que los datos de un objeto sean manipulados solo a través de su interfaz pública."
-  ],
-
-  "56": [
-    "Encapsulation is a principle of object-oriented programming that restricts direct access to an object's data.",
-    "It is the practice of hiding the internal details of a class and exposing only what is necessary through public methods.",
-    "Encapsulation allows protecting an object's data by keeping it private and controlling its access with getters and setters.",
-    "It refers to the grouping of data and methods in a single entity to hide its implementation.",
-    "Encapsulation ensures that an object's data is manipulated only through its public interface."
-  ],
-
-  "57": [
-    "Python es un lenguaje de programación interpretado que soporta múltiples paradigmas como orientación a objetos y programación funcional. ¿Algo más que quieras saber sobre Python?",
-    "Es un lenguaje de código abierto ampliamente utilizado en aplicaciones como desarrollo web, análisis de datos y automatización. ¿Quieres aprender más sobre Python?",
-    "Python es conocido por su sintaxis sencilla y su gran ecosistema de bibliotecas y frameworks. ¡Pregúntame cualquier cosa sobre Python!",
-    "Un lenguaje ideal tanto para principiantes como para desarrolladores avanzados debido a su facilidad de uso y versatilidad. ¿Tienes alguna otra duda sobre Python?",
-    "Python es una herramienta potente para resolver problemas complejos y construir aplicaciones robustas. ¿Algo más que quieras saber sobre Python?"
-  ],
-  "58": [
-    "Python is an interpreted programming language supporting multiple paradigms like object-oriented and functional programming. Anything else you'd like to know about Python?",
-    "It is an open-source language widely used in web development, data analysis, and automation tasks. Want to explore Python further?",
-    "Python is known for its simple syntax and vast ecosystem of libraries and frameworks. Ask if you need more Python info!",
-    "An ideal language for both beginners and advanced developers due to its ease of use and versatility. Do you have more Python-related questions?",
-    "Python is a powerful tool for solving complex problems and building robust applications. Anything else I can assist with in Python?"
-  ],
-  "59": [
-    "Python se utiliza para desarrollo web, análisis de datos y más. ¿Quieres que profundice en Python?",
-    "Es útil para tareas como automatización, ciencia de datos y aprendizaje automático. ¿Tienes más preguntas sobre Python?",
-    "Python es ideal para principiantes y proyectos avanzados. Pregúntame si necesitas más detalles de Python.",
-    "Desde desarrollo de videojuegos hasta análisis financiero, Python es muy flexible. ¿Algo más que quieras saber sobre Python?",
-    "Puedes usar Python en casi cualquier campo tecnológico. ¿Necesitas ejemplos más específicos de Python?"
-  ],
-  "60": [
-    "Python is used for web development, data analysis, and more. Any specific Python area you'd like to explore?",
-    "It's great for automation, data science, and machine learning. Do you have more Python questions?",
-    "Python works well for beginners and advanced projects. Feel free to ask for more Python details!",
-    "From game development to financial analysis, Python is very flexible. Want to know more about Python?",
-    "You can use Python in almost any tech field. Need specific Python examples?"
-  ],
-  "61": [
-    "Descarga Python desde su sitio oficial (python.org) y ejecuta el instalador adecuado para tu sistema operativo. Sigue los pasos del asistente y selecciona la opción de agregar Python al PATH. ¿Algo más en lo que pueda asistirte sobre Python?",
-    "Visita python.org, descarga el instalador correspondiente a tu sistema operativo y ejecútalo. Asegúrate de habilitar la opción para añadir Python al PATH. ¿Tienes más dudas sobre la instalación de Python?",
-    "Para instalar Python, descarga el instalador desde su sitio oficial y sigue las instrucciones. Recuerda marcar la casilla para añadir Python al PATH. ¿Puedo ayudarte con otro tema relacionado con Python?",
-    "Puedes instalar Python usando gestores de paquetes como apt (Linux) o brew (Mac). También está disponible en su página oficial. ¿Algo más que quieras saber sobre Python?",
-    "Descarga Python de python.org, selecciona tu sistema operativo, y sigue las instrucciones del instalador. Añade Python al PATH durante la instalación. ¿Tienes más preguntas sobre Python?"
-  ],
-  "62": [
-    "Download Python from its official website (python.org) and run the installer for your operating system. Follow the setup wizard and ensure you check the option to add Python to PATH. Need help with anything else in Python?",
-    "Visit python.org, download the appropriate installer for your OS, and execute it. Make sure to enable the option to add Python to PATH. Any more questions about Python installation?",
-    "To install Python, get the installer from its official site and follow the instructions. Remember to check the box to add Python to PATH. Can I assist with another Python topic?",
-    "You can install Python using package managers like apt (Linux) or brew (Mac), or download it directly from python.org. Anything else you'd like to know about Python?",
-    "Download Python from python.org, select your operating system, and follow the installation steps. Add Python to PATH during the process. Any more Python-related questions?"
-  ],
-  "63": [
-    "Para correr un programa Python, abre una terminal, navega hasta la carpeta donde está el archivo y escribe 'python archivo.py'. ¿Algo más que quieras saber sobre Python?",
-    "Usa un IDE como PyCharm: abre el archivo en el IDE y presiona 'Run'. ¿Algo más en lo que te pueda ayudar con Python?",
-    "También puedes usar entornos interactivos como Jupyter para ejecutar tu código. ¿Tienes más dudas sobre Python?",
-    "Guarda tu código con extensión .py, abre una terminal y usa 'python archivo.py' para ejecutarlo. ¿Necesitas más asistencia sobre Python?",
-    "Si estás en Windows, usa PowerShell o CMD; en Linux o Mac, usa la terminal para correr 'python archivo.py'. ¿Algo más que quieras saber sobre Python?"
-  ],
-  "64": [
-    "To run a Python program, open a terminal, navigate to the folder containing the file, and type 'python file.py'. Anything else you'd like to ask about Python?",
-    "Use an IDE like PyCharm: open the file in the IDE and press 'Run'. Anything else I can assist with in Python?",
-    "You can also use interactive environments like Jupyter to execute your code. Any other Python questions?",
-    "Save your code with a .py extension, open a terminal, and run 'python file.py'. Need more Python help?",
-    "On Windows, use PowerShell or CMD; on Linux or Mac, use the terminal to run 'python file.py'. Anything else you'd like to know about Python?"
-  ],
-  "65": [
-    "Las estructuras de control de flujo en Python incluyen 'if', 'elif', 'else', 'for', 'while', 'break', 'continue' y 'pass'. ¿Quieres saber más sobre Python?",
-    "Las instrucciones disponibles son 'if', 'elif', 'else', 'for', 'while', 'break', 'continue' y 'pass'. ¿Puedo ayudarte con algo más relacionado con Python?",
-    "En Python puedes usar 'if', 'elif', 'else', 'for', 'while', 'break', 'continue' y 'pass' como control de flujo. ¿Algo más que quieras saber sobre Python?",
-    "'If', 'elif', 'else', 'for', 'while', 'break', 'continue' y 'pass' son instrucciones de control de flujo. ¿Tienes más dudas sobre Python?",
-    "Python ofrece las instrucciones 'if', 'elif', 'else', 'for', 'while', 'break', 'continue' y 'pass'. ¿Necesitas más información sobre Python?"
-  ],
-  "66": [
-    "Control flow structures in Python include 'if', 'elif', 'else', 'for', 'while', 'break', 'continue', and 'pass'. Want to learn more about Python?",
-    "Available statements are 'if', 'elif', 'else', 'for', 'while', 'break', 'continue', and 'pass'. Need further assistance with Python?",
-    "In Python, you can use 'if', 'elif', 'else', 'for', 'while', 'break', 'continue', and 'pass' for control flow. Anything else you'd like to know about Python?",
-    "'If', 'elif', 'else', 'for', 'while', 'break', 'continue', and 'pass' are control flow statements. Any more Python-related questions?",
-    "Python provides 'if', 'elif', 'else', 'for', 'while', 'break', 'continue', and 'pass' as control flow options. Do you have additional questions about Python?"
-  ],
-  "67": [
-    "Las instrucciones de bucles en Python son 'for', 'while', 'break', 'continue' y 'pass'. ¿Algo más que quieras saber sobre Python?",
-    "En Python puedes usar 'for', 'while', 'break', 'continue' y 'pass' para trabajar con bucles. ¿Necesitas más información sobre Python?",
-    "Los bucles disponibles en Python incluyen 'for', 'while', 'break', 'continue' y 'pass'. ¿Puedo ayudarte con algo más sobre Python?",
-    "'For', 'while', 'break', 'continue' y 'pass' son las instrucciones de bucles en Python. ¿Tienes más dudas sobre Python?",
-    "Puedes usar 'for', 'while', 'break', 'continue' y 'pass' para manejar bucles en Python. ¿Algo más que quieras saber sobre Python?"
-  ],
-  "68": [
-    "Loop instructions in Python include 'for', 'while', 'break', 'continue', and 'pass'. Anything else you'd like to ask about Python?",
-    "In Python, you can use 'for', 'while', 'break', 'continue', and 'pass' to work with loops. Need further assistance with Python?",
-    "Available loop statements in Python are 'for', 'while', 'break', 'continue', and 'pass'. Any more Python-related questions?",
-    "'For', 'while', 'break', 'continue', and 'pass' are loop instructions in Python. Want to know more about Python?",
-    "You can use 'for', 'while', 'break', 'continue', and 'pass' to manage loops in Python. Do you have additional questions about Python?"
-  ],
-
-  "69": [
-    "La herencia es un principio de la programación orientada a objetos que permite que una clase derive propiedades y métodos de otra.",
-    "La herencia permite crear nuevas clases basadas en clases existentes, añadiendo o modificando funcionalidades.",
-    "Es un concepto que permite a una clase reutilizar el comportamiento y estado definido en otra clase.",
-    "La herencia permite que las clases compartan código común, promoviendo la reutilización y reduciendo redundancias.",
-    "Es el mecanismo por el cual una clase puede extender otra para reutilizar su código."
-  ],
-
-  "70": [
-    "Inheritance is a principle of object-oriented programming that allows a class to derive properties and methods from another.",
-    "Inheritance allows creating new classes based on existing ones, adding or modifying functionalities.",
-    "It is a concept that allows a class to reuse the behavior and state defined in another class.",
-    "Inheritance allows classes to share common code, promoting reuse and reducing redundancies.",
-    "It is the mechanism by which a class can extend another to reuse its code."
-  ],
-
-  "71":[
-    "La abstracción es un principio que permite enfocarse en los detalles esenciales de un objeto y ocultar su complejidad.",
-    "Es el proceso de representar conceptos relevantes mientras se omiten detalles innecesarios.",
-    "La abstracción en programación orientada a objetos simplifica el diseño al separar qué hace un objeto de cómo lo hace.",
-    "La abstracción permite crear modelos que representan el comportamiento sin preocuparse por la implementación.",
-    "Es una forma de ocultar detalles de implementación para centrarse en las funcionalidades clave."
-  ],
-
-  "72":[
-    "Abstraction is a principle that allows focusing on the essential details of an object and hiding its complexity.",
-    "It is the process of representing relevant concepts while omitting unnecessary details.",
-    "Abstraction in object-oriented programming simplifies design by separating what an object does from how it does it.",
-    "Abstraction allows creating models that represent behavior without worrying about implementation.",
-    "It is a way of hiding implementation details to focus on key functionalities."
-  ],
-
-  "73":[
-    "El polimorfismo es un principio de la programación orientada a objetos que permite que una entidad tome múltiples formas.",
-    "Es la capacidad de una función o método de comportarse de manera diferente dependiendo del contexto.",
-    "En programación, el polimorfismo se utiliza para sobrescribir o sobrecargar métodos en clases relacionadas.",
-    "Es la habilidad de procesar objetos de diferentes tipos a través de una referencia común.",
-    "El polimorfismo se manifiesta cuando una misma operación puede aplicarse a distintos tipos de datos."
-  ],
-
-  "74":[
-    "Polymorphism is a principle of object-oriented programming that allows an entity to take multiple forms.",
-    "It is the ability of a function or method to behave differently depending on the context.",
-    "In programming, polymorphism is used to override or overload methods in related classes.",
-    "It is the ability to process objects of different types through a common reference.",
-    "Polymorphism is evident when the same operation can be applied to different data types."
-  ],
-
-  "75":[
-    "Un getter es una función que permite acceder al valor de un atributo privado de un objeto.",
-    "Los getters son funciones que devuelven el estado de una variable miembro de un objeto.",
-    "Los getters permiten leer los valores de los atributos sin acceder directamente a ellos.",
-    "Los getters son herramientas que ayudan a mantener la consistencia del estado interno de un objeto.",
-    "Es una técnica que permite acceder a los datos de un objeto sin romper su diseño orientado a objetos."
-  ],
-
-  "76":[
-    "A getter is a function that allows access to the value of a private attribute of an object.",
-    "Getters are functions that return the state of a member variable of an object.",
-    "Getters allow reading attribute values without directly accessing them.",
-    "Getters are tools that help maintain the consistency of an object's internal state.",
-    "It is a technique that allows accessing an object's data without breaking its object-oriented design."
-  ],
-
-  "77":[
-    "Un setter es una función que permite modificar el valor de un atributo privado de un objeto.",
-    "Es un método utilizado para establecer o actualizar el valor de una propiedad encapsulada dentro de una clase.",
-    "Los setters son funciones que asignan valores a las variables miembro de un objeto.",
-    "Es una función que permite establecer el estado de un atributo interno manteniendo su integridad.",
-    "Un setter es un método diseñado para modificar la información de un objeto siguiendo principios de encapsulación."
-  ],
-
-  "78":[
-    "A setter is a function that allows modifying the value of a private attribute of an object.",
-    "It is a method used to set or update the value of a property encapsulated within a class.",
-    "Setters are functions that assign values to an object's member variables.",
-    "It is a function that allows setting the state of an internal attribute while maintaining its integrity.",
-    "A setter is a method designed to modify an object's information following encapsulation principles."
+  "51": [
+    "### Búsqueda lineal:\n```python\ndef busqueda_lineal(arr, objetivo):\n    for i in range(len(arr)):\n        if arr[i] == objetivo:\n            return i\n    return -1\nnumeros = [10, 20, 30, 40, 50]\nprint(busqueda_lineal(numeros, 30))\n```",
+    "Búsqueda binaria:\n```python\ndef busqueda_binaria(arr, objetivo):\n    inicio, fin = 0, len(arr) - 1\n    while inicio <= fin:\n        medio = (inicio + fin) // 2\n        if arr[medio] == objetivo:\n            return medio\n        elif arr[medio] < objetivo:\n            inicio = medio + 1\n        else:\n            fin = medio - 1\n    return -1\nnumeros = [10, 20, 30, 40, 50]\nprint(busqueda_binaria(numeros, 40))\n```",
+    "Búsqueda secuencial con elementos no numéricos:\n```python\ndef busqueda_secuencial(arr, objetivo):\n    for i, elemento in enumerate(arr):\n        if elemento == objetivo:\n            return i\n    return -1\npalabras = ['manzana', 'banana', 'cereza', 'durazno']\nprint(busqueda_secuencial(palabras, 'cereza'))\n```"
   ]
 
 }
