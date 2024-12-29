@@ -397,6 +397,7 @@
     "A tuna sandwich is a simple meal to prepare.",
     "If you're looking for something sweet, I could recommend making brownies."
   ],
+<<<<<<< Updated upstream
 
   "51":[
     "Una clase es un modelo o plantilla que define las propiedades y métodos que los objetos de ese tipo tendrán.",
@@ -611,6 +612,70 @@
     "Setters are functions that assign values to an object's member variables.",
     "It is a function that allows setting the state of an internal attribute while maintaining its integrity.",
     "A setter is a method designed to modify an object's information following encapsulation principles."
+=======
+  "51": [
+    "### Búsqueda lineal:\n```python\ndef busqueda_lineal(arr, objetivo):\n    for i in range(len(arr)):\n        if arr[i] == objetivo:\n            return i\n    return -1\nnumeros = [10, 20, 30, 40, 50]\nprint(busqueda_lineal(numeros, 30))\n```",
+    "Búsqueda binaria:\n```python\ndef busqueda_binaria(arr, objetivo):\n    inicio, fin = 0, len(arr) - 1\n    while inicio <= fin:\n        medio = (inicio + fin) // 2\n        if arr[medio] == objetivo:\n            return medio\n        elif arr[medio] < objetivo:\n            inicio = medio + 1\n        else:\n            fin = medio - 1\n    return -1\nnumeros = [10, 20, 30, 40, 50]\nprint(busqueda_binaria(numeros, 40))\n```",
+    "Búsqueda secuencial con elementos no numéricos:\n```python\ndef busqueda_secuencial(arr, objetivo):\n    for i, elemento in enumerate(arr):\n        if elemento == objetivo:\n            return i\n    return -1\npalabras = ['manzana', 'banana', 'cereza', 'durazno']\nprint(busqueda_secuencial(palabras, 'cereza'))\n```"
+  ],
+  "52": [
+    "JavaScript es un lenguaje de programación dinámico y basado en prototipos utilizado principalmente para el desarrollo web. Quieres saber como instarlo?",
+    "JavaScript es un lenguaje orientado a objetos basado en prototipos, lo que permite crear y extender objetos de forma flexible. Puedo explicarte como se instala?",
+    "Es un lenguaje que se ejecuta tanto en el lado del cliente (navegadores web) como en el lado del servidor. Quieres saber como instalarlo?",
+    "JavaScript es interpretado directamente por el navegador o el entorno de ejecución, sin necesidad de compilarse previamente. Puedo explicarte como instalarlo",
+    "JavaScript permite añadir interactividad y dinamismo a los sitios web, como menús desplegables, animaciones y validaciones de formularios. Quieres saber como instalarlo?"
+  ],
+
+  "53":[
+    "Para instalar javascript en windows sigue los siguiente pasos:\n\t1. ingresa a https://nodejs.org/en/download\n\t2. Descarga el instalador para windows que se encuentra en la parte baja de la pagina.\n\t3.Ejecuta el instalador y sigue los pasos.\n\t4.verifica la instalacion abriendo una terminal y corriendo el siguiente comando.\n\t```bash\n\t\t node -v\n\t\t npm -v\n\t```\nPara instalarlo en linux o macOS siga los siguientes pasos:\n\t1.Abra una terminal.\n\t2.Ejecute el siguiente comando:\n\t\tcurl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash\n\t3.Luego ejecute el siguiente comando:\n\t\t nvm install #version(por ejemplos 22)\n\t4.Verifica la instalacion con los siguientes comandos:\n\t\t* node -v\n\t\t*nvm current\n\t5.Verifica la instalacion de npm con el siguiente comando:\n\t\tnpm -v",
+    "Puede instalar javascript en windows,linux o macOs de la siguiente forma:\nwindows:\n\t1. Ingresa a https://nodejs.org/en/download\n\t2. Descarga el instalador para windows que se encuentra en la parte baja de la pagina.\n\t3.Ejecuta el instalador y sigue los pasos.\n\t4.verifica la instalacion abriendo una terminal y corriendo el siguiente comando.\n\t```bash\n\t\t node -v\n\t\t npm -v\n\t```\nlinux o macOS:\n\t1.Abra una terminal.\n\t2.Ejecute el siguiente comando:\n\t\tcurl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash\n\t3.Luego ejecute el siguiente comando:\n\t\t nvm install #version(por ejemplos 22)\n\t4.Verifica la instalacion con los siguientes comandos:\n\t\t* node -v\n\t\t*nvm current\n\t5.Verifica la instalacion de npm con el siguiente comando:\n\t\tnpm -v",
+    "Una forma simple de utilizar javascript es abrir cualquier navegador(como chrome, mozilla o edge) con el comando: ctrl+shift+J"
+  ],
+  "54": [
+    "Para ejecutar codigo de javascript puedes hacerlo desde el navegador abra la consola con ctrl+shift+J escribra el codigo por ejemplo \"console.log(\"hola\")\" luego presione Enter",
+    "Una forma de ejecutar codigo de javascript es creando un archivo con extension .js y luego en una terminal ejecute el comando node archivo.js",
+    "Puede ejecutar codigo de javascript en un archivo HTML incluya su codigo dentro de una etiqueta <script></script> este codigo se ejecutara al abrir el archivo en el navegador"
+  ],
+  "55":[
+    "En javascript se pueden declarar variables con la palabra reservada var. Por ejemplo se va a declarar una variable que guarde un saludo: var saludo = \"Hola mundo\"",
+    "En javascript las variables se pueden declarar con la palabra reservada let. Por ejemplo se va a declarar una que almacene un numero: let numero = 10",
+    "En javascript es posible declarar variables con la palabra reservada const. por ejemplo se declarara una variable que guarde el valor de pi: const pi = 3.1416"
+  ],
+  "56":[
+    "Una de las diferencias entre var, let y const es que var tiene una ambito de funcion es decir que la variable puede ser accedida en cualquier parte de la funcion en la que fue declarada, las variables declaradas con let y const tienen un ambito de bloque lo que significa que las variables solo pueden ser accedidas en el bloque en el que fueron declaradas.",
+    "Una de las diferencias entre var, let y const es que let y const no pueden redeclararse mientras que var si puede redeclararse por ejemplo:\nvar mensaje=\"hola\"\nvar mensaje=\"adios\"//esto funciona\n\nlet mensaje=\"hola\"\nlet mensaje=\"adios\"//se genera un error debido a que la variable ya existe sucede lo mismo con const",
+    "Una de las diferencias entre var, let y const es que mientras que var y let pueden cambiar de valor, a const no se le puede cambiar el valor con el que se declara por ejemplo:\nlet numero = 10\nnumero=0//esto esta permitido\n\nconst numero = 5\nnumero=10//esto da error",
+    "Una de las diferencias entre var, let y const es que var se inicializa como undefined si no se le asigna un valor mientras que let y const not tienen valor hasta que no se inicializan"
+  ],
+  "57":[
+    "Claro aqui tienes un ejemplo de un for en javascript\nfor(let i=0;i<10;i++){\n\tconsole.log(i)\n}",
+    "Aqui tienes un ejemplo mas complejo de un for en javascript\nconst num=[10,9,5,3,7,1]\nfor(let i = 0;i<num.length;i++){\n\tconsole.log(num[i])\n}\n",
+    "Aqui tienes un ejemplo de un for en javascript\nconst colores = [\"Rojo\", \"Verde\", \"Azul\"]\nfor (const color of colores) {\n\tconsole.log(color)\n}"
+  ],
+  "58":[
+    "Con mucho gusto aqui tienes un ejemplo de while en javascript\nlet i=1\nwhile(i<5){\n\tconsole.log(i)\n\ti++\n}",
+    "Claro aqui tienes un ejemplo de un while en javascript\nlet i = 10\nwhile (i > 0) {\n\tconsole.log(i)\n\ti--\n}",
+    "Aqui tienes un while en javascript\nconst frutas = [\"Manzana\", \"Banana\", \"Naranja\"]\nlet i = 0\nwhile (i < frutas.length) {\n\tconsole.log(frutas[i])\n\ti++\n}"
+  ],
+  "59":[
+    "Aqui tienes un if simple en javascript:\nlet i = 5\nif(i>=0){\n\tconsole.log(\"el numero es positivo\")\n}",
+    "Claro aqui tienes un ejemplo de un if en javascript:\nlet edad = 15\nif(edad >= 18){\n\tconsole.log(\"puedes conducir\")\n}else{\n\tconsole.log(\"no puedes conducir\")\n}",
+    "Aqui tienes un ejemplo de un if en javascript:\nlet numero = 8\nif(numero % 2 === 8){\n\tconsole.log(\"el numero es par\")\n}",
+    "Aqui tienes un ejemplo de un if en javascript:\nlet a = 5, b = 10\nif (a > b) {\n\tconsole.log(\"a es mayor que b.\")\n} else if (a < b) {\n\tconsole.log(\"a es menor que b.\")\n} else {\n\tconsole.log(\"a es igual a b.\")\n}",
+    "Con mucho gusto aqui tienes un ejemplo de if en javascript:\nlet valor = null\nif (valor == null) {\n\tconsole.log(\"El valor es null o undefined.\")\n}"
+  ],
+  "60":[
+    "Aqui esta la declaracion de una funcion en javascript:\nfunction sumar(a, b){\n\treturn a+b\n}\nconsole.log(sumar(3,5))\n Esta funcion realiza la suma de dos valores",
+    "Aqui tiene un ejemplo de una funcion en javascript:\nfunction esPar(numero) {\n\treturn numero % 2 === 0\n}\nconsole.log(esPar(4))\nconsole.log(esPar(5))\nesta funcion verifica si un numero es par o impar",
+    "Aqui tienes una funcion en javascript que recibe un nombre como parametro y manda una saludo al usuario:\nfunction saludar(nombre) {\n\treturn `Hola, ${nombre}!`\n}\nconsole.log(saludar(\"Juan\"))",
+    "Aqui tienes un ejemplo de una funcion que convierte celsius a fahrenheit en javascript:\nfunction celsiusAFahrenheit(celsius) {\n\treturn (celsius * 9/5) + 32\n}"
+  ],
+  "61":[
+    "Una clase en javascript:\nclass Persona {\n\tsaludar() {\n\t\tconsole.log(\"Hola, soy una persona.\")\n\t}\n}\n\nconst persona = new Persona()\npersona.saludar()",
+    "Aqui tienes una clase en javascript que posee un constructor:\nclass Persona {\n\tconstructor(nombre, edad) {\n\t\tthis.nombre = nombre\n\t\tthis.edad = edad\n\t}\n\tsaludar() {\n\t\tconsole.log(`Hola, me llamo ${this.nombre} y tengo ${this.edad} años.`)\n\t}\n}\nconst persona = new Persona(\"Juan\", 30)\npersona.saludar() // \"Hola, me llamo Juan y tengo 30 años.\"",
+    "Aqui tienes un ejemplo de una clase en javascript:\nclass Rectangulo {\n\tconstructor(ancho, alto) {\n\t\tthis.ancho = ancho\n\t\tthis.alto = alto\n\t}\n\n\tcalcularArea() {\n\t\treturn this.ancho * this.alto\n\t}\n}\n\nconst rectangulo = new Rectangulo(5, 10)\nconsole.log(rectangulo.calcularArea()) // 50",
+    "Claro aqui tienes una ejemplo de una clase en javascript:\nclass Calculadora {\n\tsumar(a, b) {\n\t\treturn a + b\n\t}\n\n\trestar(a, b) {\n\t\treturn a - b\n\t}\n}\n\nconsole.log(Calculadora.sumar(5, 3))// 8\nconsole.log(Calculadora.restar(10, 4))// 6"
+>>>>>>> Stashed changes
   ]
 
 }

@@ -284,6 +284,7 @@
     { "input": "how is programming related to hardware", "label": 41 },
     { "input": "define programming in terms of software creation", "label": 41 },
 
+<<<<<<< Updated upstream
     {"input": "what is a variable","label":42},
     {"input": "what does a variable do", "label":42},
     {"input": "define variable in programming","label":42},
@@ -494,4 +495,70 @@
     {"input": "Define the concept of setter functions in programming.", "label": 78},
     {"input": "Why are setter functions used in programming?", "label": 78},
     {"input": "What is the purpose of setter functions in programming?", "label": 78}
+=======
+  { "input": "Dame un ejemplo de un algoritmo de busqueda en python", "label": 51 },
+  { "input": "Enseñame con un ejemplo de un algoritmo de busqueda en python", "label": 51 },
+  { "input": "Dame un codigo con busqueda en python", "label": 51 },
+  { "input": "Ejemplifica con busqueda en python", "label": 51 },
+
+  { "input": "Que es javascript", "label": 52},
+  { "input": "Dame una definicion de javascript", "label": 52},
+  { "input": "Cuentame acerca de javascript", "label": 52},
+  { "input": "puedes explicarme que es javascript", "label": 52},
+  { "input": "que tipo de lenguaje es javascript", "label": 52},
+
+  { "input": "Como instalo javascript", "label": 53},
+  { "input": "Dime como instalar javascript", "label": 53},
+  { "input": "Puedes decirme como obtener javascript", "label": 53},
+  { "input": "Explícame cómo descargar JavaScript", "label": 53 },
+  { "input": "Como puedo descargar JavaScript", "label": 53 },
+
+  { "input": "Como puedo correr un programa de javascript", "label": 54},
+  { "input": "Dime cómo ejecutar un programa de JavaScript", "label": 54 },
+  { "input": "¿Puedes decirme cómo correr un programa de JavaScript?", "label": 54 },
+  { "input": "¿Qué pasos debo seguir para ejecutar un programa de JavaScript?", "label": 54 },
+  { "input": "¿Cómo se ejecuta un programa de JavaScript?", "label": 54 },
+
+  { "input": "Como declaro una variable en javascript", "label": 55},
+  { "input": "Como creo una variable en javascript", "label": 55},
+  { "input": "Como se define una variable en javascript", "label": 55},
+  { "input": "Como se inicializa una variable en javascript", "label": 55},
+  { "input": "Explicame como se crea una variable en javascript", "label": 55},
+
+  { "input": "Que diferencia hay entre var, let y const en javascript", "label": 56},
+  { "input": "Explícame las diferencias entre var, let y const en JavaScript", "label": 56 },
+  { "input": "¿Cómo se diferencian var, let y const en JavaScript?", "label": 56 },
+  { "input": "¿Puedes explicar la diferencia entre var, let y const en JavaScript?", "label": 56 },
+  { "input": "Dime la diferencia entre var, let y const en JavaScript", "label": 56 },
+
+  { "input": "Como puedo escribir un for en javascript", "label": 57},
+  { "input": "¿Cómo se escribe un for en JavaScript?", "label": 57 },
+  { "input": "Dime cómo escribir un bucle for en JavaScript", "label": 57 },
+  { "input": "Dame un ejemplo de cómo escribir un for en JavaScript", "label": 57 },
+  { "input": "¿Puedes enseñarme a escribir un for en JavaScript?", "label": 57 },
+
+  { "input": "Podrias darme un ejemplo de un while en javascript", "label": 58},
+  { "input": "Dime como se escribe un while en javascript", "label": 58},
+  { "input": "Dame un ejemplo de como usar un while en javascript", "label": 58},
+  { "input": "¿Tienes algún ejemplo de un while en JavaScript?", "label": 58 },
+  { "input": "Enseñame un ejemplo de cómo implementar un while en JavaScript", "label": 58 },
+
+  { "input": "como se escribe un if en javascript", "label": 59},
+  { "input": "Dime cómo escribir un if en JavaScript", "label": 59 },
+  { "input": "Explicame cómo escribir una sentencia if en JavaScript", "label": 59 },
+  { "input": "¿Cómo funciona un if en JavaScript?", "label": 59 },
+  { "input": "¿Cómo puedo usar un if en JavaScript?", "label": 59 },
+
+  { "input": "Como defino una funcion en javascript", "label": 60},
+  { "input": "Podrias explicarme como se crea una funcion en javascript", "label": 60},
+  { "input": "Muestrame como se define una funcion en JavaScript", "label": 60 },
+  { "input": "Dime como escribir una funcion en JavaScript", "label": 60 },
+  { "input": "Explicame como definir una funcion en JavaScript", "label": 60 },
+
+  { "input": "Como se crea una clase en javascript", "label": 61},
+  { "input": "Muéstrame cómo se define una clase en JavaScript", "label": 61 },
+  { "input": "Explícame cómo crear una clase en JavaScript", "label": 61 },
+  { "input": "¿Cómo puedo definir una clase en JavaScript?", "label": 61 },
+  { "input": "¿Qué pasos debo seguir para crear una clase en JavaScript?", "label": 61 }
+>>>>>>> Stashed changes
 ]

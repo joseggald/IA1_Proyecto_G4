@@ -1,0 +1,353 @@
+[
+  {
+    "sender": "user",
+    "message": "Hola",
+    "timestamp": "00:33"
+  },
+  {
+    "sender": "user",
+    "message": "Hola",
+    "timestamp": "00:33"
+  },
+  {
+    "sender": "bot",
+    "message": "¡Hola! ¿Qué te gustaría saber sobre programación o bases de datos?",
+    "timestamp": "00:33",
+    "confidence": 1.1730965018272401
+  },
+  {
+    "sender": "user",
+    "message": "Holoa",
+    "timestamp": "00:34"
+  },
+  {
+    "sender": "bot",
+    "message": "¡Hola! ¿Qué te gustaría saber sobre programación o bases de datos?",
+    "timestamp": "00:34",
+    "confidence": 0.9079298377037048
+  },
+  {
+    "sender": "user",
+    "message": "Hola",
+    "timestamp": "08:58"
+  },
+  {
+    "sender": "bot",
+    "message": "¡Hola! ¿Qué te gustaría saber sobre programación o bases de datos?",
+    "timestamp": "08:58",
+    "confidence": 1.1167086005210878
+  },
+  {
+    "sender": "user",
+    "message": "que es la programacion",
+    "timestamp": "08:58"
+  },
+  {
+    "sender": "bot",
+    "message": "En términos simples, programar es como enseñarle a un robot cómo realizar tareas paso a paso. \n ¿Te gustaría aprender más empezando por conceptos como algoritmos, lenguajes o algun concepto basico?",
+    "timestamp": "08:58",
+    "confidence": 1.3908149838447572
+  },
+  {
+    "sender": "user",
+    "message": "Cuales son los lenguajes de programacion que sabes",
+    "timestamp": "08:58"
+  },
+  {
+    "sender": "bot",
+    "message": "Actualmente, los lenguajes que puedo manejar son Python y JavaScript. ¿Quieres saber más sobre ellos?",
+    "timestamp": "08:58",
+    "confidence": 0.6605031847953796
+  },
+  {
+    "sender": "user",
+    "message": "Que es python",
+    "timestamp": "08:58"
+  },
+  {
+    "sender": "bot",
+    "message": "En términos simples, Python es un lenguaje versátil que permite escribir programas de manera clara y eficiente. ¿Quieres empezar por instalarlo?",
+    "timestamp": "08:58",
+    "confidence": 1.044725513458252
+  },
+  {
+    "sender": "user",
+    "message": "Que es un algoritmo",
+    "timestamp": "08:59"
+  },
+  {
+    "sender": "bot",
+    "message": "Esencialmente, un algoritmo es un conjunto de reglas que se siguen para resolver problemas. ¿Te gustaría aprender sobre algunos algoritmos que tengo?",
+    "timestamp": "08:59",
+    "confidence": 1.3709596633911134
+  },
+  {
+    "sender": "user",
+    "message": "Dime con que algoritmos me puedes enseñar",
+    "timestamp": "09:00"
+  },
+  {
+    "sender": "bot",
+    "message": "Mi función principal es enseñarte programación y bases de datos, y responder tus preguntas. ¿Cómo puedo asistirte?",
+    "timestamp": "09:00",
+    "confidence": 1.0293301701545716
+  },
+  {
+    "sender": "user",
+    "message": "Que algoritmos entiendes",
+    "timestamp": "09:00"
+  },
+  {
+    "sender": "bot",
+    "message": "Mis habilidades incluyen enseñar:\n1. Algoritmos de búsqueda, como búsqueda binaria.\n2. Ordenamientos: burbuja, selección, quicksort.\n3. Algoritmos de árboles: recorrido inorden, preorden.\n\n¡Dime por dónde quieres empezar!",
+    "timestamp": "09:00",
+    "confidence": 1.0836764931678773
+  },
+  {
+    "sender": "user",
+    "message": "Explicame un algoritmo de busqueda",
+    "timestamp": "09:00"
+  },
+  {
+    "sender": "bot",
+    "message": "Un algoritmo de búsqueda es una técnica utilizada para localizar un elemento dentro de una colección de datos. Ejemplo: búsqueda lineal en listas desordenadas o búsqueda binaria en listas ordenadas.",
+    "timestamp": "09:00",
+    "confidence": 1.0977957010269166
+  },
+  {
+    "sender": "user",
+    "message": "Dame un ejemplo de un algoritmo de ordenamiento quicksort en python",
+    "timestamp": "09:00"
+  },
+  {
+    "sender": "bot",
+    "message": "Quicksort optimizado:\n```python\ndef quicksort(arr):\n    if len(arr) <= 1:\n        return arr\n    pivote = arr[len(arr) // 2]\n    izquierda = [x for x in arr if x < pivote]\n    iguales = [x for x in arr if x == pivote]\n    derecha = [x for x in arr if x > pivote]\n    return quicksort(izquierda) + iguales + quicksort(derecha)\nnumeros = [3, 6, 8, 10, 1, 2, 1]\nprint(quicksort(numeros))\n```",
+    "timestamp": "09:00",
+    "confidence": 1.0863670468330384
+  },
+  {
+    "sender": "user",
+    "message": "hola",
+    "timestamp": "12:45"
+  },
+  {
+    "sender": "bot",
+    "message": "¡Hola! ¿Qué te gustaría saber sobre programación o bases de datos?",
+    "timestamp": "12:45",
+    "confidence": 0.9027888417243958
+  },
+  {
+    "sender": "user",
+    "message": "que es python",
+    "timestamp": "12:46"
+  },
+  {
+    "sender": "bot",
+    "message": "Es un lenguaje ampliamente utilizado en la industria tecnológica debido a su facilidad de uso y poderosa comunidad. ¿Quieres empezar por instalarlo?",
+    "timestamp": "12:46",
+    "confidence": 1.0760892987251283
+  },
+  {
+    "sender": "user",
+    "message": "como instalo python",
+    "timestamp": "12:46"
+  },
+  {
+    "sender": "bot",
+    "message": "### Instrucciones Paso a Paso para Instalar Python:\n\n#### **Windows**:\n1. Ve a [https://www.python.org/downloads](https://www.python.org/downloads) y descarga el instalador.\n2. Ejecútalo y asegúrate de marcar **'Add Python to PATH'**.\n3. Haz clic en **'Install Now'** y espera a que termine la instalación.\n4. Verifica la instalación escribiendo en el terminal:\n   ```\n   python --version\n   ```\n\n#### **macOS**:\n1. Instala Homebrew desde [https://brew.sh](https://brew.sh) si no lo tienes.\n2. En la terminal, escribe:\n   ```\n   brew install python\n   ```\n3. Alternativamente, descarga Python desde la página oficial y sigue las instrucciones del instalador.\n\n#### **Linux**:\n1. Abre una terminal.\n2. Escribe:\n   ```\n   sudo apt update\n   sudo apt install python3\n   ```\n3. Verifica la instalación escribiendo:\n   ```\n   python3 --version\n   ```\n\n¡Python está listo para usarse!",
+    "timestamp": "12:46",
+    "confidence": 0.8962588310241699
+  },
+  {
+    "sender": "user",
+    "message": "salir",
+    "timestamp": "12:46"
+  },
+  {
+    "sender": "bot",
+    "message": "¡Hola! ¿Qué te gustaría saber sobre programación o bases de datos?",
+    "timestamp": "12:46",
+    "confidence": 0.25549080967903137
+  },
+  {
+    "sender": "user",
+    "message": "como instalo javascript",
+    "timestamp": "13:34"
+  },
+  {
+    "sender": "bot",
+    "message": "Puede instalar javascrlipt en windows,linux o macOs de la siguiente forma:\nwindows:\n\t1. Ingresa a https://nodejs.org/en/download\n\t2. Descarga el instalador para windows que se encuentra en la parte baja de la pagina.\n\t3.Ejecuta el instalador y sigue los pasos.\n\t4.verifica la instalacion abriendo una terminal y corriendo el siguiente comando.\n\t```bash\n\t\t node -v\n\t\t npm -v\n\t```\nlinux o macOS:\n\t1.Abra una terminal.\n\t2.Ejecute el siguiente comando:\n\t\tcurl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash\n\t3.Luego ejecute el siguiente comando:\n\t\t nvm install #version(por ejemplos 22)\n\t4.Verifica la instalacion con los siguientes comandos:\n\t\t* node -v\n\t\t*nvm current\n\t5.Verifica la instalacion de npm con el siguiente comando:\n\t\tnpm -v",
+    "timestamp": "13:34",
+    "confidence": 0.984264075756073
+  },
+  {
+    "sender": "user",
+    "message": "que es javascript",
+    "timestamp": "13:34"
+  },
+  {
+    "sender": "bot",
+    "message": "JavaScript es interpretado directamente por el navegador o el entorno de ejecución, sin necesidad de compilarse previamente. Puedo explicarte como instalarlo",
+    "timestamp": "13:34",
+    "confidence": 1.0529802799224854
+  },
+  {
+    "sender": "user",
+    "message": "como puedo ejecutar un programa en javascript",
+    "timestamp": "14:20"
+  },
+  {
+    "sender": "user",
+    "message": "hola",
+    "timestamp": "14:22"
+  },
+  {
+    "sender": "bot",
+    "message": "¡Bienvenido! Soy un asistente especializado en programación y bases de datos. ¿En qué puedo ayudarte?",
+    "timestamp": "14:22",
+    "confidence": 0.5476886868476868
+  },
+  {
+    "sender": "user",
+    "message": "como puedo correr un programa en javascriplt",
+    "timestamp": "14:22"
+  },
+  {
+    "sender": "bot",
+    "message": "Puede ejecutar codigo de javascript en un archivo HTML incluya su codigo dentro de una etiqueta <script></script> este codigo se ejecutara al abrir el archivo en el navegador",
+    "timestamp": "14:22",
+    "confidence": 0.2090831845998764
+  },
+  {
+    "sender": "user",
+    "message": "dime como puedo ejecutar codigo de javascript",
+    "timestamp": "14:22"
+  },
+  {
+    "sender": "bot",
+    "message": "Es un lenguaje que se ejecuta tanto en el lado del cliente (navegadores web) como en el lado del servidor. Quieres saber como instalarlo?",
+    "timestamp": "14:22",
+    "confidence": 0.809781014919281
+  },
+  {
+    "sender": "user",
+    "message": "como puedo crear una variable en javascript",
+    "timestamp": "16:12"
+  },
+  {
+    "sender": "bot",
+    "message": "En javascript las variables se pueden declarar con la palabra reservada let. Por ejemplo se va a declarar una que almacene un numero: let numero = 10",
+    "timestamp": "16:12",
+    "confidence": 1.0989664554595948
+  },
+  {
+    "sender": "user",
+    "message": "como declaro una variable en python",
+    "timestamp": "16:12"
+  },
+  {
+    "sender": "bot",
+    "message": "Usa nombres descriptivos para variables:\n```python\n# Nombres significativos\nedad = 25\nnombre = 'Juan'\nprint(f'{nombre} tiene {edad} años.')\n```",
+    "timestamp": "16:12",
+    "confidence": 1.0981151819229127
+  },
+  {
+    "sender": "user",
+    "message": "puedes darme un ejemplo de un bucle for en javascript",
+    "timestamp": "18:45"
+  },
+  {
+    "sender": "bot",
+    "message": "Claro aqui tienes un ejemplo de un for en javascript\nfor(let i=0;i<10;i++){\n\tconsole.log(i)\n}",
+    "timestamp": "18:45",
+    "confidence": 0.9920784831047058
+  },
+  {
+    "sender": "user",
+    "message": "podrias darme un ejemplo de un while en javascript",
+    "timestamp": "20:16"
+  },
+  {
+    "sender": "bot",
+    "message": "Claro aqui tienes un ejemplo de un while en javascript\nlet i = 10\nwhile (i > 0) {\n\tconsole.log(i)\n\ti--\n}",
+    "timestamp": "20:16",
+    "confidence": 1.0985357522964478
+  },
+  {
+    "sender": "user",
+    "message": "dame un ejemplo de un for en javascript",
+    "timestamp": "20:16"
+  },
+  {
+    "sender": "bot",
+    "message": "Aqui tienes un ejemplo mas complejo de un for en javascript\nconst num=[10,9,5,3,7,1]\nfor(let i = 0;i<num.length;i++){\n\tconsole.log(num[i])\n}\n",
+    "timestamp": "20:16",
+    "confidence": 0.9856005311012268
+  },
+  {
+    "sender": "user",
+    "message": "puedes explicarme como funciona un if en javascript",
+    "timestamp": "21:42"
+  },
+  {
+    "sender": "bot",
+    "message": "Aqui tienes un ejemplo de un if en javascript:\nlet numero = 8\nif(numero % 2 === 8){\n\tconsole.log(\"el numero es par\")\n}",
+    "timestamp": "21:42",
+    "confidence": 0.998710036277771
+  },
+  {
+    "sender": "user",
+    "message": "dame un ejemplo de un if en javascrilpt",
+    "timestamp": "21:43"
+  },
+  {
+    "sender": "bot",
+    "message": "Aqui tienes un ejemplo de un if en javascript:\nlet numero = 8\nif(numero % 2 === 8){\n\tconsole.log(\"el numero es par\")\n}",
+    "timestamp": "21:43",
+    "confidence": 0.6411619544029236
+  },
+  {
+    "sender": "user",
+    "message": "podrias darme un ejemplo de una funcion en javascript",
+    "timestamp": "22:35"
+  },
+  {
+    "sender": "bot",
+    "message": "Aqui tienes un ejemplo de una funcion que convierte celsius a fahrenheit en javascript:\nfunction celsiusAFahrenheit(celsius) {\n\treturn (celsius * 9/5) + 32\n}",
+    "timestamp": "22:35",
+    "confidence": 1.0929935336112977
+  },
+  {
+    "sender": "user",
+    "message": "funcion javascript",
+    "timestamp": "22:35"
+  },
+  {
+    "sender": "bot",
+    "message": "JavaScript es interpretado directamente por el navegador o el entorno de ejecución, sin necesidad de compilarse previamente. Puedo explicarte como instalarlo",
+    "timestamp": "22:35",
+    "confidence": 0.44491041302680967
+  },
+  {
+    "sender": "user",
+    "message": "Dime como escribir una funcion en JavaScript",
+    "timestamp": "22:35"
+  },
+  {
+    "sender": "bot",
+    "message": "Aqui tienes una funcion en javascript que recibe un nombre como parametro y manda una saludo al usuario:\nfunction saludar(nombre) {\n\treturn `Hola, ${nombre}!`\n}\nconsole.log(saludar(\"Juan\"))",
+    "timestamp": "22:35",
+    "confidence": 0.995276689529419
+  },
+  {
+    "sender": "user",
+    "message": "como puedo crear una clase en javascript",
+    "timestamp": "23:22"
+  },
+  {
+    "sender": "bot",
+    "message": "Aqui tienes un ejemplo de una clase en javascript:\nclass Rectangulo {\n\tconstructor(ancho, alto) {\n\t\tthis.ancho = ancho\n\t\tthis.alto = alto\n\t}\n\ncalcularArea() {\n\t\treturn this.ancho * this.alto\n\t}\n}\n\nconst rectangulo = new Rectangulo(5, 10)\nconsole.log(rectangulo.calcularArea()) // 50",
+    "timestamp": "23:22",
+    "confidence": 0.9997586607933044
+  }
+]
