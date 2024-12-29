@@ -582,6 +582,203 @@
       "keywords": ["dame", "enseñame", "codigo", "busqueda", "python", "ejemplo", "ejemplifica"],
       "labels": ["51"],
       "subtopics": ["algoritmos_busqueda"]
+    },
+    "javascript-definicion": {
+      "primary_keywords": ["javascript", "definicion","lenguaje","explicarme","tipo"],
+      "keywords": [
+        "javascript",
+        "dame",
+        "explicarme",
+        "describeme",
+        "cuentame",
+        "definicion", "tipo",
+        "lenguaje"
+      ],
+      "labels": ["52"],
+      "subtopics": []
+    },
+    "javascript-instalacion":{
+      "primary_keywords":["javascript","instalar","descargar","obtener javascript"],
+      "keywords":[
+        "javascript",
+        "como",
+        "descargo",
+        "instalar",
+        "instalo",
+        "dime",
+        "decirme",
+        "explicame",
+        "puedo",
+        "obtener"
+      ],
+      "labels":["53"],
+      "subtopics":[]
+    },
+    "javascript_ejecucion":{
+      "primary_keywords":["javascript","correr","ejecutar","programa","codigo"],
+      "keywords":[
+        "como",
+        "puedo",
+        "correr",
+        "ejecutar",
+        "puedes",
+        "pasos",
+        "programa",
+        "javascript"
+      ],
+      "labels":["54"],
+      "subtopics":[]
+    },
+    "variables_javascript":{
+      "primary_keywords":["javascript","variable","declaro","creo","define","inicializa"],
+      "keywords":[
+        "como",
+        "declaro",
+        "variable",
+        "javascript",
+        "creo",
+        "define",
+        "inicializa",
+        "explicame",
+        "crea"
+      ],
+      "labels":["55"],
+      "subtopics":[]
+    },
+    "diferencias_variables_javascript":{
+      "primary_keywords":["javascript","let","var","const","que diferencia","hay","explicame","diferencias","explicar"],
+      "keywords":[
+        "diferencia",
+        "hay",
+        "entre",
+        "como",
+        "puedes",
+        "explicar",
+        "dime"
+      ],
+      "labels":["56"],
+      "subtopics":[]
+    },
+    "for_javascript":{
+      "primary_keywords":["javascript","for","escribir","escribe","ejemplo","eneseñarme","bucle"],
+      "keywords":[
+        "como",
+        "puedo",
+        "escribir",
+        "for",
+        "javascript",
+        "escribe",
+        "bucle",
+        "dame",
+        "puedes",
+        "enseñarme"
+      ],
+      "labels":["57"],
+      "subtopics":[]
+    },
+    "while_javascript":{
+      "primary_keywords":["while","ejemplo","javascript","escribe","ejemplo","enseñame","implementar"],
+      "keywords":[
+        "podrias",
+        "darme",
+        "ejemplo",
+        "dime",
+        "como",
+        "escribe",
+        "dame",
+        "ejemplo",
+        "usar",
+        "tienes",
+        "algun",
+        "enseñame",
+        "implementar"
+      ],
+      "labels":["58"],
+      "subtopics":[]
+    },
+    "if_javascript":{
+      "primary_keywords":["if","javascript","escribe","escribir","ejemplo","funciona","explicame"],
+      "keywords":[
+        "como",
+        "escribe",
+        "if",
+        "javascript",
+        "dime",
+        "explicame",
+        "escribir",
+        "puedo"
+      ],
+      "labels":["59"],
+      "subtopics":[]
+    },
+    "funciones_javascript":{
+      "primary_keywords":["funcion","javascript","defino","crea","define","explicame","escribir"],
+      "keywords":[
+        "como",
+        "defino",
+        "funcion",
+        "podrias",
+        "explicarme",
+        "crea",
+        "muestrame",
+        "define",
+        "dime",
+        "escribir",
+        "explicame"
+      ],
+      "labels":["60"],
+      "subtopics":[]
+    },
+    "clases_javascript":{
+      "primary_keywords":["clase","javascript","crea","define","definir","seguir","pasos"],
+      "keywords":[
+        "como",
+        "crea",
+        "clase",
+        "javascript",
+        "muestrame",
+        "define",
+        "explicame",
+        "crear",
+        "puedo",
+        "definir",
+        "pasos",
+        "seguir"
+      ],
+      "labels":["61"],
+      "subtopics":[]
+    },
+    "objetos_javascript":{
+      "primary_keywords":["objeto","javascript","crear","creo","explicarme","pasos","define"],
+      "keywords":[
+        "como",
+        "creo",
+        "puedes",
+        "explicarme",
+        "crear",
+        "pasos",
+        "debo",
+        "seguir",
+        "muestrame",
+        "define",
+        "dime"
+      ],
+      "labels":["62"],
+      "subtopics":[]
+    },
+    "polimorfismo_javascript":{
+      "primary_keywords":["polimorfismo","javascript","define","utiliza","explicarme","muestrame","explicame","aplicar"],
+      "keywords":[
+        "como",
+        "define",
+        "explicame",
+        "usar",
+        "puedes",
+        "aplicar",
+        "muestrame"
+      ],
+      "labels":["63"],
+      "subtopics":[]
     }
   },
   "relations": {
@@ -599,7 +796,16 @@
       "constantes_python",
       "funciones_python",
       "clases_python",
-      "objetos_python", "python_basico", "python_instalacion", "python_ejecucion", "python_inicio", "lenguajes_disponibles", "lenguajes_populares", "lenguajes_ia","programacion_orientada_objetos", "algoritmos", "variables", "lenguajes_programacion", "condiciones_if", "ciclo_for", "ciclo_while", "ciclos", "funciones", "clases", "polimorfismo", "herencia", "encapsulamiento", "abstraccion"],
+      "variables_javascript",
+      "diferencias_variables_javascript",
+      "for_javascript",
+      "while_javascript",
+      "if_javascript",
+      "funciones_javascript",
+      "clases_javascript",
+      "objetos_javascript",
+      "polimorfismo_javascript",
+      "objetos_python", "python_basico", "python_instalacion", "python_ejecucion", "python_inicio", "lenguajes_disponibles", "lenguajes_populares", "lenguajes_ia","programacion_orientada_objetos", "algoritmos", "variables", "lenguajes_programacion", "condiciones_if", "ciclo_for", "ciclo_while", "ciclos", "funciones", "clases", "polimorfismo", "herencia", "encapsulamiento", "abstraccion","javascript_definicion","javascript_instalacion"],
     "algoritmos": ["programacion", "algoritmos_generales", "algoritmos_busqueda", "algoritmos_ordenamiento", "algoritmos_grafos", "algoritmos_arboles"],
     "programacion_orientada_objetos": ["clases", "objetos", "polimorfismo", "encapsulamiento", "abstraccion", "herencia"],
     "lenguajes_programacion": ["programacion"],
@@ -624,6 +830,7 @@
     "python_ejecucion": [],
     "python_inicio": [],
     "variables_python": [],
+    "variables_javascript":[],
     "constantes_python": [],
     "funciones_python": [],
     "clases_python": [
@@ -651,6 +858,18 @@
     "ejemplo_arboles_python": ["algoritmos_arboles"],
     "ejemplo_grafos_python": ["algoritmos_grafos"],
     "ejemplo_ordenamiento_python": ["algoritmos_ordenamiento"],
-    "ejemplo_busqueda_python": ["algoritmos_busqueda"]
+    "ejemplo_busqueda_python": ["algoritmos_busqueda"],
+    "javascript_definicion":["programacion"],
+    "javascript_ejecucion":["programacion"],
+    "javascript_instalacion":["programacion"],
+    "diferencias_variables_javascript":["programacion"],
+    "for_javascript":["programacion"],
+    "while_javascript":["programacion"],
+    "if_javascript":["programacion"],
+    "funciones_javascript":["programacion"],
+    "clases_javascript":["programacion"],
+    "objetos_javascript":["programacion"],
+    "polimorfismo_javascript":["programacion"]
   }
 }
+
