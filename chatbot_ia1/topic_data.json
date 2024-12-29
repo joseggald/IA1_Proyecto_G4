@@ -1,855 +1,582 @@
 {
   "topics": {
     "saludos": {
+      "primary_keywords": ["hola", "buenas"],
       "keywords": [
         "hola",
+        "hey",
         "buenos",
         "dias",
         "tardes",
         "noches",
         "saludos",
-        "que tal"
+        "buen dia",
+        "que onda"
       ],
       "labels": ["0"],
-      "subtopics": ["estado"]
+      "subtopics": ["estado", "identidad"]
+    },
+    "identidad": {
+      "primary_keywords": ["eres", "quien eres", "que haces"],
+      "keywords": [
+        "quien",
+        "eres",
+        "tu",
+        "que",
+        "haces",
+        "describeme",
+        "funcionalidad",
+        "como",
+        "funcionas",
+        "dime",
+        "explicame",
+        "cual es",
+        "tu funcion",
+        "para que sirves",
+        "que tipo de bot",
+        "que sabes hacer",
+        "en que ayudas",
+        "bot"
+      ],
+      "labels": ["1"],
+      "subtopics": ["programacion"]
     },
     "estado": {
+      "primary_keywords": ["como estas", "que tal estas"],
       "keywords": [
         "como",
         "estas",
+        "te encuentras",
         "que tal",
         "todo bien",
-        "como va",
-        "que hay",
-        "que cuentas",
-        "como te va"
+        "va todo",
+        "te va",
+        "te sientes",
+        "andas",
+        "vas",
+        "estas bien"
       ],
-      "labels": ["1", "2"],
-      "subtopics": []
+      "labels": ["2"],
+      "subtopics": ["saludos"]
     },
-    "despedida": {
+    "programacion": {
+      "primary_keywords": ["que es", "programacion", "la programacion"],
       "keywords": [
-        "adios",
-        "bye",
-        "hasta",
-        "luego",
-        "pronto",
-        "nos vemos",
-        "chao",
-        "me voy"
+        "que es",
+        "definicion",
+        "programacion",
+        "programar",
+        "codigo",
+        "software",
+        "explicame",
+        "dime",
+        "significa",
+        "computadora",
+        "instrucciones",
+        "define",
+        "describeme",
+        "la programacion",
+        "como funciona",
+        "crear codigo",
+        "desarrollar"
       ],
       "labels": ["3"],
-      "subtopics": []
+      "subtopics": ["algoritmos", "variables", "condiciones_if"]
     },
-    "agradecimiento": {
+    "algoritmos": {
+      "primary_keywords": ["que es", "algoritmo", "algoritmos"],
       "keywords": [
-        "gracias",
-        "thanks",
-        "agradezco",
-        "amable",
-        "aprecio"
-      ],
-      "labels": ["4"],
-      "subtopics": []
-    },
-    "programacion":{
-      "keywords":[
-        "definicion",
-        "programacion",
-        "dame una",
-        "que es",
-        "creacion",
-        "software",
-        "tecnicos",
-        "hardware"
-      ],
-      "labels":["5"],
-      "subtopics":[]
-    },
-    "variables":{
-      "keywords":[
-        "que hace",
-        "variable",
-        "valor",
-        "puede cambiar",
-        "para que",
-        "se utiliza"
-      ],
-      "labels":["6"],
-      "subtopics":[]
-    },
-    "condicionales":{
-      "keywords":[
-        "condicional",
-        "if",
-        "que tipo",
-        "instruccion",
-        "toman",
-        "desiciones"
-      ],
-      "labels":["7"],
-      "subtopics":[]
-    },
-    "ciclos":{
-      "keywords":[
-        "ciclos",
-        "ciclo",
-        "programacion",
-        "ayudan",
-        "aplicacion",
-        "tienen",
-        "importancia",
-        "ejecutarse",
-        "cumplir",
-        "condiciones"
-      ],
-      "labels":["8"],
-      "subtopics":[]
-    },
-    "funciones":{
-      "keywords":[
-        "funcion",
-        "metodo",
-        "metodos",
-        "funciones",
-        "devuelve",
-        "diferencia",
-        "valor",
-        "hay",
-        "entre",
+        "algoritmo",
+        "que es un algoritmo",
+        "como funciona",
+        "explicame",
         "definicion",
         "define",
+        "describeme",
+        "pasos",
+        "instrucciones",
+        "proceso"
+      ],
+      "labels": ["4"],
+      "subtopics": ["programacion"]
+    },
+    "lenguajes_programacion": {
+      "primary_keywords": ["lenguaje", "lenguajes de programacion"],
+      "keywords": [
+        "lenguaje",
+        "lenguajes de programacion",
+        "herramientas",
+        "codigo",
+        "define lenguaje",
+        "describeme",
+        "como funciona un lenguaje"
+      ],
+      "labels": ["5"],
+      "subtopics": ["programacion"]
+    },
+    "variables": {
+      "primary_keywords": ["variable", "variables", "que"],
+      "keywords": [
+        "variable",
+        "que es una variable",
+        "como funciona",
+        "explicame",
+        "definicion",
+        "define",
+        "describeme",
+        "almacenar",
+        "datos",
+        "espacio",
+        "informacion"
+      ],
+      "labels": ["6"],
+      "subtopics": ["programacion"]
+    },
+    "constantes": {
+      "primary_keywords": ["constante", "constantes", "que"],
+      "keywords": [
+        "constante",
+        "constantes",
+        "valores fijos",
+        "que es una constante",
+        "como funciona",
+        "explicame",
+        "define",
+        "describeme",
+        "datos inmutables"
+      ],
+      "labels": ["7"],
+      "subtopics": ["programacion"]
+    },
+    "ciclo_for": {
+      "primary_keywords": ["for", "que", "como"],
+      "keywords": [
+        "for",
+        "ciclo for",
+        "iterar",
+        "repetir",
+        "bloques",
+        "como funciona un for",
+        "define for",
+        "explicame un ciclo for",
+        "bucles for"
+      ],
+      "labels": ["8"],
+      "subtopics": ["programacion"]
+    },
+    "condiciones_if": {
+      "primary_keywords": ["if", "condicional", "condiciones if", "condicionales", "que", "como"],
+      "keywords": [
+        "if",
+        "condicion",
+        "como funciona",
+        "evaluar",
+        "condiciones",
+        "flujo",
+        "decisiones",
+        "define",
+        "estructura",
+        "logica"
+      ],
+      "labels": ["9"],
+      "subtopics": ["programacion"]
+    },
+    "ciclo_while": {
+      "primary_keywords": ["while", "que", "como"],
+      "keywords": [
+        "while",
+        "bucle while",
+        "repetir mientras",
+        "condicion while",
+        "bloque while",
+        "como funciona un while",
+        "define while",
+        "explicame un bucle while",
+        "bucle while"
+      ],
+      "labels": ["10"],
+      "subtopics": ["programacion"]
+    },
+    "ciclos": {
+      "primary_keywords": ["ciclo", "ciclos", "bucle", "que", "como"],
+      "keywords": [
+        "ciclo",
+        "ciclos",
+        "bucles",
+        "repetir",
+        "como funcionan",
+        "definicion",
+        "define",
+        "describeme",
+        "estructura repetitiva",
+        "iteraciones"
+      ],
+      "labels": ["11"],
+      "subtopics": ["programacion"]
+    },
+    "funciones": {
+      "primary_keywords": ["funcion", "que es", "una funcion"],
+      "keywords": [
+        "funcion",
+        "funciones",
+        "bloque de codigo",
+        "tareas especificas",
+        "como funciona",
+        "definicion",
+        "define",
+        "explicame",
+        "describeme",
+        "entrada y salida",
+        "reutilizacion"
+      ],
+      "labels": ["12"],
+      "subtopics": ["programacion"]
+    },
+    "clases": {
+      "primary_keywords": ["clases", "clase", "que", "como"],
+      "keywords": [
+        "clase",
+        "clases",
+        "modelo",
+        "estructura",
+        "como funciona",
+        "define clase",
+        "explicame clases",
+        "atributos y metodos"
+      ],
+      "labels": ["13"],
+      "subtopics": ["programacion", "objetos"]
+    },
+    "objetos": {
+      "primary_keywords": ["objeto", "que", "como"],
+      "keywords": [
+        "objeto",
+        "objetos",
+        "instancias",
+        "oop",
+        "clase",
+        "atributos",
+        "metodos",
+        "define objeto",
+        "explicame objetos",
+        "como funciona"
+      ],
+      "labels": ["14"],
+      "subtopics": ["clases"]
+    },
+    "polimorfismo": {
+      "primary_keywords": ["polimorfismo", "que", "como"],
+      "keywords": [
+        "polimorfismo",
+        "programacion orientada a objetos",
+        "oop",
+        "metodos",
+        "diferentes formas",
+        "mismo metodo",
+        "sobrecarga",
+        "sobreescritura",
+        "define polimorfismo",
+        "explicame polimorfismo"
+      ],
+      "labels": ["15"],
+      "subtopics": ["programacion"]
+    },
+    "herencia": {
+      "primary_keywords": ["herencia", "que", "como"],
+      "keywords": [
+        "herencia",
+        "oop",
+        "clases",
+        "subclases",
+        "superclases",
+        "atributos heredados",
+        "metodos heredados",
+        "reutilizacion de codigo",
+        "define herencia",
+        "explicame herencia"
+      ],
+      "labels": ["16"],
+      "subtopics": ["clases"]
+    },
+    "encapsulamiento": {
+      "primary_keywords": ["encapsulamiento", "que", "como"],
+      "keywords": [
+        "encapsulamiento",
+        "privacidad",
+        "proteger datos",
+        "atributos privados",
+        "metodos publicos",
+        "control de acceso",
+        "seguridad en datos",
+        "define encapsulamiento",
+        "explicame encapsulamiento"
+      ],
+      "labels": ["17"],
+      "subtopics": ["programacion"]
+    },
+    "abstraccion": {
+      "primary_keywords": ["abstraccion", "que", "como"],
+      "keywords": [
+        "abstraccion",
+        "detalles innecesarios",
+        "conceptos esenciales",
+        "modelos simplificados",
+        "interfaz",
+        "esconder complejidad",
+        "oop",
+        "define abstraccion",
+        "explicame abstraccion"
+      ],
+      "labels": ["18"],
+      "subtopics": ["programacion"]
+    },
+    "programacion_orientada_objetos": {
+      "primary_keywords": ["poo", "programacion orientada a objetos"],
+      "keywords": [
+        "programacion orientada a objetos",
+        "como funciona",
+        "explicame",
+        "definicion",
+        "definir",
+        "oop",
+        "orientado a objetos",
+        "que"
+      ],
+      "labels": ["19"],
+      "subtopics": ["clases", "objetos", "polimorfismo", "herencia", "encapsulamiento", "abstraccion"]
+    },
+    "lenguajes_disponibles": {
+      "primary_keywords": ["lenguajes de programacion", "existentes", "lenguajes", "existen"],
+      "keywords": [
+        "existen",
+        "existentes",
+        "programar",
         "programacion"
       ],
-      "labels":["9"],
-      "subtopics":[]
-    },
-    "OOP":{
-      "keywords":[
-        "oop",
-        "orientada",
-        "objetos",
-        "caracteristicas",
-        "cuales son",
-        "popular",
-        "recomendable",
-        "caracteristicas"
-      ],
-      "labels":["10"],
-      "subtopics":[]
-    },
-    "peliculas":{
-      "keywords":[
-        "pelicula",
-        "costo",
-        "promedio",
-        "accion",
-        "genero",
-        "año",
-        "cual"
-      ],
-      "labels":["11"],
-      "subtopics":[]
-    },
-    "chistes":{
-      "keywords":[
-        "cuentame",
-        "bueno",
-        "gracioso",
-        "chiste"
-      ],
-      "labels":["12"],
-      "subtopics":[]
-    },
-    "actividades":{
-      "keywords": [
-        "recomiendas",
-        "hacer",
-        "actividad",
-        "hoy",
-        "realizar",
-        "divertido"
-      ],
-      "labels":["13"],
-      "subtopics":[]
-    },
-    "dialogos":{
-      "keywords":[
-        "di",
-        "algun",
-        "dialogo",
-        "pelicula",
-        "frase"
-      ],
-      "labels":["14"],
-      "subtopics":[]
-    },
-    "cocina": {
-      "keywords":[
-        "preparar",
-        "comer",
-        "ganas",
-        "alguna",
-        "comida"
-      ],
-      "labels":["15"],
-      "subtopics":[]
-    },
-    "sql": {
-      "keywords": ["SQL", "bases de datos", "datos", "que es sql"],
-      "labels": ["16"],
-      "subtopics": []
-    },
-    "tipos": {
-      "keywords": ["tipos de", "bases de datos", "relacionales", "no relacionales", "modelos"],
-      "labels": ["17"],
-      "subtopics": []
-    },
-
-    "tabla": {
-      "keywords": ["tabla", "tablas", "table", "que es una tabla"],
-      "labels": ["18"],
-      "subtopics": []
-    },
-    "select": {
-      "keywords": ["SELECT", "consulta", "consultas", "comando", "datos", "seleccionar", "filtrar"],
-      "labels": ["19"],
-      "subtopics": []
-    },
-    "where": {
-      "keywords": ["WHERE", "filtro", "filtros", "condición", "condiciones", "SQL", "consulta", "datos", "tablas", "filtrar"],
       "labels": ["20"],
       "subtopics": []
     },
-    "existencial": {
-      "keywords": ["eres", "haces", "ayudar", "proposito"],
+    "lenguajes_populares": {
+      "primary_keywords": ["lenguajes populares", "lenguajes", "populares"],
+      "keywords": [
+        "populares",
+        "mas",
+        "programar",
+        "programacion"
+      ],
       "labels": ["21"],
       "subtopics": []
     },
-    "insert": {
-      "keywords": ["insert", "insertar", "agregar"],
+    "lenguajes_ia": {
+      "primary_keywords": ["lenguajes", "lenguajes de programacion", "sabes", "entiendes", "soportas"],
+      "keywords": [
+        "sabes",
+        "programar",
+        "soportas",
+        "entiendes"
+      ],
       "labels": ["22"],
       "subtopics": []
     },
-    "update": {
-      "keywords": ["update", "actualizar", "modificar"],
+    "python_basico": {
+      "primary_keywords": ["python", "que es python"],
+      "keywords": [
+        "que es python",
+        "como funciona",
+        "explicame",
+        "describeme",
+        "define", "python"
+      ],
       "labels": ["23"],
       "subtopics": []
     },
-    "delete": {
-      "keywords": ["delete", "eliminar", "borrar"],
+    "python_instalacion": {
+      "primary_keywords": ["instalar python", "descargar python","python","instalo"],
+      "keywords": [
+        "como",
+        "descargo",
+        "descargar",
+        "instalo",
+        "instalar",
+        "obtengo", "python"
+      ],
       "labels": ["24"],
       "subtopics": []
     },
-
-    "datos": {
-      "keywords": ["saldre","amigos"],
+    "python_ejecucion": {
+      "primary_keywords": ["ejecuto", "corro", "pruebo", "python"],
+      "keywords": [
+        "como",
+        "mi programa",
+        "corro",
+        "ejecutar",
+        "ejecuta",
+        "probar",
+        "mi app",
+        "mi aplicacion", "python"
+      ],
       "labels": ["25"],
       "subtopics": []
     },
-
-    "hello": {
-      "keywords": ["hey","hello", "hi", "morning", "afternoon", "evening", "What's up"],
+    "python_inicio": {
+      "primary_keywords": ["empiezo", "crear","inicio", "python"],
+      "keywords": [
+        "empiezo",
+        "inicio",
+        "crear",
+        "empezar",
+        "iniciar",
+        "programar", 
+        "python",
+        "como"
+      ],
       "labels": ["26"],
-      "subtopics": ["estado-en"]
-    },
-
-    "sql-en": {
-      "keywords": ["sql", "databases", "data", "what is sql"],
+      "subtopics": []
+    }, 
+    "variables_python": {
+      "primary_keywords": ["variable", "python"],
+      "keywords": ["definir", "declarar", "crear", "asignar", "inicializar", "python", "ejemplo"],
       "labels": ["27"],
       "subtopics": []
     },
-
-    "types-en": {
-      "keywords": ["types of", "databases", "relational", "non-relational", "models"],
+    "constantes_python": {
+      "primary_keywords": ["constante", "python"],
+      "keywords": ["definir", "declarar", "crear", "asignar", "inicializar", "python", "ejemplo"],
       "labels": ["28"],
       "subtopics": []
     },
-    "table-en": {
-      "keywords": ["table", "tables", "what is a table", "sql tables"],
+    "funciones_python": {
+      "primary_keywords": ["funcion", "python"],
+      "keywords": ["definir", "declarar", "crear", "asignar", "inicializar", "python", "ejemplo"],
       "labels": ["29"],
       "subtopics": []
     },
-    "select-en": {
-      "keywords": ["select", "query", "queries", "command", "data", "select data", "filter"],
+    "clases_python": {
+      "primary_keywords": ["clase", "python"],
+      "keywords": ["definir", "declarar", "crear", "asignar", "inicializar", "python", "ejemplo"],
       "labels": ["30"],
       "subtopics": []
     },
-    "where-en": {
-      "keywords": ["where", "filter", "filters", "condition", "conditions", "sql", "query", "data", "tables", "filter data"],
+    "objetos_python": {
+      "primary_keywords": ["objeto", "python"],
+      "keywords": ["definir", "declarar", "crear", "asignar", "inicializar", "python", "ejemplo"],
       "labels": ["31"],
-      "subtopics": []
+      "subtopics": ["clases_python"]
     },
-    "existential-en": {
-      "keywords": ["are you", "do you", "help", "purpose"],
+    "ciclo_for_python": {
+      "primary_keywords": ["ciclo for en python", "for python"],
+      "keywords": ["definir", "declarar", "crear", "asignar", "inicializar", "python", "ciclo", "for", "ejemplo"],
       "labels": ["32"],
       "subtopics": []
     },
-    "insert-en": {
-      "keywords": ["insert", "add", "insert data"],
+    "condiciones_if_python": {
+      "primary_keywords": ["if", "python"],
+      "keywords": ["definir", "declarar", "crear", "asignar", "inicializar", "python", "if", "condicion", "ejemplo"],
       "labels": ["33"],
       "subtopics": []
     },
-    "update-en": {
-      "keywords": ["update", "modify", "change"],
+    "ciclo_while_python": {
+      "primary_keywords": ["python", "while"],
+      "keywords": ["definir", "declarar", "crear", "asignar", "inicializar", "python", "ciclo", "while", "ejemplo"],
       "labels": ["34"],
       "subtopics": []
     },
-    "delete-en": {
-      "keywords": ["delete", "remove", "delete data"],
+    "ciclos_python": {
+      "primary_keywords": ["python", "ciclo", "ciclos"],
+      "keywords": ["definir", "declarar", "crear", "asignar", "inicializar", "python", "ciclo", "ejemplo"],
       "labels": ["35"],
       "subtopics": []
     },
-    "friends": {
-      "keywords": [
-        "I",
-        "will",
-        "go",
-        "out",
-        "friends",
-        "drinks",
-        "concert",
-        "some",
-        "eat"
-      ],
-      "labels":["36"],
-      "subtopics":[]
-    },
-    "estado-en": {
-      "keywords":[
-        "how",
-        "are",
-        "you",
-        "going",
-        "been",
-        "up to",
-        "everything",
-        "feeling",
-        "day",
-        "have",
-        "fine",
-        "thanks",
-        "great",
-        "very",
-        "good",
-        "for asking"
-      ],
-      "labels": ["37,38"],
+    "polimorfismo_python": {
+      "primary_keywords": ["polimorfismo", "python"],
+      "keywords": ["definir", "declarar", "crear", "asignar", "inicializar", "python", "polimorfismo", "ejemplo"],
+      "labels": ["36"],
       "subtopics": []
     },
-    "despedida-en":{
-      "keywords":[
-        "goodbye",
-        "see",
-        "you",
-        "later",
-        "bye",
-        "soon",
-        "tomorrow"
-      ],
-      "labels":["39"],
-      "subtopics":[]
-    },
-    "agradecimiento-en":{
-      "keywords":[
-        "thank",
-        "very",
-        "much",
-        "appreciate",
-        "many",
-        "You're",
-        "kind",
-        "your",
-        "help",
-        "time",
-        "much",
-        "appreciated"
-      ],
-      "labels":["40"],
-      "subtopics":[]
-    },
-    "programming":{
-      "keywords":[
-        "programming",
-        "you",
-        "give",
-        "definition",
-        "describe",
-        "technical",
-        "terms",
-        "how",
-        "related",
-        "hardware",
-        "software",
-        "creation"
-      ],
-      "labels":["41"],
-      "subtopics":[]
-    },
-    "variables-en":{
-      "keywords":[
-        "define",
-        "variable",
-        "programming",
-        "does",
-        "used",
-        "for"
-      ],
-      "labels":["42"],
-      "subtopics":[]
-    },
-    "if-en":{
-      "keywords":[
-        "if",
-        "type",
-        "instruction",
-        "conditionals",
-        "ifs",
-        "make",
-        "decisions"
-      ],
-      "labels":["43"],
-      "subtopics":[]
-    },
-    "loops":{
-      "keywords":[
-        "loops",
-        "programming",
-        "how",
-        "help",
-        "applications",
-        "you",
-        "define"
-      ],
-      "labels":["44"],
-      "subtopics":[]
-    },
-    "functions":{
-      "keywords":[
-        "function",
-        "you",
-        "give",
-        "one",
-        "definition",
-        "difference",
-        "between",
-        "method",
-        "how",
-        "important",
-        "functions",
-        "methods"
-      ],
-      "labels":["45"],
-      "subtopics":[]
-    },
-    "OOP-en":{
-      "keywords":[
-        "you",
-        "define",
-        "oop",
-        "characteristics",
-        "recommended",
-        "use",
-        "how",
-        "popular"
-      ],
-      "labels":["46"],
-      "subtopics":[]
-    },
-    "jokes":{
-      "keywords":[
-        "tell",
-        "joke",
-        "say",
-        "you",
-        "have",
-        "good",
-        "say",
-        "something",
-        "funny"
-      ],
-      "labels":["47"],
-      "subtopics":[]
-    },
-    "activities":{
-      "keywords":[
-        "you",
-        "recommend",
-        "any",
-        "activity",
-        "today",
-        "tell",
-        "could",
-        "how",
-        "can",
-        "make",
-        "my",
-        "day",
-        "more",
-        "fun"
-      ],
-      "labels":["48"],
-      "subtopics":[]
-    },
-    "movie-quotes":{
-      "keywords":[
-        "say",
-        "movie",
-        "quote",
-        "you",
-        "have",
-        "any",
-        "quotes",
-        "could",
-        "give",
-        "line",
-        "from"
-      ],
-      "labels":["49"],
-      "subtopics":[]
-    },
-    "food":{
-      "keywords":[
-        "food",
-        "could",
-        "make",
-        "recommend",
-        "give",
-        "prepare",
-        "feel",
-        "like",
-        "eating",
-        "something"
-      ],
-      "labels":["50"],
-      "subtopics":[]
-    },
-    "clases-progra":{
-      "keywords":[
-        "clase",
-        "programacion",
-        "explica",
-        "define",
-        "sirve"
-      ],
-      "labels":["51"],
-      "subtopics":[]
-    },
-    "classes-programming":{
-      "keywords":[
-        "class",
-        "programming",
-        "explain",
-        "define",
-        "purpose"
-      ],
-      "labels":["52"],
-      "subtopics":[]
-    },
-    "objetos":{
-      "keywords":[
-        "objeto",
-        "programacion",
-        "como",
-        "define",
-        "definicion",
-        "representa",
-        "podrias",
-        "explicarme"
-      ],
-      "labels":["53"],
-      "subtopics":[]
-    },
-    "objects":{
-      "keywords":[
-        "object",
-        "programming",
-        "how",
-        "defined",
-        "definition",
-        "represent",
-        "could",
-        "you",
-        "explain"
-      ],
-      "labels":["54"],
-      "subtopics":[]
-    },
-    "encapsulamiento":{
-      "keywords":[
-        "encapsulamiento",
-        "dame",
-        "una",
-        "definicion",
-        "significa",
-        "podrias",
-        "definir"
-      ],
-      "labels":["55"],
-      "subtopics":[]
-    },
-    "encapsulamiento-en":{
-      "keywords":[
-        "encapsulation",
-        "give",
-        "definition",
-        "mean",
-        "could",
-        "you",
-        "define",
-        "does"
-      ],
-      "labels":["56"],
-      "subtopics":[]
-    },
-    "python-basics-es": {
-      "keywords": ["python", "definir", "explicar", "significado", "conceptos basicos"],
-      "labels": ["57"],
+    "herencia_python": {
+      "primary_keywords": ["herencia", "python"],
+      "keywords": ["definir", "declarar", "crear", "asignar", "inicializar", "python", "herencia", "ejemplo"],
+      "labels": ["37"],
       "subtopics": []
     },
-    "python-basics-en": {
-      "keywords": ["python", "define", "explain", "meaning", "basics"],
-      "labels": ["58"],
+    "encapsulamiento_python": {
+      "primary_keywords": ["encapsulamiento", "python"],
+      "keywords": ["definir", "declarar", "crear", "asignar", "inicializar", "python", "encapsulamiento", "ejemplo"],
+      "labels": ["38"],
       "subtopics": []
     },
-    "python-uses-es": {
-      "keywords": ["python", "usos", "aplicaciones", "proposito", "para que sirve"],
-      "labels": ["59"],
-      "subtopics": []
+    "algoritmos_generales": {
+      "primary_keywords": ["algoritmo", "algoritmos", "sabes", "puedes", "manejas", "entiendes", "conoces"],
+      "keywords": ["que", "sabes", "puedes", "manejas", "entiendes", "conoces", "algoritmo", "algoritmos"],
+      "labels": ["39"],
+      "subtopics": ["programacion"]
     },
-    "python-uses-en": {
-      "keywords": ["python", "uses", "applications", "purpose", "used for"],
-      "labels": ["60"],
-      "subtopics": []
+    "algoritmos_busqueda": {
+      "primary_keywords": ["algoritmo", "busqueda"],
+      "keywords": ["que es", "como funciona", "explicame", "describeme", "define", "busqueda", "algoritmo"],
+      "labels": ["40"],
+      "subtopics": ["algoritmos"]
     },
-    "python-installation-es": {
-      "keywords": ["instalar", "python", "pasos", "computadora", "pc", "dispositivo"],
-      "labels": ["61"],
-      "subtopics": []
+    "algoritmos_ordenamiento": {
+      "primary_keywords": ["algoritmo", "ordenamiento"],
+      "keywords": ["que es", "como funciona", "explicame", "describeme", "define", "ordenamiento", "algoritmo"],
+      "labels": ["41"],
+      "subtopics": ["algoritmos"]
     },
-    "python-installation-en": {
-      "keywords": ["install", "python", "steps", "computer", "pc", "device"],
-      "labels": ["62"],
-      "subtopics": []
+    "algoritmos_grafos": {
+      "primary_keywords": ["algoritmo", "grafos"],
+      "keywords": ["que es", "como funciona", "explicame", "describeme", "define", "grafos", "algoritmo"],
+      "labels": ["42"],
+      "subtopics": ["algoritmos"]
     },
-    "python-execution-es": {
-      "keywords": ["ejecutar", "programa", "python", "script", "codigo"],
-      "labels": ["63"],
-      "subtopics": []
+    "algoritmos_arboles": {
+      "primary_keywords": ["algoritmo", "arboles"],
+      "keywords": ["que es", "como funciona", "explicame", "describeme", "define", "arboles", "algoritmo"],
+      "labels": ["43"],
+      "subtopics": ["algoritmos"]
     },
-    "python-execution-en": {
-      "keywords": ["run", "execute", "program", "python", "script", "code"],
-      "labels": ["64"],
-      "subtopics": []
+    "ordenamiento_burbuja": {
+      "primary_keywords": ["algoritmo", "burbuja"],
+      "keywords": ["que es", "como funciona", "explicame", "describeme", "define", "ordenamiento", "burbuja", "algoritmo"],
+      "labels": ["44"],
+      "subtopics": ["algoritmos_ordenamiento"]
     },
-    "python-control-flow-es": {
-      "keywords": ["flujo de control", "instrucciones", "estructuras", "python"],
-      "labels": ["65"],
-      "subtopics": []
+    "ordenamiento_quicksort": {
+      "primary_keywords": ["algoritmo", "quicksort"],
+      "keywords": ["que es", "como funciona", "explicame", "describeme", "define", "ordenamiento", "quicksort", "algoritmo"],
+      "labels": ["45"],
+      "subtopics": ["algoritmos_ordenamiento"]
     },
-    "python-control-flow-en": {
-      "keywords": ["control flow", "statements", "instructions", "structures", "python"],
-      "labels": ["66"],
-      "subtopics": []
+    "ejemplo_quicksort_python": {
+      "primary_keywords": ["quicksort", "python", "ejemplo"],
+      "keywords": ["dame", "enseñame", "codigo", "busqueda", "python", "ejemplo", "ejemplifica"],
+      "labels": ["46"],
+      "subtopics": ["ordenamiento_quicksort"]
     },
-    "python-loops-es": {
-      "keywords": ["bucles", "instrucciones", "repeticion", "estructuras", "python"],
-      "labels": ["67"],
-      "subtopics": []
+    "ejemplo_burbuja_python": {
+      "primary_keywords": ["burbuja","python", "ejemplo"],
+      "keywords": ["dame", "enseñame", "codigo", "busqueda", "python", "ejemplo", "ejemplifica"],
+      "labels": ["47"],
+      "subtopics": ["ordenamiento_burbuja"]
     },
-    "python-loops-en": {
-      "keywords": ["loops", "instructions", "statements", "repetition", "python"],
-      "labels": ["68"],
-      "subtopics": []
+    "ejemplo_arboles_python": {
+      "primary_keywords": ["arboles", "python", "ejemplo"],
+      "keywords": ["dame", "enseñame", "codigo", "busqueda", "python", "ejemplo", "ejemplifica"],
+      "labels": ["48"],
+      "subtopics": ["algoritmos_arboles"]
     },
-    "herencia": {
-      "keywords":[
-        "herencia",
-        "programacion",
-        "explica",
-        "como",
-        "define",
-        "contexto",
-        "concepto",
-        "proposito",
-        "tiene"
-      ],
-      "labels":["69"],
-      "subtopics":[]
+    "ejemplo_grafos_python": {
+      "primary_keywords": ["grafos", "python", "ejemplo"],
+      "keywords": ["dame", "enseñame", "codigo", "busqueda", "python", "ejemplo", "ejemplifica"],
+      "labels": ["49"],
+      "subtopics": ["algoritmos_grafos"]
     },
-    "inheritance":{
-      "keywords":[
-        "inheritance",
-        "programming",
-        "explain",
-        "how",
-        "defined",
-        "context",
-        "define",
-        "concept",
-        "purpose",
-        "does",
-        "serve"
-      ],
-      "labels":["70"],
-      "subtopics":[]
+    "ejemplo_ordenamiento_python": {
+      "primary_keywords": ["ordenamiento", "python", "ejemplo"],
+      "keywords": ["dame", "enseñame", "codigo", "busqueda", "python", "ejemplo", "ejemplifica"],
+      "labels": ["50"],
+      "subtopics": ["algoritmos_ordenamiento"]
     },
-<<<<<<< Updated upstream
-    "abstraccion":{
-      "keywords":[
-        "abstraccion",
-        "programacion",
-        "significa",
-        "explica",
-        "representa",
-        "orientada",
-        "objetos",
-        "como",
-        "funciona"
-      ],
-      "labels":["71"],
-      "subtopics":[]
-    },
-    "abstraction":{
-      "keywords":[
-        "abstraction",
-        "programming",
-        "mean",
-        "explain",
-        "represent",
-        "object",
-        "oriented"
-      ],
-      "labels":["72"],
-      "subtopics":[]
-    },
-    "polimorfismo":{
-      "keywords":[
-        "polimorfismo",
-        "programacion",
-        "orientada",
-        "objetos",
-        "significa",
-        "explica",
-        "concepto",
-        "representa",
-        "como",
-        "funciona"
-      ],
-      "labels":["73"],
-      "subtopics":[]
-    },
-    "polymorphism":{
-      "keywords":[
-        "polymorphism",
-        "object",
-        "oriented",
-        "programming",
-        "does",
-        "mean",
-        "explain",
-        "concept",
-        "represent",
-        "how",
-        "work"
-      ],
-      "labels":["74"],
-      "subtopics":[]
-    },
-    "getter":{
-      "keywords":[
-        "son",
-        "funciones",
-        "getter",
-        "programacion",
-        "explica",
-        "define",
-        "concepto",
-        "por que",
-        "utilizan",
-        "cual",
-        "proposito"
-      ],
-      "labels":["75"],
-      "subtopics":[]
-    },
-    "getter-en":{
-      "keywords":[
-        "are",
-        "getter",
-        "functions",
-        "programming",
-        "explain",
-        "define",
-        "concept",
-        "why",
-        "used",
-        "purpose"
-      ],
-      "labels":["76"],
-      "subtopics":[]
-    },
-    "setter":{
-      "keywords":[
-        "son",
-        "funciones",
-        "setter",
-        "programacion",
-        "explica",
-        "define",
-        "concepto",
-        "por que",
-        "utilizan",
-        "cual",
-        "proposito"
-      ],
-      "labels":["77"],
-      "subtopics":[]
-    },
-    "setter-en":{
-      "keywords":[
-        "are",
-        "setter",
-        "functions",
-        "programming",
-        "explain",
-        "define",
-        "concept",
-        "why",
-        "used",
-        "purpose"
-      ],
-      "labels":["78"],
-      "subtopics":[]
-    }
-
-      },
-      "relations": {
-        "saludos": ["estado", "despedida"],
-        "estado": ["saludos", "despedida", "agradecimiento"],
-        "despedida": ["agradecimiento"],
-        "agradecimiento": ["despedida"],
-        "sql": ["tipos", "tabla", "select", "where"],
-        "tipos": ["sql", "tabla"],
-        "tabla": ["tipos", "sql", "select", "where"],
-        "select": ["tabla", "where", "sql", "delete", "update"],
-        "where": ["select", "tabla", "sql", "delete", "update"],
-        "delete": ["select", "tabla", "sql","delete", "update"],
-        "update": ["select", "tabla", "sql","delete", "update"],
-        "hello":["estado-en","despedida-en"],
-        "estado-en":["despedida-en","agradecimiento-en"],
-        "despedida-en":["agradecimiento-en"],
-        "agradecimiento-en":["despedida-en"],
-        "python-basics-es": ["python-uses-es", "python-installation-es", "python-execution-es","python-control-flow-es", "python-loops-es"],
-        "python-basics-en": ["python-uses-en", "python-installation-en", "python-execution-en","python-control-flow-en", "python-loops-en"]
-      },
-      "keywords": {
-        "global": [
-          "por favor", "ok","si","no","bien","a","me","i","what","can","do","an","to","are","the","of","is","it","and","in","of","que","es","una","en","un","para"
-        ]
-      }
-}
-=======
     "ejemplo_busqueda_python": {
       "primary_keywords": ["ejemplo", "busqueda", "python"],
       "keywords": ["dame", "enseñame", "codigo", "busqueda", "python", "ejemplo", "ejemplifica"],
@@ -1109,4 +836,4 @@
     "clases_javascript":["programacion"]
   }
 }
->>>>>>> Stashed changes
+
