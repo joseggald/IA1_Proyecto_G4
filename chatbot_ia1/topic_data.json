@@ -779,6 +779,137 @@
       ],
       "labels":["63"],
       "subtopics":[]
+    },
+    "herencia_javascript":{
+      "primary_keywords":["herencia","javascript","definir","explicame","implementa","mostrarme"],
+      "keywords":[
+        "como",
+        "puedo",
+        "definir",
+        "explicame",
+        "define",
+        "dime",
+        "implementa",
+        "muestrame",
+        "puedes"
+      ],
+      "labels":["64"],
+      "subtopics":[]
+    },
+    "encapsulamiento_javascript":{
+      "primary_keywords":["encapsulamiento","javascript","asignar","implementar","explicarme","mostrarme","definir"],
+      "keywords":[
+        "como",
+        "puedo",
+        "asignar",
+        "dime",
+        "implementar",
+        "puedes",
+        "explicarme",
+        "mostrarme"
+      ],
+      "labels":["65"],
+      "subtopics":[]
+    },
+    "quicksort_javascript":{
+      "primary_keywords": ["quicksort", "javascript", "ejemplo","ordenamiento"],
+      "keywords": [
+        "dame",
+        "ordenamiento",
+        "explicame",
+        "como",
+        "implementar",
+        "puedes",
+        "explicarme",
+        "ejemplo",
+        "mostrarme"
+      ],
+      "labels": ["66"],
+      "subtopics": ["ordenamiento_quicksort"]
+    },
+    "burbuja_javascript": {
+      "primary_keywords": ["burbuja","javascript", "ordenamiento","ejemplo","explicarme","mostrarme","codigo","implementar","funciona"],
+      "keywords": [
+        "puedes",
+        "darme",
+        "ejemplo",
+        "ordenamiento",
+        "burbuja",
+        "javascript",
+        "explicarme",
+        "implementar",
+        "mostrarme",
+        "enseñame",
+        "funciona"
+      ],
+      "labels": ["67"],
+      "subtopics": ["ordenamiento_burbuja"]
+    },
+    "arboles_javascript":{
+      "primary_keywords":["arboles","javascript","ejemplo","codigo","algoritmo","arboles"],
+      "keywords":[
+        "puedes",
+        "darme",
+        "ejemplo",
+        "mostrarme",
+        "algoritmo",
+        "enseñame",
+        "codigo",
+        "explicame",
+        "muestrame",
+        "proporciona",
+        "uso"
+      ],
+      "labels":["68"],
+      "subtopics":["algoritmos_arboles"]
+    },
+    "grafos_javascript":{
+      "primary_keywords":["grafos","javascript","algoritmo","ejemplo","practico"],
+      "keywords":[
+        "puedes",
+        "darme",
+        "ejemplo",
+        "dame",
+        "grafos",
+        "practico",
+        "javascrippt",
+        "explicame",
+        "como",
+        "implementar",
+        "proporciona",
+        "realiza"
+      ],
+      "labels":["69"],
+      "subtopics":["algoritmos_grafos"]
+    },
+    "ordenamiento_javascript":{
+      "primary_keywords":["ordenamiento","algoritmos","javascript","ejemplo","implementar","implementan","mostrarme"],
+      "keywords":[
+        "podrias",
+        "enseñarme",
+        "enseñame",
+        "claro",
+        "como",
+        "muestrame",
+        "dame",
+        "puedes"
+      ],
+      "labels":["70"],
+      "subtopics":["algoritmos_ordenamiento"]
+    },
+    "busqueda_javascript":{
+      "primary_keywords":["busqueda","javascript","algoritmo","ejemplo","implementar"],
+      "keywords":[
+        "puedes",
+        "dame",
+        "ejemplo",
+        "explicame",
+        "como",
+        "proporciona",
+        "enseñame"
+      ],
+      "labels":["71"],
+      "subtopics":["algoritmos_busqueda"]
     }
   },
   "relations": {
@@ -805,6 +936,8 @@
       "clases_javascript",
       "objetos_javascript",
       "polimorfismo_javascript",
+      "herencia_javascript",
+      "encapsulamiento_javascript",
       "objetos_python", "python_basico", "python_instalacion", "python_ejecucion", "python_inicio", "lenguajes_disponibles", "lenguajes_populares", "lenguajes_ia","programacion_orientada_objetos", "algoritmos", "variables", "lenguajes_programacion", "condiciones_if", "ciclo_for", "ciclo_while", "ciclos", "funciones", "clases", "polimorfismo", "herencia", "encapsulamiento", "abstraccion","javascript_definicion","javascript_instalacion"],
     "algoritmos": ["programacion", "algoritmos_generales", "algoritmos_busqueda", "algoritmos_ordenamiento", "algoritmos_grafos", "algoritmos_arboles"],
     "programacion_orientada_objetos": ["clases", "objetos", "polimorfismo", "encapsulamiento", "abstraccion", "herencia"],
@@ -847,12 +980,12 @@
     "herencia_python": ["programacion", "programacion_orientada_objetos", "clases_python"],
     "encapsulamiento_python": ["programacion", "programacion_orientada_objetos"],
     "algoritmos_generales": ["programacion"],
-    "algoritmos_busqueda": ["algoritmos", "ejemplo_busqueda_python"],
-    "algoritmos_ordenamiento": ["algoritmos", "ordenamiento_burbuja", "ordenamiento_quicksort", "ejemplo_ordenamiento_python"],
-    "algoritmos_grafos": ["algoritmos", "ejemplo_grafos_python"],
-    "algoritmos_arboles": ["algoritmos", "ejemplo_arboles_python"],
-    "ordenamiento_burbuja": ["algoritmos_ordenamiento", "ejemplo_burbuja_python"],
-    "ordenamiento_quicksort": ["algoritmos_ordenamiento", "ejemplo_quicksort_python"],
+    "algoritmos_busqueda": ["algoritmos", "ejemplo_busqueda_python","busqueda_javascript"],
+    "algoritmos_ordenamiento": ["algoritmos", "ordenamiento_burbuja", "ordenamiento_quicksort", "ejemplo_ordenamiento_python","ordenamiento_javascript"],
+    "algoritmos_grafos": ["algoritmos", "ejemplo_grafos_python","grafos_javascript"],
+    "algoritmos_arboles": ["algoritmos", "ejemplo_arboles_python","arboles_javascript"],
+    "ordenamiento_burbuja": ["algoritmos_ordenamiento", "ejemplo_burbuja_python","burbuja_javascript"],
+    "ordenamiento_quicksort": ["algoritmos_ordenamiento", "ejemplo_quicksort_python","quicksort_javascript"],
     "ejemplo_quicksort_python": ["ordenamiento_quicksort"],
     "ejemplo_burbuja_python": ["ordenamiento_burbuja"],
     "ejemplo_arboles_python": ["algoritmos_arboles"],
@@ -869,7 +1002,15 @@
     "funciones_javascript":["programacion"],
     "clases_javascript":["programacion"],
     "objetos_javascript":["programacion"],
-    "polimorfismo_javascript":["programacion"]
+    "polimorfismo_javascript":["programacion"],
+    "herencia_javascript":["programacion"],
+    "encapsulamiento_javascript":["programacion"],
+    "quicksort_javascript":["ordenamiento_quicksort"],
+    "burbuja_javascript":["ordenamiento_burbuja"],
+    "arboles_javascript":["algoritmos_arboles"],
+    "grafos_javascript":["algoritmos_grafos"],
+    "ordenamiento_javascript":["algoritmos_ordenamiento"],
+    "busqueda_javascript":["algoritmos_busqueda"]
   }
 }
 
