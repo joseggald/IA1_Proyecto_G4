@@ -437,6 +437,65 @@
   { "input": "Explícame cómo implementar un algoritmo de búsqueda en JavaScript con un ejemplo", "label": 71 },
   { "input": "Proporciona un ejemplo de un algoritmo de búsqueda en JavaScript", "label": 71 },
   { "input": "Enséñame un ejemplo de un algoritmo de búsqueda en JavaScript", "label": 71 },
-  { "input": "¿Puedes darme un ejemplo de un algoritmo de búsqueda en JavaScript?", "label": 71 }
+  { "input": "¿Puedes darme un ejemplo de un algoritmo de búsqueda en JavaScript?", "label": 71 },
+
+  { "input": "Puedes darme el codigo para la funcion suma en python", "label": 72 },
+  { "input": "Enséñame el código para crear la función suma en Python", "label": 72 },
+  { "input": "Muéstrame el codigo de la función suma en Python", "label": 72 },
+  { "input": "Quiero ver el código para la funcion suma en Python", "label": 72 },
+  { "input": "Proporciona el código para la función suma en Python", "label": 72 },
+
+  { "input": "Puedes darme el codigo que realiza la suma en la funcion suma en python", "label": 73 },
+  { "input": "Enséñame el código que hace la suma en la función suma en Python", "label": 73 },
+  { "input": "Proporciona el código que realiza la suma en la función suma en Python", "label": 73 },
+  { "input": "Muéstrame el codigo que hace la suma dentro de la función suma en Python", "label": 73 },
+  { "input": "Dame la linea de codigo que realiza la suma en la funcion suma en python", "label": 73 },
+
+  { "input": "Puedes mostrarme como se hace la lectura de los numeros que recibe la funcion suma en python", "label":74 },
+  { "input": "Muéstrame cómo realizar la lectura de datos que recibe la función suma en Python", "label": 74 },
+  { "input": "Quiero ver cómo se leen los valores en el ejemplo de la función suma en Python", "label": 74 },
+  { "input": "Podrias mostrarme la lectura de valores del ejemplo de la funcion suma en python", "label": 74 },
+  { "input": "Enseñame las lineas de codigo que hacen la lectura de valores en el ejemplo de la funcion suma en python", "label": 74 },
+
+  { "input": "Muestrame la linea de codigo que llama a la funcion suma en python", "label":75 },
+  { "input": "Puedes darme el codigo que realiza la llamada de la funcion suma en python", "label": 75 },
+  { "input": "Enseñame la linea de codigo que realiza la llamada de la funcion suma en python", "label": 75 },
+  { "input": "Proporciona la linea de codigo que hace la llamada de la funcion suma en python", "label": 75 },
+  { "input": "Dame la linea de codigo que llama a la funcion suma en python", "label": 75 },
+
+  { "input": "Quiero ver la linea de codigo que muestra el resultado de la funcion suma en python", "label":76 },
+  { "input": "¿Cómo se muestra el resultado de la función suma en Python?", "label": 76 },
+  { "input": "Muéstrame la línea que imprime el resultado de suma en Python", "label": 76 },
+  { "input": "Dame el código para mostrar el resultado de la función suma en Python", "label": 76 },
+  { "input": "Explícame cómo se imprime el resultado de la función suma en Python", "label": 76 },
+  { "input": "¿Cuál es la línea de código que imprime el resultado de suma en Python?", "label": 76 },
+
+  { "input": "Podrias mostarme el while en el ejemplo del numero secreto en python", "label": 77},
+  { "input": "muestrame el bucle while usado en el programa del número secreto en python", "label": 77 },
+  { "input": "Quiero ver el código con el while en el ejemplo del número secreto en python", "label": 77 },
+  { "input": "Enséñame el while en el ejemplo del número secreto en python", "label": 77 },
+  { "input": "Puedes darme el codigo del while en el ejemplo del numero secreto en python", "label": 77 },
+
+  { "input": "Muestrame el codigo con el if en el ejemplo del numero secreto en python", "label": 78 },
+  { "input": "Enseñame el condicional if del ejemplo del numero secreto en python", "label": 78 },
+  { "input": "Podrias mostrarme el codigo del if en el ejemplo del numero secreto en python", "label": 78 },
+  { "input": "Dame las lineas de codigo del condicional if en el ejemplo del numero secreto en python", "label": 78 },
+  { "input": "Quiero ver el codigo del if del ejemplo del numero secreto en python", "label": 78 },
+
+  { "input": "Muestrame la definicion del dataclass para el ejemplo de constantes en python", "label": 79 },
+  { "input": "Podrias enseñarme el codigo del ejemplo que define el dataclass para constantes en python", "label": 79 },
+  { "input": "Enseñame el codigo del ejemplo que crea el dataclass para constantes en python", "label": 79 },
+  { "input": "Quiero ver la definicion del dataclass para el ejemplo de constantes en python", "label": 79 },
+
+  { "input": "Muestrame el constructor de la clase persona en python", "label": 80 },
+  { "input": "¿Puedes mostrarme el constructor de la clase Persona en Python?", "label": 80 },
+  { "input": "Quiero ver cómo se define un constructor para la clase Persona en Python", "label": 80 },
+  { "input": "Proporciona el constructor de la clase Persona en Python", "label": 80 },
+  { "input": "Enséñame cómo se escribe el constructor de la clase Persona en Python", "label": 80 },
+
+  { "input": "Puedes enseñarme el codigo del metodo saludar de la clase Persona en python", "label": 81},
+  { "input": "Enséñame el código para el método saludar de la clase Persona en Python", "label": 81 },
+  { "input": "Muestra el código del método saludar de la clase Persona en Python", "label": 81 },
+  { "input": "Quiero ver cómo se implementa el metodo saludar en la clase Persona en Python", "label": 81 }
 
 ]

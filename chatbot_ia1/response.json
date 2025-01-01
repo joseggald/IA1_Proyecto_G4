@@ -410,6 +410,56 @@
     "### Búsqueda lineal:\n```javascript\nfunction busquedaLineal(arr, objetivo) {\n    for (let i = 0; i < arr.length; i++) {\n        if (arr[i] === objetivo) {\n            return i;\n        }\n    }\n    return -1;\n}\n\nconst numeros = [10, 20, 30, 40, 50];\nconsole.log(busquedaLineal(numeros, 30));\n```",
     "### Búsqueda binaria:\n```javascript\nfunction busquedaBinaria(arr, objetivo) {\n    let inicio = 0;\n    let fin = arr.length - 1;\n\n    while (inicio <= fin) {\n        const medio = Math.floor((inicio + fin) / 2);\n\n        if (arr[medio] === objetivo) {\n            return medio;\n        } else if (arr[medio] < objetivo) {\n            inicio = medio + 1;\n        } else {\n            fin = medio - 1;\n        }\n    }\n\n    return -1;\n}\n\nconst numeros = [10, 20, 30, 40, 50];\nconsole.log(busquedaBinaria(numeros, 40));\n```",
     "### Búsqueda secuencial con elementos no numéricos:\n```javascript\nfunction busquedaSecuencial(arr, objetivo) {\n    for (let i = 0; i < arr.length; i++) {\n        if (arr[i] === objetivo) {\n            return i;\n        }\n    }\n    return -1;\n}\n\nconst palabras = ['manzana', 'banana', 'cereza', 'durazno'];\nconsole.log(busquedaSecuencial(palabras, 'cereza'));\n```"
+  ],
+  "72": [
+    "Aqui tienes la definicion de la funcion suma en python:\ndef suma(a, b):\n\treturn a + b",
+    "Aqui tienes el codigo de la funcion suma en python:\ndef suma(a, b):\n\treturn a + b",
+    "Claro, Aqui tienes el codigo de la funcion suma en python:\ndef suma(a, b):\n\treturn a + b"
+  ],
+  "73":[
+    "Aqui tienes el calculo de la sum en la funcion suma en python:\nreturn a + b",
+    "Aqui tienes el codigo que hace la suma dentro de la funcion suma en python:\nreturn a + b",
+    "Claro, Aqui tienes el codigo que realiza la suma en la funcion suma en python:\nreturn a + b"
+  ],
+  "74":[
+    "Aqui estan las lecturas de valores del codigo del ejemplo de la funcion suma en python:\nnum1 = int(input('Ingresa el primer número: '))\nnum2 = int(input('Ingresa el segundo número: '))",
+    "Aqui tienes las lineas de codigo que hace la lectura de valores para el ejemplo de la funcion suma en python:\nnum1 = int(input('Ingresa el primer número: '))\nnum2 = int(input('Ingresa el segundo número: '))",
+    "Aqui tienes las lecturas de valores del ejemplo de la funcion suma en python:\nnum1 = int(input('Ingresa el primer número: '))\nnum2 = int(input('Ingresa el segundo número: '))"
+  ],
+  "75":[
+    "Aqui tienes el codigo que hace la llamada de la funcion suma en python:\nresultado = suma(num1, num2)",
+    "Aqui tienes la linea de codigo que llama a la funcion suma en python:\nresultado = suma(num1, num2)",
+    "Claro, aqui estan el codigo que hace la llamada a la funcion suma en python:\nresultado = suma(num1, num2)"
+  ],
+  "76":[
+    "Claro, aqui tienes el codigo que muestra el resultado de la funcion suma en python:\nprint(f'El resultado de la suma es: {resultado}')",
+    "Aqui tienes la linea de codigo que muestra el resultado de la funcion suma en python:\nprint(f'El resultado de la suma es: {resultado}')",
+    "Aqui esta la linea de codigo que muestra el resultado de la funcion suma en python:\nprint(f'El resultado de la suma es: {resultado}')"
+  ],
+  "77":[
+    "Claro, aqui tienes el while del ejemplo del numero secreto en python:\nwhile True:\n\tintento = int(input('Ingresa tu número: '))\n\tintentos += 1\n\tif intento == numero_secreto:\n\t\tprint(f'¡Felicidades! Adivinaste en {intentos} intentos.')\n\t\tbreak\n\telif intento < numero_secreto:\n\t\tprint('El número es mayor. Intenta nuevamente.')\n\telse:\n\t\tprint('El número es menor. Intenta nuevamente.')",
+    "Aqui tienes el codigo del while en el ejemplo del numero secreto en python:\nwhile True:\n\tintento = int(input('Ingresa tu número: '))\n\tintentos += 1\n\tif intento == numero_secreto:\n\t\tprint(f'¡Felicidades! Adivinaste en {intentos} intentos.')\n\t\tbreak\n\telif intento < numero_secreto:\n\t\tprint('El número es mayor. Intenta nuevamente.')\n\telse:\n\t\tprint('El número es menor. Intenta nuevamente.')",
+    "A continuacion te muestro el codigo del while en el ejemplo del numero secreto en python:\nwhile True:\n\tintento = int(input('Ingresa tu número: '))\n\tintentos += 1\n\tif intento == numero_secreto:\n\t\tprint(f'¡Felicidades! Adivinaste en {intentos} intentos.')\n\t\tbreak\n\telif intento < numero_secreto:\n\t\tprint('El número es mayor. Intenta nuevamente.')\n\telse:\n\t\tprint('El número es menor. Intenta nuevamente.')"
+  ],
+  "78":[
+    "Aqui tienes el codigo del if que se encuentra en el ejemplo del numero secreto en python:\nif intento == numero_secreto:\n\tprint(f'¡Felicidades! Adivinaste en {intentos} intentos.')\n\tbreak\nelif intento < numero_secreto:\n\tprint('El número es mayor. Intenta nuevamente.')\nelse:\n\tprint('El número es menor. Intenta nuevamente.')",
+    "Claro, aqui esta el if del ejemplo del numero secreto en python:\nif intento == numero_secreto:\n\tprint(f'¡Felicidades! Adivinaste en {intentos} intentos.')\n\tbreak\nelif intento < numero_secreto:\n\tprint('El número es mayor. Intenta nuevamente.')\nelse:\n\tprint('El número es menor. Intenta nuevamente.')",
+    "Claro, a continuacion te muestro el codigo del if que se encuentra en el ejemplo del numero secreto en python:\nif intento == numero_secreto:\n\tprint(f'¡Felicidades! Adivinaste en {intentos} intentos.')\n\tbreak\nelif intento < numero_secreto:\n\tprint('El número es mayor. Intenta nuevamente.')\nelse:\n\tprint('El número es menor. Intenta nuevamente.')"
+  ],
+  "79":[
+    "Aqui tienes el ejemplo del uso de dataclass para crear constantes en python:\n@dataclass(frozen=True)\nclass Constantes:\n\tPI: float = 3.14159\n\tE: float = 2.71828",
+    "Claro, aqui esta el codigo del ejemplo de dataclass para constantes en python:\n@dataclass(frozen=True)\nclass Constantes:\n\tPI: float = 3.14159\n\tE: float = 2.71828",
+    "Aqui esta el codigo del ejemplo que crea un dataclass para crear constantes en python:\n@dataclass(frozen=True)\nclass Constantes:\n\tPI: float = 3.14159\n\tE: float = 2.71828"
+  ],
+  "80":[
+    "Claro, aqui tienes el constructor de la clase Persona en python:\ndef __init__(self, nombre, edad):\n\tself.nombre = nombre\n\tself.edad = edad",
+    "Aqui tienes el codigo del constructor de la clase Persona en python:\ndef __init__(self, nombre, edad):\n\tself.nombre = nombre\n\tself.edad = edad",
+    "Claro, a continuacion te muestro el constructor de la clase Persona en python:\ndef __init__(self, nombre, edad):\n\tself.nombre = nombre\n\tself.edad = edad"
+  ],
+  "81":[
+    "Aqui tienes el codigo del metodo saludar de la clase persona en python:\ndef saludar(self):\n\tprint(f'Hola, soy {self.nombre}')",
+    "Claro, aqui esta la definicion del metodo saludar de la clase Persona en python:\ndef saludar(self):\n\tprint(f'Hola, soy {self.nombre}')",
+    "Claro, a continuacion te muestro el metodo saludar de la clase Persona en python:\ndef saludar(self):\n\tprint(f'Hola, soy {self.nombre}')"
   ]
 
 }
