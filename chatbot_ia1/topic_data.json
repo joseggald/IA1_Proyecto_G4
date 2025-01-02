@@ -1065,6 +1065,141 @@
       ],
       "labels":["81"],
       "subtopics":[]
+    },
+    "instancia_persona_python":{
+      "primary_keywords":["python","persona","clase","instancia","linea","codigo","nueva","crea","crear"],
+      "keywords":[
+        "muestrame",
+        "muestra",
+        "dame",
+        "para"
+      ],
+      "labels":["82"],
+      "subtopics":[]
+    },
+    "constructor_animal_python":{
+      "primary_keywords":["python","animal","clase","constructor","escribe"],
+      "keywords":[
+        "puedes",
+        "enseñarme",
+        "muestrame",
+        "mostrarme",
+        "proporciona",
+        "enseñame"
+      ],
+      "labels":["83"],
+      "subtopics":[]
+    },
+    "constructor_perro_python":{
+      "primary_keywords":["python","clase","perro","constructor","ver","define"],
+      "keywords":[
+        "muestrame",
+        "quiero",
+        "ver",
+        "como",
+        "dame",
+        "escribe",
+        "enseñame",
+        "proporciona"
+      ],
+      "labels":["84"],
+      "subtopics":[]
+    },
+    "if_quicksort_basico_python":{
+      "primary_keywords":["algoritmo","quiksort","basico","python","if","codigo","escribe","optimizado"],
+      "keywords":[
+        "muestrame",
+        "puedes",
+        "mostrarme",
+        "quiero",
+        "ver",
+        "muestrame",
+        "proporciona"
+      ],
+      "labels":["85"],
+      "subtopics":["ordenamiento_quicksort"]
+    },
+    "pivote_quicksort_basico_python":{
+      "primary_keywords":["algoritmo","quicksort","basico","python","pivote","define","asigna","codigo"],
+      "keywords":[
+        "muestrame",
+        "puedes",
+        "mostrarme",
+        "enseñame",
+        "como",
+        "quiero",
+        "ver",
+        "muestra"
+      ],
+      "labels":["86"],
+      "subtopics":["ordenamiento_quicksort"]
+    },
+    "sublistas_quicksort_basico_python":{
+      "primary_keywords":["algoritmo","quicksort","basico","python","sublistas","divide","arreglo","lineas","codigo","separan"],
+      "keywords":[
+        "muestra",
+        "muestrame",
+        "puedes",
+        "mostrar",
+        "quiero",
+        "ver"
+      ],
+      "labels":["87"],
+      "subtopics":["ordenamiento_quicksort"]
+    },
+    "return_quicksort_basico_python":{
+      "primary_keywords":["algoritmo","quicksort","basico","python","return"],
+      "keywords":[
+        "muestrame",
+        "puedes",
+        "mostrarme",
+        "proporciona",
+        "enseñame"
+      ],
+      "labels":["88"],
+      "subtopics":["ordenamiento_quicksort"]
+    },
+    "pivote_quicksort_optimizado_python":{
+      "primary_keywords":["algoritmo","quicksort","optimizado","python","pivote","define","asigna","codigo"],
+      "keywords":[
+        "muestrame",
+        "puedes",
+        "mostrarme",
+        "enseñame",
+        "como",
+        "quiero",
+        "ver",
+        "muestra"
+      ],
+      "labels":["89"],
+      "subtopics":["ordenamiento_quicksort"]
+    },
+    "sublistas_quicksort_optimizado_python":{
+      "primary_keywords":["algoritmo","quicksort","optimizado","python","sublistas","divide","arreglo"],
+      "keywords":[
+        "muestra",
+        "muestrame",
+        "puedes",
+        "mostrar",
+        "quiero",
+        "ver"
+      ],
+      "labels":["90"],
+      "subtopics":["ordenamiento_quicksort"]
+    },
+    "return_quicksort_optimizado_python":{
+      "primary_keywords":["algoritmo","quicksort","optimizado","python","return","enseñarme","mostrame"],
+      "keywords":[
+        "podrias",
+        "enseñarme",
+        "puedes",
+        "mostrarme",
+        "proporciona",
+        "quiero",
+        "ver"
+      ],
+      "labels":["91"],
+      "subtopics":["ordenamiento_quicksort"]
     }
   },
   "relations": {
@@ -1140,7 +1275,7 @@
     "algoritmos_grafos": ["algoritmos", "ejemplo_grafos_python","grafos_javascript"],
     "algoritmos_arboles": ["algoritmos", "ejemplo_arboles_python","arboles_javascript"],
     "ordenamiento_burbuja": ["algoritmos_ordenamiento", "ejemplo_burbuja_python","burbuja_javascript"],
-    "ordenamiento_quicksort": ["algoritmos_ordenamiento", "ejemplo_quicksort_python","quicksort_javascript"],
+    "ordenamiento_quicksort": ["algoritmos_ordenamiento", "ejemplo_quicksort_python","quicksort_javascript","if_quicksort_basico_python","pivote_quicksort_basico_python","sublistas_quicksort_basico_python","return_quicksort_basico_python","pivote_quicksort_optimizado_python","sublistas_quicksort_optimizado_python","return_quicksort_optimizado_python"],
     "ejemplo_quicksort_python": ["ordenamiento_quicksort"],
     "ejemplo_burbuja_python": ["ordenamiento_burbuja"],
     "ejemplo_arboles_python": ["algoritmos_arboles"],
@@ -1175,7 +1310,17 @@
     "if_numero_secreto_python":[],
     "dataclass_python":[],
     "constructor_persona_python":[],
-    "metodo_persona_python":[]
+    "metodo_persona_python":[],
+    "instancia_persona_python":[],
+    "constructor_animal_python":[],
+    "constructor_perro_python":[],
+    "if_quicksort_basico_python":["ordenamiento_quicksort"],
+    "pivote_quicksort_basico_python":["ordenamiento_quicksort"],
+    "sublistas_quicksort_basico_python":["ordenamiento_quicksort"],
+    "return_quicksort_basico_python":["ordenamiento_quicksort"],
+    "pivote_quicksort_optimizado_python":["ordenamiento_quicksort"],
+    "sublistas_quicksort_optimizado_python":["ordenamiento_quicksort"],
+    "return_quicksort_optimizado_python":["ordenamiento_quicksort"]
   }
 }
 

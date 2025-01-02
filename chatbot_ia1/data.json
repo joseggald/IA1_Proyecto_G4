@@ -496,6 +496,61 @@
   { "input": "Puedes enseñarme el codigo del metodo saludar de la clase Persona en python", "label": 81},
   { "input": "Enséñame el código para el método saludar de la clase Persona en Python", "label": 81 },
   { "input": "Muestra el código del método saludar de la clase Persona en Python", "label": 81 },
-  { "input": "Quiero ver cómo se implementa el metodo saludar en la clase Persona en Python", "label": 81 }
+  { "input": "Quiero ver cómo se implementa el metodo saludar en la clase Persona en Python", "label": 81 },
+
+  { "input": "Muestrame la linea de codigo que crea una nueva instancia de la clase persona en python", "label": 82 },
+  { "input": "Muestra la línea de código para crear una nueva instancia de Persona en Python", "label": 82 },
+  { "input": "Dame el código para crear una instancia de la clase Persona en Python", "label": 82 },
+  { "input": "Muéstrame el codigo que crea la nueva instancia de la clase Persona en Python", "label": 82 },
+
+  { "input": "Puedes enseñarme el constructor de la clase animal en python", "label": 83},
+  { "input": "Muestrame el constructor de la clase animal en python", "label": 83 },
+  { "input": "¿Puedes mostrarme el constructor de la clase animal en Python?", "label": 83 },
+  { "input": "Proporciona el constructor de la clase animal en Python", "label": 83 },
+  { "input": "Enséñame cómo se escribe el constructor de la clase animal en Python", "label": 83 },
+
+  { "input": "Muestrame el constructor de la clase perro en python", "label": 84 }, 
+  { "input": "Quiero ver cómo se define el constructor de Perro en Python", "label": 84 },
+  { "input": "Dame el codigo de cómo se escribe el constructor para la clase Perro en Python", "label": 84 },
+  { "input": "Enséñame cómo se define el constructor de la clase Perro en Python", "label": 84 },
+  { "input": "Proporciona el constructor de la clase perro en Python", "label": 84 },
+
+  { "input": "muestrame el if del algoritmo quicksort basico en python", "label": 85 },
+  { "input": "Puedes mostrarme el codigo del if del algoritmo quicksor basico en python", "label": 85 },
+  { "input": "Quiero ver el if del algoritmo quicksort basico en python", "label": 85 },
+  { "input": "Muestrame el codigo del if del algoritmo quicksort basico en python", "label": 85 },
+  { "input": "Proporciona el if del algoritmo quicksort basico en python", "label": 85 },
+
+  { "input": "Muestrame el codigo que asigna el pivote del algoritmo quicksort basico en python", "label": 86 },
+  { "input": "¿Puedes mostrarme el código que asigna el pivote en el algoritmo quicksort básico en Python?", "label": 86 },
+  { "input": "Enséñame cómo se asigna el pivote en el algoritmo básico de quicksort en Python", "label": 86 },
+  { "input": "Quiero ver el código que define el pivote en un quicksort básico en Python", "label": 86 },
+  { "input": "Muestra la línea de código que asigna el pivote en el quicksort basico en Python", "label": 86 },
+
+  { "input": "Muestra las lineas de codigo que separan el arreglo en dos sublistas en el algoritmo quicksort basico en python", "label": 87},
+  { "input": "Muéstrame el código que divide el arreglo en dos partes en quicksort básico en Python", "label": 87 },
+  { "input": "¿Puedes mostrar las líneas de código que separan el arreglo en dos sublistas en el algoritmo quicksort basico en Python?", "label": 87 },
+  { "input": "Quiero ver el código que divide un arreglo en sublistas para el algoritmo quicksort basico en Python", "label": 87 },
+
+  { "input": "Muestrame el return del algoritmo quicksort basico en python", "label": 88 },
+  { "input": "Puedes mostrarme el return del algoritmo quicksort basico en python", "label": 88},
+  { "input": "Proporciona el return del algoritmo quicksort basico en python", "label": 88},
+  { "input": "Enseñame el return del algoritmo quicksort basico en python", "label": 88},
+
+  { "input": "Muestrame el codigo que asigna el pivote del algoritmo quicksort optimizado en python", "label": 89 },
+  { "input": "¿Puedes mostrarme el código que asigna el pivote en el algoritmo quicksort optimizado en Python?", "label": 89 },
+  { "input": "Enséñame cómo se asigna el pivote en el algoritmo optimizado de quicksort en Python", "label": 89 },
+  { "input": "Quiero ver el código que define el pivote en un quicksort optimizado en Python", "label": 89 },
+  { "input": "Muestra la línea de código que asigna el pivote en un quicksort optimizado en Python", "label": 89 },
+
+  { "input": "Muestra las lineas de codigo que separan el arreglo en tres sublistas en el algoritmo quicksort optimizado en python", "label": 90 },
+  { "input": "Muéstrame el código que divide el arreglo en tres partes en quicksort optimizado en Python", "label": 90 },
+  { "input": "¿Puedes mostrar las líneas de código que separan el arreglo en tres sublistas en el algoritmo quicksort optimizado en Python?", "label": 90 },
+  { "input": "Quiero ver el código que divide un arreglo en sublistas para el algoritmo quicksort optimizado en Python", "label": 90 },
+
+  { "input": "Podrias enseñarme el return del algoritmo quicksort optimizado en python", "label": 91 },
+  { "input": "Puedes mostrarme el return del algoritmo quicksort optimizado en python", "label": 91 },
+  { "input": "Proporciona el return del algoritmo quicksort optimizado en python", "label": 91 },
+  { "input": "Quiero ver el return del algoritmo quicksort optimizado en python", "label": 91 }
 
 ]
