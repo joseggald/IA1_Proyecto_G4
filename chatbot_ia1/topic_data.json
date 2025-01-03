@@ -1324,6 +1324,143 @@
           "keywords": ["algoritmo", "código", "enseñarme", "muestrame"],
           "labels": ["111"],
           "subtopics": []
+        },
+        "funcion_quicksort_indices_explicitos_python":{
+          "primary_keywords":["algoritmo","quicksort","indices","explicitos","funcion","python","codigo"],
+          "keywords":[
+            "muestrame",
+            "utiliza",
+            "como",
+            "define",
+            "quiero",
+            "ver",
+            "puedes",
+            "mostrarme"
+          ],
+          "labels":["118"],
+          "subtopics":["ordenamiento_quicksort"]
+        },
+        "if_quicksort_indices_explicitos_python":{
+          "primary_keywords":["algoritmo","quicksort","indices","explicitos","if","python","codigo"],
+          "keywords":[
+            "puedes",
+            "mostrarme",
+            "muestrame",
+            "quiero",
+            "ver",
+            "muestrame",
+            "proporciona"
+          ],
+          "labels":["119"],
+          "subtopics":["ordenamiento_quicksort"]
+        },
+        "funcion_particion_indices_explicitos_python":{
+          "primary_keywords":["funcion","particion","algoritmo","indices","explicitos","python"],
+          "keywords":[
+            "podrias",
+            "darme",
+            "codigo",
+            "enseñame",
+            "puedes",
+            "proporcionarme",
+            "dame"
+          ],
+          "labels":["120"],
+          "subtopics":["ordenamiento_quicksort"]
+        },
+        "pivote_particion_indices_explicitos_python":{
+          "primary_keywords":["pivote","asigna","selecciona","elige","algoritmo","indices","explicitos","codigo","funcion","particion"],
+          "keywords":[
+            "Muestrame",
+            "linea",
+            "dame",
+            "puedes",
+            "mostrarme",
+            "enseñame"
+          ],
+          "labels":["121"],
+          "subtopics":["ordenamiento_quicksort"]
+        },
+        "for_indices_explicitos_python":{
+          "primary_keywords":["for","funcion","particion","algoritmo","quicksort","indices","explicitos","python","codigo"],
+          "keywords":[
+            "dame",
+            "puedes",
+            "darme",
+            "muestrame",
+            "enseñame"
+          ],
+          "labels":["122"],
+          "subtopics":["ordenamiento_quicksort"]
+        },
+        "if_particion_indices_explicitos_python":{
+          "primary_keywords":["if","funcion","particion","algoritmo","quicksort","indices","explicitos","python","codigo"],
+          "keywords":[
+            "dame",
+            "puedes",
+            "darme",
+            "proporcionar",
+            "podrias",
+            "mostrarme"
+          ],
+          "labels":["123"],
+          "subtopics":["ordenamiento_quicksort"]
+        },
+        "intercambio_particion_indices_explicitos_python":{
+          "primary_keywords":["intercambia","pivote","funcion","particion","algoritmo","quicksort","indices","explicitos","python"],
+          "keywords":[
+            "muestrame",
+            "linea",
+            "codigo",
+            "como",
+            "podrias",
+            "mostrarme"
+          ],
+          "labels":["124"],
+          "subtopics":["ordenamiento_quicksort"]
+        },
+        "clase_nodo_arboles_python":{
+          "primary_keywords":["arbol","binario","clase","nodo","python","algoritmo"],
+          "keywords":[
+            "Muestrame",
+            "dame",
+            "codigo",
+            "quiero",
+            "ver",
+            "puedes",
+            "mostrarme"
+          ],
+          "labels":["125"],
+          "subtopics":["algoritmos_arboles"]
+        },
+        "constructor_nodo_python":{
+          "primary_keywords":["arboles","algoritmo","constructor","nodo","clase","python"],
+          "keywords":[
+            "enseñame",
+            "muestra",
+            "quiero",
+            "ver",
+            "puedes",
+            "mostrarme"
+          ],
+          "labels":["126"],
+          "subtopics":["algoritmos_arboles"]
+        },
+        "inorden_arboles_python":{
+          "primary_keywords":["arboles","algoritmo","python","metodo","inorden"],
+          "keywords":[
+            "muestrame",
+            "puedes",
+            "mostrarme",
+            "quiero",
+            "ver",
+            "enseñame",
+            "como",
+            "implementa",
+            "escribe"
+          ],
+          "labels":["127"],
+          "subtopics":["algoritmos_arboles"]
         }
 
 
@@ -1400,9 +1537,9 @@
     "algoritmos_busqueda": ["algoritmos", "ejemplo_busqueda_python","busqueda_javascript"],
     "algoritmos_ordenamiento": ["algoritmos", "ordenamiento_burbuja", "ordenamiento_quicksort", "ejemplo_ordenamiento_python","ordenamiento_javascript"],
     "algoritmos_grafos": ["algoritmos", "ejemplo_grafos_python","grafos_javascript"],
-    "algoritmos_arboles": ["algoritmos", "ejemplo_arboles_python","arboles_javascript"],
+    "algoritmos_arboles": ["algoritmos", "ejemplo_arboles_python","arboles_javascript","clase_nodo_arboles_python","constructor_nodo_python","inorden_arboles_python"],
     "ordenamiento_burbuja": ["algoritmos_ordenamiento", "ejemplo_burbuja_python","burbuja_javascript"],
-    "ordenamiento_quicksort": ["algoritmos_ordenamiento", "ejemplo_quicksort_python","quicksort_javascript","if_quicksort_basico_python","pivote_quicksort_basico_python","sublistas_quicksort_basico_python","return_quicksort_basico_python","pivote_quicksort_optimizado_python","sublistas_quicksort_optimizado_python","return_quicksort_optimizado_python"],
+    "ordenamiento_quicksort": ["algoritmos_ordenamiento", "ejemplo_quicksort_python","quicksort_javascript","if_quicksort_basico_python","pivote_quicksort_basico_python","sublistas_quicksort_basico_python","return_quicksort_basico_python","pivote_quicksort_optimizado_python","sublistas_quicksort_optimizado_python","return_quicksort_optimizado_python","funcion_quicksort_indices_explicitos_python","if_quicksort_indices_explicitos_python","funcion_particion_indices_explicitos_python","pivote_particion_indices_explicitos_python","for_indices_explicitos_python","if_particion_indices_explicitos_python","intercambio_particion_indices_explicitos_python"],
     "ejemplo_quicksort_python": ["ordenamiento_quicksort"],
     "ejemplo_burbuja_python": ["ordenamiento_burbuja"],
     "ejemplo_arboles_python": ["algoritmos_arboles"],
@@ -1447,7 +1584,17 @@
     "return_quicksort_basico_python":["ordenamiento_quicksort"],
     "pivote_quicksort_optimizado_python":["ordenamiento_quicksort"],
     "sublistas_quicksort_optimizado_python":["ordenamiento_quicksort"],
-    "return_quicksort_optimizado_python":["ordenamiento_quicksort"]
+    "return_quicksort_optimizado_python":["ordenamiento_quicksort"],
+    "funcion_quicksort_indices_explicitos_python":["ordenamiento_quicksort"],
+    "if_quicksort_indices_explicitos_python":["ordenamiento_quicksort"],
+    "division_quicksort_indices_explicitos_python":["ordenamiento_quicksort"],
+    "funcion_particion_indices_explicitos_python":["ordenamiento_quicksort"],
+    "pivote_particion_indices_explicitos_python":["ordenamiento_quicksort"],
+    "for_indices_explicitos_python":["ordenamiento_quicksort"],
+    "if_particion_indices_explicitos_python":["ordenamiento_quicksort"],
+    "intercambio_particion_indices_explicitos_python":["ordenamiento_quicksort"],
+    "clase_nodo_arboles_python":["algoritmos_arboles"],
+    "constructor_nodo_python":["algoritmos_arboles"],
+    "inorden_arboles_python":["algoritmos_arboles"]
   }
 }
-

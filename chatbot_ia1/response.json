@@ -495,14 +495,14 @@
     "Aqui tienes el codigo del return del algoritmo quicksort basico en python:\nreturn quicksort(menores) + [pivote] + quicksort(mayores)#Este return llama recursivamente a la funcion para ordenar las listas y unirlas"
   ],
   "89": [
-    "Aqui tienes la asignacion del pivote del algoritmo quicksort basico en python:\npivote = arr[len(arr) // 2]",
-    "Claro, aqui esta el codigo que asigna el pivote del algoritmo quicksort basico en python:\npivote = arr[len(arr) // 2]",
-    "Aqui esta la asignacion del pivote del algoritmo quicksort basico en python:\npivote = arr[len(arr) // 2]"
+    "Aqui tienes la asignacion del pivote del algoritmo quicksort optimizado en python:\npivote = arr[len(arr) // 2]",
+    "Claro, aqui esta el codigo que asigna el pivote del algoritmo optimizado basico en python:\npivote = arr[len(arr) // 2]",
+    "Aqui esta la asignacion del pivote del algoritmo quicksort optimizado en python:\npivote = arr[len(arr) // 2]"
   ],
   "90": [
-    "Claro, aqui tienes la division de la lista en el algoritmo quicksort basico en python:\nizquierda = [x for x in arr if x < pivote]#en esta lista se guardan los valores menores que el pivote\niguales = [x for x in arr if x == pivote]#en esta lista se guardan los valores iguales al pivote\nderecha = [x for x in arr if x > pivote]#en esta lista se guardan los valores que son mayores que el pivote",
-    "Aqui esta el codigo que divide la lista en el algoritmo quicksort basico en python:\nizquierda = [x for x in arr if x < pivote]#en esta lista se guardan los valores menores que el pivote\niguales = [x for x in arr if x == pivote]#en esta lista se guardan los valores iguales al pivote\nderecha = [x for x in arr if x > pivote]#en esta lista se guardan los valores que son mayores que el pivote",
-    "Aqui tienes el codigo que genera sublistas en el algoritmo quicksort basico en python:\nizquierda = [x for x in arr if x < pivote]#en esta lista se guardan los valores menores que el pivote\niguales = [x for x in arr if x == pivote]#en esta lista se guardan los valores iguales al pivote\nderecha = [x for x in arr if x > pivote]#en esta lista se guardan los valores que son mayores que el pivote"
+    "Claro, aqui tienes la division de la lista en el algoritmo quicksort optimizado en python:\nizquierda = [x for x in arr if x < pivote]#en esta lista se guardan los valores menores que el pivote\niguales = [x for x in arr if x == pivote]#en esta lista se guardan los valores iguales al pivote\nderecha = [x for x in arr if x > pivote]#en esta lista se guardan los valores que son mayores que el pivote",
+    "Aqui esta el codigo que divide la lista en el algoritmo quicksort optimizado en python:\nizquierda = [x for x in arr if x < pivote]#en esta lista se guardan los valores menores que el pivote\niguales = [x for x in arr if x == pivote]#en esta lista se guardan los valores iguales al pivote\nderecha = [x for x in arr if x > pivote]#en esta lista se guardan los valores que son mayores que el pivote",
+    "Aqui tienes el codigo que genera sublistas en el algoritmo quicksort optimizado en python:\nizquierda = [x for x in arr if x < pivote]#en esta lista se guardan los valores menores que el pivote\niguales = [x for x in arr if x == pivote]#en esta lista se guardan los valores iguales al pivote\nderecha = [x for x in arr if x > pivote]#en esta lista se guardan los valores que son mayores que el pivote"
   ],
   "91": [
     "Claro, aqui tienes el return del algoritmo quicksort basico en python:\nreturn quicksort(izquierda) + iguales + quicksort(derecha)#Este return llama recursivamente a la funcion para ordenar las listas y unirlas",
@@ -608,5 +608,56 @@
     "Claro, aqui tienes el código \n```return arr;\n```",
     "Aqui esta el código \n```return arr;\n```",
     "Este es el código \n```return arr;\n```"
+  ],
+  "118":[
+    "Claro, aqui tienes la funcion quicksort del algoritmo quicksort de indices explicitos en python:\ndef quicksort(arr, inicio, fin):\n\tif inicio < fin:\n\t\tpivote = particion(arr, inicio, fin)\n\t\tquicksort(arr, inicio, pivote - 1)\n\t\tquicksort(arr, pivote + 1, fin)",
+    "Aqui tienes el codigo de la funcion quicksort del algoritmo quicksort de indices explicitos en python:\ndef quicksort(arr, inicio, fin):\n\tif inicio < fin:\n\t\tpivote = particion(arr, inicio, fin)\n\t\tquicksort(arr, inicio, pivote - 1)\n\t\tquicksort(arr, pivote + 1, fin)",
+    "Aqui esta el codigo de la funcion quicksort del algoritmo quicksort de indices explicitos en python:\ndef quicksort(arr, inicio, fin):\n\tif inicio < fin:\n\t\tpivote = particion(arr, inicio, fin)\n\t\tquicksort(arr, inicio, pivote - 1)\n\t\tquicksort(arr, pivote + 1, fin)"
+  ],
+  "119":[
+    "Claro, aqui tienes el codigo del if de la funcion quicksort del algoritmo quicksort de indices explicitos en python:\nif inicio < fin:\n\tpivote = particion(arr, inicio, fin)\n\tquicksort(arr, inicio, pivote - 1)\n\tquicksort(arr, pivote + 1, fin)\nEste if divide la lista en dos partes y aplica el quicksort a ambas partes",
+    "Aqui esta el codigo del if de la funcion quicksort del algoritmo quicksort de indices explicitos en python:\nif inicio < fin:\n\tpivote = particion(arr, inicio, fin)\n\tquicksort(arr, inicio, pivote - 1)\n\tquicksort(arr, pivote + 1, fin)\nEste if divide la lista en dos partes y aplica el quicksort a ambas partes",
+    "Aqui tienes la funcion quicksort del algoritmo quicksort de indices explicitos en python:\ndef quicksort(arr, inicio, fin):\n\tif inicio < fin:\n\t\tpivote = particion(arr, inicio, fin)\n\t\tquicksort(arr, inicio, pivote - 1)\n\t\tquicksort(arr, pivote + 1, fin)"
+  ],
+  "120":[
+    "Claro, a continuacion tienes el codigo de la funcion particion del algoritmo quicksort de indices explicitos en python:\ndef particion(arr, inicio, fin):\n\tpivote = arr[fin]\n\ti = inicio - 1\n\tfor j in range(inicio, fin):\n\t\tif arr[j] < pivote:\n\t\t\ti += 1\n\t\t\tarr[i], arr[j] = arr[j], arr[i]\n\t\tarr[i + 1], arr[fin] = arr[fin], arr[i + 1]\n\treturn i + 1\nEsta función organiza un subarreglo en dos partes: los elementos menores que el pivote a la izquierda y los mayores a la derecha.",
+    "Aqui tienes el codigo de la funcion particion del algoritmo quicksort de indices explicitos en python:\ndef particion(arr, inicio, fin):\n\tpivote = arr[fin]\n\ti = inicio - 1\n\tfor j in range(inicio, fin):\n\t\tif arr[j] < pivote:\n\t\t\ti += 1\n\t\t\tarr[i], arr[j] = arr[j], arr[i]\n\t\tarr[i + 1], arr[fin] = arr[fin], arr[i + 1]\n\treturn i + 1\nEsta función organiza un subarreglo en dos partes: los elementos menores que el pivote a la izquierda y los mayores a la derecha.",
+    "Aqui esta el codigo de la funcion particion del algoritmo quicksort de indices explicitos en python:\ndef particion(arr, inicio, fin):\n\tpivote = arr[fin]\n\ti = inicio - 1\n\tfor j in range(inicio, fin):\n\t\tif arr[j] < pivote:\n\t\t\ti += 1\n\t\t\tarr[i], arr[j] = arr[j], arr[i]\n\t\tarr[i + 1], arr[fin] = arr[fin], arr[i + 1]\n\treturn i + 1\nEsta función organiza un subarreglo en dos partes: los elementos menores que el pivote a la izquierda y los mayores a la derecha."
+  ],
+  "121":[
+    "Claro, aqui tienes el codigo que define el pivote de la funcion particion del algoritmo quicksort de indices explicitos en python:\npivote = arr[fin] # Selecciona el último elemento como pivote",
+    "Aqui esta el codigo que selecciona el pivote de la funcion particion del algoritmo quicksort de indices explicitos en python:\npivote = arr[fin] # Selecciona el último elemento como pivote",
+    "Aqui tienes el codigo que asigna un pivote de la funcion particion del algoritmo quicksort de indices explicitos en python:\npivote = arr[fin] # Selecciona el último elemento como pivote"
+  ],
+  "122":[
+    "Claro, aqui tienes el codigo del for de la funcion particion del algoritmo quicksort de indices explicitos en python:\nfor j in range(inicio, fin):\n\tif arr[j] < pivote:\n\t\ti += 1\n\t\tarr[i], arr[j] = arr[j], arr[i]\n\tarr[i + 1], arr[fin] = arr[fin], arr[i + 1]",
+    "Aqui esta el codigo del for de la funcion particion del algoritmo quicksort de indices explicitos en python:\nfor j in range(inicio, fin):\n\tif arr[j] < pivote:\n\t\ti += 1\n\t\tarr[i], arr[j] = arr[j], arr[i]\n\tarr[i + 1], arr[fin] = arr[fin], arr[i + 1]",
+    "Aqui tienes el codigo del for de la funcion particion del algoritmo quicksort de indices explicitos en python:\nfor j in range(inicio, fin):\n\tif arr[j] < pivote:\n\t\ti += 1\n\t\tarr[i], arr[j] = arr[j], arr[i]\n\tarr[i + 1], arr[fin] = arr[fin], arr[i + 1]"
+  ],
+  "123":[
+    "Aqui tienes el codigo del if de la funcion particion del algoritmo quicksort de indices explicitos en python:\nif arr[j] < pivote:\n\ti += 1\n\tarr[i], arr[j] = arr[j], arr[i]# Intercambia el elemento con la posición i.",
+    "Claro, Aqui tienes el codigo del if de la funcion particion del algoritmo quicksort de indices explicitos en python:\nif arr[j] < pivote:\n\ti += 1\n\tarr[i], arr[j] = arr[j], arr[i]# Intercambia el elemento con la posición i.",
+    "Aqui esta el codigo del if de la funcion particion del algoritmo quicksort de indices explicitos en python:\nif arr[j] < pivote:\n\ti += 1\n\tarr[i], arr[j] = arr[j], arr[i]# Intercambia el elemento con la posición i."
+  ],
+  "124":[
+    "Aqui esta el codigo que realiza el intercambio del pivote en la funcion particion del algoritmo quicksort de indices explicitos en python:\narr[i + 1], arr[fin] = arr[fin], arr[i + 1]#Coloca el pivote en su posición correcta",
+    "Claro, Aqui esta el codigo que realiza el intercambio del pivote en la funcion particion del algoritmo quicksort de indices explicitos en python:\narr[i + 1], arr[fin] = arr[fin], arr[i + 1]#Coloca el pivote en su posición correcta",
+    "La siguiente linea realiza el intercambio del pivote en la funcion particion del algoritmo quicksort de indices explicitos en python:\narr[i + 1], arr[fin] = arr[fin], arr[i + 1]#Coloca el pivote en su posición correcta"
+  ],
+  "125":[
+    "Claro, Aqui tienes la definicion de la clase nodo para un arbol binario en python:\nclass Nodo:\n\tdef __init__(self, valor):\n\t\tself.valor = valor\n\t\tself.izquierda = None\n\t\tself.derecha = None",
+    "Aqui esta la clase nodo para un arbol binario en python:\n\tdef __init__(self, valor):\n\t\tself.valor = valor\n\t\tself.izquierda = None\n\t\tself.derecha = None",
+    "A continuacion te muestro la clase nodo para un arbol binario en python:\n\tdef __init__(self, valor):\n\t\tself.valor = valor\n\t\tself.izquierda = None\n\t\tself.derecha = None"
+  ],
+  
+  "126":[
+    "A continuacion te muestro el constructor de la clase nodo para un arbol binario en python:\ndef __init__(self, valor):\n\tself.valor = valor\n\tself.izquierda = None\n\tself.derecha = None",
+    "Claro, aqui tienes el constructor de la clase nodo del algoritmo de arboles en python:\ndef __init__(self, valor):\n\tself.valor = valor\n\tself.izquierda = None\n\tself.derecha = None",
+    "El siguiente codigo define el constructor de la clase nodo del algoritmo de arboles en python:\ndef __init__(self, valor):\n\tself.valor = valor\n\tself.izquierda = None\n\tself.derecha = None"
+  ],
+  "127":[
+    "Claro, aqui tienes el metodo inorden del algoritmo de arboles en python:\ndef inorden(nodo):\n\tif nodo:\n\t\tinorden(nodo.izquierda)\n\t\tprint(nodo.valor)\n\t\tinorden(nodo.derecha)",
+    "El siguiente codigo implementa el metodo inorden del algoritmo de arboles en python:\ndef inorden(nodo):\n\tif nodo:\n\t\tinorden(nodo.izquierda)\n\t\tprint(nodo.valor)\n\t\tinorden(nodo.derecha)",
+    "Aqui esta el metodo inorden del algoritmo de arboles en python:\ndef inorden(nodo):\n\tif nodo:\n\t\tinorden(nodo.izquierda)\n\t\tprint(nodo.valor)\n\t\tinorden(nodo.derecha)"
   ]
 }

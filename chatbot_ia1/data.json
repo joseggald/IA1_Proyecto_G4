@@ -654,6 +654,58 @@
   { "input": "Podrias enseñarme el return del algoritmo ordenamiento por selección en javascript", "label": 111 },
   { "input": "Puedes mostrarme el return del algoritmo ordenamiento por selección en javascript", "label": 111 },
   { "input": "Proporciona el return del algoritmo ordenamiento por selección en javascript", "label": 111 },
-  { "input": "Dame el codigo ver el return del algoritmo ordenamiento por selección en javascript", "label": 111 }
+  { "input": "Dame el codigo ver el return del algoritmo ordenamiento por selección en javascript", "label": 111 },
+
+  { "input": "muestrame la funcion quicksort del algoritmo quicksort de indices explicitos en python", "label": 118 },
+  { "input": "Muéstrame el código de la función quicksort del algoritmo quicksort que utiliza índices explícitos en Python", "label": 118 },
+  { "input": "¿Cómo se define la función quicksort del algoritmo quicksort de índices explícitos en Python?", "label": 118 },
+  { "input": "Quiero ver cómo se implementa la lógica de quicksort con índices explícitos en Python", "label": 118 },
+  { "input": "¿Puedes mostrarme la función quicksort con índices explícitos en Python?", "label": 118 },
+
+  { "input": "Puedes mostrarme el if de la funcion quicksort del algoritmo quicksort de indices explicitos en python", "label": 119 },
+  { "input": "muestrame el if de la funcion quicksort del algoritmo quicksort de indices explicitos en python", "label": 119 },
+  { "input": "Quiero ver el if de la funcion quicksort del algoritmo quicksort de indices explicitos en python", "label": 119 },
+  { "input": "Muestrame el codigo del if de la funcion quicksort del algoritmo quicksort de indices explicitos en python", "label": 119 },
+  { "input": "Proporciona el if de la funcion quicksort del algoritmo quicksort de inidices explicitos en python", "label": 119 },
+
+  { "input": "Podrias darme el codigo de la funcion particion del algoritmo quicksort de indices explicitos en python", "label": 120 },
+  { "input": "Enseñame la funcion particion del algoritmo quicksort de indices explicitos en python", "label": 120 },
+  { "input": "Puedes proporcionarme el codigo de la funcion particion del algoritmo quicksort de indices explicitos en python", "label": 120 },
+  { "input": "Dame el codigo de la funcion particion del algoritmo quicksort de indices explicitos en python", "label": 120 },
+
+  { "input": "Muestrame la linea de codigo que asigna un pivote en la funcion particion del algoritmo quicksort de indices explicitos en python", "label": 121 },
+  { "input": "Dame el codigo que selecciona el pivote en la funcion particion del algoritmo quicksort de indices explicitos en python", "label": 121 },
+  { "input": "Puedes mostrarme el codigo que elige un pivote en la funcion particion del algoritmo quicksort de indices explicitos en python", "label": 121 },
+  { "input": "Enseñame el codigo que asigna el pivote en la funcion particion del algoritmo quicksort de indices explicitos en python", "label": 121 },
+
+  { "input": "Dame el codigo del for de la funcion particion del algoritmo quicksort de indices explicitos en python", "label": 122 },
+  { "input": "puedes darme el codigo del for de la funcion particion del algoritmo quicksort de indices explicitos en python", "label": 122 },
+  { "input": "Muestrame el codigo del for de la funcion particion del algoritmo quicksort de indices explicitos en python", "label": 122 },
+  { "input": "Enseñame el codigo del for de la funcion particion del algoritmo quicksort de indices explicitos en python", "label": 122 },
+
+  { "input": "Dame el codigo del if de la funcion particion del algoritmo quicksort de indices explicitos en python", "label": 123 },
+  { "input": "Puedes darme el codigo del if de la funcion particion del algoritmo quicksort de indices explicitos en python", "label": 123 },
+  { "input": "Puedes proporcionar el codigo del if de la funcion particion del algoritmo quicksort de indices explicitos en python", "label": 123 },
+  { "input": "Podrias mostrarme el codigo del if de la funcion particion del algoritmo quicksort de indices explicitos en python", "label": 123 },
+
+  { "input": "Muestrame la linea de codigo que intercambia el pivote en la funcion particion del algoritmo quicksort de indices explicitos en python", "label": 124 },
+  { "input": "Como se intercambia el pivote en la funcion particion del algoritmo quicksort de indices explicitos en python", "label": 124 },
+  { "input": "Muestrame como se intercambia el pivote en la funcion particion del algoritmo quicksort de indices explicitos en python", "label": 124 },
+  { "input": "Podrias mostrarme como se intercambia el pivote en la funcion particion del algoritmo quicksort de indices explicitos en python", "label": 124 },
+
+  { "input": "Muestrame la clase nodo del algoritmo de arboles en python", "label": 125 },
+  { "input": "dame el codigo de la clase nodo del algoritmo de arboles en python", "label": 125 },
+  { "input": "Quiero ver la definicion de la clase nodo del algoritmo de arboles en python", "label": 125},
+  { "input": "Puedes mostrarme la clase nodo  del algoritmo de arboles en python", "label": 125},
+
+  { "input": "Enseñame el constructor de la clase nodo del algoritmo de arboles en python", "label": 126},
+  { "input": "Muestra el constructor de la clase Nodo usado en el algoritmo de árboles en Python", "label": 126 },
+  { "input": "Quiero ver cómo se escribe el constructor de la clase Nodo en el algoritmo de arboles en Python", "label": 126 },
+  { "input": "¿Puedes mostrarme el constructor de la clase Nodo para el algoritmo de árboles en Python?", "label": 126 },
+
+  { "input": "Muestrame el metodo inorden del algoritmo de arboles en python", "label": 127},
+  { "input": "¿Puedes mostrarme el método inorden del algoritmo de árboles en Python?", "label": 127 },
+  { "input": "Quiero ver cómo se escribe el método inorden del algoritmo de árboles en Python", "label": 127 },
+  { "input": "Enséñame cómo se implementa el método inorden del algoritmo de  árboles en Python", "label": 127 }
 
 ]

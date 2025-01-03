@@ -29,14 +29,14 @@ class Topic:
 class EnhancedTopicAwareChatbot:
     def __init__(self):
         # Configuración básica
-        self.vocab_size = 2000
+        self.vocab_size = 5000
         self.max_length = 20
         self.embedding_dim = 128
         self.memory_size = 10
         self.topic_threshold = 0.6
         self.batch_size = 32
         self.epochs = 150
-        self.validation_split = 0.2
+        self.validation_split = 0.3
 
         # Palabras clave para detección de idioma
         self.english_words = set(['is', 'are', 'the', 'be', 'to', 'of', 'and', 'a', 'in', 'that', 'have', 'i', 'it', 'for', 'you', 'he', 'with', 'on', 'do', 'say', 'this', 'they', 'at', 'but', 'we', 'his', 'from', 'that', 'not', 'by', 'she', 'or', 'as', 'what', 'go', 'their', 'can', 'who', 'get', 'if', 'would', 'her', 'all', 'my', 'make', 'about', 'know', 'will', 'as', 'up', 'one', 'time', 'there', 'year', 'so', 'think', 'when', 'which', 'them', 'some', 'me', 'people', 'take', 'out', 'into', 'just', 'see', 'him', 'your', 'come', 'could', 'now', 'than', 'like', 'other', 'how', 'then', 'its', 'our', 'two', 'more', 'these', 'want', 'way', 'look', 'first', 'also', 'new', 'because', 'day', 'more', 'use', 'no', 'man', 'find', 'here', 'thing', 'give', 'many', 'well', 'what'])
