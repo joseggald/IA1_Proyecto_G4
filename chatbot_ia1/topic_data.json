@@ -1658,6 +1658,908 @@
       ],
       "labels": ["138"],
       "subtopics": ["programacion_en"]
+    },
+    "ciclos_en": {
+        "primary_keywords": ["cycle", "cycles", "loop", "what", "how"],
+        "keywords": [
+            "What is a cycle?",
+            "How does a cycle work?",
+            "Explain a cycle.",
+            "Describe a cycle.",
+            "Define a cycle."
+        ],
+        "labels": ["139"],
+        "subtopics": ["programming"]
+    },
+    "funciones_en": {
+        "primary_keywords": ["function", "what is", "a function"],
+        "keywords": [
+            "What is a function?",
+            "How does a function work?",
+            "Explain a function.",
+            "Describe a function.",
+            "Define a function."
+        ],
+        "labels": ["140"],
+        "subtopics": ["programming"]
+    },
+    "clases_en": {
+        "primary_keywords": ["class", "classes", "what", "how"],
+        "keywords": [
+            "What is a class?",
+            "How does a class work?",
+            "Explain a class.",
+            "Describe a class.",
+            "Define a class."
+        ],
+        "labels": ["141"],
+        "subtopics": ["programming", "objects"]
+    },
+    "objetos_en": {
+        "primary_keywords": ["object", "what", "how"],
+        "keywords": [
+            "What is an object?",
+            "How does an object work?",
+            "Explain an object.",
+            "Describe an object.",
+            "Define an object."
+        ],
+        "labels": ["142"],
+        "subtopics": ["classes"]
+    },
+    "polimorfismo_en": {
+        "primary_keywords": ["polymorphism", "what", "how"],
+        "keywords": [
+            "What is polymorphism?",
+            "How does polymorphism work?",
+            "Explain polymorphism.",
+            "Describe polymorphism.",
+            "Define polymorphism."
+        ],
+        "labels": ["143"],
+        "subtopics": ["programming"]
+    },
+    "encapsulamiento_en": {
+        "primary_keywords": ["encapsulation", "what", "how"],
+        "keywords": [
+            "What is encapsulation?",
+            "How does encapsulation work?",
+            "Explain encapsulation.",
+            "Describe encapsulation.",
+            "Define encapsulation."
+        ],
+        "labels": ["145"],
+        "subtopics": ["programming"]
+    },
+    "abstraccion_en": {
+        "primary_keywords": ["abstraction", "what", "how"],
+        "keywords": [
+            "What is abstraction?",
+            "How does abstraction work?",
+            "Explain abstraction.",
+            "Describe abstraction.",
+            "Define abstraction."
+        ],
+        "labels": ["146"],
+        "subtopics": ["programming"]
+    },
+    "programacion_orientada_objetos_en": {
+        "primary_keywords": ["oop", "object-oriented programming"],
+        "keywords": [
+            "What is object-oriented programming?",
+            "How does OOP work?",
+            "Explain OOP.",
+            "Describe OOP.",
+            "Define OOP."
+        ],
+        "labels": ["147"],
+        "subtopics": ["classes", "objects", "polymorphism", "inheritance", "encapsulation", "abstraction"]
+    },
+    "lenguajes_disponibles_en": {
+        "primary_keywords": ["programming languages", "exist", "languages", "what"],
+        "keywords": [
+            "Tell me what programming languages exist.",
+            "What programming languages are there?",
+            "What programming languages should I learn?"
+        ],
+        "labels": ["148"],
+        "subtopics": []
+    },
+    "lenguajes_populares_en": {
+        "primary_keywords": ["popular languages", "languages", "popular"],
+        "keywords": [
+            "popular",
+            "most",
+            "programming",
+            "languages"
+        ],
+        "labels": ["149"],
+        "subtopics": []
+    },
+    "lenguajes_conocidos_en": {
+        "primary_keywords": ["languages", "programming languages", "know", "understand", "support"],
+        "keywords": [
+            "know",
+            "program",
+            "support",
+            "understand"
+        ],
+        "labels": ["150"],
+        "subtopics": []
+    },
+    "python_basico_en": {
+        "primary_keywords": ["python", "what is python"],
+        "keywords": [
+            "what is python",
+            "how it works",
+            "explain",
+            "describe",
+            "define",
+            "python"
+        ],
+        "labels": ["151"],
+        "subtopics": []
+    },
+    "python_instalacion_en": {
+        "primary_keywords": ["install python", "download python", "python", "get"],
+        "keywords": [
+            "install",
+            "download",
+            "get",
+            "python",
+            "how"
+        ],
+        "labels": ["152"],
+        "subtopics": []
+    },
+    "python_ejecucion_en": {
+        "primary_keywords": ["run python", "execute", "test", "application"],
+        "keywords": [
+            "run",
+            "execute",
+            "test",
+            "application",
+            "program",
+            "python"
+        ],
+        "labels": ["153"],
+        "subtopics": []
+    },
+    "python_inicio_en": {
+        "primary_keywords": ["start python", "initiate", "create", "begin"],
+        "keywords": [
+            "start",
+            "initiate",
+            "create",
+            "begin",
+            "program",
+            "python"
+        ],
+        "labels": ["154"],
+        "subtopics": []
+    },
+    "variables_python_en": {
+        "primary_keywords": ["variable", "python"],
+        "keywords": [
+            "define",
+            "declare",
+            "create",
+            "assign",
+            "initialize",
+            "python",
+            "example"
+        ],
+        "labels": ["155"],
+        "subtopics": []
+    },
+    "constantes_python_en": {
+        "primary_keywords": ["constant", "python"],
+        "keywords": [
+            "define",
+            "declare",
+            "create",
+            "assign",
+            "initialize",
+            "python",
+            "example"
+        ],
+        "labels": ["156"],
+        "subtopics": []
+    },
+    "funciones_python_en": {
+        "primary_keywords": ["function", "python"],
+        "keywords": [
+            "define",
+            "declare",
+            "create",
+            "assign",
+            "initialize",
+            "python",
+            "example"
+        ],
+        "labels": ["157"],
+        "subtopics": []
+    },
+    "clases_python_en": {
+        "primary_keywords": ["class", "python"],
+        "keywords": [
+            "define",
+            "declare",
+            "create",
+            "assign",
+            "initialize",
+            "python",
+            "example"
+        ],
+        "labels": ["158"],
+        "subtopics": []
+    },
+    "objetos_python_en": {
+        "primary_keywords": ["object", "python"],
+        "keywords": [
+            "define",
+            "declare",
+            "create",
+            "assign",
+            "initialize",
+            "example",
+            "object"
+        ],
+        "labels": ["159"],
+        "subtopics": []
+    },
+    "ciclo_for_python_en": {
+        "primary_keywords": ["for loop", "python"],
+        "keywords": [
+            "define",
+            "declare",
+            "create",
+            "assign",
+            "initialize",
+            "example",
+            "for loop"
+        ],
+        "labels": ["160"],
+        "subtopics": []
+    },
+    "condicion_if_python_en": {
+        "primary_keywords": ["if condition", "python"],
+        "keywords": [
+            "define",
+            "declare",
+            "create",
+            "assign",
+            "initialize",
+            "example",
+            "if condition"
+        ],
+        "labels": ["161"],
+        "subtopics": []
+    },
+    "bucle_while_python_en": {
+        "primary_keywords": ["while loop", "python"],
+        "keywords": [
+            "define",
+            "declare",
+            "create",
+            "assign",
+            "initialize",
+            "example",
+            "while loop"
+        ],
+        "labels": ["162"],
+        "subtopics": []
+    },
+    "ciclo_python_en": {
+        "primary_keywords": ["loop", "python"],
+        "keywords": [
+            "define",
+            "declare",
+            "create",
+            "assign",
+            "initialize",
+            "example",
+            "loop"
+        ],
+        "labels": ["163"],
+        "subtopics": []
+    },
+    "polimorfismo_python_en": {
+        "primary_keywords": ["polymorphism", "python"],
+        "keywords": [
+            "define",
+            "declare",
+            "create",
+            "assign",
+            "initialize",
+            "example",
+            "polymorphism"
+        ],
+        "labels": ["164"],
+        "subtopics": []
+    },
+    "herencia_python_en": {
+        "primary_keywords": ["inheritance", "python"],
+        "keywords": [
+            "define",
+            "declare",
+            "create",
+            "assign",
+            "initialize",
+            "example",
+            "inheritance"
+        ],
+        "labels": ["165"],
+        "subtopics": []
+    },
+    "encapsulamiento_python_en": {
+        "primary_keywords": ["encapsulation", "python"],
+        "keywords": [
+            "define",
+            "declare",
+            "create",
+            "assign",
+            "initialize",
+            "example",
+            "encapsulation"
+        ],
+        "labels": ["166"],
+        "subtopics": []
+    },
+    "algoritmos_en": {
+        "primary_keywords": ["algorithms", "know", "understand"],
+        "keywords": [
+            "know",
+            "teach",
+            "handle",
+            "understand",
+            "algorithms"
+        ],
+        "labels": ["167"],
+        "subtopics": []
+    },
+    "algoritmos_busqueda_en": {
+        "primary_keywords": ["search algorithm", "python"],
+        "keywords": [
+            "what",
+            "how it works",
+            "explain",
+            "describe",
+            "define",
+            "search algorithm"
+        ],
+        "labels": ["168"],
+        "subtopics": []
+    },
+    "algoritmo_ordenamiento_en": {
+        "primary_keywords": ["sorting algorithm", "how it works", "define"],
+        "keywords": [
+            "sorting",
+            "algorithm",
+            "define",
+            "describe",
+            "explain"
+        ],
+        "labels": ["169"],
+        "subtopics": ["sorting"]
+    },
+    "algoritmo_grafos_en": {
+        "primary_keywords": ["graph algorithm", "how it works", "define"],
+        "keywords": [
+            "graph",
+            "algorithm",
+            "define",
+            "describe",
+            "explain"
+        ],
+        "labels": ["170"],
+        "subtopics": ["graphs"]
+    },
+    "algoritmo_arboles_en": {
+        "primary_keywords": ["tree algorithm", "how it works", "define"],
+        "keywords": [
+            "tree",
+            "algorithm",
+            "define",
+            "describe",
+            "explain"
+        ],
+        "labels": ["171"],
+        "subtopics": ["trees"]
+    },
+    "algoritmo_burbuja_en": {
+        "primary_keywords": ["bubble sort", "sorting", "how it works"],
+        "keywords": [
+            "bubble sort",
+            "sorting",
+            "define",
+            "describe",
+            "explain"
+        ],
+        "labels": ["172"],
+        "subtopics": ["sorting"]
+    },
+    "algoritmo_quicksort_en": {
+        "primary_keywords": ["quicksort", "sorting", "how it works"],
+        "keywords": [
+            "quicksort",
+            "sorting",
+            "define",
+            "describe",
+            "explain"
+        ],
+        "labels": ["173"],
+        "subtopics": ["sorting"]
+    },
+    "ejemplo_quicksort_python_en": {
+        "primary_keywords": ["quicksort example", "python", "sorting"],
+        "keywords": [
+            "quicksort",
+            "example",
+            "python",
+            "code",
+            "sorting"
+        ],
+        "labels": ["174"],
+        "subtopics": ["quicksort", "examples"]
+    },
+    "ejemplo_burbuja_python_en": {
+        "primary_keywords": ["bubble sort example", "python", "sorting"],
+        "keywords": [
+            "bubble sort",
+            "example",
+            "python",
+            "code",
+            "sorting"
+        ],
+        "labels": ["175"],
+        "subtopics": ["bubble sort", "examples"]
+    },
+    "ejemplo_arboles_python_en": {
+        "primary_keywords": ["tree algorithm example", "python", "trees"],
+        "keywords": [
+            "tree",
+            "example",
+            "python",
+            "code",
+            "algorithm"
+        ],
+        "labels": ["176"],
+        "subtopics": ["trees", "examples"]
+    },
+    "ejemplo_grafos_python_en": {
+        "primary_keywords": ["graph algorithm example", "python", "graphs"],
+        "keywords": [
+            "graph",
+            "example",
+            "python",
+            "code",
+            "algorithm"
+        ],
+        "labels": ["177"],
+        "subtopics": ["graphs", "examples"]
+    },
+    "ejemplo_seleccion_python_en": {
+        "primary_keywords": ["selection sort example", "python", "sorting"],
+        "keywords": [
+            "selection sort",
+            "example",
+            "python",
+            "code",
+            "sorting"
+        ],
+        "labels": ["178"],
+        "subtopics": ["selection sort", "examples"]
+    },
+    "algoritmo_busqueda_python_en": {
+        "primary_keywords": ["search algorithm", "example", "python"],
+        "keywords": [
+            "search",
+            "algorithm",
+            "example",
+            "code",
+            "python"
+        ],
+        "labels": ["179"],
+        "subtopics": ["search"]
+    },
+    "javascript_que_es_en": {
+        "primary_keywords": ["javaScript", "what is", "definition"],
+        "keywords": [
+            "javaScript",
+            "language",
+            "definition",
+            "type",
+            "explanation"
+        ],
+        "labels": ["180"],
+        "subtopics": ["javaScript", "definition"]
+    },
+    "javascript_instalacion_en": {
+        "primary_keywords": ["install javaScript", "download", "get javaScript"],
+        "keywords": [
+            "install",
+            "download",
+            "get",
+            "javaScript",
+            "steps"
+        ],
+        "labels": ["181"],
+        "subtopics": ["installation", "javaScript"]
+    },
+    "javascript_ejecucion_en": {
+        "primary_keywords": ["run javaScript program", "execute javaScript"],
+        "keywords": [
+            "run",
+            "execute",
+            "program",
+            "javaScript",
+            "steps"
+        ],
+        "labels": ["182"],
+        "subtopics": ["execution", "javaScript"]
+    },
+    "javascript_variables_en": {
+        "primary_keywords": ["declare variable", "create variable", "javaScript"],
+        "keywords": [
+            "variable",
+            "declare",
+            "create",
+            "initialize",
+            "javaScript"
+        ],
+        "labels": ["183"],
+        "subtopics": ["variables", "javaScript"]
+    },
+    "javascript_var_let_const_en": {
+        "primary_keywords": ["var", "let", "const", "javaScript"],
+        "keywords": [
+            "difference",
+            "var",
+            "let",
+            "const",
+            "javaScript"
+        ],
+        "labels": ["184"],
+        "subtopics": ["variables", "javaScript"]
+    },
+    "javascript_for_loop_en": {
+        "primary_keywords": ["for loop", "write for", "javaScript"],
+        "keywords": [
+            "for",
+            "loop",
+            "example",
+            "write",
+            "javaScript"
+        ],
+        "labels": ["185"],
+        "subtopics": ["loops", "javaScript"]
+    },
+    "javascript_while_loop_en": {
+        "primary_keywords": ["while loop", "write while", "javaScript"],
+        "keywords": [
+            "while",
+            "loop",
+            "example",
+            "write",
+            "javaScript"
+        ],
+        "labels": ["186"],
+        "subtopics": ["loops", "javaScript"]
+    },
+    "javascript_if_statement_en": {
+        "primary_keywords": ["if statement", "write if", "javaScript"],
+        "keywords": [
+            "if",
+            "statement",
+            "example",
+            "write",
+            "javaScript"
+        ],
+        "labels": ["187"],
+        "subtopics": ["conditionals", "javaScript"]
+    },
+    "javascript_functions_en": {
+        "primary_keywords": ["define function", "create function", "javaScript"],
+        "keywords": [
+            "function",
+            "define",
+            "create",
+            "example",
+            "javaScript"
+        ],
+        "labels": ["188"],
+        "subtopics": ["functions", "javaScript"]
+    },
+    "javascript_clases_en": {
+        "primary_keywords": ["class", "create class", "javaScript"],
+        "keywords": [
+            "create",
+            "define",
+            "class",
+            "steps",
+            "javaScript"
+        ],
+        "labels": ["189"],
+        "subtopics": ["classes", "javaScript"]
+    },
+    "javascript_objetos_en": {
+        "primary_keywords": ["object", "create object", "javaScript"],
+        "keywords": [
+            "create",
+            "define",
+            "object",
+            "write",
+            "javaScript"
+        ],
+        "labels": ["190"],
+        "subtopics": ["objects", "javaScript"]
+    },
+    "javascript_polimorfismo_en": {
+        "primary_keywords": ["polymorphism", "define polymorphism", "javaScript"],
+        "keywords": [
+            "define",
+            "use",
+            "apply",
+            "polymorphism",
+            "javaScript"
+        ],
+        "labels": ["191"],
+        "subtopics": ["polymorphism", "javaScript"]
+    },
+    "javascript_herencia_en": {
+        "primary_keywords": ["inheritance", "define inheritance", "javaScript"],
+        "keywords": [
+            "define",
+            "implement",
+            "inheritance",
+            "example",
+            "javaScript"
+        ],
+        "labels": ["192"],
+        "subtopics": ["inheritance", "javaScript"]
+    },
+    "javascript_encapsulamiento_en": {
+        "primary_keywords": ["encapsulation", "implement encapsulation", "javaScript"],
+        "keywords": [
+            "encapsulation",
+            "define",
+            "implement",
+            "example",
+            "javaScript"
+        ],
+        "labels": ["193"],
+        "subtopics": ["encapsulation", "javaScript"]
+    },
+    "javascript_quicksort_en": {
+        "primary_keywords": ["quicksort", "implement quicksort", "javaScript"],
+        "keywords": [
+            "quicksort",
+            "implement",
+            "example",
+            "code",
+            "javaScript"
+        ],
+        "labels": ["194"],
+        "subtopics": ["sorting", "javaScript"]
+    },
+    "javascript_bubblesort_en": {
+        "primary_keywords": ["bubble sort", "implement bubble sort", "javaScript"],
+        "keywords": [
+            "bubble sort",
+            "example",
+            "code",
+            "implement",
+            "javaScript"
+        ],
+        "labels": ["195"],
+        "subtopics": ["sorting", "javaScript"]
+    },
+    "javascript_arboles_en": {
+        "primary_keywords": ["tree algorithm", "example tree", "javaScript"],
+        "keywords": [
+            "tree",
+            "algorithm",
+            "example",
+            "code",
+            "javaScript"
+        ],
+        "labels": ["196"],
+        "subtopics": ["trees", "javaScript"]
+    },
+    "javascript_grafos_en": {
+        "primary_keywords": ["graph algorithm", "example graph", "javaScript"],
+        "keywords": [
+            "graph",
+            "algorithm",
+            "example",
+            "code",
+            "javaScript"
+        ],
+        "labels": ["197"],
+        "subtopics": ["graphs", "javaScript"]
+    },
+    "javascript_seleccion_en": {
+        "primary_keywords": ["selection sort", "implement selection sort", "javaScript"],
+        "keywords": [
+            "selection sort",
+            "example",
+            "implement",
+            "code",
+            "javaScript"
+        ],
+        "labels": ["198"],
+        "subtopics": ["sorting", "javaScript"]
+    },
+    "algoritmos_busqueda_javascript_en": {
+    "primary_keywords": ["search algorithm", "javascript", "example", "implement", "show"],
+    "keywords": [
+      "give me",  
+      "search",
+      "algorithm",
+      "example",
+      "show me",
+      "implement",
+      "javascript",
+      "can you",
+      "explain",
+      "how"
+    ],
+    "labels": ["199"],
+    "subtopics": ["algoritmos_busqueda"]
+  },
+  "funcion_suma_python_en": {
+    "primary_keywords": ["sum function", "python", "example", "code", "create"],
+    "keywords": [
+      "give me",
+      "sum",
+      "function",
+      "python",
+      "example",
+      "code",
+      "create",
+      "show me",
+      "how",
+      "can you"
+    ],
+    "labels": ["200"],
+    "subtopics": ["funciones_suma"]
+  },
+  "codigo_suma_python_en": {
+    "primary_keywords": ["addition code", "sum function", "python", "example"],
+    "keywords": [
+      "give me",
+      "code",
+      "addition",
+      "sum",
+      "function",
+      "python",
+      "example",
+      "show me",
+      "how",
+      "can you"
+    ],
+    "labels": ["201"],
+    "subtopics": ["codigo_adicion"]
+  },
+  "lectura_valores_suma_python_en": {
+    "primary_keywords": ["read values", "sum function", "python", "example"],
+    "keywords": [
+      "how",
+      "read",
+      "values",
+      "sum",
+      "function",
+      "python",
+      "example",
+      "show me",
+      "can you",
+      "give me"
+    ],
+    "labels": ["202"],
+    "subtopics": ["lectura_datos"]
+  },
+  "llamada_funcion_suma_python_en": {
+    "primary_keywords": ["call function", "sum", "python", "code"],
+    "keywords": [
+      "call",
+      "function",
+      "sum",
+      "python",
+      "code",
+      "line",
+      "show me",
+      "give me",
+      "can you",
+      "how"
+    ],
+    "labels": ["203"],
+    "subtopics": ["llamada_funcion"]
+  },
+  "resultado_funcion_suma_python_en": {
+    "primary_keywords": ["result", "sum function", "python", "code"],
+    "keywords": [
+      "result",
+      "show",
+      "sum",
+      "function",
+      "python",
+      "print",
+      "code",
+      "line",
+      "can you",
+      "how"
+    ],
+    "labels": ["204"],
+    "subtopics": ["resultado_suma"]
+  },
+  "bucle_while_numero_secreto_python_en": {
+    "primary_keywords": ["while loop", "secret number", "python", "example"],
+    "keywords": [
+      "while",
+      "loop",
+      "secret",
+      "number",
+      "python",
+      "example",
+      "show me",
+      "give me",
+      "can you",
+      "how"
+    ],
+    "labels": ["205"],
+    "subtopics": ["bucles_while"]
+  },
+  "condicional_if_numero_secreto_python_en": {
+    "primary_keywords": ["if statement", "secret number", "python", "code"],
+    "keywords": [
+      "if",
+      "statement",
+      "secret",
+      "number",
+      "python",
+      "code",
+      "line",
+      "show me",
+      "can you",
+      "how"
+    ],
+    "labels": ["206"],
+    "subtopics": ["condicionales_if"]
+  },
+  "dataclass_constantes_python_en": {
+    "primary_keywords": ["dataclass", "constants", "python", "example"],
+    "keywords": [
+      "dataclass",
+      "constants",
+      "python",
+      "example",
+      "show me",
+      "code",
+      "definition",
+      "give me",
+      "can you",
+      "how"
+    ],
+    "labels": ["207"],
+    "subtopics": ["definicion_dataclass"]
+  },
+  "constructor_clase_persona_python_en": {
+    "primary_keywords": ["constructor", "Person class", "python", "example"],
+    "keywords": [
+      "constructor",
+      "class",
+      "person",
+      "python",
+      "example",
+      "definition",
+      "code",
+      "show me",
+      "can you",
+      "how"
+    ],
+    "labels": ["208"],
+    "subtopics": ["definicion_constructor"]
     }
   },
   "relations": {

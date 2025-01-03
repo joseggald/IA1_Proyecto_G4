@@ -736,5 +736,374 @@
     "Think of a 'while' as a way of saying: 'Repeat this until a certain condition is met'. Would you like to know more about how they work in Python or JavaScript?",
     "'While' loops are useful when you don't know exactly how many times an action will repeat. Would you like to know more about how they work in Python or JavaScript?",
     "A 'while' continues executing instructions until its controlling condition becomes false. Would you like to know more about how they work in Python or JavaScript?"
+  ],
+  "139": [
+        "A cycle is a structure that allows repeatedly executing a set of instructions. Do you want to know how they work in Python or JavaScript?",
+        "Cycles automate repetitive tasks, such as summing numbers or processing data. Do you want to know how they work in Python or JavaScript?",
+        "In programming, cycles are essential for handling large volumes of data efficiently. Do you want to know how they work in Python or JavaScript?",
+        "Loops like 'for' and 'while' are common types of cycles used in programming. Do you want to know how they work in Python or JavaScript?",
+        "Think of cycles as tools for repeating actions without writing the same code multiple times. Do you want to know how they work in Python or JavaScript?"
+  ],
+"140": [
+        "A function is a block of code designed to perform a specific task. Do you want to know how they work in Python or JavaScript?",
+        "Functions are fundamental for organizing and reusing code in programming. Do you want to know how they work in Python or JavaScript?",
+        "Think of a function as a recipe you can use whenever you need a specific dish. Do you want to know how they work in Python or JavaScript?",
+        "Functions allow breaking complex problems into more manageable parts. Do you want to know how they work in Python or JavaScript?",
+        "Essentially, a function takes inputs, performs operations, and returns results. Do you want to know how they work in Python or JavaScript?"
+    ],
+    "141": [
+        "A class is a model that defines the characteristics and behaviors of a type of object. Do you want to know how they work in Python or JavaScript?",
+        "Classes are the foundation of object-oriented programming, allowing data and functions to be organized. Do you want to know how they work in Python or JavaScript?",
+        "Think of a class as a blueprint for constructing similar but independent objects. Do you want to know how they work in Python or JavaScript?",
+        "Classes encapsulate data and methods to work with that data in a structured way. Do you want to know how they work in Python or JavaScript?",
+        "In programming, a class is like a template for creating instances or 'objects'. Do you want to know how they work in Python or JavaScript?"
+    ],
+    "142": [
+        "An object is an instance of a class that contains related data and functions. Do you want to know how they work in Python or JavaScript?",
+        "In object-oriented programming, objects represent entities with characteristics and behaviors. Do you want to know how they work in Python or JavaScript?",
+        "Think of an object as something tangible built from a blueprint (the class). Do you want to know how they work in Python or JavaScript?",
+        "An object combines data (attributes) and methods (functions) to interact with the program. Do you want to know how they work in Python or JavaScript?",
+        "Essentially, objects allow modeling and working with data in a more natural and logical way. Do you want to know how they work in Python or JavaScript?"
+    ],
+    "143": [
+        "Polymorphism is an object-oriented programming principle that allows using a method in different forms. Do you want to know how they work in Python or JavaScript?",
+        "Think of polymorphism as a way to adapt a common behavior to different contexts. Do you want to know how they work in Python or JavaScript?",
+        "Essentially, polymorphism allows methods in different classes to have the same name but different implementations. Do you want to know how they work in Python or JavaScript?",
+        "Polymorphism facilitates code reuse by allowing working with objects of different types uniformly. Do you want to know how they work in Python or JavaScript?",
+        "It's a powerful tool for creating flexible and extensible systems in programming. Do you want to know how they work in Python or JavaScript?"
+    ],
+    "145": [
+        "Encapsulation is a principle that protects data and controls access to it in programming. Do you want to know how they work in Python or JavaScript?",
+        "Think of encapsulation as a way to keep certain parts of an object private. Do you want to know how they work in Python or JavaScript?",
+        "Encapsulation ensures that data can only be modified through specific methods. Do you want to know how they work in Python or JavaScript?",
+        "It's a key tool for preventing errors and keeping code more secure and organized. Do you want to know how they work in Python or JavaScript?",
+        "Essentially, encapsulation is like a safe box that protects an object's information. Do you want to know how they work in Python or JavaScript?"
+    ],
+    "146": [
+        "Abstraction is a concept that allows focusing on the essential, ignoring unnecessary details.",
+        "Think of abstraction as a way to simplify complexity by showing only what's relevant.",
+        "Abstraction hides internal details and exposes only what's necessary to interact with an object.",
+        "Essentially, abstraction makes it easier to work with complex systems by reducing them to their fundamental aspects.",
+        "It's a key principle for designing clear and user-friendly interfaces."
+    ],
+    "147": [
+        "Object-oriented programming (OOP) is a paradigm that organizes code into objects that combine data and functions.",
+        "OOP, or object-oriented programming, uses concepts like classes, inheritance, and polymorphism to model complex problems.",
+        "In OOP, objects represent real-world entities with attributes (data) and methods (functions).",
+        "Object-oriented programming makes code more reusable and easier to maintain.",
+        "Simply put, OOP is a way of programming based on models called objects that interact with each other."
+    ],
+    "148": [
+        "There are many programming languages, such as Python, JavaScript, Java, C++, and more.",
+        "Available programming languages vary depending on the context. Some examples are Python, JavaScript, and Java.",
+        "Among the most used programming languages, you'll find Python, JavaScript, and C++."
+    ], 
+"149": [
+        "The most popular programming languages include Python, JavaScript, Java, and C++.",
+        "Currently, Python and JavaScript are considered the most popular programming languages due to their versatility.",
+        "Among the most popular languages, you'll find Python, ideal for AI, and JavaScript, key for web development."
+    ],
+    "150": [
+        "I am designed to work with Python and JavaScript. Do you want to know more about them?",
+        "The languages I understand are Python and JavaScript, both ideal for efficient programming. Do you want to know more about them?",
+        "Currently, the languages I can handle are Python and JavaScript. Do you want to know more about them?"
+    ],
+    "151": [
+        "Python is a high-level programming language known for its simple syntax and readability. Do you want to start by installing it?",
+        "Python is ideal for beginners and experts, being used in web development, data analysis, artificial intelligence, and more. Do you want to start by installing it?",
+        "In simple terms, Python is a versatile language that allows writing programs clearly and efficiently. Do you want to start by installing it?",
+        "Python is an interpreted, multi-paradigm language, which means you can use it for various types of projects. Do you want to start by installing it?",
+        "It is a widely used language in the tech industry due to its ease of use and powerful community. Do you want to start by installing it?"
+    ],
+    "152": [
+        "### How to Install Python on Windows, macOS, and Linux:\n\n**Windows**:\n- Download the installer from [https://www.python.org/downloads](https://www.python.org/downloads).\n- Ensure you check the box **'Add Python to PATH'** during installation.\n- Run the installer and follow the instructions.\n\n**macOS**:\n- Use Homebrew by typing in the terminal:\n```bash\nbrew install python\n```\n- Or download the installer from the official site and follow the instructions.\n\n**Linux**:\n- Open a terminal and run:\n```bash\nsudo apt update\nsudo apt install python3\n```\n\nVerify the installation by typing:\n```bash\npython --version\n```",
+        "### Step-by-Step Instructions for Installing Python:\n\n#### **Windows**:\n1. Go to [https://www.python.org/downloads](https://www.python.org/downloads) and download the installer.\n2. Run it and ensure to check **'Add Python to PATH'**.\n3. Click **'Install Now'** and wait for the installation to finish.\n4. Verify the installation by typing in the terminal:\n```bash\npython --version\n```\n\n#### **macOS**:\n1. Install Homebrew from [https://brew.sh](https://brew.sh) if you don't have it.\n2. In the terminal, type:\n```bash\nbrew install python\n```\n3. Alternatively, download Python from the official site and follow the installer instructions.\n\n#### **Linux**:\n1. Open a terminal.\n2. Type:\n```bash\nsudo apt update\nsudo apt install python3\n```\n3. Verify the installation by typing:\n```bash\npython3 --version\n```\n\nPython is now ready to use!"
+    ],
+    "153": [
+        "To run your program in Python, save the code in a file with the `.py` extension and use the command `python filename.py` in your terminal.",
+        "You can run your Python program from an IDE like PyCharm or VSCode, which have integrated options for execution.",
+        "If you use a terminal, simply navigate to the directory where you saved the file and execute the command `python3 filename.py`."
+    ],
+    "154": [
+        "To start your program in Python, open a text editor and create a file called `hello.py`. Write this code:\n```python\nprint('Hello, World!')\n```\nSave the file, and in the terminal, run:\n```bash\npython hello.py\n```",
+        "To begin programming in Python, use an IDE like PyCharm. Create a new project and a Python file. Write:\n```python\nname = input('What is your name? ')\nprint(f'Hello, {name}!')\n```\nRun it within the IDE.",
+        "To initiate your first Python program, install Python as described in the previous topic, then use VSCode to create a file called `test.py`. Write:\n```python\ndef greet():\n    return 'Welcome to Python!'\n\nprint(greet())\n```\nRun the file from the terminal."
+    ],
+    "155": [
+        "In Python, you can define a variable directly:\n```python\nage = 25\nname = 'Alice'\nis_student = True\nprint(age, name, is_student)\n```",
+        "Variables can be reassigned at any time:\n```python\nx = 10\nx = 'Python'\nprint(x)\n```",
+        "You can use variables to store calculations:\n```python\nnum1 = 10\nnum2 = 20\ntotal = num1 + num2\nprint(f'The total is {total}')\n```"
+    ],
+    "156": [
+        "In Python, constants are represented using uppercase letters:\n```python\nPI = 3.14159\nG = 9.8\nprint(f'The value of PI is {PI}')\n```",
+        "To define constants more explicitly, use the `dataclasses` module:\n```python\nfrom dataclasses import dataclass\n@dataclass(frozen=True)\nclass Constants:\n    PI: float = 3.14159\n    E: float = 2.71828\nprint(Constants.PI)\n```",
+        "Store constants in a separate file for better management:\n```python\n# constants.py\nMAX_USERS = 100\n\n# main.py\nfrom constants import MAX_USERS\nprint(MAX_USERS)\n```"
+    ],
+    "157": [
+        "A simple function in Python can be written like this:\n```python\ndef greet(name):\n    return f'Hello, {name}!'\n\nprint(greet('Alice'))\n```",
+        "Functions can have default parameter values:\n```python\ndef add(a, b=10):\n    return a + b\n\nprint(add(5))  # Output: 15\n```",
+        "You can also use lambda functions for short expressions:\n```python\nsquare = lambda x: x * x\nprint(square(4))  # Output: 16\n```"
+    ],
+    "158": [
+        "To define a class in Python:\n```python\nclass Dog:\n    def __init__(self, name, breed):\n        self.name = name\n        self.breed = breed\n\ndog = Dog('Buddy', 'Golden Retriever')\nprint(dog.name, dog.breed)\n```",
+        "Adding methods to a class:\n```python\nclass Cat:\n    def __init__(self, name):\n        self.name = name\n\n    def speak(self):\n        print(f'{self.name} says Meow!')\n\ncat = Cat('Whiskers')\ncat.speak()\n```",
+        "Using inheritance in Python:\n```python\nclass Animal:\n    def __init__(self, species):\n        self.species = species\n\nclass Dog(Animal):\n    def __init__(self, name, breed):\n        super().__init__('Dog')\n        self.name = name\n        self.breed = breed\n\ndog = Dog('Buddy', 'Labrador')\nprint(dog.species, dog.name)\n```"
+    ],
+    "159": [
+      "### Creating Objects in Python:\nObjects are instances of classes:\n```python\nclass Car:\n    def __init__(self, brand, model):\n        self.brand = brand\n        self.model = model\n\ncar = Car('Toyota', 'Corolla')\nprint(car.brand, car.model)\n```",
+      "Objects can have methods:\n```python\nclass Car:\n    def __init__(self, brand, model):\n        self.brand = brand\n        self.model = model\n\n    def start(self):\n        print(f'{self.brand} {self.model} is starting.')\n\nmy_car = Car('Ford', 'Fiesta')\nmy_car.start()\n```",
+      "Objects can interact with other classes:\n```python\nclass Engine:\n    def __init__(self, type):\n        self.type = type\n\nclass Car:\n    def __init__(self, brand, model, engine):\n        self.brand = brand\n        self.model = model\n        self.engine = engine\n\nmy_engine = Engine('Electric')\nmy_car = Car('Tesla', 'Model S', my_engine)\nprint(my_car.engine.type)\n```"
+  ],
+  "160": [
+      "### Example of a for loop in Python:\n```python\n# Iterate through a list\nnames = ['Ana', 'Luis', 'Pedro']\nfor name in names:\n    print(f'Hello, {name}!')\n\n# Iterate through a range of numbers\nfor i in range(5):\n    print(f'Number: {i}')\n```",
+      "`for` loops are used to iterate over elements in a collection. Example:\n```python\n# Sum elements in a list\nnumbers = [1, 2, 3, 4]\nsum = 0\nfor num in numbers:\n    sum += num\nprint(f'The sum is: {sum}')\n```",
+      "You can iterate over dictionaries or nested lists:\n```python\n# Iterate through a dictionary\nstudents = {'Ana': 9, 'Luis': 8, 'Pedro': 7}\nfor name, grade in students.items():\n    print(f'Student: {name}, Grade: {grade}')\n\n# Use a for loop with a list of lists\nmatrix = [\n    [1, 2, 3],\n    [4, 5, 6],\n    [7, 8, 9]\n]\nfor row in matrix:\n    for element in row:\n        print(element, end=' ')\n    print()\n```"
+  ],
+  "161": [
+      "### Example of an if condition in Python:\n```python\nage = 18\nif age >= 18:\n    print('You are an adult')\nelse:\n    print('You are a minor')\n```",
+      "`if` conditions allow code execution based on logical conditions. Example:\n```python\nnumber = 5\nif number % 2 == 0:\n    print('It is an even number')\nelse:\n    print('It is an odd number')\n```",
+      "You can combine conditions with `elif` to evaluate multiple cases:\n```python\nscore = 85\nif score >= 90:\n    print('A')\nelif score >= 80:\n    print('B')\nelif score >= 70:\n    print('C')\nelse:\n    print('Failed')\n```"
+  ],
+  "162": [
+      "### Example of a while loop in Python:\n```python\ncounter = 0\nwhile counter < 5:\n    print(f'Counter: {counter}')\n    counter += 1\n```",
+      "`while` loops repeat code as long as a condition is true. Example:\n```python\n# Prompt user for a positive number\nnumber = -1\nwhile number < 0:\n    number = int(input('Enter a positive number: '))\nprint(f'Valid number: {number}')\n```",
+      "Use a `while` loop to execute tasks until a condition is met:\n```python\n# Count up to 10\nn = 1\nwhile n <= 10:\n    print(n)\n    n += 1\n```"
+  ],
+  "163": [
+      "### Example of a loop in Python:\n```python\n# While loop\nn = 0\nwhile n < 3:\n    print(f'Iteration {n}')\n    n += 1\n\n# For loop\nfor letter in 'Python':\n    print(f'Letter: {letter}')\n```",
+      "Loops allow repetitive code execution. Example:\n```python\n# Multiply numbers from 1 to 5\nfor i in range(1, 6):\n    print(f'5 x {i} = {5 * i}')\n```",
+      "You can use loops to traverse lists, strings, dictionaries, and more. Example:\n```python\n# Traverse a list\ncolors = ['Red', 'Green', 'Blue']\nfor color in colors:\n    print(color)\n```"
+  ],
+  "164": [
+      "### Example of polymorphism in Python:\n```python\nclass Animal:\n    def sound(self):\n        pass\n\nclass Dog(Animal):\n    def sound(self):\n        return 'Barks'\n\nclass Cat(Animal):\n    def sound(self):\n        return 'Meows'\n\nanimals = [Dog(), Cat()]\nfor animal in animals:\n    print(animal.sound())\n```",
+      "Polymorphism allows using the same method in different classes. Example:\n```python\nclass Shape:\n    def area(self):\n        pass\n\nclass Square(Shape):\n    def __init__(self, side):\n        self.side = side\n\n    def area(self):\n        return self.side ** 2\n\nsquare = Square(4)\nprint(f'Area of the square: {square.area()}')\n```",
+      "Polymorphism facilitates method reuse in various contexts. Example:\n```python\nclass Vehicle:\n    def move(self):\n        pass\n\nclass Car(Vehicle):\n    def move(self):\n        return 'Moves on 4 wheels'\n\nclass Motorcycle(Vehicle):\n    def move(self):\n        return 'Moves on 2 wheels'\n\nvehicles = [Car(), Motorcycle()]\nfor vehicle in vehicles:\n    print(vehicle.move())\n```"
+  ],
+  "165": [
+      "### Example of inheritance in Python:\n```python\nclass Person:\n    def __init__(self, name):\n        self.name = name\n\nclass Student(Person):\n    def __init__(self, name, major):\n        super().__init__(name)\n        self.major = major\n\nstudent = Student('Anna', 'Engineering')\nprint(f'{student.name} studies {student.major}')\n```",
+      "Inheritance allows creating classes based on others. Example:\n```python\nclass Vehicle:\n    def __init__(self, brand):\n        self.brand = brand\n\nclass Car(Vehicle):\n    def __init__(self, brand, model):\n        super().__init__(brand)\n        self.model = model\n\ncar = Car('Toyota', 'Corolla')\nprint(f'Car: {car.brand} {car.model}')\n```",
+      "Inheritance facilitates code reuse and specialized class creation. Example:\n```python\nclass Animal:\n    def sound(self):\n        pass\n\nclass Dog(Animal):\n    def sound(self):\n        return 'Barks'\n\nclass Cat(Animal):\n    def sound(self):\n        return 'Meows'\n\ndog = Dog()\ncat = Cat()\nprint(dog.sound())\nprint(cat.sound())\n```"
+  ],
+  "166": [
+      "### Example of encapsulation in Python:\n```python\nclass Account:\n    def __init__(self):\n        self.__balance = 0\n\n    def deposit(self, amount):\n        if amount > 0:\n            self.__balance += amount\n\n    def get_balance(self):\n        return self.__balance\n\naccount = Account()\naccount.deposit(100)\nprint(account.get_balance())\n```",
+      "Encapsulation protects data from unauthorized access. Example:\n```python\nclass User:\n    def __init__(self, name):\n        self.__name = name\n\n    def get_name(self):\n        return self.__name\n\nuser = User('Carlos')\nprint(user.get_name())\n```",
+      "Encapsulation prevents direct data modifications. Example:\n```python\nclass Person:\n    def __init__(self, name):\n        self.__name = name\n\n    def change_name(self, new_name):\n        self.__name = new_name\n\nperson = Person('Anna')\nperson.change_name('Luis')\nprint(person._Person__name)\n```"
+  ],
+  "167": [
+        "### List of algorithms I can teach you:\n- Search algorithms: linear search, binary search.\n- Sorting algorithms: bubble sort, quicksort.\n- Data structure algorithms: binary trees, graphs.\n\nWhich one would you like to start with?",
+        "I can teach you various algorithms, such as:\n- Search algorithms (linear, binary).\n- Graph algorithms (DFS, BFS).\n- Sorting algorithms (bubble sort, quicksort).\n\nAre you interested in any specific algorithm?",
+        "My skills include teaching:\n1. Search algorithms like binary search.\n2. Sorting algorithms: bubble sort, selection sort, quicksort.\n3. Tree algorithms: in-order traversal, pre-order traversal.\n\nLet me know where you'd like to start!"
+    ],
+  "168": [
+      "A search algorithm is a technique used to locate an element within a data collection. Example: linear search in unordered lists or binary search in ordered lists.",
+      "Search algorithms are essential in programming and are used to find information in data structures like lists or trees. Examples: binary search, depth-first search (DFS).",
+      "Search algorithms navigate and retrieve data from structures. Binary search, for instance, efficiently divides an ordered list repeatedly to find an element."
+  ],
+  "169": [
+        "Sorting algorithms arrange data in a specific order, such as ascending or descending. Example: the bubble sort algorithm compares adjacent elements and swaps them if necessary.",
+        "A sorting algorithm is a set of steps to reorganize elements in a data structure. Popular examples include quicksort, mergesort, and selection sort.",
+        "Sorting algorithms are crucial for processing data efficiently. An example is mergesort, which recursively divides the list into sublists and merges them in order."
+    ],
+    "170": [
+        "Graph algorithms are methods for exploring relationships in graphs, such as paths, connections, and cycles. Examples: depth-first search (DFS) and breadth-first search (BFS).",
+        "A graph is a structure that connects nodes through edges. Algorithms like Dijkstra's are used to find the shortest path between nodes.",
+        "In programming, graph algorithms allow modeling networks such as roads, social networks, or circuits. DFS and BFS are common for exploring all nodes in a graph."
+    ],
+    "171": [
+        "A tree algorithm is used to traverse or modify binary trees. Example: in-order traversal processes the left subtree first, then the root, and finally the right subtree.",
+        "Trees are hierarchical structures. Algorithms include pre-order, in-order, and post-order traversals, useful in searches, mathematical expressions, and more.",
+        "Tree algorithms enable traversal or modification of structures like binary or decision trees. Example: pre-order (root, left, right) to explore nodes hierarchically."
+    ],
+    "172": [
+        "The bubble sort algorithm arranges elements by comparing adjacent pairs and swapping them if they are in the wrong order. It is simple but inefficient for large lists.",
+        "Bubble sort repeatedly reviews the list, swapping elements if they are out of order. It is easy to implement but has a complexity of O(n²).",
+        "In this algorithm, each iteration 'bubbles' the largest element to its correct position. Although not efficient, it is a good algorithm for learning purposes."
+    ],
+    "173": [
+        "Quicksort is an efficient sorting algorithm that uses divide-and-conquer. It selects a pivot and rearranges elements around it, then recursively sorts the sublists.",
+        "This algorithm uses a pivot to divide the list into two parts: smaller and larger than the pivot. It is efficient with an average complexity of O(n log n).",
+        "Quicksort organizes elements by dividing the list into smaller and larger parts relative to a pivot. It works recursively until all sublists are sorted."
+    ],
+    "174": [
+        "### Basic Quicksort in Python:\n```python\ndef quicksort(arr):\n    if len(arr) <= 1:\n        return arr\n    pivot = arr[0]\n    smaller = [x for x in arr[1:] if x < pivot]\n    larger = [x for x in arr[1:] if x >= pivot]\n    return quicksort(smaller) + [pivot] + quicksort(larger)\nnumbers = [5, 2, 9, 1, 5]\nprint(quicksort(numbers))\n```",
+        "Optimized Quicksort:\n```python\ndef quicksort(arr):\n    if len(arr) <= 1:\n        return arr\n    pivot = arr[len(arr) // 2]\n    left = [x for x in arr if x < pivot]\n    equal = [x for x in arr if x == pivot]\n    right = [x for x in arr if x > pivot]\n    return quicksort(left) + equal + quicksort(right)\nnumbers = [3, 6, 8, 10, 1, 2, 1]\nprint(quicksort(numbers))\n```",
+        "Quicksort with explicit indices:\n```python\ndef quicksort(arr, start, end):\n    if start < end:\n        pivot = partition(arr, start, end)\n        quicksort(arr, start, pivot - 1)\n        quicksort(arr, pivot + 1, end)\n\ndef partition(arr, start, end):\n    pivot = arr[end]\n    i = start - 1\n    for j in range(start, end):\n        if arr[j] < pivot:\n            i += 1\n            arr[i], arr[j] = arr[j], arr[i]\n    arr[i + 1], arr[end] = arr[end], arr[i + 1]\n    return i + 1\n\nnumbers = [4, 2, 7, 3, 8, 1]\nquicksort(numbers, 0, len(numbers) - 1)\nprint(numbers)\n```"
+    ],
+    "175": [
+        "### Basic Bubble Sort in Python:\n```python\ndef bubble_sort(arr):\n    n = len(arr)\n    for i in range(n):\n        for j in range(0, n-i-1):\n            if arr[j] > arr[j+1]:\n                arr[j], arr[j+1] = arr[j+1], arr[j]\n    return arr\nnumbers = [64, 34, 25, 12, 22, 11, 90]\nprint(bubble_sort(numbers))\n```",
+        "Bubble Sort Implementation:\n```python\ndef bubble_sort(arr):\n    n = len(arr)\n    for i in range(n):\n        for j in range(0, n-i-1):\n            if arr[j] > arr[j+1]:\n                arr[j], arr[j+1] = arr[j+1], arr[j]\n    return arr\nnumbers = [64, 34, 25, 12, 22, 11, 90]\nprint(bubble_sort(numbers))\n```",
+        "Bubble Sort with Additional Notes:\n```python\ndef bubble_sort(arr):\n    n = len(arr)\n    for i in range(n):\n        for j in range(0, n-i-1):\n            if arr[j] > arr[j+1]:\n                arr[j], arr[j+1] = arr[j+1], arr[j]\n    return arr\nnumbers = [64, 34, 25, 12, 22, 11, 90]\nprint(bubble_sort(numbers))\n```"
+    ],
+    "176": [
+        "### In-order Traversal of a Binary Tree:\n```python\nclass Node:\n    def __init__(self, value):\n        self.value = value\n        self.left = None\n        self.right = None\n\ndef in_order(node):\n    if node:\n        in_order(node.left)\n        print(node.value)\n        in_order(node.right)\n\nroot = Node(10)\nroot.left = Node(5)\nroot.right = Node(20)\nroot.left.left = Node(3)\nroot.left.right = Node(7)\nin_order(root)\n```",
+        "### Binary Search Tree Insertion:\n```python\nclass Node:\n    def __init__(self, value):\n        self.value = value\n        self.left = None\n        self.right = None\n\ndef insert(node, value):\n    if node is None:\n        return Node(value)\n    if value < node.value:\n        node.left = insert(node.left, value)\n    else:\n        node.right = insert(node.right, value)\n    return node\n\ndef in_order(node):\n    if node:\n        in_order(node.left)\n        print(node.value)\n        in_order(node.right)\n\nroot = None\nvalues = [10, 5, 20, 3, 7]\nfor val in values:\n    root = insert(root, val)\nin_order(root)\n```",
+        "### Pre-order Traversal of a Tree:\n```python\nclass Node:\n    def __init__(self, value):\n        self.value = value\n        self.left = None\n        self.right = None\n\ndef pre_order(node):\n    if node:\n        print(node.value)\n        pre_order(node.left)\n        pre_order(node.right)\n\nroot = Node(15)\nroot.left = Node(10)\nroot.right = Node(20)\nroot.left.left = Node(8)\nroot.left.right = Node(12)\npre_order(root)\n```"
+    ],
+    "177": [
+        "### Depth-First Search (DFS) for a Graph:\n```python\ndef dfs(graph, node, visited):\n    if node not in visited:\n        print(node)\n        visited.add(node)\n        for neighbor in graph[node]:\n            dfs(graph, neighbor, visited)\ngraph = {\n    'A': ['B', 'C'],\n    'B': ['D', 'E'],\n    'C': ['F'],\n    'D': [],\n    'E': ['F'],\n    'F': []\n}\ndfs(graph, 'A', set())\n```",
+        "### Breadth-First Search (BFS) for a Graph:\n```python\ndef bfs(graph, start):\n    visited, queue = set(), [start]\n    while queue:\n        node = queue.pop(0)\n        if node not in visited:\n            print(node)\n            visited.add(node)\n            queue.extend(graph[node])\ngraph = {\n    'A': ['B', 'C'],\n    'B': ['D', 'E'],\n    'C': ['F'],\n    'D': [],\n    'E': ['F'],\n    'F': []\n}\nbfs(graph, 'A')\n```",
+        "### Shortest Path with Dijkstra's Algorithm:\n```python\nimport heapq\ndef dijkstra(graph, start):\n    distances = {node: float('infinity') for node in graph}\n    distances[start] = 0\n    priority_queue = [(0, start)]\n    while priority_queue:\n        current_distance, current_node = heapq.heappop(priority_queue)\n        for neighbor, weight in graph[current_node].items():\n            distance = current_distance + weight\n            if distance < distances[neighbor]:\n                distances[neighbor] = distance\n                heapq.heappush(priority_queue, (distance, neighbor))\n    return distances\ngraph = {\n    'A': {'B': 1, 'C': 4},\n    'B': {'C': 2, 'D': 5},\n    'C': {'D': 1},\n    'D': {}\n}\nprint(dijkstra(graph, 'A'))\n```"
+    ],
+    "178": [
+        "### Selection Sort Algorithm in Python:\n```python\ndef selection_sort(arr):\n    for i in range(len(arr)):\n        min_idx = i\n        for j in range(i + 1, len(arr)):\n            if arr[j] < arr[min_idx]:\n                min_idx = j\n        arr[i], arr[min_idx] = arr[min_idx], arr[i]\n    return arr\nnumbers = [64, 34, 25, 12, 22, 11, 90]\nprint(selection_sort(numbers))\n```",
+        "### Simple Selection Sort Implementation:\n```python\ndef selection_sort(arr):\n    for i in range(len(arr)):\n        min_idx = i\n        for j in range(i + 1, len(arr)):\n            if arr[j] < arr[min_idx]:\n                min_idx = j\n        arr[i], arr[min_idx] = arr[min_idx], arr[i]\n    return arr\nnumbers = [29, 10, 14, 37, 14]\nprint(selection_sort(numbers))\n```",
+        "### Easy-to-Understand Selection Sort Example:\n```python\ndef selection_sort(arr):\n    for i in range(len(arr)):\n        min_idx = i\n        for j in range(i + 1, len(arr)):\n            if arr[j] < arr[min_idx]:\n                min_idx = j\n        arr[i], arr[min_idx] = arr[min_idx], arr[i]\n    return arr\nnumbers = [15, 42, 8, 23, 4]\nprint(selection_sort(numbers))\n```"
+    ],
+    "179": [
+        "### Linear Search:\n```python\ndef linear_search(arr, target):\n    for i in range(len(arr)):\n        if arr[i] == target:\n            return i\n    return -1\nnumbers = [10, 20, 30, 40, 50]\nprint(linear_search(numbers, 30))\n```",
+        "Binary Search:\n```python\ndef binary_search(arr, target):\n    start, end = 0, len(arr) - 1\n    while start <= end:\n        mid = (start + end) // 2\n        if arr[mid] == target:\n            return mid\n        elif arr[mid] < target:\n            start = mid + 1\n        else:\n            end = mid - 1\n    return -1\nnumbers = [10, 20, 30, 40, 50]\nprint(binary_search(numbers, 40))\n```",
+        "Sequential Search with Non-Numeric Elements:\n```python\ndef sequential_search(arr, target):\n    for i, element in enumerate(arr):\n        if element == target:\n            return i\n    return -1\nwords = ['apple', 'banana', 'cherry', 'peach']\nprint(sequential_search(words, 'cherry'))\n```"
+    ],
+    "180": [
+        "JavaScript is a dynamic, prototype-based programming language primarily used for web development. Do you want to know how to install it?",
+        "JavaScript is an object-oriented language based on prototypes, allowing flexible creation and extension of objects. Shall I explain how to install it?",
+        "It is a language that runs on both the client side (web browsers) and the server side. Would you like to know how to install it?",
+        "JavaScript is interpreted directly by the browser or runtime environment, without the need for prior compilation. Shall I show you how to install it?",
+        "JavaScript enables interactivity and dynamism in websites, such as dropdown menus, animations, and form validations. Do you want to learn how to install it?"
+    ],
+    "181": [
+        "To install JavaScript on Windows:\n1. Go to [Node.js Download](https://nodejs.org/en/download).\n2. Download the installer for Windows from the page.\n3. Run the installer and follow the steps.\n4. Verify the installation by opening a terminal and running the following commands:\n```bash\nnode -v\nnpm -v\n```",
+        "For Linux or macOS:\n1. Open a terminal.\n2. Run the following command:\n```bash\ncurl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash\n```\n3. Then install Node.js:\n```bash\nnvm install 22\n```\n4. Verify the installation with:\n```bash\nnode -v\nnpm -v\n```",
+        "An easy way to use JavaScript is through a browser (like Chrome or Firefox). Open the developer console with `Ctrl+Shift+J` and start writing JavaScript code."
+    ],
+    "182": [
+        "To execute JavaScript code, open your browser console with `Ctrl+Shift+J`, type your code (e.g., `console.log('Hello')`), and press Enter.",
+        "Another way is to create a `.js` file and execute it via terminal using the `node filename.js` command.",
+        "You can also run JavaScript within an HTML file. Include your code inside `<script></script>` tags; it will execute when you open the file in a browser."
+    ],
+    "183": [
+        "In JavaScript, variables can be declared with the `var` keyword. Example: `var greeting = 'Hello, World!';`",
+        "Variables in JavaScript can also be declared with `let`. Example: `let number = 10;`",
+        "Variables can also be declared with `const` to define constants. Example: `const PI = 3.1416;`"
+    ],
+    "184": [
+        "A difference between `var`, `let`, and `const` is scope. `var` has function scope, while `let` and `const` have block scope, restricting access to variables within the block they are defined.",
+        "`let` and `const` cannot be redeclared, unlike `var`. For example:\n```javascript\nvar msg = 'Hello';\nvar msg = 'Bye'; // This works.\nlet msg = 'Hello';\nlet msg = 'Bye'; // This throws an error.\n```",
+        "`const` variables cannot have their value changed, while `var` and `let` can. Example:\n```javascript\nlet num = 10;\nnum = 5; // Allowed.\nconst num = 10;\nnum = 5; // Error.\n```",
+        "`var` is initialized as `undefined` if not assigned a value, while `let` and `const` are not initialized until assigned a value."
+    ],
+    "185": [
+        "Here’s a simple `for` loop in JavaScript:\n```javascript\nfor (let i = 0; i < 10; i++) {\n    console.log(i);\n}\n```",
+        "Here’s a more complex example:\n```javascript\nconst numbers = [10, 9, 5, 3, 7, 1];\nfor (let i = 0; i < numbers.length; i++) {\n    console.log(numbers[i]);\n}\n```",
+        "Using a `for...of` loop:\n```javascript\nconst colors = ['Red', 'Green', 'Blue'];\nfor (const color of colors) {\n    console.log(color);\n}\n```"
+    ],
+    "186": [
+        "Here’s an example of a `while` loop in JavaScript:\n```javascript\nlet i = 1;\nwhile (i < 5) {\n    console.log(i);\n    i++;\n}\n```",
+        "Another example of a `while` loop:\n```javascript\nlet i = 10;\nwhile (i > 0) {\n    console.log(i);\n    i--;\n}\n```",
+        "A `while` loop with an array:\n```javascript\nconst fruits = ['Apple', 'Banana', 'Orange'];\nlet i = 0;\nwhile (i < fruits.length) {\n    console.log(fruits[i]);\n    i++;\n}\n```"
+    ],
+    "187": [
+        "Here’s a simple `if` statement:\n```javascript\nlet i = 5;\nif (i >= 0) {\n    console.log('The number is positive.');\n}\n```",
+        "An `if...else` example:\n```javascript\nlet age = 15;\nif (age >= 18) {\n    console.log('You can drive.');\n} else {\n    console.log('You cannot drive.');\n}\n```",
+        "Using an `if` statement to check even numbers:\n```javascript\nlet number = 8;\nif (number % 2 === 0) {\n    console.log('The number is even.');\n}\n```",
+        "A more complex `if...else if...else` example:\n```javascript\nlet a = 5, b = 10;\nif (a > b) {\n    console.log('a is greater than b.');\n} else if (a < b) {\n    console.log('a is less than b.');\n} else {\n    console.log('a is equal to b.');\n}\n```"
+    ],
+    "188": [
+        "Here’s how to define a function in JavaScript:\n```javascript\nfunction add(a, b) {\n    return a + b;\n}\nconsole.log(add(3, 5));\n```",
+        "A function to check even numbers:\n```javascript\nfunction isEven(number) {\n    return number % 2 === 0;\n}\nconsole.log(isEven(4));\nconsole.log(isEven(5));\n```",
+        "A function that greets the user:\n```javascript\nfunction greet(name) {\n    return `Hello, ${name}!`;\n}\nconsole.log(greet('John'));\n```",
+        "A function to convert Celsius to Fahrenheit:\n```javascript\nfunction celsiusToFahrenheit(celsius) {\n    return (celsius * 9/5) + 32;\n}\nconsole.log(celsiusToFahrenheit(0));\n```"
+    ],
+    "189": [
+    "A class in JavaScript:\nclass Person {\n\tsayHello() {\n\t\tconsole.log(\"Hello, I am a person.\")\n\t}\n}\n\nconst person = new Person()\nperson.sayHello()",
+    "Here is a class in JavaScript with a constructor:\nclass Person {\n\tconstructor(name, age) {\n\t\tthis.name = name\n\t\tthis.age = age\n\t}\n\tsayHello() {\n\t\tconsole.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`)\n\t}\n}\nconst person = new Person(\"John\", 30)\nperson.sayHello() // \"Hello, my name is John and I am 30 years old.\"",
+    "Here is an example of a class in JavaScript:\nclass Rectangle {\n\tconstructor(width, height) {\n\t\tthis.width = width\n\t\tthis.height = height\n\t}\n\n\tcalculateArea() {\n\t\treturn this.width * this.height\n\t}\n}\n\nconst rectangle = new Rectangle(5, 10)\nconsole.log(rectangle.calculateArea()) // 50",
+    "Here is an example of a class in JavaScript:\nclass Calculator {\n\tadd(a, b) {\n\t\treturn a + b\n\t}\n\n\tsubtract(a, b) {\n\t\treturn a - b\n\t}\n}\n\nconsole.log(new Calculator().add(5, 3)) // 8\nconsole.log(new Calculator().subtract(10, 4)) // 6"
+  ],
+  "190": [
+    "Here is an example of how to create a literal object in JavaScript:\nconst person = {\n\tname: \"John\",\n\tage: 30,\n\tsayHello: function() {\n\t\tconsole.log(`Hello, my name is ${this.name}`)\n\t}\n}\nconsole.log(person.name) // John\nperson.sayHello() // Hello, my name is John",
+    "You can create an object in JavaScript using the Object() class. For example:\nconst person = new Object()\nperson.name = \"Maria\"\nperson.age = 25\nconsole.log(person) // { name: \"Maria\", age: 25 }",
+    "You can create an object in JavaScript by creating a class and then instantiating it, like this:\nclass Person {\n\tconstructor(name, age) {\n\t\tthis.name = name\n\t\tthis.age = age\n\t}\n}\nconst person = new Person(\"Lucy\", 30)\nconsole.log(person) // Person { name: \"Lucy\", age: 30 }",
+    "Here is an example of how to create an object in JavaScript using a constructor function:\nfunction Person(name, age) {\n\tthis.name = name\n\tthis.age = age\n}\nconst person = new Person(\"Carlos\", 28)\nconsole.log(person) // Person { name: \"Carlos\", age: 28 }"
+  ],
+  "191": [
+    "Here is an example of polymorphism in JavaScript:\nclass Animal {\n\tmakeSound() {\n\t\tconsole.log(\"The animal makes a sound.\")\n\t}\n}\n\nclass Dog extends Animal {\n\tmakeSound() {\n\t\tconsole.log(\"The dog barks: Woof!\")\n\t}\n}\n\nconst animals = [new Animal(), new Dog()]\nanimals.forEach(animal => animal.makeSound())",
+    "Here is an example of polymorphism with functions in JavaScript:\nfunction greet(entity) {\n\tconsole.log(`Hello, ${entity.greeting()}`)\n}\n\nclass Person {\n\tgreeting() {\n\t\treturn \"I am a person.\"\n\t}\n}\n\nclass Robot {\n\tgreeting() {\n\t\treturn \"I am a robot.\"\n\t}\n}\n\ngreet(new Person()) // Hello, I am a person.\ngreet(new Robot()) // Hello, I am a robot.",
+    "Here is an example of polymorphism with literal objects in JavaScript:\nconst human = {\n\twalk: () => console.log(\"The human walks on two legs.\")\n}\n\nconst dog = {\n\twalk: () => console.log(\"The dog walks on four legs.\")\n}\n\nconst entities = [human, dog]\nentities.forEach(entity => entity.walk())"
+  ],
+  "192": [
+    "Here is an example of inheritance in JavaScript:\nclass Animal {\n\tconstructor(name) {\n\t\tthis.name = name\n\t}\n\tmakeSound() {\n\t\tconsole.log(\"Generic animal sound.\")\n\t}\n}\n\nclass Dog extends Animal {\n\tmakeSound() {\n\t\tconsole.log(\"Woof Woof\")\n\t}\n}\n\nconst dog = new Dog(\"Buddy\")\ndog.makeSound() // \"Woof Woof\"",
+    "You can apply inheritance in JavaScript like this:\nclass Vehicle {\n\tconstructor(brand) {\n\t\tthis.brand = brand\n\t}\n\tstart() {\n\t\tconsole.log(\"The vehicle is starting.\")\n\t}\n}\n\nclass Car extends Vehicle {\n\tconstructor(brand, model) {\n\t\tsuper(brand) // Calls the constructor of the base class\n\t\tthis.model = model\n\t}\n\tstart() {\n\t\tconsole.log(`The car ${this.brand} model ${this.model} is starting.`)\n\t}\n}\n\nconst car = new Car(\"Toyota\", \"Corolla\")\ncar.start() // \"The car Toyota model Corolla is starting.\"",
+    "You can apply inheritance using static methods in JavaScript like this:\nclass Calculator {\n\tstatic add(a, b) {\n\t\treturn a + b\n\t}\n}\n\nclass AdvancedCalculator extends Calculator {\n\tstatic multiply(a, b) {\n\t\treturn a * b\n\t}\n}\n\nconsole.log(AdvancedCalculator.add(3, 4)) // 7\nconsole.log(AdvancedCalculator.multiply(3, 4)) // 12"
+  ],
+  "193": [
+    "You can implement encapsulation in JavaScript like this:\nclass Person {\n\tconstructor(name, age) {\n\t\tthis.name = name // Public property\n\t\tthis.age = age // Public property\n\t}\n\tsayHello() {\n\t\tconsole.log(`Hello, my name is ${this.name} and I am ${this.age} years old.`)\n\t}\n}\n\nconst person = new Person(\"Anna\", 30)\nperson.sayHello() // \"Hello, my name is Anna and I am 30 years old.\"",
+    "Here is an example of encapsulation in JavaScript using private properties:\nclass BankAccount {\n\t#balance = 0 // Private property\n\tdeposit(amount) {\n\t\tthis.#balance += amount\n\t}\n\n\tgetBalance() {\n\t\treturn this.#balance\n\t}\n}\n\nconst account = new BankAccount()\naccount.deposit(500)\nconsole.log(account.getBalance()) // 500",
+    "You can implement encapsulation in JavaScript with getters and setters like this:\nclass Product {\n\t#price = 0\n\tget price() {\n\t\treturn this.#price\n\t}\n\n\tset price(value) {\n\t\tif (value < 0) {\n\t\t\tconsole.log(\"Price cannot be negative.\")\n\t\t} else {\n\t\t\tthis.#price = value\n\t\t}\n\t}\n}\n\nconst product = new Product()\nproduct.price = 100 // Assigns a value\nconsole.log(product.price) // 100\nproduct.price = -50 // \"Price cannot be negative.\""
+  ],
+  "194": [
+    "### Basic Quicksort in JavaScript:\n```javascript\nfunction quicksort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const pivot = arr[0];\n    const less = arr.slice(1).filter(x => x < pivot);\n    const greater = arr.slice(1).filter(x => x >= pivot);\n    return quicksort(less).concat(pivot, quicksort(greater));\n}\n\nconst numbers = [5, 2, 9, 1, 5];\nconsole.log(quicksort(numbers)); // [1, 2, 5, 5, 9]\n```",
+    "### Optimized Quicksort in JavaScript:\n```javascript\nfunction optimizedQuicksort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const pivot = arr[Math.floor(arr.length / 2)];\n    const left = arr.filter(x => x < pivot);\n    const equal = arr.filter(x => x === pivot);\n    const right = arr.filter(x => x > pivot);\n    return optimizedQuicksort(left).concat(equal, optimizedQuicksort(right));\n}\n\nconst numbers = [3, 6, 8, 10, 1, 2, 1];\nconsole.log(optimizedQuicksort(numbers)); // [1, 1, 2, 3, 6, 8, 10]\n```",
+    "### Quicksort with Explicit Indices in JavaScript:\n```javascript\nfunction quicksortWithIndices(arr, start, end) {\n    if (start < end) {\n        const pivotIndex = partition(arr, start, end);\n        quicksortWithIndices(arr, start, pivotIndex - 1);\n        quicksortWithIndices(arr, pivotIndex + 1, end);\n    }\n}\n\nfunction partition(arr, start, end) {\n    const pivot = arr[end];\n    let i = start - 1;\n    for (let j = start; j < end; j++) {\n        if (arr[j] < pivot) {\n            i++;\n            [arr[i], arr[j]] = [arr[j], arr[i]]; // Swap\n        }\n    }\n    [arr[i + 1], arr[end]] = [arr[end], arr[i + 1]];\n    return i + 1;\n}\n\nconst numbers = [4, 2, 7, 3, 8, 1];\nquicksortWithIndices(numbers, 0, numbers.length - 1);\nconsole.log(numbers); // [1, 2, 3, 4, 7, 8]\n```"
+  ],
+  "195": [
+    "### Bubble Sort in JavaScript:\n```javascript\nfunction bubbleSort(arr) {\n    let n = arr.length;\n    for (let i = 0; i < n; i++) {\n        for (let j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];\n            }\n        }\n    }\n    return arr;\n}\n\nconst numbers = [64, 34, 25, 12, 22, 11, 90];\nconsole.log(bubbleSort(numbers));\n```",
+    "### Bubble Sort in JavaScript (Variation):\n```javascript\nfunction bubbleSort(arr) {\n    let n = arr.length;\n    for (let i = 0; i < n; i++) {\n        for (let j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];\n            }\n        }\n    }\n    return arr;\n}\n\nconst numbers = [5, 1, 4, 2, 8];\nconsole.log(bubbleSort(numbers));\n```",
+    "### Optimized Bubble Sort in JavaScript:\n```javascript\nfunction optimizedBubbleSort(arr) {\n    let n = arr.length;\n    let swapped;\n    do {\n        swapped = false;\n        for (let i = 0; i < n - 1; i++) {\n            if (arr[i] > arr[i + 1]) {\n                [arr[i], arr[i + 1]] = [arr[i + 1], arr[i]];\n                swapped = true;\n            }\n        }\n        n--;\n    } while (swapped);\n    return arr;\n}\n\nconst numbers = [10, 7, 3, 1, 9];\nconsole.log(optimizedBubbleSort(numbers));\n```"
+  ],
+  "196": [
+      "### Binary Search Tree Example in JavaScript:\n```javascript\nclass Node {\n    constructor(value) {\n        this.value = value;\n        this.left = null;\n        this.right = null;\n    }\n}\n\nfunction insert(node, value) {\n    if (node === null) {\n        return new Node(value);\n    }\n    if (value < node.value) {\n        node.left = insert(node.left, value);\n    } else {\n        node.right = insert(node.right, value);\n    }\n    return node;\n}\n\nfunction inOrderTraversal(node) {\n    if (node !== null) {\n        inOrderTraversal(node.left);\n        console.log(node.value);\n        inOrderTraversal(node.right);\n    }\n}\n\nlet root = null;\nconst values = [15, 10, 20, 8, 12];\nvalues.forEach(value => root = insert(root, value));\ninOrderTraversal(root);\n```",
+      "### Preorder Traversal Example in JavaScript:\n```javascript\nclass Node {\n    constructor(value) {\n        this.value = value;\n        this.left = null;\n        this.right = null;\n    }\n}\n\nfunction preOrderTraversal(node) {\n    if (node !== null) {\n        console.log(node.value);\n        preOrderTraversal(node.left);\n        preOrderTraversal(node.right);\n    }\n}\n\nconst root = new Node(25);\nroot.left = new Node(15);\nroot.right = new Node(30);\npreOrderTraversal(root);\n```",
+      "### Postorder Traversal Example in JavaScript:\n```javascript\nclass Node {\n    constructor(value) {\n        this.value = value;\n        this.left = null;\n        this.right = null;\n    }\n}\n\nfunction postOrderTraversal(node) {\n    if (node !== null) {\n        postOrderTraversal(node.left);\n        postOrderTraversal(node.right);\n        console.log(node.value);\n    }\n}\n\nconst root = new Node(50);\nroot.left = new Node(40);\nroot.right = new Node(60);\npostOrderTraversal(root);\n```"
+  ],
+  "197": [
+      "### Depth-First Search (DFS) in JavaScript:\n```javascript\nfunction dfs(graph, node, visited = new Set()) {\n    if (!visited.has(node)) {\n        console.log(node);\n        visited.add(node);\n        graph[node].forEach(neighbor => dfs(graph, neighbor, visited));\n    }\n}\n\nconst graph = {\n    A: ['B', 'C'],\n    B: ['D', 'E'],\n    C: ['F'],\n    D: [],\n    E: ['F'],\n    F: []\n};\ndfs(graph, 'A');\n```",
+      "### Breadth-First Search (BFS) in JavaScript:\n```javascript\nfunction bfs(graph, start) {\n    const visited = new Set();\n    const queue = [start];\n    while (queue.length > 0) {\n        const node = queue.shift();\n        if (!visited.has(node)) {\n            console.log(node);\n            visited.add(node);\n            queue.push(...graph[node]);\n        }\n    }\n}\n\nconst graph = {\n    A: ['B', 'C'],\n    B: ['D', 'E'],\n    C: ['F'],\n    D: [],\n    E: ['F'],\n    F: []\n};\nbfs(graph, 'A');\n```",
+      "### Dijkstra's Algorithm in JavaScript:\n```javascript\nfunction dijkstra(graph, start) {\n    const distances = {};\n    const visited = new Set();\n    Object.keys(graph).forEach(node => distances[node] = Infinity);\n    distances[start] = 0;\n    const priorityQueue = [{ node: start, distance: 0 }];\n\n    while (priorityQueue.length > 0) {\n        const { node } = priorityQueue.shift();\n        visited.add(node);\n\n        for (const [neighbor, weight] of Object.entries(graph[node])) {\n            if (!visited.has(neighbor)) {\n                const newDist = distances[node] + weight;\n                if (newDist < distances[neighbor]) {\n                    distances[neighbor] = newDist;\n                    priorityQueue.push({ node: neighbor, distance: newDist });\n                }\n            }\n        }\n    }\n    return distances;\n}\n\nconst graph = {\n    A: { B: 1, C: 4 },\n    B: { C: 2, D: 5 },\n    C: { D: 1 },\n    D: {}\n};\nconsole.log(dijkstra(graph, 'A'));\n```"
+  ],
+  "198": [
+      "### Selection Sort in JavaScript:\n```javascript\nfunction selectionSort(arr) {\n    for (let i = 0; i < arr.length; i++) {\n        let minIndex = i;\n        for (let j = i + 1; j < arr.length; j++) {\n            if (arr[j] < arr[minIndex]) {\n                minIndex = j;\n            }\n        }\n        [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]];\n    }\n    return arr;\n}\n\nconst numbers = [64, 25, 12, 22, 11];\nconsole.log(selectionSort(numbers)); // [11, 12, 22, 25, 64]\n```",
+      "### Selection Sort with Comments:\n```javascript\nfunction selectionSort(arr) {\n    for (let i = 0; i < arr.length; i++) {\n        // Assume the current index is the smallest\n        let minIndex = i;\n        for (let j = i + 1; j < arr.length; j++) {\n            // Find the smallest element in the remaining array\n            if (arr[j] < arr[minIndex]) {\n                minIndex = j;\n            }\n        }\n        // Swap the found minimum element with the current element\n        [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]];\n    }\n    return arr;\n}\n\nconst numbers = [29, 10, 14, 37, 13];\nconsole.log(selectionSort(numbers)); // [10, 13, 14, 29, 37]\n```",
+      "### Optimized Selection Sort:\n```javascript\nfunction optimizedSelectionSort(arr) {\n    for (let i = 0; i < arr.length; i++) {\n        let minIndex = i;\n        for (let j = i + 1; j < arr.length; j++) {\n            if (arr[j] < arr[minIndex]) {\n                minIndex = j;\n            }\n        }\n        if (minIndex !== i) {\n            [arr[i], arr[minIndex]] = [arr[minIndex], arr[i]];\n        }\n    }\n    return arr;\n}\n\nconst numbers = [5, 3, 6, 2, 10];\nconsole.log(optimizedSelectionSort(numbers)); // [2, 3, 5, 6, 10]\n```"
+  ],
+  "199": [
+    "### Example of a Linear Search Algorithm in JavaScript:\n```javascript\nfunction linearSearch(arr, target) {\n    for (let i = 0; i < arr.length; i++) {\n        if (arr[i] === target) {\n            return i;\n        }\n    }\n    return -1;\n}\n\nconst numbers = [10, 20, 30, 40, 50];\nconsole.log(linearSearch(numbers, 30)); // Output: 2\n```",
+    "### Example of a Binary Search Algorithm in JavaScript:\n```javascript\nfunction binarySearch(arr, target) {\n    let left = 0;\n    let right = arr.length - 1;\n\n    while (left <= right) {\n        const mid = Math.floor((left + right) / 2);\n        if (arr[mid] === target) {\n            return mid;\n        } else if (arr[mid] < target) {\n            left = mid + 1;\n        } else {\n            right = mid - 1;\n        }\n    }\n    return -1;\n}\n\nconst numbers = [10, 20, 30, 40, 50];\nconsole.log(binarySearch(numbers, 40)); // Output: 3\n```",
+    "### Example of Searching for Strings in JavaScript:\n```javascript\nfunction findWord(arr, word) {\n    return arr.indexOf(word);\n}\n\nconst words = ['apple', 'banana', 'cherry', 'date'];\nconsole.log(findWord(words, 'cherry')); // Output: 2\n```"
+  ],
+  "200": [
+    "### Python Code for a Sum Function:\n```python\ndef add(a, b):\n    return a + b\n\nprint(add(5, 3))  # Output: 8\n```",
+    "### Python Function to Add Numbers:\n```python\ndef sum_numbers(num1, num2):\n    return num1 + num2\n\nresult = sum_numbers(10, 20)\nprint(f\"The sum is {result}\")  # Output: The sum is 30\n```",
+    "### Simple Sum Function in Python:\n```python\ndef calculate_sum(x, y):\n    return x + y\n\nprint(calculate_sum(7, 4))  # Output: 11\n```"
+  ],
+  "201": [
+    "### Code Snippet for Addition in a Python Sum Function:\n```python\nresult = a + b\n```",
+    "### Addition Performed in a Sum Function:\n```python\ndef sum_values(a, b):\n    return a + b\n```\nThis line directly executes the addition operation.",
+    "### Python Line for Performing Addition:\n```python\nreturn num1 + num2\n```"
+  ],
+  "202": [
+    "### Reading Input for a Python Sum Function:\n```python\nnum1 = int(input(\"Enter the first number: \"))\nnum2 = int(input(\"Enter the second number: \"))\n```",
+    "### Code Example for Reading Values:\n```python\ndef get_inputs():\n    x = int(input(\"Enter number 1: \"))\n    y = int(input(\"Enter number 2: \"))\n    return x, y\n```",
+    "### Sample Input Code in Python:\n```python\na = float(input(\"Input a number: \"))\nb = float(input(\"Input another number: \"))\n```"
+  ],
+  "203": [
+    "### Calling a Sum Function in Python:\n```python\nresult = sum_numbers(3, 5)\n```",
+    "### Function Call Example:\n```python\nprint(add(10, 20))\n```",
+    "### Sum Function Invocation:\n```python\noutput = calculate_sum(7, 8)\n```"
+  ],
+  "204": [
+    "### Printing the Result of a Python Sum Function:\n```python\nprint(\"The result is:\", result)\n```",
+    "### Output Display Example:\n```python\nprint(f\"Sum: {add(4, 6)}\")\n```",
+    "### Showing the Result of a Sum Function:\n```python\nprint(f\"The sum of the numbers is: {output}\")\n```"
+  ],
+  "205": [
+    "### While Loop in Secret Number Game Example:\n```python\nwhile guess != secret:\n    guess = int(input(\"Try again: \"))\n```",
+    "### Looping Until Correct Guess:\n```python\nwhile True:\n    guess = int(input(\"Enter your guess: \"))\n    if guess == secret:\n        print(\"Correct!\")\n        break\n```",
+    "### Example with a While Loop:\n```python\nwhile attempts < 5:\n    guess = int(input(\"Guess the number: \"))\n    if guess == secret:\n        print(\"You won!\")\n        break\n    attempts += 1\n```"
+  ],
+  "206": [
+    "### If Condition in Secret Number Game:\n```python\nif guess < secret:\n    print(\"Too low!\")\n```",
+    "### Using If for Game Logic:\n```python\nif guess > secret:\n    print(\"Too high!\")\nelif guess < secret:\n    print(\"Too low!\")\n```",
+    "### Example of an If Statement:\n```python\nif guess == secret:\n    print(\"Congratulations! You guessed it!\")\n```"
+  ],
+  "207": [
+    "### Dataclass for Constants Example in Python:\n```python\nfrom dataclasses import dataclass\n\n@dataclass\nclass Constants:\n    PI: float = 3.14159\n    GRAVITY: float = 9.8\n\nconstants = Constants()\nprint(constants.PI)\n```",
+    "### Defining a Dataclass:\n```python\nfrom dataclasses import dataclass\n\n@dataclass\nclass Config:\n    MAX_USERS: int = 100\n    TIMEOUT: int = 300\n\nsettings = Config()\nprint(settings.MAX_USERS)\n```",
+    "### Python Dataclass Example:\n```python\nfrom dataclasses import dataclass\n\n@dataclass\nclass ServerConfig:\n    IP_ADDRESS: str = \"127.0.0.1\"\n    PORT: int = 8080\n\nconfig = ServerConfig()\nprint(config.IP_ADDRESS)\n```"
+  ],
+  "208": [
+    "### Constructor of the Person Class in Python:\n```python\nclass Person:\n    def __init__(self, name, age):\n        self.name = name\n        self.age = age\n\nperson = Person(\"Alice\", 30)\n```",
+    "### Example Constructor for a Python Class:\n```python\nclass Employee:\n    def __init__(self, id, department):\n        self.id = id\n        self.department = department\n\nemployee = Employee(123, \"HR\")\n```",
+    "### Defining a Constructor in Python:\n```python\nclass Student:\n    def __init__(self, name, grade):\n        self.name = name\n        self.grade = grade\n\nstudent = Student(\"John\", \"A\")\n```"
   ]
 }
