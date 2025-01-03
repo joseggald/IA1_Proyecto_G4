@@ -296,8 +296,10 @@
 
   { "input": "Dame un ejemplo de un algoritmo de ordenamiento burbuja en python", "label": 47 },
   { "input": "Enseñame con un ejemplo de un algoritmo de ordenamiento burbuja en python", "label": 47 },
-  { "input": "Dame un codigo con burbuja en python", "label": 47 },
-  { "input": "Ejemplifica con burbuja en python", "label": 47 },
+  { "input": "Dame el codigo del ordenamiento burbuja en python",
+
+    "label": 47 },
+  { "input": "Ejemplifica algoritmo burbuja en python", "label": 47 },
 
   { "input": "Dame un ejemplo de un algoritmo de arboles en python", "label": 48 },
   { "input": "Enseñame con un ejemplo de un algoritmo de arboles en python", "label": 48 },
@@ -309,10 +311,10 @@
   { "input": "Dame un codigo con grafos en python", "label": 49 },
   { "input": "Ejemplifica con grafos en python", "label": 49 },
 
-  { "input": "Dame un ejemplo de un algoritmo de ordenamiento en python", "label": 50 },
-  { "input": "Enseñame con un ejemplo de un algoritmo de ordenamiento en python", "label": 50 },
-  { "input": "Dame un codigo con ordenamiento en python", "label": 50 },
-  { "input": "Ejemplifica con ordenamiento en python", "label": 50 },
+  { "input": "Dame un ejemplo de un algoritmo de ordenamiento por seleccion en python", "label": 50 },
+  { "input": "Enseñame con un ejemplo de un algoritmo de ordenamiento por seleccion en python", "label": 50 },
+  { "input": "Dame un codigo con ordenamiento por seleccion  en python", "label": 50 },
+  { "input": "Ejemplifica con ordenamiento por seleccion  en python", "label": 50 },
 
   { "input": "Dame un ejemplo de un algoritmo de busqueda en python", "label": 51 },
   { "input": "Enseñame con un ejemplo de un algoritmo de busqueda en python", "label": 51 },
@@ -427,11 +429,11 @@
   { "input": "Proporciona un ejemplo de un algoritmo práctico de grafos en javaScript", "label": 69 },
   { "input": "¿Cómo se realiza un algoritmo de grafos en javaScript? Dame un ejemplo", "label": 69 },
 
-  { "input": "Podrias enseñarme un ejemplo de algoritmos de ordenamiento en javascript", "label": 70},
-  { "input": "puedes mostrarme un ejemplo de algoritmos de ordenamiento en javaScript", "label": 70 },
-  { "input": "¿Cómo se implementan algoritmos de ordenamiento en javaScript? Muéstrame un ejemplo", "label": 70 },
-  { "input": "Enséñame un ejemplo claro de algoritmos de ordenamiento en javaScript", "label": 70 },
-  { "input": "Dame un ejemplo de cómo implementar algoritmos de ordenamiento en javaScript", "label": 70 },
+  { "input": "Podrias enseñarme un ejemplo de algoritmos de ordenamiento por seleccion   en javascript", "label": 70},
+  { "input": "puedes mostrarme un ejemplo de algoritmos de ordenamiento  por seleccion en javaScript", "label": 70 },
+  { "input": "¿Cómo se implementan algoritmos de ordenamiento por seleccion  en javaScript? Muéstrame un ejemplo", "label": 70 },
+  { "input": "Enséñame un ejemplo claro de algoritmos de ordenamiento por seleccion  en javaScript", "label": 70 },
+  { "input": "Dame un ejemplo de cómo implementar algoritmos de ordenamiento por seleccion  en javaScript", "label": 70 },
 
   { "input": "Dame un ejemplo de un algoritmo de busqueda en javascript", "label": 71},
   { "input": "Explícame cómo implementar un algoritmo de búsqueda en JavaScript con un ejemplo", "label": 71 },
@@ -509,7 +511,7 @@
   { "input": "Proporciona el constructor de la clase animal en Python", "label": 83 },
   { "input": "Enséñame cómo se escribe el constructor de la clase animal en Python", "label": 83 },
 
-  { "input": "Muestrame el constructor de la clase perro en python", "label": 84 }, 
+  { "input": "Muestrame el constructor de la clase perro en python", "label": 84 },
   { "input": "Quiero ver cómo se define el constructor de Perro en Python", "label": 84 },
   { "input": "Dame el codigo de cómo se escribe el constructor para la clase Perro en Python", "label": 84 },
   { "input": "Enséñame cómo se define el constructor de la clase Perro en Python", "label": 84 },
@@ -551,6 +553,107 @@
   { "input": "Podrias enseñarme el return del algoritmo quicksort optimizado en python", "label": 91 },
   { "input": "Puedes mostrarme el return del algoritmo quicksort optimizado en python", "label": 91 },
   { "input": "Proporciona el return del algoritmo quicksort optimizado en python", "label": 91 },
-  { "input": "Quiero ver el return del algoritmo quicksort optimizado en python", "label": 91 }
+  { "input": "Quiero ver el return del algoritmo quicksort optimizado en python", "label": 91 },
+
+  { "input": "Puedes enseñarme el código de la iteración burbuja en python", "label": 92 },
+  { "input": "Muestrame las lineas de código de la iteración burbuja en python", "label": 92 },
+  { "input": "Podrias enseñarme el código del recorrido de la lista en el algoritmo burbuja en python", "label": 92 },
+  { "input": "Enseñame el código del ciclo para recorrer la lista en el algoritmo burbuja en python", "label": 92 },
+
+  { "input": "Puedes enseñarme el código de la iteración para comparar elementos burbuja en python", "label": 93 },
+  { "input": "Muestrame las lineas de código de la iteración que compara elementos burbuja en python", "label": 93 },
+  { "input": "Podrias enseñarme el código del que compara la lista en el algoritmo burbuja en python", "label": 93 },
+  { "input": "Enseñame el código para recorrer la lista y comparar en el algoritmo burbuja en python", "label": 93 },
+
+  { "input": "Puedes enseñarme el código de la comparación de elementos burbuja en python", "label": 94 },
+  { "input": "Muestrame las lineas de código para comparar elementos burbuja en python", "label": 94 },
+  { "input": "Podrias enseñarme el código para comparar elementos de la lista en el algoritmo burbuja en python", "label": 94 },
+  { "input": "Enseñame el código para comparar el algoritmo burbuja en python", "label": 94 },
+
+  { "input": "Puedes enseñarme el código de intercambiar elementos burbuja en python", "label": 95 },
+  { "input": "Muestrame las lineas de código para intercambiar elementos burbuja en python", "label": 95 },
+  { "input": "Podrias enseñarme el código para intercambiar elementos de la lista en el algoritmo burbuja en python", "label": 95 },
+  { "input": "Enseñame el código para intercambiar el algoritmo burbuja en python", "label": 95 },
+
+  { "input": "Podrias enseñarme el return del algoritmo burbuja en python", "label": 96 },
+  { "input": "Puedes mostrarme el return del algoritmo burbuja en python", "label": 96 },
+  { "input": "Proporciona el return del algoritmo burbuja en python", "label": 96 },
+  { "input": "Quiero ver el return del algoritmo burbuja en python", "label": 96 },
+
+  { "input": "Puedes enseñarme el código de la iteración burbuja en javascript", "label": 97 },
+  { "input": "Muestrame las lineas de código de la iteración burbuja en javascript", "label": 97 },
+  { "input": "Podrias enseñarme el código del recorrido de la lista en el algoritmo burbuja en javascript", "label": 97 },
+  { "input": "Enseñame el código del ciclo para recorrer la lista en el algoritmo burbuja en javascript", "label": 97 },
+
+  { "input": "Puedes enseñarme el código de la iteración para comparar elementos burbuja en javascript", "label": 98 },
+  { "input": "Muestrame las lineas de código de la iteración que compara elementos burbuja en javascript", "label": 98 },
+  { "input": "Podrias enseñarme el código del recorrido para comparar la lista en el algoritmo burbuja en javascript", "label": 98 },
+  { "input": "Enseñame el código para recorrer y comparar en el algoritmo burbuja en python", "label": 98 },
+
+  { "input": "Puedes enseñarme el código de la comparación de elementos burbuja en javascript", "label": 99 },
+  { "input": "Muestrame las lineas de código para comparar elementos burbuja en javascript", "label": 99 },
+  { "input": "Podrias enseñarme el código para comparar elementos de la lista en el algoritmo burbuja en javascript", "label": 99 },
+  { "input": "Enseñame el código para comparar el algoritmo burbuja en javascript", "label": 99 },
+
+  { "input": "Puedes enseñarme el código de intercambiar elementos burbuja en javascript", "label": 100 },
+  { "input": "Muestrame las lineas de código para intercambiar elementos burbuja en javascript", "label": 100 },
+  { "input": "Podrias enseñarme el código para intercambiar elementos de la lista en el algoritmo burbuja en javascript", "label": 100 },
+  { "input": "Enseñame el código para intercambiar el algoritmo burbuja en javascript", "label": 100 },
+
+  { "input": "Podrias enseñarme el return del algoritmo burbuja en javascript", "label": 101 },
+  { "input": "Puedes mostrarme el return del algoritmo burbuja en javascript", "label": 101 },
+  { "input": "Proporciona el return del algoritmo burbuja en javascript", "label": 101 },
+  { "input": "Quiero ver el return del algoritmo burbuja en javascript", "label": 101 },
+
+
+  { "input": "Puedes enseñarme el código de la iteración del algoritmo de ordenamiento por selección en python", "label": 102 },
+  { "input": "Muestrame las lineas de código de la iteración del algoritmo de ordenamiento por selección en python", "label": 102 },
+  { "input": "Podrias enseñarme el código del recorrido de la lista en el algoritmo de ordenamiento por selección en python", "label": 102 },
+  { "input": "Enseñame el código del ciclo para recorrer la lista en el algoritmo de ordenamiento por selección en python", "label": 102 },
+
+  { "input": "Puedes enseñarme el código para encontrar el indice del elemento minimo ordenamiento por selección en python", "label": 103 },
+  { "input": "Muestrame las lineas de código para recorrer la sublista restante ordenamiento por selección en python", "label": 103 },
+  { "input": "Podrias enseñarme el código para encontrar el indice minimo en el algoritmo ordenamiento por selección en python", "label": 103 },
+  { "input": "Enseñame el código para encontrar el indice del elemento menor en el algoritmo ordenamiento por selección en python", "label": 103 },
+
+  { "input": "Puedes enseñarme el código de la comparación de elementos ordenamiento por selección en python", "label": 104 },
+  { "input": "Muestrame las lineas de código para comparar elementos ordenamiento por selección en python", "label": 104 },
+  { "input": "Podrias enseñarme el código para comparar elementos de la lista en el algoritmo ordenamiento por selección en python", "label": 104 },
+  { "input": "Enseñame el código para comparar el algoritmo ordenamiento por selección en python", "label": 104 },
+
+  { "input": "Puedes enseñarme el código intercambiar el elemento mínimo con el primero de la sublista del ordenamiento por selección en python", "label": 105 },
+  { "input": "Muestrame las lineas de código para intercambiar el elemento mínimo con el primero de la sublista del ordenamiento por selección en python", "label": 105 },
+  { "input": "Podrias enseñarme el código para intercambiar el elemento mínimo con el primero de la sublista en el algoritmo ordenamiento por selección en python", "label": 105 },
+  { "input": "Enseñame el código para cambiar el elemento mínimo con el primero de la sublista en el ordenamiento por selección en python", "label": 105 },
+
+  { "input": "Podrias enseñarme el return del algoritmo ordenamiento por selección en python", "label": 106 },
+  { "input": "Puedes mostrarme el return del algoritmo ordenamiento por selección en python", "label": 106 },
+  { "input": "Proporciona el return del algoritmo ordenamiento por selección en python", "label": 106 },
+  { "input": "Quiero ver el return del algoritmo ordenamiento por selección en python", "label": 106 },
+
+  { "input": "Puedes enseñarme el código de la iteración del algoritmo de ordenamiento por selección en javascript", "label": 107 },
+  { "input": "Muestrame las lineas de código de la iteración del algoritmo de ordenamiento por selección en javascript", "label": 107 },
+  { "input": "Podrias enseñarme el código del recorrido de la lista en el algoritmo de ordenamiento por selección en javascript", "label": 107 },
+  { "input": "Enseñame el código del ciclo para recorrer la lista en el algoritmo de ordenamiento por selección en javascript", "label": 107 },
+
+  { "input": "Puedes enseñarme el código para encontrar el indice del elemento minimo ordenamiento por selección en javascript", "label": 108 },
+  { "input": "Muestrame las lineas de código para recorrer la sublista restante ordenamiento por selección en javascript", "label": 108 },
+  { "input": "Podrias enseñarme el código para encontrar el indice minimo en el algoritmo ordenamiento por selección en javascript", "label": 108 },
+  { "input": "Enseñame el código para encontrar el indice del elemento menor en el algoritmo ordenamiento por selección en javascript", "label": 108 },
+
+  { "input": "Puedes enseñarme el código de la comparación de elementos ordenamiento por selección en javascript", "label": 109 },
+  { "input": "Muestrame las lineas de código para comparar elementos ordenamiento por selección en javascript", "label": 109 },
+  { "input": "Podrias enseñarme el código para comparar elementos de la lista en el algoritmo ordenamiento por selección en javascript", "label": 109 },
+  { "input": "Enseñame el código para comparar el algoritmo ordenamiento por selección en javascript", "label": 109 },
+
+  { "input": "Puedes enseñarme el código intercambiar el elemento mínimo con el primero de la sublista del ordenamiento por selección en javascript", "label": 110 },
+  { "input": "Muestrame las lineas de código para intercambiar el elemento mínimo con el primero de la sublista del ordenamiento por selección en javascript", "label": 110 },
+  { "input": "Podrias enseñarme el código para intercambiar el elemento mínimo con el primero de la sublista en el algoritmo ordenamiento por selección en javascript", "label": 110 },
+  { "input": "Enseñame el código para cambiar el elemento mínimo con el primero de la sublista en el ordenamiento por selección en javascript", "label": 110 },
+
+  { "input": "Podrias enseñarme el return del algoritmo ordenamiento por selección en javascript", "label": 111 },
+  { "input": "Puedes mostrarme el return del algoritmo ordenamiento por selección en javascript", "label": 111 },
+  { "input": "Proporciona el return del algoritmo ordenamiento por selección en javascript", "label": 111 },
+  { "input": "Dame el codigo ver el return del algoritmo ordenamiento por selección en javascript", "label": 111 }
 
 ]

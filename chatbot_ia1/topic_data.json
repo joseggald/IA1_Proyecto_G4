@@ -426,13 +426,13 @@
         "crear",
         "empezar",
         "iniciar",
-        "programar", 
+        "programar",
         "python",
         "como"
       ],
       "labels": ["26"],
       "subtopics": []
-    }, 
+    },
     "variables_python": {
       "primary_keywords": ["variable", "python"],
       "keywords": ["definir", "declarar", "crear", "asignar", "inicializar", "python", "ejemplo"],
@@ -572,8 +572,8 @@
       "subtopics": ["algoritmos_grafos"]
     },
     "ejemplo_ordenamiento_python": {
-      "primary_keywords": ["ordenamiento", "python", "ejemplo"],
-      "keywords": ["dame", "enseñame", "codigo", "busqueda", "python", "ejemplo", "ejemplifica"],
+      "primary_keywords": ["ordenamiento", "python", "ejemplo", "seleccion", "por seleccion"],
+      "keywords": ["dame", "enseñame", "codigo", "ejemplo", "ejemplifica"],
       "labels": ["50"],
       "subtopics": ["algoritmos_ordenamiento"]
     },
@@ -883,7 +883,7 @@
       "subtopics":["algoritmos_grafos"]
     },
     "ordenamiento_javascript":{
-      "primary_keywords":["ordenamiento","algoritmos","javascript","ejemplo","implementar","implementan","mostrarme"],
+      "primary_keywords":["algoritmo","javascript","ejemplo","ordenamiento por selección","muestrame"],
       "keywords":[
         "podrias",
         "enseñarme",
@@ -892,7 +892,8 @@
         "como",
         "muestrame",
         "dame",
-        "puedes"
+        "ordenamiento",
+        "seleccion"
       ],
       "labels":["70"],
       "subtopics":["algoritmos_ordenamiento"]
@@ -1200,8 +1201,134 @@
       ],
       "labels":["91"],
       "subtopics":["ordenamiento_quicksort"]
-    }
+    },
+
+    "bubble_sort_list_iteration_python": {
+      "primary_keywords": ["algoritmo","burbuja","python", "iteracion", "recorrido de la lista"],
+      "keywords": ["código","recorrer la lista"],
+      "labels": ["92"],
+      "subtopics": ["ejemplo_burbuja_python"]
+    },
+    "bubble_sort_list_compare_python": {
+          "primary_keywords": ["algoritmo","burbuja","python", "iteración","recorrer","comparar elementos"],
+          "keywords": ["código","recorrido","compara", "podrias", "Puedes", "muestrame"],
+          "labels": ["93"],
+          "subtopics": ["ejemplo_burbuja_python"]
+        },
+    "bubble_sort_if_greater_python": {
+          "primary_keywords": ["algoritmo","burbuja","python","comparar","comparación"],
+          "keywords": ["código","elementos", "podrias", "Puedes", "muestrame"],
+          "labels": ["94"],
+          "subtopics": ["ejemplo_burbuja_python"]
+        },
+    "bubble_sort_copy_items_python": {
+          "primary_keywords": ["algoritmo","burbuja","python","intercambiar"],
+          "keywords": ["código","elementos", "podrias", "Puedes", "muestrame"],
+          "labels": ["95"],
+          "subtopics": ["ejemplo_burbuja_python"]
+        },
+    "bubble_sort_return_python": {
+          "primary_keywords": ["algoritmo","burbuja","python","return"],
+          "keywords": ["código", "podrias", "Puedes", "muestrame"],
+          "labels": ["96"],
+          "subtopics": ["ejemplo_burbuja_python"]
+        },
+
+        "bubble_sort_list_iteration_javascript": {
+          "primary_keywords": ["algoritmo","burbuja","javascript", "iteracion", "lista"],
+          "keywords": ["código","recorrer"],
+          "labels": ["97"],
+          "subtopics": ["burbuja_javascript"]
+        },
+    "bubble_sort_list_compare_javascript": {
+          "primary_keywords": ["algoritmo","burbuja","javascript", "iteración","recorrer","comparar"],
+          "keywords": ["código","recorrido"],
+          "labels": ["98"],
+          "subtopics": ["burbuja_javascript"]
+        },
+    "bubble_sort_if_greater_javascript": {
+          "primary_keywords": ["algoritmo","burbuja","javascript","comparar","comparación"],
+          "keywords": ["código","elementos"],
+          "labels": ["99"],
+          "subtopics": ["burbuja_javascript"]
+        },
+    "bubble_sort_copy_items_javascript": {
+          "primary_keywords": ["algoritmo","burbuja","javascript","intercambiar"],
+          "keywords": ["código","elementos"],
+          "labels": ["100"],
+          "subtopics": ["burbuja_javascript"]
+        },
+    "bubble_sort_return_javascript": {
+          "primary_keywords": ["algoritmo","burbuja","javascript","return"],
+          "keywords": ["código", "podrias", "Puedes", "muestrame"],
+          "labels": ["101"],
+          "subtopics": ["burbuja_javascript"]
+        },
+    "selection_sort_iteration_python": {
+          "primary_keywords": ["ordenamiento por selección","iteración", "recorrido", "recorrer", "python"],
+          "keywords": ["algoritmo", "código", "ciclo", "enseñarme", "muestrame"],
+          "labels": ["102"],
+          "subtopics": []
+        },
+    "selection_sort_min_iteration_python": {
+          "primary_keywords": ["ordenamiento por selección", "python", "indice", "elemento menor", "minimo"],
+          "keywords": ["algoritmo", "código", "enseñarme", "muestrame"],
+          "labels": ["103"],
+          "subtopics": []
+        },
+    "selection_sort_if_validation_python": {
+          "primary_keywords": ["ordenamiento por selección", "python", "comparar", "elementos", "comparación"],
+          "keywords": ["algoritmo", "código", "enseñarme", "muestrame"],
+          "labels": ["104"],
+          "subtopics": []
+        },
+    "selection_sort_copy_items_python": {
+          "primary_keywords": ["ordenamiento por selección", "python", "intercambiar", "intercambiar el elemento"],
+          "keywords": ["algoritmo", "código", "enseñarme", "muestrame", "cambiar"],
+          "labels": ["105"],
+          "subtopics": []
+        },
+    "selection_sort_return_python": {
+          "primary_keywords": ["ordenamiento por selección", "python", "return"],
+          "keywords": ["algoritmo", "código", "enseñarme", "muestrame"],
+          "labels": ["106"],
+          "subtopics": []
+        },
+
+    "selection_sort_iteration_javascript": {
+          "primary_keywords": ["ordenamiento por selección","iteración", "recorrido", "recorrer", "javascript"],
+          "keywords": ["algoritmo", "código", "ciclo", "enseñarme", "muestrame"],
+          "labels": ["107"],
+          "subtopics": []
+        },
+    "selection_sort_min_iteration_javascript": {
+          "primary_keywords": ["ordenamiento por selección", "javascript", "indice", "elemento menor", "minimo"],
+          "keywords": ["algoritmo", "código", "enseñarme", "muestrame"],
+          "labels": ["108"],
+          "subtopics": []
+        },
+    "selection_sort_if_validation_javascript": {
+          "primary_keywords": ["ordenamiento por selección", "javascript", "comparar", "elementos", "comparación"],
+          "keywords": ["algoritmo", "código", "enseñarme", "muestrame"],
+          "labels": ["109"],
+          "subtopics": []
+        },
+    "selection_sort_copy_items_javascript": {
+          "primary_keywords": ["ordenamiento por selección", "javascript", "intercambiar", "intercambiar el elemento"],
+          "keywords": ["algoritmo", "código", "enseñarme", "muestrame", "cambiar"],
+          "labels": ["110"],
+          "subtopics": []
+        },
+    "selection_sort_return_javascript": {
+          "primary_keywords": ["ordenamiento por selección", "javascript", "return"],
+          "keywords": ["algoritmo", "código", "enseñarme", "muestrame"],
+          "labels": ["111"],
+          "subtopics": []
+        }
+
+
   },
+
   "relations": {
     "saludos": ["estado", "identidad"],
     "identidad": ["programacion", "estado"],

@@ -1,23 +1,23 @@
 {
   "0": [
-    "¡Hola! Soy un chatbot especializado en programación y conceptos de bases de datos. ¿En qué puedo ayudarte?",
-    "¡Hey! Me alegro de verte. ¿Tienes alguna duda sobre programación o bases de datos?",
-    "¡Saludos! Estoy aquí para ayudarte con temas de programación y bases de datos. ¿Qué te gustaría aprender?",
-    "¡Hola! ¿Qué te gustaría saber sobre programación o bases de datos?",
-    "¡Bienvenido! Soy un asistente especializado en programación y bases de datos. ¿En qué puedo ayudarte?"
+    "¡Hola! Soy un chatbot especializado en programación y algoritmos basicos en python y javascript. ¿En qué puedo ayudarte?",
+    "¡Hey! Me alegro de verte. ¿Tienes alguna duda sobre programación o algoritmos basicos en python y javascript?",
+    "¡Saludos! Estoy aquí para ayudarte con temas de programación y algoritmos basicos en python y javascript. ¿Qué te gustaría aprender?",
+    "¡Hola! ¿Qué te gustaría saber sobre programación o algoritmos basicos en python y javascript?",
+    "¡Bienvenido! Soy un asistente especializado en programación y algoritmos basicos en python y javascript. ¿En qué puedo ayudarte?"
   ],
   "1": [
-    "Soy un chatbot creado para enseñar programación y bases de datos. ¿Qué necesitas saber?",
-    "Puedo explicar conceptos de programación y bases de datos. ¿Tienes algún tema en mente?",
-    "Soy un asistente diseñado para ayudarte con dudas de programación y bases de datos. ¿Te interesa algún tema en particular?",
-    "Mi función principal es enseñarte programación y bases de datos, y responder tus preguntas. ¿Cómo puedo asistirte?",
-    "Estoy aquí para ayudarte a comprender conceptos de programación y bases de datos. ¿Tienes alguna pregunta?"
+    "Soy un chatbot creado para enseñar programación y algoritmos basicos en python y javascript. ¿Qué necesitas saber?",
+    "Puedo explicar conceptos de programación y algoritmos basicos en python y javascript. ¿Tienes algún tema en mente?",
+    "Soy un asistente diseñado para ayudarte con dudas de programación y algoritmos basicos en python y javascript. ¿Te interesa algún tema en particular?",
+    "Mi función principal es enseñarte programación y algoritmos basicos en python y javascript, y responder tus preguntas. ¿Cómo puedo asistirte?",
+    "Estoy aquí para ayudarte a comprender conceptos de programación y algoritmos basicos en python y javascript. ¿Tienes alguna pregunta?"
   ],
   "2": [
     "¡Muy bien! ¿Cómo puedo asistirte hoy?",
     "Todo perfecto, gracias por preguntar. ¿En qué te puedo ayudar?",
     "¡Genial! Listo para resolver tus dudas. ¿Qué necesitas saber?",
-    "Todo bien. Preparado para ayudarte con programación o bases de datos. ¿Por dónde empezamos?",
+    "Todo bien. Preparado para ayudarte con programación o algoritmos basicos en python y javascript. ¿Por dónde empezamos?",
     "¡Estoy excelente! ¿Te puedo ayudar con algo específico?"
   ],
   "3": [
@@ -131,7 +131,7 @@
     "La abstracción oculta los detalles internos y expone solo lo necesario para interactuar con un objeto.",
     "Esencialmente, la abstracción facilita trabajar con sistemas complejos al reducirlos a sus aspectos fundamentales.",
     "Es un principio clave para diseñar interfaces claras y fáciles de usar."
-  ], 
+  ],
   "19": [
     "La programación orientada a objetos (POO) es un paradigma que organiza el código en objetos que combinan datos y funciones.",
     "POO, o programación orientada a objetos, utiliza conceptos como clases, herencia y polimorfismo para modelar problemas complejos.",
@@ -153,7 +153,7 @@
     "Yo estoy diseñado para trabajar con Python y JavaScript. ¿Quieres saber más sobre ellos?",
     "Los lenguajes que entiendo son Python y JavaScript, ambos ideales para programación eficiente. ¿Quieres saber más sobre ellos?",
     "Actualmente, los lenguajes que puedo manejar son Python y JavaScript. ¿Quieres saber más sobre ellos?"
-  ], 
+  ],
   "23": [
     "Python es un lenguaje de programación de alto nivel, conocido por su sintaxis sencilla y legibilidad. ¿Quieres empezar por instalarlo?",
     "Python es ideal para principiantes y expertos, siendo utilizado en desarrollo web, análisis de datos, inteligencia artificial y más. ¿Quieres empezar por instalarlo?",
@@ -172,9 +172,9 @@
     "Si usas una terminal, simplemente navega hasta el directorio donde guardaste el archivo y ejecuta el comando `python3 archivo.py`."
   ],
   "26": [
-      "### Primeros pasos para empezar a programar en Python:\n\n1. Instala Python en tu computadora siguiendo las instrucciones del tópico **24**.\n2. Descarga un editor de texto o IDE (como [VSCode](https://code.visualstudio.com) o PyCharm).\n3. Crea un archivo con extensión `.py`, por ejemplo: `mi_programa.py`.\n4. Escribe este código inicial:\n   ```python\n   print('¡Hola, mundo!')\n   ```\n5. Guarda el archivo.\n6. Abre una terminal, navega al directorio donde guardaste el archivo, y escribe:\n   ```\n   python mi_programa.py\n   ```\n  ¿Quieres saber mas conceptos basicos o avanzados, puedo enseñarte algoritmos, definiciones, estructura de datos?",
-      "### Crear una aplicación sencilla en Python:\n\n1. Abre tu editor de texto y crea un archivo llamado `calculadora.py`.\n2. Escribe este código:\n   ```python\n   def suma(a, b):\n       return a + b\n\n   num1 = int(input('Ingresa el primer número: '))\n   num2 = int(input('Ingresa el segundo número: '))\n   resultado = suma(num1, num2)\n   print(f'El resultado de la suma es: {resultado}')\n   ```\n3. Guarda el archivo.\n4. Desde la terminal, corre el programa escribiendo:\n   ```\n   python calculadora.py\n   ```\n5. Sigue las instrucciones en la terminal para probar tu programa. \n  ¿Quieres saber mas conceptos basicos o avanzados, puedo enseñarte algoritmos, definiciones, estructura de datos?",
-      "### Crear un programa interactivo:\n\n1. Abre un archivo llamado `adivinanza.py`.\n2. Escribe el siguiente código:\n   ```python\n   import random\n\n   numero_secreto = random.randint(1, 10)\n   intentos = 0\n\n   print('Adivina un número entre 1 y 10')\n\n   while True:\n       intento = int(input('Ingresa tu número: '))\n       intentos += 1\n       if intento == numero_secreto:\n           print(f'¡Felicidades! Adivinaste en {intentos} intentos.')\n           break\n       elif intento < numero_secreto:\n           print('El número es mayor. Intenta nuevamente.')\n       else:\n           print('El número es menor. Intenta nuevamente.')\n   ```\n3. Guarda el archivo y corre el programa desde tu terminal:\n   ```\n   python adivinanza.py\n   ``` \n  ¿Quieres saber mas conceptos basicos o avanzados, puedo enseñarte algoritmos, definiciones, estructura de datos?"
+    "### Primeros pasos para empezar a programar en Python:\n\n1. Instala Python en tu computadora siguiendo las instrucciones del tópico **24**.\n2. Descarga un editor de texto o IDE (como [VSCode](https://code.visualstudio.com) o PyCharm).\n3. Crea un archivo con extensión `.py`, por ejemplo: `mi_programa.py`.\n4. Escribe este código inicial:\n   ```python\n   print('¡Hola, mundo!')\n   ```\n5. Guarda el archivo.\n6. Abre una terminal, navega al directorio donde guardaste el archivo, y escribe:\n   ```\n   python mi_programa.py\n   ```\n  ¿Quieres saber mas conceptos basicos o avanzados, puedo enseñarte algoritmos, definiciones, estructura de datos?",
+    "### Crear una aplicación sencilla en Python:\n\n1. Abre tu editor de texto y crea un archivo llamado `calculadora.py`.\n2. Escribe este código:\n   ```python\n   def suma(a, b):\n       return a + b\n\n   num1 = int(input('Ingresa el primer número: '))\n   num2 = int(input('Ingresa el segundo número: '))\n   resultado = suma(num1, num2)\n   print(f'El resultado de la suma es: {resultado}')\n   ```\n3. Guarda el archivo.\n4. Desde la terminal, corre el programa escribiendo:\n   ```\n   python calculadora.py\n   ```\n5. Sigue las instrucciones en la terminal para probar tu programa. \n  ¿Quieres saber mas conceptos basicos o avanzados, puedo enseñarte algoritmos, definiciones, estructura de datos?",
+    "### Crear un programa interactivo:\n\n1. Abre un archivo llamado `adivinanza.py`.\n2. Escribe el siguiente código:\n   ```python\n   import random\n\n   numero_secreto = random.randint(1, 10)\n   intentos = 0\n\n   print('Adivina un número entre 1 y 10')\n\n   while True:\n       intento = int(input('Ingresa tu número: '))\n       intentos += 1\n       if intento == numero_secreto:\n           print(f'¡Felicidades! Adivinaste en {intentos} intentos.')\n           break\n       elif intento < numero_secreto:\n           print('El número es mayor. Intenta nuevamente.')\n       else:\n           print('El número es menor. Intenta nuevamente.')\n   ```\n3. Guarda el archivo y corre el programa desde tu terminal:\n   ```\n   python adivinanza.py\n   ``` \n  ¿Quieres saber mas conceptos basicos o avanzados, puedo enseñarte algoritmos, definiciones, estructura de datos?"
   ],
   "27": [
     "### Definir Variables en Python:\nLas variables en Python no necesitan declaración previa, se asignan automáticamente:\n```python\n# Asignar una variable\na = 10\nb = 'Hola'\nc = True\nprint(a, b, c)\n```",
@@ -240,7 +240,7 @@
     "### Lista de algoritmos que puedo enseñarte:\n- Algoritmos de búsqueda: búsqueda lineal y binaria.\n- Algoritmos de ordenamiento: burbuja, quicksort.\n- Algoritmos en estructuras de datos: árboles binarios, grafos.\n\n¿Con cuál te gustaría comenzar?",
     "Puedo enseñarte varios algoritmos. Por ejemplo:\n- Algoritmos de búsqueda (lineal, binaria).\n- Algoritmos de grafos (DFS, BFS).\n- Algoritmos de ordenamiento (burbuja, quicksort).\n\n¿Te interesa algún algoritmo específico?",
     "Mis habilidades incluyen enseñar:\n1. Algoritmos de búsqueda, como búsqueda binaria.\n2. Ordenamientos: burbuja, selección, quicksort.\n3. Algoritmos de árboles: recorrido inorden, preorden.\n\n¡Dime por dónde quieres empezar!"
-  ], 
+  ],
   "40": [
     "Un algoritmo de búsqueda es una técnica utilizada para localizar un elemento dentro de una colección de datos. Ejemplo: búsqueda lineal en listas desordenadas o búsqueda binaria en listas ordenadas.",
     "Los algoritmos de búsqueda son esenciales en programación y se utilizan para encontrar información en estructuras de datos como listas o árboles. Ejemplos: búsqueda binaria y búsqueda en profundidad (DFS).",
@@ -278,8 +278,8 @@
   ],
   "47": [
     "### Algoritmo burbuja básico en Python:\n```python\ndef burbuja(arr):\n    n = len(arr)\n    for i in range(n):\n        for j in range(0, n-i-1):\n            if arr[j] > arr[j+1]:\n                arr[j], arr[j+1] = arr[j+1], arr[j]\n    return arr\nnumeros = [64, 34, 25, 12, 22, 11, 90]\nprint(burbuja(numeros))\n```",
-    "Ordenamiento burbuja optimizado:\n```python\ndef burbuja_optimizada(arr):\n    n = len(arr)\n    for i in range(n):\n        swapped = False\n        for j in range(0, n-i-1):\n            if arr[j] > arr[j+1]:\n                arr[j], arr[j+1] = arr[j+1], arr[j]\n                swapped = True\n        if not swapped:\n            break\n    return arr\nnumeros = [5, 1, 4, 2, 8]\nprint(burbuja_optimizada(numeros))\n```",
-    "Burbuja con seguimiento de pasos:\n```python\ndef burbuja_con_pasos(arr):\n    for i in range(len(arr)):\n        for j in range(0, len(arr) - i - 1):\n            print(f'Comparando {arr[j]} y {arr[j+1]}')\n            if arr[j] > arr[j + 1]:\n                arr[j], arr[j + 1] = arr[j + 1], arr[j]\n    return arr\nnumeros = [3, 2, 1]\nprint(burbuja_con_pasos(numeros))\n```"
+    "Ordenamiento burbuja:\n```python\ndef burbuja(arr):\n    n = len(arr)\n    for i in range(n):\n        for j in range(0, n-i-1):\n            if arr[j] > arr[j+1]:\n                arr[j], arr[j+1] = arr[j+1], arr[j]\n    return arr\nnumeros = [64, 34, 25, 12, 22, 11, 90]\nprint(burbuja(numeros))\n```",
+    "Ordenamiento burbuja (bubble sort):\n```python\ndef burbuja(arr):\n    n = len(arr)\n    for i in range(n):\n        for j in range(0, n-i-1):\n            if arr[j] > arr[j+1]:\n                arr[j], arr[j+1] = arr[j+1], arr[j]\n    return arr\nnumeros = [64, 34, 25, 12, 22, 11, 90]\nprint(burbuja(numeros))\n```"
   ],
   "48": [
     "### Recorrido inorden en un árbol binario:\n```python\nclass Nodo:\n    def __init__(self, valor):\n        self.valor = valor\n        self.izquierda = None\n        self.derecha = None\n\ndef inorden(nodo):\n    if nodo:\n        inorden(nodo.izquierda)\n        print(nodo.valor)\n        inorden(nodo.derecha)\n\nraiz = Nodo(10)\nraiz.izquierda = Nodo(5)\nraiz.derecha = Nodo(20)\nraiz.izquierda.izquierda = Nodo(3)\nraiz.izquierda.derecha = Nodo(7)\ninorden(raiz)\n```",
@@ -292,16 +292,15 @@
     "Cálculo de caminos más cortos con Dijkstra:\n```python\nimport heapq\ndef dijkstra(grafo, inicio):\n    distancias = {nodo: float('infinity') for nodo in grafo}\n    distancias[inicio] = 0\n    cola = [(0, inicio)]\n    while cola:\n        actual_dist, actual_nodo = heapq.heappop(cola)\n        for vecino, peso in grafo[actual_nodo].items():\n            distancia = actual_dist + peso\n            if distancia < distancias[vecino]:\n                distancias[vecino] = distancia\n                heapq.heappush(cola, (distancia, vecino))\n    return distancias\ngrafo = {\n    'A': {'B': 1, 'C': 4},\n    'B': {'C': 2, 'D': 5},\n    'C': {'D': 1},\n    'D': {}\n}\nprint(dijkstra(grafo, 'A'))\n```"
   ],
   "50": [
-    "### Ordenamiento por selección:\n```python\ndef seleccion(arr):\n    for i in range(len(arr)):\n        min_idx = i\n        for j in range(i+1, len(arr)):\n            if arr[j] < arr[min_idx]:\n                min_idx = j\n        arr[i], arr[min_idx] = arr[min_idx], arr[i]\nnumeros = [64, 25, 12, 22, 11]\nseleccion(numeros)\nprint(numeros)\n```",
-    "Ordenamiento por inserción:\n```python\ndef insercion(arr):\n    for i in range(1, len(arr)):\n        key = arr[i]\n        j = i-1\n        while j >= 0 and key < arr[j]:\n            arr[j+1] = arr[j]\n            j -= 1\n        arr[j+1] = key\nnumeros = [12, 11, 13, 5, 6]\ninsercion(numeros)\nprint(numeros)\n```",
-    "Ordenamiento mergesort:\n```python\ndef mergesort(arr):\n    if len(arr) > 1:\n        mid = len(arr) // 2\n        L = arr[:mid]\n        R = arr[mid:]\n        mergesort(L)\n        mergesort(R)\n        i = j = k = 0\n        while i < len(L) and j < len(R):\n            if L[i] < R[j]:\n                arr[k] = L[i]\n                i += 1\n            else:\n                arr[k] = R[j]\n                j += 1\n            k += 1\n        while i < len(L):\n            arr[k] = L[i]\n            i += 1\n            k += 1\n        while j < len(R):\n            arr[k] = R[j]\n            j += 1\n            k += 1\nnumeros = [38, 27, 43, 3, 9, 82, 10]\nmergesort(numeros)\nprint(numeros)\n```"
+    "### Ordenamiento por selección:\n```def seleccion(arr):\n for i in range(len(arr)):\n  min_idx = i\n  for j in range(i+1, len(arr)):\n   if arr[j] < arr[min_idx]:\n    min_idx = j\n  arr[i], arr[min_idx] = arr[min_idx], arr[i]\n return arr\n```",
+    "Ordenamiento por Selección (Selection Sort):\n```def seleccion(arr):\n for i in range(len(arr)):\n  min_idx = i\n  for j in range(i+1, len(arr)):\n   if arr[j] < arr[min_idx]:\n    min_idx = j\n  arr[i], arr[min_idx] = arr[min_idx], arr[i]\n return arr\n```",
+    "El algoritmo más simple para el ordenamiento lineal es por seleccion:\n```def seleccion(arr):\n for i in range(len(arr)):\n  min_idx = i\n  for j in range(i+1, len(arr)):\n   if arr[j] < arr[min_idx]:\n    min_idx = j\n  arr[i], arr[min_idx] = arr[min_idx], arr[i]\n return arr\n```"
   ],
   "51": [
     "### Búsqueda lineal:\n```python\ndef busqueda_lineal(arr, objetivo):\n    for i in range(len(arr)):\n        if arr[i] == objetivo:\n            return i\n    return -1\nnumeros = [10, 20, 30, 40, 50]\nprint(busqueda_lineal(numeros, 30))\n```",
     "Búsqueda binaria:\n```python\ndef busqueda_binaria(arr, objetivo):\n    inicio, fin = 0, len(arr) - 1\n    while inicio <= fin:\n        medio = (inicio + fin) // 2\n        if arr[medio] == objetivo:\n            return medio\n        elif arr[medio] < objetivo:\n            inicio = medio + 1\n        else:\n            fin = medio - 1\n    return -1\nnumeros = [10, 20, 30, 40, 50]\nprint(busqueda_binaria(numeros, 40))\n```",
     "Búsqueda secuencial con elementos no numéricos:\n```python\ndef busqueda_secuencial(arr, objetivo):\n    for i, elemento in enumerate(arr):\n        if elemento == objetivo:\n            return i\n    return -1\npalabras = ['manzana', 'banana', 'cereza', 'durazno']\nprint(busqueda_secuencial(palabras, 'cereza'))\n```"
   ],
-
   "52": [
     "JavaScript es un lenguaje de programación dinámico y basado en prototipos utilizado principalmente para el desarrollo web. Quieres saber como instarlo?",
     "JavaScript es un lenguaje orientado a objetos basado en prototipos, lo que permite crear y extender objetos de forma flexible. Puedo explicarte como se instala?",
@@ -309,8 +308,7 @@
     "JavaScript es interpretado directamente por el navegador o el entorno de ejecución, sin necesidad de compilarse previamente. Puedo explicarte como instalarlo",
     "JavaScript permite añadir interactividad y dinamismo a los sitios web, como menús desplegables, animaciones y validaciones de formularios. Quieres saber como instalarlo?"
   ],
-
-  "53":[
+  "53": [
     "Para instalar javascript en windows sigue los siguiente pasos:\n\t1. ingresa a https://nodejs.org/en/download\n\t2. Descarga el instalador para windows que se encuentra en la parte baja de la pagina.\n\t3.Ejecuta el instalador y sigue los pasos.\n\t4.verifica la instalacion abriendo una terminal y corriendo el siguiente comando.\n\t```bash\n\t\t node -v\n\t\t npm -v\n\t```\nPara instalarlo en linux o macOS siga los siguientes pasos:\n\t1.Abra una terminal.\n\t2.Ejecute el siguiente comando:\n\t\tcurl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash\n\t3.Luego ejecute el siguiente comando:\n\t\t nvm install #version(por ejemplos 22)\n\t4.Verifica la instalacion con los siguientes comandos:\n\t\t* node -v\n\t\t*nvm current\n\t5.Verifica la instalacion de npm con el siguiente comando:\n\t\tnpm -v",
     "Puede instalar javascript en windows,linux o macOs de la siguiente forma:\nwindows:\n\t1. Ingresa a https://nodejs.org/en/download\n\t2. Descarga el instalador para windows que se encuentra en la parte baja de la pagina.\n\t3.Ejecuta el instalador y sigue los pasos.\n\t4.verifica la instalacion abriendo una terminal y corriendo el siguiente comando.\n\t```bash\n\t\t node -v\n\t\t npm -v\n\t```\nlinux o macOS:\n\t1.Abra una terminal.\n\t2.Ejecute el siguiente comando:\n\t\tcurl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash\n\t3.Luego ejecute el siguiente comando:\n\t\t nvm install #version(por ejemplos 22)\n\t4.Verifica la instalacion con los siguientes comandos:\n\t\t* node -v\n\t\t*nvm current\n\t5.Verifica la instalacion de npm con el siguiente comando:\n\t\tnpm -v",
     "Una forma simple de utilizar javascript es abrir cualquier navegador(como chrome, mozilla o edge) con el comando: ctrl+shift+J"
@@ -320,91 +318,91 @@
     "Una forma de ejecutar codigo de javascript es creando un archivo con extension .js y luego en una terminal ejecute el comando node archivo.js",
     "Puede ejecutar codigo de javascript en un archivo HTML incluya su codigo dentro de una etiqueta <script></script> este codigo se ejecutara al abrir el archivo en el navegador"
   ],
-  "55":[
+  "55": [
     "En javascript se pueden declarar variables con la palabra reservada var. Por ejemplo se va a declarar una variable que guarde un saludo: var saludo = \"Hola mundo\"",
     "En javascript las variables se pueden declarar con la palabra reservada let. Por ejemplo se va a declarar una que almacene un numero: let numero = 10",
     "En javascript es posible declarar variables con la palabra reservada const. por ejemplo se declarara una variable que guarde el valor de pi: const pi = 3.1416"
   ],
-  "56":[
+  "56": [
     "Una de las diferencias entre var, let y const es que var tiene una ambito de funcion es decir que la variable puede ser accedida en cualquier parte de la funcion en la que fue declarada, las variables declaradas con let y const tienen un ambito de bloque lo que significa que las variables solo pueden ser accedidas en el bloque en el que fueron declaradas.",
     "Una de las diferencias entre var, let y const es que let y const no pueden redeclararse mientras que var si puede redeclararse por ejemplo:\nvar mensaje=\"hola\"\nvar mensaje=\"adios\"//esto funciona\n\nlet mensaje=\"hola\"\nlet mensaje=\"adios\"//se genera un error debido a que la variable ya existe sucede lo mismo con const",
     "Una de las diferencias entre var, let y const es que mientras que var y let pueden cambiar de valor, a const no se le puede cambiar el valor con el que se declara por ejemplo:\nlet numero = 10\nnumero=0//esto esta permitido\n\nconst numero = 5\nnumero=10//esto da error",
     "Una de las diferencias entre var, let y const es que var se inicializa como undefined si no se le asigna un valor mientras que let y const not tienen valor hasta que no se inicializan"
   ],
-  "57":[
+  "57": [
     "Claro aqui tienes un ejemplo de un for en javascript\nfor(let i=0;i<10;i++){\n\tconsole.log(i)\n}",
     "Aqui tienes un ejemplo mas complejo de un for en javascript\nconst num=[10,9,5,3,7,1]\nfor(let i = 0;i<num.length;i++){\n\tconsole.log(num[i])\n}\n",
     "Aqui tienes un ejemplo de un for en javascript\nconst colores = [\"Rojo\", \"Verde\", \"Azul\"]\nfor (const color of colores) {\n\tconsole.log(color)\n}"
   ],
-  "58":[
+  "58": [
     "Con mucho gusto aqui tienes un ejemplo de while en javascript\nlet i=1\nwhile(i<5){\n\tconsole.log(i)\n\ti++\n}",
     "Claro aqui tienes un ejemplo de un while en javascript\nlet i = 10\nwhile (i > 0) {\n\tconsole.log(i)\n\ti--\n}",
     "Aqui tienes un while en javascript\nconst frutas = [\"Manzana\", \"Banana\", \"Naranja\"]\nlet i = 0\nwhile (i < frutas.length) {\n\tconsole.log(frutas[i])\n\ti++\n}"
   ],
-  "59":[
+  "59": [
     "Aqui tienes un if simple en javascript:\nlet i = 5\nif(i>=0){\n\tconsole.log(\"el numero es positivo\")\n}",
     "Claro aqui tienes un ejemplo de un if en javascript:\nlet edad = 15\nif(edad >= 18){\n\tconsole.log(\"puedes conducir\")\n}else{\n\tconsole.log(\"no puedes conducir\")\n}",
     "Aqui tienes un ejemplo de un if en javascript:\nlet numero = 8\nif(numero % 2 === 8){\n\tconsole.log(\"el numero es par\")\n}",
     "Aqui tienes un ejemplo de un if en javascript:\nlet a = 5, b = 10\nif (a > b) {\n\tconsole.log(\"a es mayor que b.\")\n} else if (a < b) {\n\tconsole.log(\"a es menor que b.\")\n} else {\n\tconsole.log(\"a es igual a b.\")\n}",
     "Con mucho gusto aqui tienes un ejemplo de if en javascript:\nlet valor = null\nif (valor == null) {\n\tconsole.log(\"El valor es null o undefined.\")\n}"
   ],
-  "60":[
+  "60": [
     "Aqui esta la declaracion de una funcion en javascript:\nfunction sumar(a, b){\n\treturn a+b\n}\nconsole.log(sumar(3,5))\n Esta funcion realiza la suma de dos valores",
     "Aqui tiene un ejemplo de una funcion en javascript:\nfunction esPar(numero) {\n\treturn numero % 2 === 0\n}\nconsole.log(esPar(4))\nconsole.log(esPar(5))\nesta funcion verifica si un numero es par o impar",
     "Aqui tienes una funcion en javascript que recibe un nombre como parametro y manda una saludo al usuario:\nfunction saludar(nombre) {\n\treturn `Hola, ${nombre}!`\n}\nconsole.log(saludar(\"Juan\"))",
     "Aqui tienes un ejemplo de una funcion que convierte celsius a fahrenheit en javascript:\nfunction celsiusAFahrenheit(celsius) {\n\treturn (celsius * 9/5) + 32\n}"
   ],
-  "61":[
+  "61": [
     "Una clase en javascript:\nclass Persona {\n\tsaludar() {\n\t\tconsole.log(\"Hola, soy una persona.\")\n\t}\n}\n\nconst persona = new Persona()\npersona.saludar()",
     "Aqui tienes una clase en javascript que posee un constructor:\nclass Persona {\n\tconstructor(nombre, edad) {\n\t\tthis.nombre = nombre\n\t\tthis.edad = edad\n\t}\n\tsaludar() {\n\t\tconsole.log(`Hola, me llamo ${this.nombre} y tengo ${this.edad} años.`)\n\t}\n}\nconst persona = new Persona(\"Juan\", 30)\npersona.saludar() // \"Hola, me llamo Juan y tengo 30 años.\"",
     "Aqui tienes un ejemplo de una clase en javascript:\nclass Rectangulo {\n\tconstructor(ancho, alto) {\n\t\tthis.ancho = ancho\n\t\tthis.alto = alto\n\t}\n\n\tcalcularArea() {\n\t\treturn this.ancho * this.alto\n\t}\n}\n\nconst rectangulo = new Rectangulo(5, 10)\nconsole.log(rectangulo.calcularArea()) // 50",
     "Claro aqui tienes una ejemplo de una clase en javascript:\nclass Calculadora {\n\tsumar(a, b) {\n\t\treturn a + b\n\t}\n\n\trestar(a, b) {\n\t\treturn a - b\n\t}\n}\n\nconsole.log(Calculadora.sumar(5, 3))// 8\nconsole.log(Calculadora.restar(10, 4))// 6"
   ],
-  "62":[
+  "62": [
     "Aqui tienes un ejemplo de como crear un objeto literal en javascript:\nconst persona = {\n\tnombre: \"Juan\",\n\tedad: 30,\n\tsaludar: function() {\n\t\tconsole.log(`Hola, me llamo ${this.nombre}`)\n\t}\n}\nconsole.log(persona.nombre)//Juan\npersona.saludar()//Hola, me llamo Juan",
     "Puedes crear un objeto en javascript la clase Object() aqui tienes un ejemplo:\nconst persona = new Object()\npersona.nombre = \"María\"\npersona.edad = 25\nconsole.log(persona) // { nombre: \"María\", edad: 25 }",
     "Puedes crear un objeto en javascript creando una clase y luego creando una instancia de la clase como en el siguiente ejemplo:\nclass Persona {\n\tconstructor(nombre,edad){\n\t\tthis.nombre=nombre\n\t\tthis.edad=edad\n\t}\n}\nconst persona= new Persona(\"Lucia\",30)\nconsole.log(persona)// Persona { nombre: \"Lucía\", edad: 22 }",
     "Aqui tienes un ejemplo de como crear una objeto en javascript usando una funcion constructora:\nfunction Persona(nombre, edad) {\n\tthis.nombre = nombre\n\tthis.edad = edad\n}\nconst persona = new Persona(\"Carlos\", 28)\nconsole.log(persona)// Persona { nombre: \"Carlos\", edad: 28 }"
   ],
-  "63":[
+  "63": [
     "Aqui tienes un ejemplo de polimorfismo en javascript:\nclass Animal {\n\thacerSonido() {\n\t\tconsole.log(\"El animal hace un sonido.\")\n\t}\n}\n\nclass Perro extends Animal {\n\tthacerSonido() {\n\t\tconsole.log(\"El perro ladra: ¡Guau!.\")\n\t}\n}\n\nconst animales = [new Animal(), new Perro(), new Gato()]\nanimales.forEach(animal => animal.hacerSonido())",
     "Aqui tienes un ejemplo de polimorfismo con funciones en javascript:\nfunction saludar(persona) {\n\tconsole.log(`Hola, ${persona.saludo()}`)\n}\nclass Persona {\n\tsaludo() {\n\t\t return \"soy una persona.\"\n\t}\n}\nclass Robot {\n\tsaludo() {\n\t\treturn \"soy un robot.\"\n\t}\n}\n\nsaludar(new Persona())// Hola, soy una persona.\nsaludar(new Robot())// Hola, soy un robot.",
     "Aqui tienes un ejemplo de polimorfismo con objetos literales en javascript:\nconst humano = {\n\tcaminar: () => console.log(\"El humano camina sobre dos piernas.\")\n}\n\nconst perro = {\n\tcaminar: () => console.log(\"El perro camina sobre cuatro patas.\")\n}\n\nconst objetos = [humano, perro]\nobjetos.forEach(obj => obj.caminar())"
   ],
-  "64":[
+  "64": [
     "Aqui tienes un ejemplo de herencia en javascript:\nclass Animal {\n\tconstructor(nombre) {\n\t\tthis.nombre = nombre\n\t}\n\thacerSonido() {\n\t\tconsole.log(\"Sonido genérico de animal.\")\n\t}\n}\n\nclass Perro extends Animal {\n\thacerSonido() {\n\t\tconsole.log(\"Guau guau\")\n\t}\n}\n\nconst perro = new Perro(\"Firulais\")\nperro.hacerSonido()//\"Guau guau\"",
     "Puedes aplicar herencia en una clase en javascript de la siguiente forma:\nclass Vehiculo {\n\tconstructor(marca) {\n\t\tthis.marca = marca\n\t}\n\tarrancar() {\n\t\tconsole.log(\"El vehículo está arrancando.\")\n\t}\n}\n\nclass Coche extends Vehiculo {\n\tconstructor(marca, modelo) {\n\t\tsuper(marca)// Llama al constructor de la clase base\n\t\tthis.modelo = modelo\n\t}\n\tarrancar() {\n\t\t console.log(`El coche ${this.marca} modelo ${this.modelo} está arrancando.`)\n\t}\n}\n\nconst coche = new Coche(\"Toyota\", \"Corolla\")\ncoche.arrancar()// \"El coche Toyota modelo Corolla está arrancando.\"",
     "Puedes aplicar herencia usando metodos estaticos en javascript como en el siguiente ejemplo:\nclass Calculadora {\n\tstatic sumar(a, b) {\n\t\treturn a + b\n\t}\n}\n\nclass CalculadoraAvanzada extends Calculadora {\n\tstatic multiplicar(a, b) {\n\t\treturn a * b\n\t}\n}\n\nconsole.log(CalculadoraAvanzada.sumar(3, 4))// 7\nconsole.log(CalculadoraAvanzada.multiplicar(3, 4))// 12"
   ],
-  "65":[
+  "65": [
     "Puedes aplicar encapsulamiento en javascript de la siguiente forma:\nclass Persona {\n\tconstructor(nombre, edad) {\n\t\tthis.nombre = nombre// Propiedad pública\n\t\tthis.edad = edad// Propiedad pública\n\t}\n\n\tsaludar() {\n\t\tconsole.log(`Hola, me llamo ${this.nombre} y tengo ${this.edad} años.`)\n\t}\n}\n\nconst persona = new Persona(\"Ana\", 30)\npersona.saludar()// \"Hola, me llamo Ana y tengo 30 años.\"",
     "Aqui tienes un ejemplo de como aplicar encapsulamiento en javascript con propiedades privadas:\nclass CuentaBancaria {\n\t#saldo = 0// Propiedad privada\n\tdepositar(cantidad) {\n\t\tthis.#saldo += cantidad\n\t}\n\n\tobtenerSaldo() {\n\t\treturn this.#saldo\n\t}\n}\n\nconst cuenta = new CuentaBancaria()\ncuenta.depositar(500)\nconsole.log(cuenta.obtenerSaldo())// 500",
     "Puedes aplicar encapsulamiento en javascript con funciones getter y setter de la siguiente forma:\nclass Producto {\n\t#precio = 0\n\tget precio() {\n\t\treturn this.#precio\n\t}\n\n\tset precio(valor) {\n\t\tif (valor < 0) {\n\t\t\tconsole.log(\"El precio no puede ser negativo.\")\n\t\t}else{\n\t\t\tthis.#precio = valor\n\t\t}\n\t}\n}\n\nconst producto = new Producto()\nproducto.precio = 100// Asigna un valor\nconsole.log(producto.precio)// 100\nproducto.precio = -50// \"El precio no puede ser negativo.\""
   ],
-  "66":[
+  "66": [
     "### Quicksort básico en JavaScript:\n```javascript\nfunction quicksort(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const pivot = arr[0];\n    const menores = arr.slice(1).filter(x => x < pivot);\n    const mayores = arr.slice(1).filter(x => x >= pivot);\n    return quicksort(menores).concat(pivot, quicksort(mayores));\n}\n\nconst numeros1 = [5, 2, 9, 1, 5];\nconsole.log(quicksort(numeros1)); // Resultado: [1, 2, 5, 5, 9]\n```",
     "### Quicksort optimizado en JavaScript:\n```javascript\nfunction quicksortOptimizado(arr) {\n    if (arr.length <= 1) {\n        return arr;\n    }\n    const pivot = arr[Math.floor(arr.length / 2)];\n    const izquierda = arr.filter(x => x < pivot);\n    const iguales = arr.filter(x => x === pivot);\n    const derecha = arr.filter(x => x > pivot);\n    return quicksortOptimizado(izquierda).concat(iguales, quicksortOptimizado(derecha));\n}\n\nconst numeros2 = [3, 6, 8, 10, 1, 2, 1];\nconsole.log(quicksortOptimizado(numeros2)); // Resultado: [1, 1, 2, 3, 6, 8, 10]\n```",
     "### Quicksort con índices explícitos en JavaScript:\n```javascript\nfunction quicksortConIndices(arr, inicio, fin) {\n    if (inicio < fin) {\n        const pivote = particion(arr, inicio, fin);\n        quicksortConIndices(arr, inicio, pivote - 1);\n        quicksortConIndices(arr, pivote + 1, fin);\n    }\n}\n\nfunction particion(arr, inicio, fin) {\n    const pivot = arr[fin];\n    let i = inicio - 1;\n    for (let j = inicio; j < fin; j++) {\n        if (arr[j] < pivot) {\n            i++;\n            [arr[i], arr[j]] = [arr[j], arr[i]]; // Intercambio\n        }\n    }\n    [arr[i + 1], arr[fin]] = [arr[fin], arr[i + 1]];\n    return i + 1;\n}\n\nconst numeros3 = [4, 2, 7, 3, 8, 1];\nquicksortConIndices(numeros3, 0, numeros3.length - 1);\nconsole.log(numeros3); // Resultado: [1, 2, 3, 4, 7, 8]\n```"
   ],
   "67": [
-    "### Algoritmo burbuja básico en JavaScript:\n```javascript\nfunction burbuja(arr) {\n    const n = arr.length;\n    for (let i = 0; i < n; i++) {\n        for (let j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]]; // Intercambio\n            }\n        }\n    }\n    return arr;\n}\n\nconst numeros1 = [64, 34, 25, 12, 22, 11, 90];\nconsole.log(burbuja(numeros1)); // Resultado: [11, 12, 22, 25, 34, 64, 90]\n```",
-    "### Ordenamiento burbuja optimizado en JavaScript:\n```javascript\nfunction burbujaOptimizada(arr) {\n    const n = arr.length;\n    for (let i = 0; i < n; i++) {\n        let swapped = false;\n        for (let j = 0; j < n - i - 1; j++) {\n            if (arr[j] > arr[j + 1]) {\n                [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]]; // Intercambio\n                swapped = true;\n            }\n        }\n        if (!swapped) {\n            break;\n        }\n    }\n    return arr;\n}\n\nconst numeros2 = [5, 1, 4, 2, 8];\nconsole.log(burbujaOptimizada(numeros2)); // Resultado: [1, 2, 4, 5, 8]\n```",
-    "### Burbuja con seguimiento de pasos en JavaScript:\n```javascript\nfunction burbujaConPasos(arr) {\n    for (let i = 0; i < arr.length; i++) {\n        for (let j = 0; j < arr.length - i - 1; j++) {\n            console.log(`Comparando ${arr[j]} y ${arr[j + 1]}`);\n            if (arr[j] > arr[j + 1]) {\n                [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]]; // Intercambio\n            }\n        }\n    }\n    return arr;\n}\n\nconst numeros3 = [3, 2, 1];\nconsole.log(burbujaConPasos(numeros3)); // Resultado: [1, 2, 3]\n```"
+    "### Algoritmo burbuja básico en JavaScript:\n```function burbuja(arr) {\n let n = arr.length;\n for (let i = 0; i < n; i++) {\n  for (let j = 0; j < n - i - 1; j++) {\n   if (arr[j] > arr[j + 1]) {\n    [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];\n   }\n  }\n }\n return arr;\n```",
+    "### Ordenamiento burbuja en JavaScript:\n```function burbuja(arr) {\n let n = arr.length;\n for (let i = 0; i < n; i++) {\n  for (let j = 0; j < n - i - 1; j++) {\n   if (arr[j] > arr[j + 1]) {\n    [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];\n   }\n  }\n }\n return arr;\n```",
+    "### Burbuja(Bubble Sort) en JavaScript:\n```function burbuja(arr) {\n let n = arr.length;\n for (let i = 0; i < n; i++) {\n  for (let j = 0; j < n - i - 1; j++) {\n   if (arr[j] > arr[j + 1]) {\n    [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];\n   }\n  }\n }\n return arr;\n```"
   ],
-  "68":[
+  "68": [
     "### Recorrido inorden en un árbol binario:\n```javascript\nclass Nodo {\n    constructor(valor) {\n        this.valor = valor;\n        this.izquierda = null;\n        this.derecha = null;\n    }\n}\n\nfunction inorden(nodo) {\n    if (nodo !== null) {\n        inorden(nodo.izquierda);\n        console.log(nodo.valor);\n        inorden(nodo.derecha);\n    }\n}\n\nconst raiz = new Nodo(10);\nraiz.izquierda = new Nodo(5);\nraiz.derecha = new Nodo(20);\nraiz.izquierda.izquierda = new Nodo(3);\nraiz.izquierda.derecha = new Nodo(7);\ninorden(raiz);\n```",
     "### Inserción en un árbol binario de búsqueda:\n```javascript\nclass Nodo {\n    constructor(valor) {\n        this.valor = valor;\n        this.izquierda = null;\n        this.derecha = null;\n    }\n}\n\nfunction insertar(nodo, valor) {\n    if (nodo === null) {\n        return new Nodo(valor);\n    }\n    if (valor < nodo.valor) {\n        nodo.izquierda = insertar(nodo.izquierda, valor);\n    } else {\n        nodo.derecha = insertar(nodo.derecha, valor);\n    }\n    return nodo;\n}\n\nfunction inorden(nodo) {\n    if (nodo !== null) {\n        inorden(nodo.izquierda);\n        console.log(nodo.valor);\n        inorden(nodo.derecha);\n    }\n}\n\nlet raiz = null;\nconst valores = [10, 5, 20, 3, 7];\nfor (const val of valores) {\n    raiz = insertar(raiz, val);\n}\ninorden(raiz);\n```",
     "### Recorrido preorden en un árbol:\n```javascript\nclass Nodo {\n    constructor(valor) {\n        this.valor = valor;\n        this.izquierda = null;\n        this.derecha = null;\n    }\n}\n\nfunction preorden(nodo) {\n    if (nodo !== null) {\n        console.log(nodo.valor);\n        preorden(nodo.izquierda);\n        preorden(nodo.derecha);\n    }\n}\n\nconst raiz = new Nodo(15);\nraiz.izquierda = new Nodo(10);\nraiz.derecha = new Nodo(20);\nraiz.izquierda.izquierda = new Nodo(8);\nraiz.izquierda.derecha = new Nodo(12);\npreorden(raiz);\n```"
   ],
-  "69":[
+  "69": [
     "### Recorrido inorden en un árbol binario:\n```javascript\nclass Nodo {\n    constructor(valor) {\n        this.valor = valor;\n        this.izquierda = null;\n        this.derecha = null;\n    }\n}\n\nfunction inorden(nodo) {\n    if (nodo !== null) {\n        inorden(nodo.izquierda);\n        console.log(nodo.valor);\n        inorden(nodo.derecha);\n    }\n}\n\nconst raiz = new Nodo(10);\nraiz.izquierda = new Nodo(5);\nraiz.derecha = new Nodo(20);\nraiz.izquierda.izquierda = new Nodo(3);\nraiz.izquierda.derecha = new Nodo(7);\ninorden(raiz);\n```",
     "### Inserción en un árbol binario de búsqueda:\n```javascript\nclass Nodo {\n    constructor(valor) {\n        this.valor = valor;\n        this.izquierda = null;\n        this.derecha = null;\n    }\n}\n\nfunction insertar(nodo, valor) {\n    if (nodo === null) {\n        return new Nodo(valor);\n    }\n    if (valor < nodo.valor) {\n        nodo.izquierda = insertar(nodo.izquierda, valor);\n    } else {\n        nodo.derecha = insertar(nodo.derecha, valor);\n    }\n    return nodo;\n}\n\nfunction inorden(nodo) {\n    if (nodo !== null) {\n        inorden(nodo.izquierda);\n        console.log(nodo.valor);\n        inorden(nodo.derecha);\n    }\n}\n\nlet raiz = null;\nconst valores = [10, 5, 20, 3, 7];\nfor (const val of valores) {\n    raiz = insertar(raiz, val);\n}\ninorden(raiz);\n```",
     "### Recorrido preorden en un árbol:\n```javascript\nclass Nodo {\n    constructor(valor) {\n        this.valor = valor;\n        this.izquierda = null;\n        this.derecha = null;\n    }\n}\n\nfunction preorden(nodo) {\n    if (nodo !== null) {\n        console.log(nodo.valor);\n        preorden(nodo.izquierda);\n        preorden(nodo.derecha);\n    }\n}\n\nconst raiz = new Nodo(15);\nraiz.izquierda = new Nodo(10);\nraiz.derecha = new Nodo(20);\nraiz.izquierda.izquierda = new Nodo(8);\nraiz.izquierda.derecha = new Nodo(12);\npreorden(raiz);\n```"
   ],
-  "70":[
-    "### Ordenamiento por selección:\n```javascript\nfunction seleccion(arr) {\n    for (let i = 0; i < arr.length; i++) {\n        let minIdx = i;\n        for (let j = i + 1; j < arr.length; j++) {\n            if (arr[j] < arr[minIdx]) {\n                minIdx = j;\n            }\n        }\n        [arr[i], arr[minIdx]] = [arr[minIdx], arr[i]];\n    }\n}\n\nconst numeros = [64, 25, 12, 22, 11];\nseleccion(numeros);\nconsole.log(numeros);\n```",
-    "### Ordenamiento por inserción:\n```javascript\nfunction insercion(arr) {\n    for (let i = 1; i < arr.length; i++) {\n        let key = arr[i];\n        let j = i - 1;\n        while (j >= 0 && arr[j] > key) {\n            arr[j + 1] = arr[j];\n            j--;\n        }\n        arr[j + 1] = key;\n    }\n}\n\nconst numeros = [12, 11, 13, 5, 6];\ninsercion(numeros);\nconsole.log(numeros);\n```",
-    "### Ordenamiento mergesort:\n```javascript\nfunction mergesort(arr) {\n    if (arr.length > 1) {\n        const mid = Math.floor(arr.length / 2);\n        const L = arr.slice(0, mid);\n        const R = arr.slice(mid);\n        mergesort(L);\n        mergesort(R);\n\n        let i = 0, j = 0, k = 0;\n        while (i < L.length && j < R.length) {\n            if (L[i] < R[j]) {\n                arr[k] = L[i];\n                i++;\n            } else {\n                arr[k] = R[j];\n                j++;\n            }\n            k++;\n        }\n\n        while (i < L.length) {\n            arr[k] = L[i];\n            i++;\n            k++;\n        }\n\n        while (j < R.length) {\n            arr[k] = R[j];\n            j++;\n            k++;\n        }\n    }\n}\n\nconst numeros = [38, 27, 43, 3, 9, 82, 10];\nmergesort(numeros);\nconsole.log(numeros);\n```"
+  "70": [
+    "### El algoritmo de ordenamiento por selección (selection sort):\n```function selection(arr) {\n for (let i = 0; i < arr.length; i++) {\n let minIdx = i;\n for (let j = i + 1; j < arr.length; j++) {\n if (arr[j] < arr[minIdx]) {\n minIdx = j;\n }\n }\n [arr[i], arr[minIdx]] = [arr[minIdx], arr[i]];\n }\n return arr;\n}\n```",
+    "### Ordenamiento por selección:\n```function selection(arr) {\n for (let i = 0; i < arr.length; i++) {\n let minIdx = i;\n for (let j = i + 1; j < arr.length; j++) {\n if (arr[j] < arr[minIdx]) {\n minIdx = j;\n }\n }\n [arr[i], arr[minIdx]] = [arr[minIdx], arr[i]];\n }\n return arr;\n}\n```",
+    "### El ordenamiento por selección es:\n```function selection(arr) {\n for (let i = 0; i < arr.length; i++) {\n let minIdx = i;\n for (let j = i + 1; j < arr.length; j++) {\n if (arr[j] < arr[minIdx]) {\n minIdx = j;\n }\n }\n [arr[i], arr[minIdx]] = [arr[minIdx], arr[i]];\n }\n return arr;\n}\n```"
   ],
   "71": [
     "### Búsqueda lineal:\n```javascript\nfunction busquedaLineal(arr, objetivo) {\n    for (let i = 0; i < arr.length; i++) {\n        if (arr[i] === objetivo) {\n            return i;\n        }\n    }\n    return -1;\n}\n\nconst numeros = [10, 20, 30, 40, 50];\nconsole.log(busquedaLineal(numeros, 30));\n```",
@@ -416,99 +414,199 @@
     "Aqui tienes el codigo de la funcion suma en python:\ndef suma(a, b):\n\treturn a + b",
     "Claro, Aqui tienes el codigo de la funcion suma en python:\ndef suma(a, b):\n\treturn a + b"
   ],
-  "73":[
+  "73": [
     "Aqui tienes el calculo de la sum en la funcion suma en python:\nreturn a + b",
     "Aqui tienes el codigo que hace la suma dentro de la funcion suma en python:\nreturn a + b",
     "Claro, Aqui tienes el codigo que realiza la suma en la funcion suma en python:\nreturn a + b"
   ],
-  "74":[
+  "74": [
     "Aqui estan las lecturas de valores del codigo del ejemplo de la funcion suma en python:\nnum1 = int(input('Ingresa el primer número: '))\nnum2 = int(input('Ingresa el segundo número: '))",
     "Aqui tienes las lineas de codigo que hace la lectura de valores para el ejemplo de la funcion suma en python:\nnum1 = int(input('Ingresa el primer número: '))\nnum2 = int(input('Ingresa el segundo número: '))",
     "Aqui tienes las lecturas de valores del ejemplo de la funcion suma en python:\nnum1 = int(input('Ingresa el primer número: '))\nnum2 = int(input('Ingresa el segundo número: '))"
   ],
-  "75":[
+  "75": [
     "Aqui tienes el codigo que hace la llamada de la funcion suma en python:\nresultado = suma(num1, num2)",
     "Aqui tienes la linea de codigo que llama a la funcion suma en python:\nresultado = suma(num1, num2)",
     "Claro, aqui estan el codigo que hace la llamada a la funcion suma en python:\nresultado = suma(num1, num2)"
   ],
-  "76":[
+  "76": [
     "Claro, aqui tienes el codigo que muestra el resultado de la funcion suma en python:\nprint(f'El resultado de la suma es: {resultado}')",
     "Aqui tienes la linea de codigo que muestra el resultado de la funcion suma en python:\nprint(f'El resultado de la suma es: {resultado}')",
     "Aqui esta la linea de codigo que muestra el resultado de la funcion suma en python:\nprint(f'El resultado de la suma es: {resultado}')"
   ],
-  "77":[
+  "77": [
     "Claro, aqui tienes el while del ejemplo del numero secreto en python:\nwhile True:\n\tintento = int(input('Ingresa tu número: '))\n\tintentos += 1\n\tif intento == numero_secreto:\n\t\tprint(f'¡Felicidades! Adivinaste en {intentos} intentos.')\n\t\tbreak\n\telif intento < numero_secreto:\n\t\tprint('El número es mayor. Intenta nuevamente.')\n\telse:\n\t\tprint('El número es menor. Intenta nuevamente.')",
     "Aqui tienes el codigo del while en el ejemplo del numero secreto en python:\nwhile True:\n\tintento = int(input('Ingresa tu número: '))\n\tintentos += 1\n\tif intento == numero_secreto:\n\t\tprint(f'¡Felicidades! Adivinaste en {intentos} intentos.')\n\t\tbreak\n\telif intento < numero_secreto:\n\t\tprint('El número es mayor. Intenta nuevamente.')\n\telse:\n\t\tprint('El número es menor. Intenta nuevamente.')",
     "A continuacion te muestro el codigo del while en el ejemplo del numero secreto en python:\nwhile True:\n\tintento = int(input('Ingresa tu número: '))\n\tintentos += 1\n\tif intento == numero_secreto:\n\t\tprint(f'¡Felicidades! Adivinaste en {intentos} intentos.')\n\t\tbreak\n\telif intento < numero_secreto:\n\t\tprint('El número es mayor. Intenta nuevamente.')\n\telse:\n\t\tprint('El número es menor. Intenta nuevamente.')"
   ],
-  "78":[
+  "78": [
     "Aqui tienes el codigo del if que se encuentra en el ejemplo del numero secreto en python:\nif intento == numero_secreto:\n\tprint(f'¡Felicidades! Adivinaste en {intentos} intentos.')\n\tbreak\nelif intento < numero_secreto:\n\tprint('El número es mayor. Intenta nuevamente.')\nelse:\n\tprint('El número es menor. Intenta nuevamente.')",
     "Claro, aqui esta el if del ejemplo del numero secreto en python:\nif intento == numero_secreto:\n\tprint(f'¡Felicidades! Adivinaste en {intentos} intentos.')\n\tbreak\nelif intento < numero_secreto:\n\tprint('El número es mayor. Intenta nuevamente.')\nelse:\n\tprint('El número es menor. Intenta nuevamente.')",
     "Claro, a continuacion te muestro el codigo del if que se encuentra en el ejemplo del numero secreto en python:\nif intento == numero_secreto:\n\tprint(f'¡Felicidades! Adivinaste en {intentos} intentos.')\n\tbreak\nelif intento < numero_secreto:\n\tprint('El número es mayor. Intenta nuevamente.')\nelse:\n\tprint('El número es menor. Intenta nuevamente.')"
   ],
-  "79":[
+  "79": [
     "Aqui tienes el ejemplo del uso de dataclass para crear constantes en python:\n@dataclass(frozen=True)\nclass Constantes:\n\tPI: float = 3.14159\n\tE: float = 2.71828",
     "Claro, aqui esta el codigo del ejemplo de dataclass para constantes en python:\n@dataclass(frozen=True)\nclass Constantes:\n\tPI: float = 3.14159\n\tE: float = 2.71828",
     "Aqui esta el codigo del ejemplo que crea un dataclass para crear constantes en python:\n@dataclass(frozen=True)\nclass Constantes:\n\tPI: float = 3.14159\n\tE: float = 2.71828"
   ],
-  "80":[
+  "80": [
     "Claro, aqui tienes el constructor de la clase Persona en python:\ndef __init__(self, nombre, edad):\n\tself.nombre = nombre\n\tself.edad = edad",
     "Aqui tienes el codigo del constructor de la clase Persona en python:\ndef __init__(self, nombre, edad):\n\tself.nombre = nombre\n\tself.edad = edad",
     "Claro, a continuacion te muestro el constructor de la clase Persona en python:\ndef __init__(self, nombre, edad):\n\tself.nombre = nombre\n\tself.edad = edad"
   ],
-  "81":[
+  "81": [
     "Aqui tienes el codigo del metodo saludar de la clase persona en python:\ndef saludar(self):\n\tprint(f'Hola, soy {self.nombre}')",
     "Claro, aqui esta la definicion del metodo saludar de la clase Persona en python:\ndef saludar(self):\n\tprint(f'Hola, soy {self.nombre}')",
     "Claro, a continuacion te muestro el metodo saludar de la clase Persona en python:\ndef saludar(self):\n\tprint(f'Hola, soy {self.nombre}')"
   ],
-  "82":[
+  "82": [
     "Aqui tienes el codigo que crea la nueva instancia de la clase Persona en python:\npersona = Persona('Ana', 30)",
     "Claro, aqui tienes la linea de codigo que crea una nueva instancia de la clase Persona en python:\npersona = Persona('Ana', 30)",
     "Claro, aqui esta la linea de codigo que crea la nueva instancia de la clase Persona en python:\npersona = Persona('Ana', 30)"
   ],
-  "83":[
+  "83": [
     "Claro, aqui tienes el constructor de la clase Animal en python:\ndef __init__(self, especie):\n\tself.especie = especie",
     "Aqui tienes el codigo del constructor de la clase Animal en python:\ndef __init__(self, especie):\n\tself.especie = especie",
     "Claro, a continuacion te muestro el constructor de la clase Animal en python:\ndef __init__(self, especie):\n\tself.especie = especie"
   ],
-  "84":[
+  "84": [
     "Claro, aqui tienes el constructor de la clase Perro en python:\ndef __init__(self, nombre, raza):\n\tsuper().__init__('Perro')\n\tself.nombre = nombre\n\t\tself.raza = raza",
     "Aqui tienes el codigo del constructor de la clase Perro en python:\ndef __init__(self, nombre, raza):\n\tsuper().__init__('Perro')\n\tself.nombre = nombre\n\t\tself.raza = raza",
     "Claro, aqui esta el codigo del constructor de la clase Perro en python:\ndef __init__(self, nombre, raza):\n\tsuper().__init__('Perro')\n\tself.nombre = nombre\n\t\tself.raza = raza"
   ],
-  "85":[
+  "85": [
     "Claro, aqui tienes el if del algorimto quicksort basico en python:\nif len(arr) <= 1:\n\treturn arr\nEste if sirve como la condicion de parada del algoritmo",
     "Aqui esta el if del algoritmo quicksort basico en python:\nif len(arr) <= 1:\n\treturn arr\nEste if sirve como la condicion de parada del algoritmo",
     "Claro, aqui esta el if del algoritmo quicksort basico en python:\nif len(arr) <= 1:\n\treturn arr\nEste if sirve como la condicion de parada del algoritmo"
   ],
-  "86":[
+  "86": [
     "Aqui tienes la asignacion del pivote del algoritmo quicksort basico en python:\npivote = arr[0]",
     "Claro, aqui esta el codigo que asigna el pivote del algoritmo quicksort basico en python:\npivote = arr[0]",
     "Aqui esta la asignacion del pivote del algoritmo quicksort basico en python:\npivote = arr[0]"
   ],
-  "87":[
+  "87": [
     "Claro, aqui tienes la division de la lista en el algoritmo quicksort basico en python:\nmenores = [x for x in arr[1:] if x < pivote]#en esta lista se guardan los valores menores que el pivote\nmayores = [x for x in arr[1:] if x >= pivote]#en esta lista se guardan los valores que son mayores que el pivote",
     "Aqui esta el codigo que divide la lista en el algoritmo quicksort basico en python:\nmenores = [x for x in arr[1:] if x < pivote]#en esta lista se guardan los valores menores que el pivote\nmayores = [x for x in arr[1:] if x >= pivote]#en esta lista se guardan los valores que son mayores que el pivote",
     "Aqui tienes el codigo que genera sublistas en el algoritmo quicksort basico en python:\nmenores = [x for x in arr[1:] if x < pivote]#en esta lista se guardan los valores menores que el pivote\nmayores = [x for x in arr[1:] if x >= pivote]#en esta lista se guardan los valores que son mayores que el pivote"
   ],
-  "88":[
+  "88": [
     "Claro, aqui tienes el return del algoritmo quicksort basico en python:\nreturn quicksort(menores) + [pivote] + quicksort(mayores)#Este return llama recursivamente a la funcion para ordenar las listas y unirlas",
     "Aqui esta el codigo del return del algoritmo quicksort basico en python:\nreturn quicksort(menores) + [pivote] + quicksort(mayores)#Este return llama recursivamente a la funcion para ordenar las listas y unirlas",
     "Aqui tienes el codigo del return del algoritmo quicksort basico en python:\nreturn quicksort(menores) + [pivote] + quicksort(mayores)#Este return llama recursivamente a la funcion para ordenar las listas y unirlas"
   ],
-  "89":[
+  "89": [
     "Aqui tienes la asignacion del pivote del algoritmo quicksort basico en python:\npivote = arr[len(arr) // 2]",
     "Claro, aqui esta el codigo que asigna el pivote del algoritmo quicksort basico en python:\npivote = arr[len(arr) // 2]",
     "Aqui esta la asignacion del pivote del algoritmo quicksort basico en python:\npivote = arr[len(arr) // 2]"
   ],
-  "90":[
+  "90": [
     "Claro, aqui tienes la division de la lista en el algoritmo quicksort basico en python:\nizquierda = [x for x in arr if x < pivote]#en esta lista se guardan los valores menores que el pivote\niguales = [x for x in arr if x == pivote]#en esta lista se guardan los valores iguales al pivote\nderecha = [x for x in arr if x > pivote]#en esta lista se guardan los valores que son mayores que el pivote",
     "Aqui esta el codigo que divide la lista en el algoritmo quicksort basico en python:\nizquierda = [x for x in arr if x < pivote]#en esta lista se guardan los valores menores que el pivote\niguales = [x for x in arr if x == pivote]#en esta lista se guardan los valores iguales al pivote\nderecha = [x for x in arr if x > pivote]#en esta lista se guardan los valores que son mayores que el pivote",
     "Aqui tienes el codigo que genera sublistas en el algoritmo quicksort basico en python:\nizquierda = [x for x in arr if x < pivote]#en esta lista se guardan los valores menores que el pivote\niguales = [x for x in arr if x == pivote]#en esta lista se guardan los valores iguales al pivote\nderecha = [x for x in arr if x > pivote]#en esta lista se guardan los valores que son mayores que el pivote"
   ],
-  "91":[
+  "91": [
     "Claro, aqui tienes el return del algoritmo quicksort basico en python:\nreturn quicksort(izquierda) + iguales + quicksort(derecha)#Este return llama recursivamente a la funcion para ordenar las listas y unirlas",
     "Aqui esta el codigo del return del algoritmo quicksort basico en python:\nreturn quicksort(izquierda) + iguales + quicksort(derecha)#Este return llama recursivamente a la funcion para ordenar las listas y unirlas",
     "Aqui tienes el codigo del return del algoritmo quicksort basico en python:\nreturn quicksort(izquierda) + iguales + quicksort(derecha)#Este return llama recursivamente a la funcion para ordenar las listas y unirlas"
+  ],
+  "92": [
+    "Claro, aqui tienes el código \n```for i in range(n):\n\n        for j in range(0, n - i - 1):\n            if arr[j] > arr[j + 1]:\n\n                arr[j], arr[j + 1] = arr[j + 1], arr[j]\n```",
+    "Aqui esta el código \n```for i in range(n):\n\n        for j in range(0, n - i - 1):\n            if arr[j] > arr[j + 1]:\n\n                arr[j], arr[j + 1] = arr[j + 1], arr[j]\n```",
+    "Este es el código \n```for i in range(n):\n\n        for j in range(0, n - i - 1):\n            if arr[j] > arr[j + 1]:\n\n                arr[j], arr[j + 1] = arr[j + 1], arr[j]\n```"
+  ],
+  "93": [
+    "Claro, aqui tienes el código \n```for j in range(0, n - i - 1):\n            if arr[j] > arr[j + 1]:\n\n                arr[j], arr[j + 1] = arr[j + 1], arr[j]\n```",
+    "Aqui esta el código \n```for j in range(0, n - i - 1):\n            if arr[j] > arr[j + 1]:\n\n                arr[j], arr[j + 1] = arr[j + 1], arr[j]\n```",
+    "Este es el código \n```for j in range(0, n - i - 1):\n            if arr[j] > arr[j + 1]:\n\n                arr[j], arr[j + 1] = arr[j + 1], arr[j]\n```"
+  ],
+  "94": [
+    "Claro, aqui tienes el código \n```if arr[j] > arr[j + 1]:\n                # Intercambia si están en el orden incorrecto\n                arr[j], arr[j + 1] = arr[j + 1], arr[j]\n```",
+    "Aqui esta el código \n```if arr[j] > arr[j + 1]:\n                # Intercambia si están en el orden incorrecto\n                arr[j], arr[j + 1] = arr[j + 1], arr[j]\n```",
+    "Este es el código \n```if arr[j] > arr[j + 1]:\n                # Intercambia si están en el orden incorrecto\n                arr[j], arr[j + 1] = arr[j + 1], arr[j]\n```"
+  ],
+  "95": [
+    "Claro, aqui tienes el código \n``` arr[j], arr[j + 1] = arr[j + 1], arr[j]\n```",
+    "Aqui esta el código \n``` arr[j], arr[j + 1] = arr[j + 1], arr[j]\n```",
+    "Este es el código \n``` arr[j], arr[j + 1] = arr[j + 1], arr[j]\n```"
+  ],
+  "96": [
+    "Claro, aqui tienes el código \n```return arr\n```",
+    "Aqui esta el código \n```return arr\n```",
+    "Este es el código \n```return arr\n```"
+  ],
+  "97": [
+    "Claro, aqui tienes el código \n```for (let i = 0; i < n; i++) {\n    for (let j = 0; j < n - i - 1; j++) {\n        if (arr[j] > arr[j + 1]) {\n            [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];\n        }\n    }\n}\n```",
+    "Aqui esta el código \n```for (let i = 0; i < n; i++) {\n    for (let j = 0; j < n - i - 1; j++) {\n        if (arr[j] > arr[j + 1]) {\n            [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];\n        }\n    }\n}\n```",
+    "Este es el código \n```for (let i = 0; i < n; i++) {\n    for (let j = 0; j < n - i - 1; j++) {\n        if (arr[j] > arr[j + 1]) {\n            [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];\n        }\n    }\n}\n```"
+  ],
+  "98": [
+    "Claro, aqui tienes el código \n```for (let j = 0; j < n - i - 1; j++) {\n    if (arr[j] > arr[j + 1]) {\n        [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];\n    }\n}\n```",
+    "Aqui esta el código \n```for (let j = 0; j < n - i - 1; j++) {\n    if (arr[j] > arr[j + 1]) {\n        [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];\n    }\n}\n```",
+    "Este es el código \n```for (let j = 0; j < n - i - 1; j++) {\n    if (arr[j] > arr[j + 1]) {\n        [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];\n    }\n}\n```"
+  ],
+  "99": [
+    "Claro, aqui tienes el código \n```if (arr[j] > arr[j + 1]) {\n    [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];\n}\n```",
+    "Aqui esta el código \n```if (arr[j] > arr[j + 1]) {\n    [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];\n}\n```",
+    "Este es el código \n```if (arr[j] > arr[j + 1]) {\n    [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];\n}\n```"
+  ],
+  "100": [
+    "Claro, aqui tienes el código \n```[arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];\n```",
+    "Aqui esta el código \n```[arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];\n```",
+    "Este es el código \n```[arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];\n```"
+  ],
+  "101": [
+    "Claro, aqui tienes el código \n```return arr;\n```",
+    "Aqui esta el código \n```return arr;\n```",
+    "Este es el código \n```return arr;\n```"
+  ],
+  "102": [
+    "Claro, aqui tienes el código \n```for i in range(len(arr)):\n        min_idx = i\n        for j in range(i+1, len(arr)):\n            if arr[j] < arr[min_idx]:\n                min_idx = j\n        arr[i], arr[min_idx] = arr[min_idx], arr[i]\n```",
+    "Aqui esta el código \n```for i in range(len(arr)):\n        min_idx = i\n        for j in range(i+1, len(arr)):\n            if arr[j] < arr[min_idx]:\n                min_idx = j\n        arr[i], arr[min_idx] = arr[min_idx], arr[i]\n```",
+    "Este es el código \n```for i in range(len(arr)):\n        min_idx = i\n        for j in range(i+1, len(arr)):\n            if arr[j] < arr[min_idx]:\n                min_idx = j\n        arr[i], arr[min_idx] = arr[min_idx], arr[i]\n```"
+  ],
+  "103": [
+    "Claro, aqui tienes el código \n```for j in range(i+1, len(arr)):\n            if arr[j] < arr[min_idx]:\n                min_idx = j\n```",
+    "Aqui esta el código \n```for j in range(i+1, len(arr)):\n            if arr[j] < arr[min_idx]:\n                min_idx = j\n```",
+    "Este es el código \n```for j in range(i+1, len(arr)):\n            if arr[j] < arr[min_idx]:\n                min_idx = j\n```"
+  ],
+  "104": [
+    "Claro, aqui tienes el código \n```if arr[j] < arr[min_idx]:\n                min_idx = j\n```",
+    "Aqui esta el código \n```if arr[j] < arr[min_idx]:\n                min_idx = j\n```",
+    "Este es el código \n```if arr[j] < arr[min_idx]:\n                min_idx = j\n```"
+  ],
+  "105": [
+    "Claro, aqui tienes el código \n```arr[i], arr[min_idx] = arr[min_idx], arr[i]\n```",
+    "Aqui esta el código \n```arr[i], arr[min_idx] = arr[min_idx], arr[i]\n```",
+    "Este es el código \n```arr[i], arr[min_idx] = arr[min_idx], arr[i]\n```"
+  ],
+  "106": [
+    "Claro, aqui tienes el código \n```return arr\n```",
+    "Aqui esta el código \n```return arr\n```",
+    "Este es el código \n```return arr\n```"
+  ],
+  "107": [
+    "Claro, aqui tienes el código \n```for (let i = 0; i < arr.length; i++) {\n    let minIdx = i;\n    for (let j = i + 1; j < arr.length; j++) {\n        if (arr[j] < arr[minIdx]) {\n            minIdx = j;\n        }\n    }\n    [arr[i], arr[minIdx]] = [arr[minIdx], arr[i]];\n}\n```",
+    "Aqui esta el código \n```for (let i = 0; i < arr.length; i++) {\n    let minIdx = i;\n    for (let j = i + 1; j < arr.length; j++) {\n        if (arr[j] < arr[minIdx]) {\n            minIdx = j;\n        }\n    }\n    [arr[i], arr[minIdx]] = [arr[minIdx], arr[i]];\n}\n```",
+    "Este es el código \n```for (let i = 0; i < arr.length; i++) {\n    let minIdx = i;\n    for (let j = i + 1; j < arr.length; j++) {\n        if (arr[j] < arr[minIdx]) {\n            minIdx = j;\n        }\n    }\n    [arr[i], arr[minIdx]] = [arr[minIdx], arr[i]];\n}\n```"
+  ],
+  "108": [
+    "Claro, aqui tienes el código \n```for (let j = i + 1; j < arr.length; j++) {\n    if (arr[j] < arr[minIdx]) {\n        minIdx = j;\n    }\n}\n```",
+    "Aqui esta el código \n```for (let j = i + 1; j < arr.length; j++) {\n    if (arr[j] < arr[minIdx]) {\n        minIdx = j;\n    }\n}\n```",
+    "Este es el código \n```for (let j = i + 1; j < arr.length; j++) {\n    if (arr[j] < arr[minIdx]) {\n        minIdx = j;\n    }\n}\n```"
+  ],
+  "109": [
+    "Claro, aqui tienes el código \n```if (arr[j] < arr[minIdx]) {\n    minIdx = j;\n}\n```",
+    "Aqui esta el código \n```if (arr[j] < arr[minIdx]) {\n    minIdx = j;\n}\n```",
+    "Este es el código \n```if (arr[j] < arr[minIdx]) {\n    minIdx = j;\n}\n```"
+  ],
+  "110": [
+    "Claro, aqui tienes el código \n```[arr[i], arr[minIdx]] = [arr[minIdx], arr[i]];\n```",
+    "Aqui esta el código \n```[arr[i], arr[minIdx]] = [arr[minIdx], arr[i]];\n```",
+    "Este es el código \n```[arr[i], arr[minIdx]] = [arr[minIdx], arr[i]];\n```"
+  ],
+  "111": [
+    "Claro, aqui tienes el código \n```return arr;\n```",
+    "Aqui esta el código \n```return arr;\n```",
+    "Este es el código \n```return arr;\n```"
   ]
 }
