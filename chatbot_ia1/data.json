@@ -704,6 +704,77 @@
   { "input": "Muestrame el metodo inorden del algoritmo de arboles en python", "label": 127},
   { "input": "¿Puedes mostrarme el método inorden del algoritmo de árboles en Python?", "label": 127 },
   { "input": "Quiero ver cómo se escribe el método inorden del algoritmo de árboles en Python", "label": 127 },
-  { "input": "Enséñame cómo se implementa el método inorden del algoritmo de  árboles en Python", "label": 127 }
+  { "input": "Enséñame cómo se implementa el método inorden del algoritmo de  árboles en Python", "label": 127 },
+  
+  { "input": "Hello", "label": 128 },
+  { "input": "Good morning", "label": 128 },
+  { "input": "Good afternoon", "label": 128 },
+  { "input": "Good evening", "label": 128 },
+  { "input": "Hi", "label": 128 },
 
+  { "input": "Who are you", "label": 129 },
+  { "input": "What are you", "label": 129 },
+  { "input": "What do you do", "label": 129 },
+  { "input": "What is your function", "label": 129 },
+  { "input": "Describe your functionality", "label": 129 },
+  { "input": "Who are you", "label": 129 },
+  { "input": "How do you work", "label": 129 },
+  { "input": "What kind of bot are you", "label": 129 },
+  { "input": "Tell me what you are", "label": 129 },
+  { "input": "Explain what you are", "label": 129 },
+  { "input": "How can you help me", "label": 129 },
+  
+  { "input": "How are you", "label": 130 },
+  { "input": "How are you doing", "label": 130 },
+  { "input": "How do you feel", "label": 130 },
+  { "input": "How's it going", "label": 130 },
+  { "input": "How are you today", "label": 130 },
+  
+  { "input": "What is programming", "label": 131 },
+  { "input": "How does programming work", "label": 131 },
+  { "input": "Explain programming", "label": 131 },
+  { "input": "Describe programming", "label": 131 },
+  { "input": "Define programming", "label": 131 },
+  
+  { "input": "What is an algorithm", "label": 132 },
+  { "input": "How does an algorithm work", "label": 132 },
+  { "input": "Explain an algorithm", "label": 132 },
+  { "input": "Describe an algorithm", "label": 132 },
+  { "input": "Define an algorithm", "label": 132 },
+
+  { "input": "What is a programming language", "label": 133 },
+  { "input": "How does a programming language work", "label": 133 },
+  { "input": "Explain a programming language", "label": 133 },
+  { "input": "Describe a programming language", "label": 133 },
+  { "input": "Define a programming language", "label": 133 },
+
+  { "input": "What is a variable", "label": 134 },
+  { "input": "How does a variable work", "label": 134 },
+  { "input": "Explain a variable", "label": 134 },
+  { "input": "Describe a variable", "label": 134 },
+  { "input": "Define a variable", "label": 134 },
+ 
+  { "input": "What is a constant", "label": 135 },
+  { "input": "How does a constant work", "label": 135 },
+  { "input": "Explain a constant", "label": 135 },
+  { "input": "Describe a constant", "label": 135 },
+  { "input": "Define a constant", "label": 135 },
+
+  { "input": "What is a for loop", "label": 136 },
+  { "input": "How does a for loop work", "label": 136 },
+  { "input": "Explain a for loop", "label": 136 },
+  { "input": "Describe a for loop", "label": 136 },
+  { "input": "Define a for loop", "label": 136 },
+
+  { "input": "What is an if condition", "label": 137 },
+  { "input": "How does an if condition work", "label": 137 },
+  { "input": "Explain an if condition", "label": 137 },
+  { "input": "Describe an if condition", "label": 137 },
+  { "input": "Define an if condition", "label": 137 },
+
+  { "input": "What is a while loop", "label": 138 },
+  { "input": "How does a while loop work", "label": 138 },
+  { "input": "Explain a while loop", "label": 138 },
+  { "input": "Describe a while loop", "label": 138 },
+  { "input": "Define a while loop", "label": 138 }
 ]

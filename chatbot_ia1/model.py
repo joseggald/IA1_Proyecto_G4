@@ -181,21 +181,30 @@ class EnhancedTopicAwareChatbot:
         text = text.lower().strip()
         words = set(text.split())
 
+        relevant_topic_ids = []
+        for topic_id in self.topics.keys():
+            if language == 'en' and topic_id.endswith('_en'):
+                relevant_topic_ids.append(topic_id)
+            elif language == 'es' and not topic_id.endswith('_en'):
+                relevant_topic_ids.append(topic_id)
+
         # Priorizar la coincidencia con primary_keywords
-        for topic_id, topic in self.topics.items():
+        for topic_id in relevant_topic_ids:
+            topic = self.topics[topic_id]
             primary_keywords = topic.primary_keywords
             if any(pk in words for pk in primary_keywords):
                 return topic_id, 1.0  # Máxima confianza para coincidencias con primary_keywords
 
         # Si no hay coincidencia con primary_keywords, buscar en keywords
-        for topic_id, topic in self.topics.items():
+        for topic_id in relevant_topic_ids:
+            topic = self.topics[topic_id]
             topic_keywords = set(topic.keywords)
             if any(keyword in words for keyword in topic_keywords):
                 return topic_id, 0.7  # Confianza moderada para coincidencias en keywords
 
         # Si no hay coincidencia directa, usar embeddings
         relevant_topics = self.language_specific_topics[language]
-        if not relevant_topics:
+        if not relevant_topic_ids:
             return None, 0.0
 
         text_embedding = self.sentence_model.encode(text)

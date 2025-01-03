@@ -659,5 +659,82 @@
     "Claro, aqui tienes el metodo inorden del algoritmo de arboles en python:\ndef inorden(nodo):\n\tif nodo:\n\t\tinorden(nodo.izquierda)\n\t\tprint(nodo.valor)\n\t\tinorden(nodo.derecha)",
     "El siguiente codigo implementa el metodo inorden del algoritmo de arboles en python:\ndef inorden(nodo):\n\tif nodo:\n\t\tinorden(nodo.izquierda)\n\t\tprint(nodo.valor)\n\t\tinorden(nodo.derecha)",
     "Aqui esta el metodo inorden del algoritmo de arboles en python:\ndef inorden(nodo):\n\tif nodo:\n\t\tinorden(nodo.izquierda)\n\t\tprint(nodo.valor)\n\t\tinorden(nodo.derecha)"
+  ],
+  "128": [
+    "Hi! I'm a chatbot specialized in basic programming and algorithms in Python and JavaScript. How can I help you?",
+    "Hey! Nice to see you. Do you have any questions about basic programming or algorithms in Python and JavaScript?",
+    "Greetings! I'm here to help you with programming topics and basic algorithms in Python and JavaScript. What would you like to learn?",
+    "Hello! What would you like to know about programming or basic algorithms in Python and JavaScript?",
+    "Welcome! I'm an assistant specialized in programming and basic algorithms in Python and JavaScript. How can I help you?"
+  ],
+  "129": [
+    "I'm a chatbot created to teach programming and basic algorithms in Python and JavaScript. What do you need to know?",
+    "I can explain programming concepts and basic algorithms in Python and JavaScript. Do you have a topic in mind?",
+    "I'm an assistant designed to help you with programming questions and basic algorithms in Python and JavaScript. Are you interested in any particular topic?",
+    "My main function is to teach you programming and basic algorithms in Python and JavaScript, and answer your questions. How can I assist you?",
+    "I'm here to help you understand programming concepts and basic algorithms in Python and JavaScript. Do you have any questions?"
+  ],
+  "130": [
+    "I'm doing great! How can I assist you today?",
+    "All perfect, thanks for asking. How can I help you?",
+    "Great! Ready to solve your questions. What do you need to know?",
+    "All good. Ready to help you with programming or basic algorithms in Python and JavaScript. Where should we start?",
+    "I'm excellent! Can I help you with something specific?"
+  ],
+  "131": [
+    "Programming is the process of writing instructions for a computer to perform specific tasks. \n Would you like to learn more starting with concepts like algorithms, languages or some basic concept?",
+    "Programming is giving precise orders to a machine to solve problems or execute actions. \n Would you like to learn more starting with concepts like variables, constants or any concept that interests you?",
+    "Programming combines logic, creativity and technical knowledge to create computer solutions. \n Would you like to learn more starting with concepts like algorithms, languages or some basic concept?",
+    "Writing code is essentially the language we use to tell a computer what to do. \n Would you like to learn more starting with concepts like variables, constants, functions, loops or any concept that interests you?",
+    "In simple terms, programming is like teaching a robot how to perform tasks step by step. \n Would you like to learn more starting with concepts like algorithms, languages or some basic concept?"
+  ],
+  "132": [
+    "An algorithm is a sequence of logical and defined steps that solve a specific problem. Would you like to know what algorithms I can teach you?",
+    "Algorithms are like recipes that indicate step by step how to reach a goal. Would you like to learn more about them, I can teach you the ones I have available?",
+    "An algorithm organizes the necessary instructions to perform a task efficiently. Would you like to know some algorithms I have?",
+    "Essentially, an algorithm is a set of rules that are followed to solve problems. Would you like to learn about some algorithms I have?",
+    "An algorithm allows structuring clear and repeatable solutions for complex problems. Would you like to know some algorithms I have?"
+  ],
+  "133": [
+    "A programming language is a tool we use to communicate with computers.",
+    "Programming languages allow us to create software, applications and computer systems.",
+    "In essence, a programming language translates our ideas into instructions that a computer understands.",
+    "Think of programming languages as languages for talking to machines.",
+    "Programming languages are essential for creating useful and functional programs."
+  ],
+  "134": [
+    "A variable is a reserved space in a program's memory to temporarily store information. Would you like to know more about how they work in Python or JavaScript?",
+    "Variables are fundamental to programming, as they allow data manipulation in the code. Would you like to know more about how they work in Python or JavaScript?",
+    "A variable acts as a label to store values that can change throughout a program. Would you like to know more about how they work in Python or JavaScript?",
+    "Think of a variable as a box where you can store information, like numbers or text. Would you like to know more about how they work in Python or JavaScript?",
+    "Essentially, variables are containers that help handle dynamic data in programming. Would you like to know more about how they work in Python or JavaScript?"
+  ],
+  "135": [
+    "A constant is similar to a variable, but its value cannot change once defined. Would you like to know more about how they work in Python or JavaScript?",
+    "Constants are useful for representing values that remain the same throughout a program. Would you like to know more about how they work in Python or JavaScript?",
+    "Think of a constant as fixed data, like the value of Pi, that doesn't need to be modified. Would you like to know more about how they work in Python or JavaScript?",
+    "In programming, constants help us avoid errors by ensuring certain values don't change. Would you like to know more about how they work in Python or JavaScript?",
+    "A constant ensures that a critical value remains unchanged during program execution. Would you like to know more about how they work in Python or JavaScript?"
+  ],
+  "136": [
+    "A 'for' loop repeats a block of code a specific number of times. Would you like to know more about how they work in Python or JavaScript?",
+    "'For' loops are ideal for traversing lists, arrays or other data collections. Would you like to know more about how they work in Python or JavaScript?",
+    "In essence, a 'for' loop automates repetitive tasks by iterating over a sequence. Would you like to know more about how they work in Python or JavaScript?",
+    "'For' loops help us execute a series of predefined steps efficiently. Would you like to know more about how they work in Python or JavaScript?",
+    "Think of a 'for' loop as a way of saying: 'Repeat this until you finish all items'. Would you like to know more about how they work in Python or JavaScript?"
+  ],
+  "137": [
+    "An 'if' in programming evaluates if a condition is true to decide what action to take. Would you like to know more about how they work in Python or JavaScript?",
+    "'If' conditions are fundamental for making decisions in program flow. Would you like to know more about how they work in Python or JavaScript?",
+    "Think of an 'if' as a question that the program answers with 'yes' or 'no' to proceed. Would you like to know more about how they work in Python or JavaScript?",
+    "'If' structures allow programs to respond dynamically to different situations. Would you like to know more about how they work in Python or JavaScript?",
+    "In simple terms, an 'if' checks if something is true and then acts accordingly. Would you like to know more about how they work in Python or JavaScript?"
+  ],
+  "138": [
+    "A 'while' loop repeats a block of code as long as a condition remains true. Would you like to know more about how they work in Python or JavaScript?",
+    "'While' loops allow creating dynamic repetitions controlled by logical conditions. Would you like to know more about how they work in Python or JavaScript?",
+    "Think of a 'while' as a way of saying: 'Repeat this until a certain condition is met'. Would you like to know more about how they work in Python or JavaScript?",
+    "'While' loops are useful when you don't know exactly how many times an action will repeat. Would you like to know more about how they work in Python or JavaScript?",
+    "A 'while' continues executing instructions until its controlling condition becomes false. Would you like to know more about how they work in Python or JavaScript?"
   ]
 }
