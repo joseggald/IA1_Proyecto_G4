@@ -296,9 +296,7 @@
 
   { "input": "Dame un ejemplo de un algoritmo de ordenamiento burbuja en python", "label": 47 },
   { "input": "Enseñame con un ejemplo de un algoritmo de ordenamiento burbuja en python", "label": 47 },
-  { "input": "Dame el codigo del ordenamiento burbuja en python",
-
-    "label": 47 },
+  { "input": "Dame el codigo del ordenamiento burbuja en python", "label": 47 },
   { "input": "Ejemplifica algoritmo burbuja en python", "label": 47 },
 
   { "input": "Dame un ejemplo de un algoritmo de arboles en python", "label": 48 },

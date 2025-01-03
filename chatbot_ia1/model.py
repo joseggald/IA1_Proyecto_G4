@@ -29,15 +29,16 @@ class Topic:
 class EnhancedTopicAwareChatbot:
     def __init__(self):
         # Configuración básica
-        self.vocab_size = 5000
+        self.vocab_size = 20000
         self.max_length = 20
         self.embedding_dim = 128
         self.memory_size = 10
         self.topic_threshold = 0.6
         self.batch_size = 32
         self.epochs = 150
-        self.validation_split = 0.3
-
+        self.validation_split = 0.2
+        self.label_map = {}  # For converting original labels to indices
+        self.label_map_reverse = {}
         # Palabras clave para detección de idioma
         self.english_words = set(['is', 'are', 'the', 'be', 'to', 'of', 'and', 'a', 'in', 'that', 'have', 'i', 'it', 'for', 'you', 'he', 'with', 'on', 'do', 'say', 'this', 'they', 'at', 'but', 'we', 'his', 'from', 'that', 'not', 'by', 'she', 'or', 'as', 'what', 'go', 'their', 'can', 'who', 'get', 'if', 'would', 'her', 'all', 'my', 'make', 'about', 'know', 'will', 'as', 'up', 'one', 'time', 'there', 'year', 'so', 'think', 'when', 'which', 'them', 'some', 'me', 'people', 'take', 'out', 'into', 'just', 'see', 'him', 'your', 'come', 'could', 'now', 'than', 'like', 'other', 'how', 'then', 'its', 'our', 'two', 'more', 'these', 'want', 'way', 'look', 'first', 'also', 'new', 'because', 'day', 'more', 'use', 'no', 'man', 'find', 'here', 'thing', 'give', 'many', 'well', 'what'])
 
@@ -151,12 +152,13 @@ class EnhancedTopicAwareChatbot:
     def build_model(self, num_classes: int):
         model = Sequential([
             Embedding(self.vocab_size, self.embedding_dim, input_length=self.max_length),
-            Conv1D(64, 3, activation='relu', padding='same'),
-            Conv1D(64, 5, activation='relu', padding='same'),
+            Conv1D(128, 3, activation='relu', padding='same'),
+            Conv1D(128, 5, activation='relu', padding='same'),
             GlobalMaxPooling1D(),
+            Dense(256, activation='relu'),
             Dropout(0.5),
             Dense(128, activation='relu'),
-            Dropout(0.5),
+            Dropout(0.3),
             Dense(num_classes, activation='softmax')
         ])
 
@@ -248,67 +250,122 @@ class EnhancedTopicAwareChatbot:
         }
 
     def train_model(self):
-        print("Cargando datos de entrenamiento...")
+        print("Loading training data...")
         
         with open('data.json', 'r', encoding='utf-8') as f:
             training_data = json.load(f)
         
+        # Process data and ensure labels start from 0
         processed_data = []
+        label_counts = {}
+        
         for item in training_data:
             proc_result = self.preprocess_text(item['input'])
+            label = int(item['label'])
+            label_counts[label] = label_counts.get(label, 0) + 1
             processed_data.append({
                 'text': proc_result['processed_text'],
-                'label': item['label'],
+                'label': label,
                 'language': proc_result['language'],
                 'keywords': proc_result['keywords']
             })
 
-        texts = [item['text'] for item in processed_data]
-        labels = [item['label'] for item in processed_data]
+        # Create label mapping
+        sorted_labels = sorted(label_counts.keys())
+        self.label_map = {label: idx for idx, label in enumerate(sorted_labels)}
+        self.label_map_reverse = {idx: label for label, idx in self.label_map.items()}
         
-        print("Tokenizando textos...")
+        texts = [item['text'] for item in processed_data]
+        labels = [self.label_map[item['label']] for item in processed_data]
+        
+        print("Tokenizing texts...")
         self.tokenizer.fit_on_texts(texts)
         sequences = self.tokenizer.texts_to_sequences(texts)
         padded = pad_sequences(sequences, maxlen=self.max_length, padding='post')
         
-        unique_labels = np.unique(labels)
-        num_classes = len(unique_labels)
+        num_classes = len(self.label_map)
+        print(f"Number of classes: {num_classes}")
+        print(f"Total samples: {len(texts)}")
+        
+        # Convert to categorical
         categorical_labels = tf.keras.utils.to_categorical(labels, num_classes=num_classes)
         
-        X_train, X_val, y_train, y_val = train_test_split(
-            padded, categorical_labels,
-            test_size=self.validation_split,
-            random_state=42,
-            stratify=labels
-        )
+        # Implement custom split to ensure at least one sample per class in validation
+        np.random.seed(42)
+        indices = np.arange(len(texts))
         
+        # Create dictionary of indices for each class
+        class_indices = {i: [] for i in range(num_classes)}
+        for idx, label in enumerate(labels):
+            class_indices[label].append(idx)
+        
+        # Calculate minimum samples needed for validation
+        min_val_samples = max(1, int(0.1 * len(texts)))  # At least 10% for validation
+        
+        # Select validation indices
+        val_indices = []
+        for class_idx in class_indices:
+            # Get at least one sample per class for validation if available
+            class_samples = class_indices[class_idx]
+            if class_samples:
+                num_val_samples = max(1, int(len(class_samples) * 0.1))  # Take 10% or at least 1
+                val_indices.extend(np.random.choice(class_samples, num_val_samples, replace=False))
+        
+        # Get training indices
+        train_indices = list(set(indices) - set(val_indices))
+        
+        # Split the data
+        X_train = padded[train_indices]
+        X_val = padded[val_indices]
+        y_train = categorical_labels[train_indices]
+        y_val = categorical_labels[val_indices]
+        
+        print(f"Training samples: {len(X_train)}")
+        print(f"Validation samples: {len(X_val)}")
+        
+        # Configure training callbacks with early stopping and learning rate reduction
         callbacks = [
-            EarlyStopping(monitor='val_loss', patience=20, restore_best_weights=True),
-            ReduceLROnPlateau(monitor='val_loss', factor=0.2, patience=5, min_lr=0.00001)
+            EarlyStopping(
+                monitor='val_loss',
+                patience=10,
+                restore_best_weights=True,
+                min_delta=0.001
+            ),
+            ReduceLROnPlateau(
+                monitor='val_loss',
+                factor=0.5,
+                patience=5,
+                min_lr=0.0001,
+                min_delta=0.001
+            )
         ]
         
-        print("Construyendo y entrenando modelo...")
+        print("Building and training model...")
         self.model = self.build_model(num_classes)
         
+        # Adjust batch size based on dataset size
+        adjusted_batch_size = min(self.batch_size, len(X_train) // 10)
+        
+        # Train the model
         history = self.model.fit(
             X_train, y_train,
             validation_data=(X_val, y_val),
             epochs=self.epochs,
-            batch_size=self.batch_size,
+            batch_size=adjusted_batch_size,
             callbacks=callbacks,
-            verbose=1
+            verbose=1,
+            shuffle=True
         )
         
-        print("Guardando modelo...")
+        print("Saving model...")
         self.save_model()
         
         return history
 
     def get_response(self, text: str) -> Tuple[str, float]:
-        """Genera una respuesta mejorada"""
+        """Generate an enhanced response"""
         proc_result = self.preprocess_text(text)
         
-        # Si no hay tema identificado, intentar usar el contexto
         if not proc_result['topic'] and self.conversation_history:
             last_exchange = self.conversation_history[-1]
             last_topic = last_exchange.get('topic')
@@ -334,25 +391,25 @@ class EnhancedTopicAwareChatbot:
         
         for pred_class in top_3_classes:
             confidence = float(prediction[pred_class])
+            # Convert predicted class index back to original label
+            original_label = str(self.label_map_reverse.get(pred_class, pred_class))
             
-            if str(pred_class) in self.responses:
-                # Ajustar confianza basada en tema y contexto
+            if original_label in self.responses:
                 if proc_result['topic']:
                     topic = self.topics[proc_result['topic']]
-                    if str(pred_class) in topic.labels:
+                    if original_label in topic.labels:
                         confidence += 0.3
                     if topic.language == proc_result['language']:
                         confidence += 0.1
-                        
-                # Usar contexto de la conversación
+                
                 if self.conversation_history:
                     last_exchange = self.conversation_history[-1]
-                    if str(pred_class) == str(last_exchange.get('label')):
+                    if original_label == str(last_exchange.get('label')):
                         confidence += 0.1
                 
                 if confidence > best_confidence:
                     best_confidence = confidence
-                    responses = self.responses[str(pred_class)]
+                    responses = self.responses[original_label]
                     best_response = random.choice(responses)
         
         if not best_response:
@@ -363,7 +420,7 @@ class EnhancedTopicAwareChatbot:
             best_response = default_responses[proc_result['language']]
             best_confidence = 0.0
         
-        # Actualizar historial
+        # Update history
         self.conversation_history.append({
             'input': text,
             'processed_text': proc_result['processed_text'],
@@ -371,7 +428,7 @@ class EnhancedTopicAwareChatbot:
             'topic': proc_result['topic'],
             'response': best_response,
             'confidence': best_confidence,
-            'label': str(np.argmax(prediction))
+            'label': str(self.label_map_reverse.get(np.argmax(prediction), np.argmax(prediction)))
         })
         
         return best_response, best_confidence

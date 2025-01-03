@@ -1,0 +1,39 @@
+{
+  "id": "7515835b-21b5-43ba-b3ca-394afa818edd",
+  "timestamp": "2025-01-02T23:46:56.975666",
+  "messages": [
+    {
+      "timestamp": "23:45",
+      "sender": "user",
+      "message": "Hola"
+    },
+    {
+      "timestamp": "23:45",
+      "sender": "bot",
+      "message": "¡Hey! Me alegro de verte. ¿Tienes alguna duda sobre programación o algoritmos basicos en python y javascript?",
+      "confidence": 1.12
+    },
+    {
+      "timestamp": "23:45",
+      "sender": "user",
+      "message": "que es python"
+    },
+    {
+      "timestamp": "23:45",
+      "sender": "bot",
+      "message": "Python es ideal para principiantes y expertos, siendo utilizado en desarrollo web, análisis de datos, inteligencia artificial y más. ¿Quieres empezar por instalarlo?",
+      "confidence": 1.04
+    },
+    {
+      "timestamp": "23:45",
+      "sender": "user",
+      "message": "dame un algoritmo de bubblesort en python"
+    },
+    {
+      "timestamp": "23:45",
+      "sender": "bot",
+      "message": "Recorrido preorden en un árbol:\n```python\nclass Nodo:\ndef __init__(self, valor):\nself.valor = valor\nself.izquierda = None\nself.derecha = None\ndef preorden(nodo):\nif nodo:\nprint(nodo.valor)\npreorden(nodo.izquierda)\npreorden(nodo.derecha)\nraiz = Nodo(15)\nraiz.izquierda = Nodo(10)\nraiz.derecha = Nodo(20)\nraiz.izquierda.izquierda = Nodo(8)\nraiz.izquierda.derecha = Nodo(12)\npreorden(raiz)\n```",
+      "confidence": 0.64
+    }
+  ]
+}
