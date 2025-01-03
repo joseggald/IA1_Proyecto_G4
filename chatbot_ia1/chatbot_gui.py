@@ -14,7 +14,7 @@ import uuid
 class ModernChatbotGUI:
     def __init__(self, root):
         self.root = root
-        self.root.title("AI Assistant Pro")
+        self.root.title("ChatBot Pro")
         self.root.geometry("1200x800")
         self.root.minsize(900, 600)
         
@@ -157,7 +157,7 @@ class ModernChatbotGUI:
         
         title_label = ttk.Label(
             header_frame,
-            text="AI Assistant Pro",
+            text="ChatBot Pro",
             font=("Segoe UI", 18, "bold"),
             foreground="#7289DA"
         )

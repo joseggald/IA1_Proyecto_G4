@@ -1,6 +1,6 @@
 {
   "id": "7515835b-21b5-43ba-b3ca-394afa818edd",
-  "timestamp": "2025-01-02T23:46:56.975666",
+  "timestamp": "2025-01-03T00:05:42.551183",
   "messages": [
     {
       "timestamp": "23:45",
@@ -34,6 +34,28 @@
       "sender": "bot",
       "message": "Recorrido preorden en un árbol:\n```python\nclass Nodo:\ndef __init__(self, valor):\nself.valor = valor\nself.izquierda = None\nself.derecha = None\ndef preorden(nodo):\nif nodo:\nprint(nodo.valor)\npreorden(nodo.izquierda)\npreorden(nodo.derecha)\nraiz = Nodo(15)\nraiz.izquierda = Nodo(10)\nraiz.derecha = Nodo(20)\nraiz.izquierda.izquierda = Nodo(8)\nraiz.izquierda.derecha = Nodo(12)\npreorden(raiz)\n```",
       "confidence": 0.64
+    },
+    {
+      "timestamp": "00:05",
+      "sender": "user",
+      "message": "que son los algoritmos"
+    },
+    {
+      "timestamp": "00:05",
+      "sender": "bot",
+      "message": "Estoy aquí para ayudarte a comprender conceptos de programación y algoritmos basicos en python y javascript. ¿Tienes alguna pregunta?",
+      "confidence": 0.36
+    },
+    {
+      "timestamp": "00:05",
+      "sender": "user",
+      "message": "Que es un algoritmo"
+    },
+    {
+      "timestamp": "00:05",
+      "sender": "bot",
+      "message": "Un algoritmo permite estructurar soluciones claras y repetibles para problemas complejos. ¿Te gustaría conocer algunos algoritmos que tengo?",
+      "confidence": 1.4
     }
   ]
 }

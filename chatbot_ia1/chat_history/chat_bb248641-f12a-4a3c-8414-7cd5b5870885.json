@@ -1,0 +1,39 @@
+{
+  "id": "bb248641-f12a-4a3c-8414-7cd5b5870885",
+  "timestamp": "2025-01-03T00:04:54.344258",
+  "messages": [
+    {
+      "timestamp": "00:04",
+      "sender": "user",
+      "message": "Hola"
+    },
+    {
+      "timestamp": "00:04",
+      "sender": "bot",
+      "message": "¡Hola! Soy un chatbot especializado en programación y algoritmos basicos en python y javascript. ¿En qué puedo ayudarte?",
+      "confidence": 1.34
+    },
+    {
+      "timestamp": "00:04",
+      "sender": "user",
+      "message": "como estas?"
+    },
+    {
+      "timestamp": "00:04",
+      "sender": "bot",
+      "message": "¡Genial! Listo para resolver tus dudas. ¿Qué necesitas saber?",
+      "confidence": 1.0
+    },
+    {
+      "timestamp": "00:04",
+      "sender": "user",
+      "message": "que eres tu?"
+    },
+    {
+      "timestamp": "00:04",
+      "sender": "bot",
+      "message": "Mi función principal es enseñarte programación y algoritmos basicos en python y javascript, y responder tus preguntas. ¿Cómo puedo asistirte?",
+      "confidence": 1.4
+    }
+  ]
+}
